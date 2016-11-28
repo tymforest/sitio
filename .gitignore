@@ -18,6 +18,5 @@
 .DS_Store
 
 # Contentful
-.env
 /data
 .content-space-hash
