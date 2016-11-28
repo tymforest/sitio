@@ -16,3 +16,8 @@
 
 # Ignore .DS_store file
 .DS_Store
+
+# Contentful
+.env
+/data
+.content-space-hash
