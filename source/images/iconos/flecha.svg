@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>flecha</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Iconos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="flecha" fill="#25C315">
+            <path d="M17.6941444,14.1835688 L10.5777132,21.3 L12.8412237,23.5635105 L23.8412237,12.5635105 L23.8094685,12.5317553 L23.8412237,12.5 L12.8412237,1.5 L10.5777132,3.7635105 L17.985435,11.1712323 L2,11.1712323 L2,14.1835688 L17.6941444,14.1835688 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>
