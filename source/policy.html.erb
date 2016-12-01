@@ -1,0 +1,50 @@
+---
+layout: layout
+---
+<%# Config %>
+<% policy = "" %>
+<% data.site.policy.each do |id, content| %>
+  <% policy = content %>
+<% end %>
+<%# End %>
+<section>
+  <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+    <header class="aviso">
+      <h1><%= policy.title %></h1>
+      <%# !!! JAVASCRIPT !!! %>
+      <p id="actualizado-el" class="fecha">Actualizado el 18 de Mayo del 2016</p>
+      <%# !!! JAVASCRIPT !!! %>
+      <div class="nota-aviso">
+        <p class="obscuro"><%= policy.intro %></p>
+      </div>
+    </header>
+  </div>
+  <%# Content %>
+  <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+    <%# Config %>
+    <% pdl = policy.details.length - 1 %>
+    <%# End %>
+    <% policy.details.each_with_index do |detail, d| %>
+      <article>
+        <div class="titulo-seccion">
+          <h3><%= detail.title %></h3>
+        </div>
+        <% if detail.description %>
+        <div>
+          <p><%= detail.description %></p>
+        </div>
+        <% end %>
+        <% if detail.lista %>
+          <%# Config %>
+          <% dll = detail.lista.length - 1 %>
+          <%# End %>
+          <ul class="puntos">
+            <% detail.lista.each_with_index do |item, i| %>
+              <li><p><%= item %></p></li>
+            <% end %>
+          </ul>
+        <% end %>
+      </article>
+    <% end %>
+  </div>
+</section>
