@@ -1,0 +1,123 @@
+<header class="principal sombreado">
+  <div class="contenedor-desktop">
+    <div id="branding">
+      <a class="logo" href="/"></a>
+    </div>
+    <div id="enlaces">
+      <ul>
+        <li><%= link_to 'Maderas', "/maderas" %></li>
+        <li><%= link_to 'Tableros', "/tableros" %></li>
+        <li><%= link_to 'Ferretería', "/ferreteria" %></li>
+        <li><%= link_to 'Servicios', "/servicios" %></li>
+        <li><%= link_to 'Sucursales', "/sucursales" %></li>
+      </ul>
+    </div>
+    <div id="contacto">
+      <div id="formas" data-sucursal="Central" data-tipo="Menu Desktop">
+        <p class="estado abierto">
+          <span></span> Abierto
+        </p>
+        <a class="boton telefono" href="tel:<%= enumerar dato.contacto.telefonos[0].numero %>">
+          <span></span><%= dato.contacto.telefonos[0].numero %>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="abrir-menu">
+    <div></div>
+  </div>
+</header>
+<nav id="menu">
+  <header>
+    <div data-sucursal="Central" data-tipo="Menu Movil">
+      <p class="estado abierto">
+        <span></span> Abierto
+      </p>
+      <span class="separador"></span>
+      <a class="contacto telefono" href="tel:<%= enumerar dato.contacto.telefonos[0].numero %>">
+        <%= dato.contacto.telefonos[0].numero %>
+      </a>
+    </div>
+    <div id="cerrar-menu">
+      <div></div>
+    </div>
+  </header>
+  <ul>
+    <%# Inicio %>
+    <li><%= link_to 'Inicio', "/" %></li>
+    <%# Lista de Categorías y Subcategorías de Productos %>
+    <% dato.categorias_de_productos.each do |cat| %>
+      <%# Encabezado de Acordión %>
+      <li>
+        <p><%= cat.nombre %></p>
+        <div class="boton-acordion">
+          <div class="abrir-acordion"></div>
+          <div class="cerrar-acordion"></div>
+        </div>
+      </li>
+      <%# Subcategorías y Productos de Categorías %>
+      <% if !cat.en_construccion %>
+        <ul>
+          <%# Lista de Productos (sin Subcategoría) %>
+          <% dato.productos.sort_by(&:position).each do |producto| %>
+            <% if producto.categoria.nombre === cat.nombre %>
+              <% if !producto.subcategoria %>
+                <li><%= link_to producto.nombre, "/#{ enrutar cat.nombre }/#{ enrutar producto.nombre }" %></li>
+              <% end %>
+            <% end %>
+          <% end %>
+          <%# Lista de Subcategorías %>
+          <% dato.producto_subcategoria.sort_by(&:position).each do |subcategoria| %>
+            <% if subcategoria.categoria.nombre == cat.nombre %>
+              <li><%= link_to subcategoria.nombre, "/#{ enrutar cat.nombre }/#{ enrutar subcategoria.nombre }" %></li>
+            <% end %>
+          <% end %>
+          <li><%= link_to "Ver todos", "/#{ enrutar cat.nombre }", :class => "mas" %></li>
+        </ul>
+      <%# Subcategorías y Productos de Categorías en Construcción %>
+      <% else %>
+        <ul>
+          <% dato.producto_subcategoria.sort_by(&:position).each do |subcategoria| %>
+            <% if subcategoria.categoria.nombre == cat.nombre %>
+              <li><%= link_to subcategoria.nombre, "/ferreteria" %></li>
+            <% end %>
+          <% end %>
+        </ul>
+      <% end %>
+    <% end %>
+    <%# Productos por Aplicación %>
+    <li>
+      <p>Productos por Aplicación</p>
+      <div class="boton-acordion">
+        <div class="abrir-acordion"></div>
+        <div class="cerrar-acordion"></div>
+      </div>
+    </li>
+    <ul>
+      <% dato.productos_por_aplicacion.secciones.each do |seccion| %>
+        <li><%= link_to seccion.titulo, "/productos-por-aplicacion/#{ enrutar seccion.titulo }/" %></li>
+      <% end %>
+    </ul>
+    <%# Ofertas? %>
+    <% if ofertas %>
+      <li><%= link_to 'Ofertas', "/ofertas" %></li>
+    <% end %>
+    <%# Servicios %>
+    <li><%= link_to 'Servicios', "/servicios" %></li>
+    <%# Sucursales %>
+    <li><%= link_to 'Sucursales', "/sucursales" %></li>
+    <%# Nosotros %>
+    <li><%= link_to 'Nosotros', "/nosotros" %></li>
+    <%# Empleos? %>
+    <% if dato.empleos_disponibles.length > 0 %>
+      <% empleos = true %>
+    <% else %>
+      <% empleos = false %>
+    <% end %>
+    <% if empleos %>
+      <li><%= link_to 'Empleos', "/empleos" %></li>
+    <% end %>
+    <%# Aviso %>
+    <li><%= link_to 'Aviso', "/aviso" %></li>
+  </ul>
+</nav>
