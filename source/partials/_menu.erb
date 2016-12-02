@@ -1,7 +1,8 @@
 <%# Config %>
+<%# Detail: Caching HQ details %>
 <% main_store = "" %>
 <% data.site.stores.each do |id, store| %>
-  <% if store.is_hidden %>
+  <% if store.is_base %>
     <% main_store = store %>
   <% end %>
 <% end %>
@@ -21,7 +22,7 @@
       </ul>
     </div>
     <div id="contacto">
-      <div id="formas" data-sucursal="Central" data-tipo="Menu Desktop">
+      <div id="formas" data-sucursal="<%= main_store.name %>" data-tipo="Menu Desktop">
         <p class="estado abierto">
           <span></span> Abierto
         </p>
@@ -35,7 +36,7 @@
 </header>
 <nav id="menu">
   <header>
-    <div data-sucursal="Central" data-tipo="Menu Movil">
+    <div data-sucursal="<%= main_store.name %>" data-tipo="Menu Movil">
       <p class="estado abierto">
         <span></span> Abierto
       </p>
@@ -46,6 +47,87 @@
       <div></div>
     </div>
   </header>
-  <%# Index %>
-  <li><%= link_to 'Inicio', "/" %></li>
+  <ul>
+    <%# Index %>
+    <li><%= link_to 'Inicio', "/" %></li>
+    <%# Maderas %>
+    <li>
+      <p>Maderas</p>
+      <div class="boton-acordion">
+        <div class="abrir-acordion"></div>
+        <div class="cerrar-acordion"></div>
+      </div>
+    </li>
+    <ul>
+      <% data.site.products_a.each do |id, product| %>
+        <% if product.category.name === "Maderas" %>
+          <li><%= link_to product.name, "/maderas/#{ product.name.parameterize }" %></li>
+        <% end %>
+      <% end %>
+      <li><%= link_to "Ver todos", "/maderas", :class => "mas" %></li>
+    </ul>
+    <%# Tableros %>
+    <li>
+      <p>Tableros</p>
+      <div class="boton-acordion">
+        <div class="abrir-acordion"></div>
+        <div class="cerrar-acordion"></div>
+      </div>
+    </li>
+    <ul>
+      <% data.site.subcategories.each do |id, subcategory| %>
+        <% if subcategory.category.name === "Tableros" %>
+          <li><%= link_to subcategory.nombre, "/tableros/#{ subcategory.nombre.parameterize }" %></li>
+        <% end %>
+      <% end %>
+      <% data.site.products_a.each do |id, product| %>
+        <% if product.category.name === "Tableros" && !product.subcategory %>
+          <li><%= link_to product.name, "/tableros/#{ product.name.parameterize }" %></li>
+        <% end %>
+      <% end %>
+      <li><%= link_to "Ver todos", "/tableros", :class => "mas" %></li>
+    </ul>
+    <%# Ferretería %>
+    <li><%= link_to 'Ferretería', "/ferreteria" %></li>
+    <%# Productos por Aplicación %>
+    <li>
+      <p>Productos por Aplicación</p>
+      <div class="boton-acordion">
+        <div class="abrir-acordion"></div>
+        <div class="cerrar-acordion"></div>
+      </div>
+    </li>
+    <ul>
+      <% data.site.product_applications.each do |id, product| %>
+        <li><%= link_to product.title, "/productos-por-aplicacion/#{ product.title.parameterize }" %></li>
+      <% end %>
+    </ul>
+    <%# Ofertas %>
+    <% data.site.products_a.each do |id, product| %>
+      <% if product.is_sale %>
+        <li><%= link_to 'Ofertas', '/ofertas' %></li>
+        <% break %>
+      <% end %>
+    <% end %>
+    <% data.site.products_b.each do |id, product| %>
+      <% if product.is_sale %>
+        <li><%= link_to 'Ofertas', '/ofertas' %></li>
+      <% end %>
+    <% end %>
+    <%# Servicios %>
+    <li><%= link_to 'Servicios', '/servicios' %></li>
+    <%# Sucursales %>
+    <li><%= link_to 'Sucursales', '/sucursales' %></li>
+    <%# Nosotros %>
+    <li><%= link_to 'Nosotros', '/nosotros' %></li>
+    <%# Empleos %>
+    <% data.site.jobs.each do |id, job| %>
+      <% if job.is_published %>
+        <li><%= link_to 'Empleos', '/empleos' %></li>
+        <% break %>
+      <% end %>
+    <% end %>
+    <%# Aviso %>
+    <li><%= link_to 'Aviso', '/aviso' %></li>
+  </ul>
 </nav>
