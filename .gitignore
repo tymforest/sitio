@@ -19,4 +19,4 @@
 
 # Contentful
 /data
-.site-space-hash
+.*-space-hash
