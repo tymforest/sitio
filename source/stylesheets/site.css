@@ -173,7 +173,7 @@ p .unidad, h5 .unidad {
   width: 10px;
   height: 10px;
   margin-left: 5px;
-  background-image: url('../imagenes/iconos/flecha.svg');
+  background-image: url('../images/iconos/flecha.svg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -371,11 +371,11 @@ section.detalle.servicios-sucursal {
 }
 .telefono span {
   width: 15px; height: 15px;
-  background-image: url('../imagenes/iconos/tel.svg');
+  background-image: url('../images/iconos/tel.svg');
 }
 .email span {
   width: 18px; height: 16px;
-  background-image: url('../imagenes/iconos/email.svg');
+  background-image: url('../images/iconos/email.svg');
 }
 /*
   ----------------------------------------
@@ -972,7 +972,7 @@ img {
   color: #b3b3b3;
   background-color: white;
   border: 1px solid #eaeaea;
-  background-image: url('../imagenes/iconos/email-boletin.svg');
+  background-image: url('../images/iconos/email-boletin.svg');
   background-position: left 0.70rem center;
   background-size: 15px 15px contain;
   background-repeat: no-repeat;
@@ -1188,7 +1188,7 @@ section.error p {
   width: 90px;
   height: 21px;
   margin: 20px 0;
-  background-image: url('../imagenes/branding/logo-color.svg');
+  background-image: url('../images/branding/logo-color.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -1246,10 +1246,10 @@ section.error p {
   background-repeat: no-repeat;
 }
 #abrir-menu div {
-  background-image: url('../imagenes/iconos/abrir-menu.svg');
+  background-image: url('../images/iconos/abrir-menu.svg');
 }
 #cerrar-menu div {
-  background-image: url('../imagenes/iconos/cerrar-menu.svg');
+  background-image: url('../images/iconos/cerrar-menu.svg');
 }
 .no-js #menu {
   display: none;
@@ -1380,14 +1380,14 @@ section.error p {
   background-repeat: no-repeat;
 }
 .abrir-acordion {
-  background-image: url('../imagenes/iconos/abrir-acordion.svg');
+  background-image: url('../images/iconos/abrir-acordion.svg');
 }
 .cerrar-acordion {
   -webkit-transition: all 0.15s ease-in;
   -moz-transition: all 0.15s ease-in;
   -o-transition: all 0.15s ease-in;
   transition: all 0.15s ease-in;
-  background-image: url('../imagenes/iconos/cerrar-acordion.svg');
+  background-image: url('../images/iconos/cerrar-acordion.svg');
 }
 .girar {
   transform: rotate(90deg);
@@ -1497,7 +1497,7 @@ section.error p {
   width: 10px;
   height: 13px;
   margin-right: 0.5rem;
-  background-image: url('../imagenes/iconos/ficha-tecnica.svg');
+  background-image: url('../images/iconos/ficha-tecnica.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -1586,7 +1586,7 @@ section.error p {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-image: url('../imagenes/iconos/cerrar-mapa.svg');
+  background-image: url('../images/iconos/cerrar-mapa.svg');
   background-size: 16px 16px, cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1605,7 +1605,7 @@ section.error p {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background-image: url('../imagenes/iconos/direccion.svg');
+  background-image: url('../images/iconos/direccion.svg');
   background-size: 30px 30px, cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1740,7 +1740,7 @@ footer .subseccion.italica {
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.25);
 }
 #contacto-movil.telefono {
-  background-image: url('../imagenes/iconos/tel.svg');
+  background-image: url('../images/iconos/tel.svg');
   background-size: 20px 20px, cover;
   background-color: #25c315;
   -ms-transform: rotate(15deg);
@@ -1748,7 +1748,7 @@ footer .subseccion.italica {
   transform: rotate(15deg);
 }
 #contacto-movil.email {
-  background-image: url('../imagenes/iconos/email.svg');
+  background-image: url('../images/iconos/email.svg');
   background-size: 24px 24px, cover;
   background-color: #0080ff;
 }
@@ -2041,7 +2041,7 @@ footer .subseccion.italica {
 
   <% dato.inicio.anuncios.each do |anuncio| %>
     #<%= I18n.transliterate(anuncio.titulo).downcase.strip.gsub(' ', '-') %> {
-      background-image: url('<%= anuncio.imagenes.desktop.file.to_url %>');
+      background-image: url('<%= anuncio.images.desktop.file.to_url %>');
     }
   <% end %>
 
@@ -2737,7 +2737,7 @@ footer .subseccion.italica {
       background-position: center;
       background-size: 25px;
       background-repeat: no-repeat;
-      background-image: url('../imagenes/iconos/flecha-carrusel.svg');
+      background-image: url('../images/iconos/flecha-carrusel.svg');
     }
     .no-js .sucursal-siguiente, .no-js .sucursal-previa {
       display: none;
@@ -2751,7 +2751,7 @@ footer .subseccion.italica {
     }
     .sucursal-siguiente.inactiva, .sucursal-previa.inactiva {
       pointer-events: none;
-      background-image: url('../imagenes/iconos/flecha-carrusel-inactiva.svg');
+      background-image: url('../images/iconos/flecha-carrusel-inactiva.svg');
     }
     /*
       ----------------------------------------
