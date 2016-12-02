@@ -1,1 +1,9 @@
-<a id="contacto-movil" class="telefono esconder" href="tel:<%= enumerar dato.contacto.telefonos[0].numero %>" data-sucursal="Central" data-tipo="Botón Movil"></a>
+<%# Config %>
+<% main_store = "" %>
+<% data.site.stores.each do |id, store| %>
+  <% if store.is_base %>
+    <% main_store = store %>
+  <% end %>
+<% end %>
+<%# End %>
+<a id="contacto-movil" class="telefono esconder" href="tel:<%= phone main_store.number %>" data-sucursal="<%= main_store.name %>" data-tipo="Botón Movil"></a>
