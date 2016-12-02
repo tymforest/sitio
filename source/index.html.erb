@@ -4,12 +4,12 @@
   <% index = page %>
 <% end %>
 <%# End %>
-<%# Galería de Anuncios %>
+<%# Index Gallery %>
 <div class="galeria">
   <div class="galeria-carrusel">
     <% index.gallery.each do |gallery, g| %>
       <div class="galeria-anuncio">
-        <% if gallery.align %>
+        <% if !gallery.align %>
           <div id="<%= gallery.title.parameterize %>" class="anuncio-cubierta" title="<%= gallery.background.description %>">
             <div class="no-js contenedor-movil contenedor-tablet contenedor-desktop">
               <% if gallery.subtitle %>
@@ -20,7 +20,9 @@
                 <p class="blanco"><%= gallery.description %></p>
               <% end %>
               <% if gallery.button %>
-                <%# PENDING %>
+                <% link_to "#{ gallery.button.path }", :class => "boton accion" do %>
+                  <%= gallery.button.title %>
+                <% end %>
               <% end %>
             </div>
           </div>
@@ -38,10 +40,12 @@
                           <h1 class="<% if gallery.white %>blanco<% else %>obscuro<% end %>"><%= gallery.title %></h1>
                         <% end %>
                         <% if gallery.description %>
-                          <p class="<% if gallery.white %>blanco<% else %>obscuro<% end %>"><%= gallery.descrption %></p>
+                          <p class="<% if gallery.white %>blanco<% else %>obscuro<% end %>"><%= gallery.description %></p>
                         <% end %>
-                        <% if anuncio.enlace %>
-                          <%# PENDING %>
+                        <% if gallery.button %>
+                          <% link_to "#{ gallery.button.path }", :class => "boton accion" do %>
+                            <%= gallery.button.title %>
+                          <% end %>
                         <% end %>
                       </div>
                     </div>
