@@ -1,0 +1,346 @@
+//  Fecha y Hora
+var hoy = new Date();
+var año = hoy.getFullYear();
+var mes = hoy.getMonth();
+var diaDeLaSemana = hoy.getDay();
+var dia = hoy.getDate();
+var fecha = "" + dia + "/" + (mes + 1) + "/" + año;
+var hora = hoy.getHours();
+var minutos = hoy.getMinutes();
+var tiempo = hora + (minutos / 59);
+//  Tipos de Día
+var diaCompleto = false;
+var medioDia = false;
+var cerrado = false;
+<%# Crea y llena lista de días mediosFestivos y diasFestivos (contacto.json) %>
+<% diasFestivos = [] %>
+<% mediosFestivos = [] %>
+<%# Config %>
+<% contacto = "" %>
+<% data.site.contact.each do |id, contact| %>
+  <% contacto = contact %>
+  <% break %>
+<% end %>
+<% contacto.ful.each do |full| %>
+  <% mediosFestivos.push("#{ full.date.day }/#{ full.date.month }/#{ full.date.year }") %>
+<% end %>
+<% contacto.half_days.each do |half| %>
+  <% mediosFestivos.push("#{ half.date.day }/#{ half.date.month }/#{ half.date.year }") %>
+<% end %>
+<%# End %>
+//  Lista de tipos de día de trabajo
+var tipoDeDia;
+//  Listas de Días Festivos
+var mediosFestivos = <%= mediosFestivos %>;
+var diasFestivos = <%= diasFestivos %>;
+actualizaTipoDeDia();
+/*  Actualiza el Tipo de Día - - - - - - - - - - - - - - - */
+function actualizaTipoDeDia() {
+  //  Medios Días Festivos
+  for (var i = 0; i < mediosFestivos.length; i++) {
+    if (mediosFestivos[i] === fecha ) {
+      medioDia = true;
+    }
+  }
+  //  Días Festivos
+  for (var i = 0; i < diasFestivos.length; i++) {
+    if (diasFestivos[i] === fecha) {
+      cerrado = true;
+    }
+  }
+  //  Administrador de tipo de día
+  if (!(medioDia) && !(cerrado)) {
+    //  Lunes a Viernes
+    if ((1 <= diaDeLaSemana) && (diaDeLaSemana <= 5)) {
+      diaCompleto = true;
+    }
+    //  Sábados
+    if (diaDeLaSemana === 6) {
+      medioDia = true;
+    }
+    //  Domingos
+    if (diaDeLaSemana === 0) {
+      cerrado = true;
+    }
+  }
+  var tiposDeDia = [diaCompleto, medioDia, cerrado];
+  //  Llama defineTipoDeDia() con el indice del tipo de día actual
+  for (var i = 0; i < tiposDeDia.length; i++) {
+    if (tiposDeDia[i]) {
+      defineTipoDeDia(i);
+    }
+  }
+  //  Define el tipo de día actual basado en el valor del índice (índices obtenidos de tiposDeDia)
+  function defineTipoDeDia(indice) {
+    switch(indice) {
+      case 0:
+        tipoDeDia = 'Día Completo';
+        break;
+      case 1:
+        tipoDeDia = 'Medio Día';
+        break;
+      case 2:
+        tipoDeDia = 'Cerrado';
+        break;
+      default:
+        tipoDeDia = 'Cerrado';
+    }
+  }
+  return tipoDeDia;
+}
+// Almacenando todos los elementos que requieran acceso a la sucursal que estan relacionados y llamando al administrador de sucursales para que actualize el contenido de cada elemento segun el tipo de día actual y la hora actual.
+const $sucursal = document.querySelectorAll('[data-sucursal]');
+for (var i = 0; i < $sucursal.length; i++) {
+  administradorDeSucursales($sucursal[i]);
+}
+//
+function administradorDeSucursales($elemento) {
+  const nombreDeSucursal = $elemento.dataset.sucursal;
+  const tipoDeElemento = $elemento.dataset.tipo;
+  const horarios = horariosDe(nombreDeSucursal);
+  var estadoSucursal = administradorDeHorarios(actualizaTipoDeDia(), tiempo, nombreDeSucursal, horarios);
+  administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemento, $elemento);
+}
+// Determina los horarios de la sucursal segun el nombre de la sucursal obtenido del valor de 'data-sucursal'. Los diferentes casos del switch en esta función son creados dinámicamente, la información es obtenida de contacto.json (para el punto Central) y de sucursales.json (para el resto de las sucursales)
+function horariosDe(sucursal) {
+  var horarios = "";
+  switch(sucursal) {
+    <% data.site.stores.each do |id, store| %>
+      case "<%= store.name %>":
+        horarios = <%= wrap store.name %>;
+        break;
+    <% end %>
+    default:
+      console.log("horariosDe(sucursal) not working...")
+  }
+  return horarios;
+}
+// El administrador de horarios determina el estado de la sucursal. Si el tipo de Día Actual no es 'Cerrado', el administrador llama al relojero para que le ayude a determinar el estado de la sucursal.
+function administradorDeHorarios(tipoDeDia, horaActual, nombreSucursal, horarios) {
+  var estadoSucursal = "";
+  switch(tipoDeDia) {
+    case 'Día Completo':
+      estadoSucursal = relojero(horaActual, nombreSucursal, horarios[0]);
+      break;
+    case 'Medio Día':
+      estadoSucursal = relojero(horaActual, nombreSucursal, horarios[1]);
+      break;
+    case 'Cerrado':
+      estadoSucursal = "Cerrado";
+      break;
+    default:
+      estadoSucursal = "Cerrado";
+  }
+  return estadoSucursal;
+}
+// El Relojero determina el estatus de la sucursal (Abierto, En la Comida, Cerrado o Especial). Compara la hora actual con los horarios de la sucursal, y dependiendo de donde esté la hora actual en relación a los horarios determina el estado de la sucursal.
+function relojero(horaActual, nombreSucursal, horarioDelDia) {
+  var horarios = empaquetar(horarioDelDia);
+  var estadoSucursal = "Cerrado";
+  // Si es horario de Medio Día...
+  if (horarios.length == 2) {
+    if (horarios[0] < horaActual && horaActual < horarios[1]) {
+      if (nombreSucursal == "Central") {
+        estadoSucursal = "Especial"
+      }
+      else {
+        estadoSucursal = "Abierto";
+      }
+    }
+  }
+  // Si es horario de Día Completo...
+  if (horarios.length == 4) {
+    if (horarios[0] < horaActual && horaActual < horarios[1]) {
+      estadoSucursal = "Abierto";
+    }
+    else if (horarios[1] < horaActual && horaActual < horarios[2]) {
+      if (nombreSucursal == "Central") {
+        estadoSucursal = "Especial";
+      }
+      else {
+        estadoSucursal = "En la Comida";
+      }
+    }
+    else if (horarios[2] < horaActual && horaActual < horarios[3]) {
+      estadoSucursal = "Abierto";
+    }
+  }
+  return estadoSucursal;
+}
+//  Empaqueta los horarios en una sola lista
+function empaquetar(horarioDelDia) {
+  var horas = [];
+  for (var horario = 0; horario < horarioDelDia.length; horario++) {
+    for (var hora = 0; hora < horarioDelDia[horario].length; hora++) {
+      horas.push(horarioDelDia[horario][hora]);
+    }
+  }
+  return horas;
+}
+//  Administrador de Contenido
+function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemento, $elemento) {
+  var Sucursal = datosDe(nombreDeSucursal, estadoSucursal);
+  switch(tipoDeElemento) {
+    case "Menu Desktop":
+      const estado = $elemento.getElementsByClassName('estado')[0];
+      const boton = $elemento.getElementsByClassName('boton')[0];
+      switch(estadoSucursal) {
+        case "Abierto":
+        case "Especial":
+          estado.classList.add('abierto');
+          estado.classList.remove('cerrado');
+          estado.innerHTML = "<span></span> Abierto";
+          boton.classList.remove('email');
+          boton.classList.add('telefono');
+          boton.setAttribute('href', 'tel:' + Sucursal.telefono + '');
+          boton.innerHTML = '<span></span>' + Sucursal.telefono + '';
+          break;
+        case "Cerrado":
+          estado.classList.remove('abierto');
+          estado.classList.add('cerrado');
+          estado.innerHTML = "<span></span> Cerrado";
+          boton.classList.remove('telefono');
+          boton.classList.add('email');
+          boton.setAttribute('href', 'mailto:' + Sucursal.email + '');
+          boton.innerHTML = "<span></span>Enviar Mensaje";
+          break;
+        default:
+          console.log("Administrador de Contenido: Error en Menú Desktop...");
+      }
+      break;
+    case "Menu Movil":
+      const estadoMovil = $elemento.getElementsByClassName('estado')[0];
+      const contacto = $elemento.getElementsByClassName('contacto')[0];
+      switch(estadoSucursal) {
+        case "Abierto":
+        case "Especial":
+          estadoMovil.classList.add('abierto');
+          estadoMovil.classList.remove('cerrado');
+          estadoMovil.innerHTML = "<span></span> Abierto";
+          contacto.classList.add('telefono');
+          contacto.classList.remove('email');
+          contacto.innerHTML = Sucursal.telefono;
+          contacto.setAttribute('href', 'tel:' + Sucursal.telefono + '');
+          break;
+        case "Cerrado":
+          estadoMovil.classList.remove('abierto');
+          estadoMovil.classList.add('cerrado');
+          estadoMovil.innerHTML = "<span></span> Cerrado";
+          contacto.classList.add('email');
+          contacto.classList.remove('telefono');
+          contacto.innerHTML = Sucursal.email;
+          contacto.setAttribute('href', 'mailto:' + Sucursal.email + '');
+          break;
+        default:
+          console.log("Administrador de Contenido: Error en Menú Movil...");
+      }
+      break;
+    case "Estado Sucursal":
+      switch(estadoSucursal) {
+        case "Abierto":
+          $elemento.classList.add('abierto');
+          $elemento.classList.remove('cerrado');
+          $elemento.classList.remove('en-la-comida');
+          $elemento.innerHTML = "<span></span>Abierto";
+          break;
+        case "En la Comida":
+          $elemento.classList.add('en-la-comida');
+          $elemento.classList.remove('abierto');
+          $elemento.classList.remove('cerrado');
+          $elemento.innerHTML = "<span></span>En la Comida";
+          break;
+        case "Cerrado":
+          $elemento.classList.add('cerrado');
+          $elemento.classList.remove('abierto');
+          $elemento.classList.remove('en-la-comida');
+          $elemento.innerHTML = "<span></span>Cerrado";
+          break;
+        default:
+          console.log("Administrador de Contenido: Error en Estado Sucursal...");
+      }
+      break;
+    case "Botón":
+      const botonAccion = $elemento.getElementsByClassName('boton')[0];
+      const accionTitulo = $elemento.children[0].children[0];
+      const accionDescripcion = $elemento.children[0].children[1];
+      switch(estadoSucursal) {
+        case "Abierto":
+        case "Especial":
+          accionTitulo.innerHTML = Sucursal.titulo;
+          accionDescripcion.innerHTML = Sucursal.descripcion;
+          botonAccion.classList.add('telefono');
+          botonAccion.classList.remove('email');
+          botonAccion.setAttribute('href', 'tel:' + Sucursal.telefono + '');
+          botonAccion.innerHTML = "<span></span>" + Sucursal.telefono + '';
+          break;
+        case "Cerrado":
+          accionTitulo.innerHTML = Sucursal.titulo;
+          accionDescripcion.innerHTML = Sucursal.descripcion;
+          botonAccion.classList.add('email');
+          botonAccion.classList.remove('telefono');
+          botonAccion.setAttribute('href', 'mailto:' + Sucursal.email + '');
+          botonAccion.innerHTML = "<span></span>" + Sucursal.email;
+          break;
+      }
+      break;
+    case "Botón Movil":
+      switch(estadoSucursal) {
+        case "Abierto":
+        case "Especial":
+          $elemento.classList.remove('email');
+          $elemento.classList.add('telefono');
+          $elemento.setAttribute('href', 'tel:' + Sucursal.telefono + '');
+          break;
+        case "Cerrado":
+          $elemento.classList.remove('telefono');
+          $elemento.classList.add('email');
+          $elemento.setAttribute('href', 'mailto:' + Sucursal.email + '');
+          break;
+      }
+      break;
+    default:
+      console.log("Error en Administrador de Contenido...");
+  }
+}
+//
+function datosDe(nombreDeSucursal, estadoDeSucursal) {
+  const Datos = {};
+  if (estadoDeSucursal == "Abierto") {
+    var abierto = true;
+  }
+  else if (estadoDeSucursal == "Cerrado") {
+    var abierto = false;
+  }
+  var sucursal = nombreDeSucursal;
+  if (estadoDeSucursal == "Especial") {
+    sucursal = "<%= traer_suplente %>";
+  }
+  switch(sucursal) {
+    case "Central":
+      Datos.telefono = "<%= dato.contacto.telefonos[0].numero %>";
+      break;
+    <% dato.lista_de_sucursales.sort_by(&:position).each do |sucursal| %>
+    <% if !sucursal.esconder %>
+      case "<%= sucursal.nombre %>":
+        Datos.telefono = "<%= sucursal.telefonos[0].numero %>";
+        break;
+    <% end %>
+    <% end %>
+    default:
+      Datos.telefono = "<%= dato.contacto.telefonos[0].numero %>";
+      console.log("No funciona datosDe()");
+      break;
+  }
+  switch(abierto) {
+    case true:
+      Datos.titulo = "<%= dato.accion_contacto.titulo_marcar %>";
+      Datos.descripcion = "<%= dato.accion_contacto.descripcion_marcar %>";
+      break;
+    default:
+      Datos.titulo = "<%= dato.accion_contacto.titulo_mensaje %>";
+      Datos.descripcion = "<%= dato.accion_contacto.descripcion_mensaje %>";
+      break;
+  }
+  Datos.email = "<%= dato.contacto.email %>";
+  return Datos;
+}
