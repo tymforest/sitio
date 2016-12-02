@@ -661,10 +661,20 @@ img {
 }
 /*
 
-  DATO.INICIO.ANUNCIOS
+
   line 662
 
 */
+<% data.site.index_page.each do |id, index| %>
+  <% index.gallery.each do |ad| %>
+    #<%= ad.title.parameterize %> {
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-image: url('<%= ad.background.url %>');
+    }
+  <% end %>
+<% end %>
 /*
 
   #google url ->
@@ -1535,11 +1545,11 @@ section.error p {
   color: #f5a623;
 }
 #servicios-portada {
-  background-image: url('<%= dato.seccion_servicios.imagen_portada.imagen.file.to_url %>');
+  background-image: url('');
 }
 /* Sucursales - - - - - - - - - -  */
 #sucursales {
-  background-image: url('<%= dato.sucursales.portada.imagen.file.to_url %>');
+  background-image: url('');
 }
 .sucursales header {
   margin: 0 0 50px;
@@ -1664,7 +1674,7 @@ p.fecha {
 /*
 
 #nosotros {
-  background-image: url('<%= dato.nosotros.imagen_portada.imagen.file.to_url %>');
+  background-image: url('');
 }
 
 */
@@ -1672,7 +1682,7 @@ p.fecha {
 /*
 
 #empleos {
-  background-image: url('<%= dato.empleos.imagen_portada.imagen.file.to_url %>');
+  background-image: url('');
 }
 
 */
@@ -2039,11 +2049,8 @@ footer .subseccion.italica {
   }
   /*
 
-  <% dato.inicio.anuncios.each do |anuncio| %>
-    #<%= I18n.transliterate(anuncio.titulo).downcase.strip.gsub(' ', '-') %> {
-      background-image: url('<%= anuncio.images.desktop.file.to_url %>');
-    }
-  <% end %>
+
+  Anuncios Inicio
 
   */
   /*
