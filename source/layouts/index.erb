@@ -14,13 +14,10 @@
   </head>
   <body class="difuminar">
     <div id="cubierta-menu"></div>
-    <%= partial "partials/menu" %>
     <main>
       <%= yield %>
       <%# Contact Partial %>
     </main>
-    <%= partial "partials/footer" %>
-    <%= partial "partials/contacto_movil" %>
     <%= javascript_include_tag :modernizr %>
     <%= javascript_include_tag :menu %>
     <%# Horarios %>
