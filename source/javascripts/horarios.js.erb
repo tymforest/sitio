@@ -302,6 +302,15 @@ function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemen
       console.log("Error en Administrador de Contenido...");
   }
 }
+<%# Config %>
+<% sub_store = "" %>
+<% data.site.stores.each do |id, store| %>
+  <% if store.is_sub %>
+    <% sub_store = store.name %>
+    <% break %>
+  <% end %>
+<% end %>
+<%# End %>
 //
 function datosDe(nombreDeSucursal, estadoDeSucursal) {
   const Datos = {};
@@ -313,34 +322,33 @@ function datosDe(nombreDeSucursal, estadoDeSucursal) {
   }
   var sucursal = nombreDeSucursal;
   if (estadoDeSucursal == "Especial") {
-    sucursal = "<%= traer_suplente %>";
+    sucursal = "<%= sub_store %>";
   }
   switch(sucursal) {
-    case "Central":
-      Datos.telefono = "<%= dato.contacto.telefonos[0].numero %>";
-      break;
-    <% dato.lista_de_sucursales.sort_by(&:position).each do |sucursal| %>
-    <% if !sucursal.esconder %>
-      case "<%= sucursal.nombre %>":
-        Datos.telefono = "<%= sucursal.telefonos[0].numero %>";
+    <% data.site.stores.each do |id, store| %>
+      case "<%= store.name %>":
+        Datos.telefono = "<%= store.number %>";
         break;
     <% end %>
+    <% data.site.stores.each do |id, store| %>
+      <% if store.is_base %>
+      default:
+        Datos.telefono = "<%= store.number %>";
+        console.log("datosDe(nombreDeSucursal, estadoDeSucursal) isn't working!");
+        break;
+      <% end %>
     <% end %>
-    default:
-      Datos.telefono = "<%= dato.contacto.telefonos[0].numero %>";
-      console.log("No funciona datosDe()");
-      break;
   }
   switch(abierto) {
     case true:
-      Datos.titulo = "<%= dato.accion_contacto.titulo_marcar %>";
-      Datos.descripcion = "<%= dato.accion_contacto.descripcion_marcar %>";
+      Datos.titulo = "<%= data.site.ad_contact.call_title %>";
+      Datos.descripcion = "<%= data.site.ad_contact.call_description %>";
       break;
     default:
-      Datos.titulo = "<%= dato.accion_contacto.titulo_mensaje %>";
-      Datos.descripcion = "<%= dato.accion_contacto.descripcion_mensaje %>";
+      Datos.titulo = "<%= data.site.ad_contact.message_title %>";
+      Datos.descripcion = "<%= data.site.ad_contact.message_description %>";
       break;
   }
-  Datos.email = "<%= dato.contacto.email %>";
+  Datos.email = "<%= data.site.contact.email %>";
   return Datos;
 }
