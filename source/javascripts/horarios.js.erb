@@ -12,6 +12,14 @@ var tiempo = hora + (minutos / 59);
 var diaCompleto = false;
 var medioDia = false;
 var cerrado = false;
+<%# Sucursal Central %>
+<% sucursal_central = "" %>
+<% data.site.stores.each do |id, store| %>
+  <% if store.is_base %>
+    <% sucursal_central = store.name %>
+  <% end %>
+<% end %>
+<%# End %>
 <%# Crea y llena lista de días mediosFestivos y diasFestivos (contacto.json) %>
 <% diasFestivos = [] %>
 <% mediosFestivos = [] %>
@@ -140,7 +148,7 @@ function relojero(horaActual, nombreSucursal, horarioDelDia) {
   // Si es horario de Medio Día...
   if (horarios.length == 2) {
     if (horarios[0] < horaActual && horaActual < horarios[1]) {
-      if (nombreSucursal == "Central") {
+      if (nombreSucursal == "<%= sucursal_central %>") {
         estadoSucursal = "Especial"
       }
       else {
@@ -154,7 +162,7 @@ function relojero(horaActual, nombreSucursal, horarioDelDia) {
       estadoSucursal = "Abierto";
     }
     else if (horarios[1] < horaActual && horaActual < horarios[2]) {
-      if (nombreSucursal == "Central") {
+      if (nombreSucursal == "<%= sucursal_central %>") {
         estadoSucursal = "Especial";
       }
       else {
