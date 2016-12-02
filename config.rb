@@ -28,5 +28,14 @@ activate :contentful do |f|
   f.space = { site: 'rvnl2qm3k12r' }
   f.cda_query = { limit: 1000 }
   f.all_entries = true
-  f.content_types = { index_page: "index_page", stores: "store", products_a: "products", products_b: "producto_simple", subcategories: "subcategory", product_applications: "product_application", jobs: "jobs" }
+  f.content_types = {
+    index_page: "index_page",
+    subcategories: "subcategory", # Product subcategories
+    products_a: "products", # Products with detail page
+    products_b: "producto_simple", # Products without detail page
+    product_applications: "product_application",
+    stores: "store",
+    jobs: "jobs",
+    contact: "contact"
+  }
 end
