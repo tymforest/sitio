@@ -37,6 +37,9 @@ activate :contentful do |f|
     stores: "store",
     jobs: "jobs",
     contact: "contact",
-    ad_contact: "ad_contact"
+    ad_contact: "ad_contact",
+    ad_newsletter: "ad_newsletter",
+    ad_sales: "ad_sales",
+    ad_sections: "ad_sections"
   }
 end
