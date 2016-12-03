@@ -59,3 +59,126 @@
     <% end %>
   </div>
 </div>
+<%# Productos por Aplicación %>
+<section class="inicio centrado inicial">
+  <div class="contenedor-movil-completo contenedor-tablet contenedor-desktop">
+    <header></header>
+    <div class="reticula listado">
+      <% data.site.product_applications.each do |id, application| %>
+        <div class="lista-de-anuncios columna-tablet-6 columna-desktop-6">
+          <a id="<%= application.title.parameterize %>-inicio" title="<%= application.index_image.description %>" class="aplicacion-anuncio" href="/productos-por-aplicacion/<%= application.title.parameterize %>">
+            <div class="cubierta"></div>
+            <h2><%= application.title %></h2>
+          </a>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+<%# Productos mas Buscados %>
+<section class="inicio centrado inicial">
+  <div class="reticula listado">
+    <div class="contenedor-tablet contenedor-desktop">
+      <header>
+        <h1><%= index.products.title %></h1>
+        <div class="contenido carrusel">
+          <p><%= index.products.description %></p>
+        </div>
+      </header>
+    </div>
+    <div class="contenedor-movil contenedor-tablet contenedor-desktop">
+      <% index.products.ads.each do |ad| %>
+        <div class="lista-de-anuncios columna-movil-100 <% if !ad.is_ad %>columna-tablet-8 columna-desktop-8<% else %>columna-tablet-4 columna-desktop-4<% end %>">
+          <% link_to ad.path, :id => "#{ ad.title.parameterize }", :title => "#{ ad.image.description }", :class => "producto-anuncio" do %>
+            <div class="cubierta"></div>
+            <h2><%= ad.title %></h2>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
+<%# Servicios %>
+<section id="servicios" class="centrado">
+  <div class="reticula">
+    <div class="contenedor-movil contenedor-tablet contenedor-desktop">
+      <header>
+        <h1 class="blanco"><%= index.services.title %></h1>
+        <p class="blanco"><%= index.services.description %></p>
+        <% link_to "#{ index.services.button.path }", :class => "boton accion" do %>
+          <%= index.services.button.title %>
+        <% end %>
+      </header>
+    </div>
+    <div class="contenedor-desktop"></div>
+  </div>
+</section>
+<%# Carrusel de Sucursales %>
+<section id="google" class="inicio centrado no-borde-inferior">
+  <div class="reticula">
+    <div class="contenedor-desktop">
+      <header>
+        <h1><%= index.stores.title %></h1>
+        <div class="contenido">
+          <p>
+            <%= index.stores.description %>
+          </p>
+        </div>
+      </header>
+    </div>
+      <div class="reticula listado">
+        <div class="contenedor-desktop">
+          <div class="contenedor-movil-carrusel contenedor-tablet-carrusel contenedor-desktop-carrusel">
+            <div class="lista-de-sucursales">
+              <% index.stores.stores.each do |store| %>
+                <% link_to "/sucursales/#{ store.name.parameterize }", :class => "tarjeta-sucursal" do %>
+                  <div class="encabezado">
+                    <div class="titulo">
+                      <h2><%= store.name %></h2>
+                      <h4><%= store.address.city %>, <%= store.address.state %></h4>
+                    </div>
+                    <div class="sucursal-estado esconder-movil-chico esconder-tablet">
+                      <p class="estado abierto" data-sucursal="<%= store.name %>" data-tipo="Estado Sucursal">
+                        <span></span> Abierto
+                      </p>
+                    </div>
+                  </div>
+                  <div class="subcontenido">
+                    <p class="negrita obscuro">
+                      <%= store.number %>
+                    </p>
+                    <p class="direccion">
+                      <%= store.address.street %><br>
+                      <%= store.address.neighborhood %><br>
+                      <%= store.address.city %>, <%= store.address.state %> <%= store.address.zip_code %><br>
+                      <p class="negrita verde">Ver Detalles<span class="flecha"></span></p>
+                    </p>
+                  </div>
+                <% end %>
+              <% end %>
+            </div>
+          </div>
+        <div class="sucursal-siguiente"></div>
+        <div class="sucursal-previa"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<%# Itemscope %>
+<% sub_store = "" %>
+<% data.site.stores.each do |id, store| %>
+  <% if store.is_sub %>
+    <% sub_store = store %>
+  <% end %>
+<% end %>
+<div itemscope itemtype="http://schema.org/LocalBusiness">
+	<span itemprop="name">Tym Forest - Madera para tus Ideas</span>
+	<span itemprop="description">En Tym Forest somos proveedores de madera nacional e importada y nos distinguimos ofreciendo una gran variedad de productos con la mejor calidad y una gran variedad en especies de madera para venta. Con sucursales en Monterrey, San Nicolás de los Garza y San Luis Potosí</span>
+	<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress”>
+		<span itemprop="streetAddress”>Sucursal <%= sub_store.name %>: <%= sub_store.address.street %>, <%= sub_store.address.neighborhood %></span>
+		<span itemprop="addressLocality"><%= sub_store.address.city %></span>,<span itemprop="addressRegion"><%= sub_store.address.state %></span>
+		<span itemprop="postalCode"><%= sub_store.address.zip_code %></span>
+	</div>
+	Phone: <span itemprop="telephone"><%= sub_store.number %></span>
+</div>
