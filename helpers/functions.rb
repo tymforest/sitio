@@ -4,7 +4,7 @@ module Functions
     phone_number = number.gsub(' ', '').gsub('(', '').gsub(')', '')
   end
   # Schedule Wrapper
-  def wrap store
+  def package_schedule store
     schedules = []
     weekdays = []
     saturdays = []
@@ -30,9 +30,9 @@ module Functions
         block.push(sc.saturday_close)
         saturdays.push(block)
       end
-      schedules.push(weekdays)
-      schedules.push(saturdays)
-      schedules
     end
+    schedules.push(weekdays)
+    schedules.push(saturdays)
+    schedules
   end
 end
