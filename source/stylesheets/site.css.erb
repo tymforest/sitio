@@ -465,13 +465,21 @@ section.empleos:last-of-type {
   max-width: 75%;
   margin: 0 auto 1.15rem;
 }
+<%# Config %>
+<% service_image = "" %>
+<% data.site.index_page.each do |id, page| %>
+  <% if page.services.image %>
+    <% service_image = page.services.image.url %>
+  <% end %>
+<% end %>
+<%# End %>
 section#servicios {
   height: 350px;
   display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('');
+  background-image: url('<%= service_image %>');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1430,12 +1438,20 @@ section.error p {
 #menu-productos {
   display: none;
 }
-/*
-
-  DETALLE DE APLICACIÓN
-  line 428
-
-*/
+/* Detalle de Aplicación - - - - - - - - - - */
+<% data.site.product_applications.each do |id, application| %>
+  #<%= application.title.parameterize %>-inicio {
+    background-image: url('<%= application.index_image.url %>');
+  }
+<% end %>
+/* Anuncios de Productos mas Buscados - - - - - - - - - - */
+<% data.site.index_page.each do |id, page| %>
+  <% page.products.ads.each do |ad| %>
+    #<%= ad.title.parameterize %> {
+      background-image: url('<%= ad.image.url %>');
+    }
+  <% end %>
+<% end %>
 /* Detalle de Subcategoria - - - - - - - - - - */
 .descripcion.subcategoria {
   margin: 0 0 50px 0;
