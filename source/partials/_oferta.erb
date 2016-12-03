@@ -1,0 +1,15 @@
+<%# Config %>
+<% sale = "" %>
+<% data.site.ad_sales.each do |id, ad| %>
+  <% sale = ad %>
+<% end %>
+<%# End %>
+<section id="accion" class="centrado difuminar">
+  <div class="contenedor-movil contenedor-tablet contenedor-desktop">
+    <header>
+      <h1><%= sale.title %></h1>
+      <p><%= sale.description %></p>
+    </header>
+    <%= link_to sale.button, "/ofertas", :class => "boton accion" %>
+  </div>
+</section>

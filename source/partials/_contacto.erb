@@ -1,0 +1,24 @@
+<%# Config %>
+<% contact_ad = "" %>
+<% data.site.ad_contact.each do |id, ad| %>
+  <% contact_ad = ad %>
+<% end %>
+<% main_store = "" %>
+<% data.site.stores.each do |id, store| %>
+  <% if store.is_base %>
+    <% main_store = store %>
+    <% break %>
+  <% end %>
+<% end %>
+<%# End %>
+<section id="accion" class="centrado difuminar">
+  <div class="contenedor-movil contenedor-tablet contenedor-desktop">
+    <div data-sucursal="<%= main_store.name %>" data-tipo="Botón">
+      <header>
+        <h1><%= contact_ad.title %></h1>
+        <p><%= contact_ad.description %></p>
+      </header>
+      <%= link_to "<span></span>#{ main_store.number }", "tel:#{ phone main_store.number }", :class => "boton telefono" %>
+    </div>
+  </div>
+</section>

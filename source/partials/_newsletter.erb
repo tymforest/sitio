@@ -1,0 +1,58 @@
+<%# Config %>
+<% newsletter = "" %>
+<% data.site.ad_newsletter.each do |id, ad| %>
+  <% newsletter = ad %>
+<% end %>
+<%# End %>
+<section id="accion" class="centrado difuminar">
+  <div class="contenedor-movil contenedor-tablet contenedor-desktop">
+    <header>
+      <h1><%= newsletter.title %></h1>
+      <p><%= newsletter.description %></p>
+    </header>
+    <div id="mc_embed_signup">
+      <form action="//tymforest.us1.list-manage.com/subscribe/post?u=347d0a74f41e9fcf693aa5fdf&amp;id=60c02208f8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+          <div class="mc-field-group input-group">
+            <ul class="newsletter-categorias">
+              <li class="ilb newsletter-categoria">
+                <label for="mce-group[6177]-6177-0">
+                  <input type="checkbox" value="1" name="group[6177][1]" id="mce-group[6177]-6177-0">
+                  <span>Grupo 1</span>
+                </label>
+              </li>
+              <li class="ilb newsletter-categoria">
+                <label for="mce-group[6177]-6177-1">
+                  <input type="checkbox" value="2" name="group[6177][2]" id="mce-group[6177]-6177-1">
+                  <span>Grupo 2</span>
+                </label>
+              </li>
+              <li class="ilb newsletter-categoria">
+                <label for="mce-group[6177]-6177-2">
+                  <input type="checkbox" value="4" name="group[6177][4]" id="mce-group[6177]-6177-2">
+                  <span>Grupo 3</span>
+                </label>
+              </li>
+              <li class="ilb newsletter-categoria">
+                <label for="mce-group[6177]-6177-3">
+                  <input type="checkbox" value="8" name="group[6177][8]" id="mce-group[6177]-6177-3">
+                  <span>Grupo 4</span>
+                </label>
+              </li>
+            </ul>
+          </div>
+          <input type="email" value="" name="EMAIL" class="newsletter" placeholder="Tu email" required>
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="b_347d0a74f41e9fcf693aa5fdf_60c02208f8" tabindex="-1" value="">
+          </div>
+          <div class="ilb">
+            <input type="submit" value="<%= newsletter.button %>" class="boton-boletin" name="subscribe" id="mc-embedded-subscribe" class="button">
+          </div>
+          <div id="mce-responses" class="clear">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+        </div>
+      </form>
+    </div>
+</section>
