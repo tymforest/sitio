@@ -4,67 +4,69 @@
       <div class="columna-movil-50">
         <div class="columna-tablet-3 columna-desktop-3">
           <%# Maderas %>
-          <% seccion1 = "Maderas" %>
-          <h4><%= seccion1 %></h4>
+          <h4>Maderas</h4>
           <ul>
-            <% dato.productos.sort_by(&:position).each do |producto| %>
-              <% if producto.categoria.nombre === seccion1 %>
-                <li><%= link_to producto.nombre, "/#{ enrutar seccion1 }/#{ enrutar producto.nombre }", :class => "subseccion" %></li>
+            <% data.site.products_a.each do |id, product| %>
+              <% if product.category.name === "Maderas" %>
+                <li><%= link_to product.name, "/maderas/#{ product.name.parameterize }", :class => "subseccion" %></li>
               <% end %>
             <% end %>
-            <li><%= link_to "Ver todos", "/#{ enrutar seccion1 }", :class => "subseccion italica" %></li>
+            <li><%= link_to "Ver todos", "/maderas", :class => "subseccion italica" %></li>
           </ul>
         </div>
         <div class="columna-tablet-3 columna-desktop-3">
           <%# Tableros %>
-          <% seccion2 = "Tableros" %>
-          <h4><%= seccion2 %></h4>
+          <h4>Tableros</h4>
           <ul>
-            <%# Tableros sin Subcategoría %>
-            <% dato.productos.sort_by(&:position).each do |producto| %>
-              <% if producto.categoria.nombre === seccion2 %>
-                <% if !producto.subcategoria %>
-                  <li><%= link_to producto.nombre, "/#{ enrutar seccion2 }/#{ enrutar producto.nombre }", :class => "subseccion" %></li>
-                <% end %>
-              <% end %>
-            <% end %>
             <%# Subcategorías de Tableros %>
-            <% dato.producto_subcategoria.sort_by(&:position).each do |subcategoria| %>
-              <% if subcategoria.categoria.nombre === seccion2 %>
-                <li><%= link_to subcategoria.nombre, "/#{ enrutar seccion2 }/#{ enrutar subcategoria.nombre }", :class => "subseccion" %></li>
+            <% data.site.subcategories.each do |id, subcategory| %>
+              <% if subcategory.category.name === "Tableros" %>
+                <li><%= link_to subcategory.nombre, "/tableros/#{ subcategory.nombre.parameterize }", :class => "subseccion" %></li>
               <% end %>
             <% end %>
-            <li><%= link_to "Ver todos", "/#{ enrutar seccion2 }", :class => "subseccion italica" %></li>
+            <%# Tableros sin Subcategoría %>
+            <% data.site.products_a.each do |id, product| %>
+              <% if product.category.name === "Tableros" && !product.subcategory %>
+                <li><%= link_to product.name, "/tableros/#{ product.name.parameterize }", :class => "subseccion" %></li>
+              <% end %>
+            <% end %>
+            <li><%= link_to "Ver todos", "/tableros", :class => "subseccion italica" %></li>
           </ul>
         </div>
       </div>
       <div class="columna-movil-50">
         <div class="columna-tablet-3 columna-desktop-3">
           <%# Ferretería %>
-          <% seccion3 = "Ferretería" %>
-          <h4><%= seccion3 %></h4>
+          <h4>Ferretería</h4>
           <ul>
-            <% dato.producto_subcategoria.sort_by(&:position).each do |subcategoria| %>
-              <% if subcategoria.categoria.nombre == seccion3 %>
-                <li><%= link_to subcategoria.nombre, "/ferreteria", :class => "subseccion" %></li>
+            <% data.site.subcategories.each do |id, subcategory| %>
+              <% if subcategory.category.name === "Ferretería" %>
+                <li><%= link_to subcategory.nombre, "/ferreteria", :class => "subseccion" %></li>
               <% end %>
             <% end %>
-            <li><%= link_to "Ver todos", "/#{ enrutar seccion3 }", :class => "subseccion italica" %></li>
+            <li><%= link_to "Ver todos", "/ferreteria", :class => "subseccion italica" %></li>
           </ul>
         </div>
         <div class="columna-tablet-3 columna-desktop-3">
           <%# Productos por Aplicación %>
-          <% seccion4 = "Productos por Aplicación" %>
-          <h4><%= seccion4 %></h4>
+          <h4>Productos por Aplicación</h4>
           <ul>
-            <% dato.productos_por_aplicacion.secciones.each do |seccion| %>
-              <li><%= link_to seccion.titulo, "/productos-por-aplicacion/#{ enrutar seccion.titulo }/", :class => "subseccion" %></li>
+            <% data.site.product_applications.each do |id, application| %>
+              <li><%= link_to application.title, "/productos-por-aplicacion/#{ application.title.parameterize }/", :class => "subseccion" %></li>
             <% end %>
           </ul>
           <ul>
-            <%# Ofertas? %>
-            <% if ofertas %>
-              <li><%= link_to 'Ofertas', "/ofertas", :class => "seccion" %></li>
+            <%# Ofertas %>
+            <% data.site.products_a.each do |id, product| %>
+              <% if product.is_sale %>
+                <li><%= link_to 'Ofertas', '/ofertas', :class => "seccion" %></li>
+                <% break %>
+              <% end %>
+            <% end %>
+            <% data.site.products_b.each do |id, product| %>
+              <% if product.is_sale %>
+                <li><%= link_to 'Ofertas', '/ofertas', :class => "seccion" %></li>
+              <% end %>
             <% end %>
             <%# Servicios %>
             <li><%= link_to 'Servicios', "/servicios", :class => "seccion" %></li>
@@ -72,17 +74,15 @@
             <li><%= link_to 'Sucursales', "/sucursales", :class => "seccion" %></li>
             <%# Nosotros %>
             <li><%= link_to 'Nosotros', "/nosotros", :class => "seccion" %></li>
-            <%# Empleos? %>
-            <% if dato.empleos_disponibles.length > 0 %>
-              <% empleos = true %>
-            <% else %>
-              <% empleos = false %>
-            <% end %>
-            <% if empleos %>
-              <li><%= link_to 'Empleos', "/empleos", :class => "seccion" %></li>
+            <%# Empleos %>
+            <% data.site.jobs.each do |id, job| %>
+              <% if job.is_published %>
+                <li><%= link_to 'Empleos', '/empleos', :class => "seccion" %></li>
+                <% break %>
+              <% end %>
             <% end %>
             <%# Aviso %>
-            <li><%= link_to 'Aviso', "/aviso/", :class => "seccion" %></li>
+            <li><%= link_to 'Aviso', '/aviso', :class => "seccion" %></li>
           </ul>
         </div>
       </div>
