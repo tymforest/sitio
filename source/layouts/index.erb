@@ -18,6 +18,22 @@
       <%= partial "partials/menu" %>
       <%= yield %>
       <%= partial "partials/contacto_movil" %>
+      <%# Config %>
+      <% sale = false %>
+      <% data.site.ad_sections.each do |id, ad| %>
+        <% data.site.products_a.each do |id, product| %>
+          <% if product.is_sale %>
+            <%= partial "partials/oferta" %>
+            <% sale = true %>
+            <% break %>
+          <% end %>
+        <% end %>
+        <% if !sale %>
+          <%= partial "partials/newsletter" %>
+        <% end %>
+      <% end %>
+      <%# End %>
+      <%= partial "partials/footer" %>
     </main>
     <%= javascript_include_tag :modernizr %>
     <%= javascript_include_tag :menu %>
