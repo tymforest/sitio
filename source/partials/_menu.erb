@@ -88,7 +88,21 @@
       <li><%= link_to "Ver todos", "/tableros", :class => "mas" %></li>
     </ul>
     <%# Ferretería %>
-    <li><%= link_to 'Ferretería', "/ferreteria" %></li>
+    <li>
+      <p>Ferretería</p>
+      <div class="boton-acordion">
+        <div class="abrir-acordion"></div>
+        <div class="cerrar-acordion"></div>
+      </div>
+    </li>
+    <ul>
+      <% data.site.subcategories.each do |id, subcategory| %>
+        <% if subcategory.category.name === "Ferretería" %>
+          <li><%= link_to subcategory.nombre, "/ferreteria/#{ subcategory.nombre.parameterize }" %></li>
+        <% end %>
+      <% end %>
+      <li><%= link_to "Ver todos", "/ferreteria", :class => "mas" %></li>
+    </ul>
     <%# Productos por Aplicación %>
     <li>
       <p>Productos por Aplicación</p>
