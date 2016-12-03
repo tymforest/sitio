@@ -32,7 +32,7 @@ var cerrado = false;
 <% contacto.ful.each do |full| %>
   <% mediosFestivos.push("#{ full.date.day }/#{ full.date.month }/#{ full.date.year }") %>
 <% end %>
-<% contacto.half_days.each do |half| %>
+<% contacto.half_holidays.each do |half| %>
   <% mediosFestivos.push("#{ half.date.day }/#{ half.date.month }/#{ half.date.year }") %>
 <% end %>
 <%# End %>
@@ -115,7 +115,7 @@ function horariosDe(sucursal) {
   switch(sucursal) {
     <% data.site.stores.each do |id, store| %>
       case "<%= store.name %>":
-        horarios = <%= wrap store.name %>;
+        horarios = <%= package_schedule store.name %>;
         break;
     <% end %>
     default:
