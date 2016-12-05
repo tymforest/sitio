@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <%= stylesheet_link_tag :reset %>
+    <%= stylesheet_link_tag :site %>
+    <% if subcategory %>
+      <%= stylesheet_link_tag :flickity %>
+    <% end %>
+    <%# Google Analytics %>
+  </head>
+  <body class="difuminar">
+    <div id="cubierta-menu"></div>
+    <%= partial "partials/menu" %>
+    <% if subcategory %>
+      <%= partial "partials/barra_anuncio" %>
+    <% else %>
+      <div id="<%= category.name.parameterize %>" class="difuminar portada-categoria" title="<%= category.name.parameterize %>"></div>
+    <% end %>
+    <main class="difuminar productos-desktop lista-movil">
+      <div class="contenedor-desktop">
+        <div class="reticula">
+          <div class="columna-desktop-2">
+            <%= partial "partials/menu_productos" %>
+          </div>
+          <div class="columna-desktop-1"></div>
+          <div class="columna-desktop-9">
+            <%= yield %>
+          </div>
+        </div>
+      </div>
+      <%# Action Banner Ad %>
+      <%= partial "partials/footer" %>
+      <%# Mobile Contact %>
+    </main>
+    <%= javascript_include_tag :jquery %>
+    <%= javascript_include_tag :difuminar %>
+    <%= javascript_include_tag :modernizr %>
+    <%= javascript_include_tag :menu %>
+    <%= javascript_include_tag :menu_productos %>
+    <%= javascript_include_tag :horarios %>
+    <% if subcategory %>
+      <%= javascript_include_tag :flickity %>
+      <%= javascript_include_tag :barra_anuncio %>
+    <% end %>
+    <%# Mobile Contact Script %>
+  </body>
+</html>
