@@ -35,4 +35,17 @@ module Functions
     schedules.push(saturdays)
     schedules
   end
+  # Subcategory on Sale Checker
+  def subcategory_on_sale name
+    on_sale = false
+    data.site.products_b.each do |id, product|
+      if product.subcategory.nombre === name
+        if product.is_sale
+          on_sale = true
+          break
+        end
+      end
+    end
+    on_sale
+  end
 end
