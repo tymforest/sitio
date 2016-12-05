@@ -48,4 +48,23 @@ module Functions
     end
     on_sale
   end
+  # Products on Sale Checker
+  def check_sales
+    sale = false
+    data.site.products_a.each do |id, product|
+      if product.is_sale
+        sale = true
+        break
+      end
+    end
+    if sale = false
+      data.site.products_b.each do |id, product|
+        if product.is_sale
+          sale = true
+          break
+        end
+      end
+    end
+    sale
+  end
 end
