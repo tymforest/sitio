@@ -1,0 +1,75 @@
+---
+layout: list
+---
+<%# Config %>
+<% category = locals[:category] %>
+<% subcategory = locals[:subcategory] %>
+<% if !subcategory %>
+  <% title = category.name %>
+<% else %>
+  <% title = subcategory.name %>
+<% end %>
+<%# End %>
+<section id="contenedor-de-contenido" class="lista <% if subcategory %>lista-tablet-subcategoria<% end %>">
+  <header>
+    <h1><%= title %></h1>
+  </header>
+  <div class="contenedor-movil-completo contenedor-tablet-completo">
+    <div class="reticula listado">
+      <% if !subcategory %>
+        <% data.site.products_a.each do |id, product| %>
+          <% if product.category.name === title %>
+            <div class="lista-de-productos columna-movil-50 columna-tablet-33 columna-desktop-3">
+              <div class="tarjeta-producto">
+                <% link_to "/#{ title.parameterize }/#{ product.name.parameterize }", :class => "enlace-imagen" do %>
+                  <div class="cubierta"></div>
+                  <picture>
+                    <img src="<%= product.card.url %>" alt="<%= product.card.description %>"/>
+                  </picture>
+                <% end %>
+                <header>
+                  <%= link_to product.name, "/#{ title.parameterize }/#{ product.name.parameterize }" %><% if product.is_sale %><span class="oferta-lista"></span><% end %>
+                </header>
+              </div>
+            </div>
+          <% end %>
+        <% end %>
+        <% data.site.subcategories.each do |id, subcategory| %>
+          <% if subcategory.category.name === title %>
+            <div class="lista-de-productos columna-movil-50 columna-tablet-33 columna-desktop-3">
+              <div class="tarjeta-producto">
+                <% link_to "/#{ title.parameterize }/#{ subcategory.nombre.parameterize }", :class => "enlace-imagen" do %>
+                  <div class="cubierta"></div>
+                  <picture>
+                    <img src="<%= subcategory.card.url %>" alt="<%= subcategory.card.description %>"/>
+                  </picture>
+                <% end %>
+                <header>
+                  <%= link_to subcategory.nombre, "/#{ title.parameterize }/#{ subcategory.nombre.parameterize }" %><% if subcategory_on_sale subcategory.nombre %><span class="oferta-lista"></span><% end %>
+                </header>
+              </div>
+            </div>
+          <% end %>
+        <% end %>
+      <% else %>
+        <% data.site.subcategories.each do |id, subcategory| %>
+          <% if subcategory.category.name === title && subcategory.is_detail %>
+            <div class="lista-de-productos columna-movil-50 columna-tablet-33 columna-desktop-3">
+              <div class="tarjeta-producto">
+                <% link_to "/#{ title.parameterize }/#{ subcategory.nombre.parameterize }", :class => "enlace-imagen" do %>
+                  <div class="cubierta"></div>
+                  <picture>
+                    <img src="<%= subcategory.card.url %>" alt="<%= subcategory.description %>"/>
+                  </picture>
+                <% end %>
+                <header>
+                  <%= link_to subcategory.nombre, "/#{ title.parameterize }/#{ subcategory.nombre.parameterize }" %><% if subcategory_on_sale subcategory.nombre %><span class="oferta-lista"></span><% end %>
+                </header>
+              </div>
+            </div>
+          <% end %>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</section>
