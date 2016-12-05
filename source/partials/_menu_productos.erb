@@ -1,0 +1,68 @@
+<aside id="contenedor-menu-productos">
+  <div id="menu-productos">
+    <ul>
+      <%# Maderas %>
+      <li>
+        <p>Maderas</p>
+        <div class="boton-acordion">
+          <div class="abrir-acordion"></div>
+          <div class="cerrar-acordion"></div>
+        </div>
+      </li>
+      <ul class="">
+        <% data.site.products_a.each do |id, product| %>
+          <% if product.category.name === "Maderas" %>
+            <li><%= link_to product.name, "/maderas/#{ product.name.parameterize }" %></li>
+          <% end %>
+        <% end %>
+      </ul>
+      <%# Tableros %>
+      <li>
+        <p>Tableros</p>
+        <div class="boton-acordion">
+          <div class="abrir-acordion"></div>
+          <div class="cerrar-acordion"></div>
+        </div>
+      </li>
+      <ul class="">
+        <% data.site.subcategories.each do |id, subcategory| %>
+          <% if subcategory.category.name === "Tableros" %>
+            <li><%= link_to subcategory.nombre, "/tableros/#{ subcategory.nombre.parameterize }" %></li>
+          <% end %>
+        <% end %>
+        <% data.site.products_a.each do |id, product| %>
+          <% if product.category.name === "Tableros" && !product.subcategory %>
+            <li><%= link_to product.name, "/tableros/#{ product.name.parameterize }" %></li>
+          <% end %>
+        <% end %>
+      </ul>
+      <%# Ferretería %>
+      <li>
+        <p>Ferretería</p>
+        <div class="boton-acordion">
+          <div class="abrir-acordion"></div>
+          <div class="cerrar-acordion"></div>
+        </div>
+      </li>
+      <ul class="">
+        <% data.site.subcategories.each do |id, subcategory| %>
+          <% if subcategory.category.name === "Ferretería" %>
+            <li><%= link_to subcategory.nombre, "/ferreteria/#{ subcategory.nombre.parameterize }" %></li>
+          <% end %>
+        <% end %>
+      </ul>
+      <%# Ofertas %>
+      <% data.site.products_a.each do |id, product| %>
+        <% if product.is_sale %>
+          <li><%= link_to 'Ofertas', '/ofertas' %></li>
+          <% break %>
+        <% end %>
+      <% end %>
+      <% data.site.products_b.each do |id, product| %>
+        <% if product.is_sale %>
+          <li><%= link_to 'Ofertas', '/ofertas' %></li>
+        <% end %>
+      <% end %>
+    </ul>
+  </div>
+</aside>
