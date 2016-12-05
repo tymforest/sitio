@@ -1,0 +1,23 @@
+---
+layout: list
+---
+<%# Config %>
+<% category = locals[:category] %>
+<%# End %>
+<section id="contenedor-de-contenido" class="detalle en-construccion">
+  <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+  <header>
+    <h1><%= category.name %></h1>
+    <div class="descripcion">
+      <p>Por el momento estamos trabajando en crear las secciones de Ferretería. Debajo enlistamos los productos de Ferretería que manejamos —</p>
+    </div>
+  </header>
+  <ul class="puntos">
+    <% data.site.subcategories.each do |id, subcategory| %>
+      <% if subcategory.category.name === category.name %>
+        <li><p><%= subcategory.nombre %></p></li>
+      <% end %>
+    <% end %>
+  </ul>
+  </div>
+</section>
