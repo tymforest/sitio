@@ -1,0 +1,48 @@
+---
+layout: product_applications
+---
+<%# Config %>
+<% application = locals[:application] %>
+<%# End %>
+<div id="<%= application.title.parameterize %>-portada" class="portada espacio-movil" title="<%= application.hero_image.description %>">
+  <h1 class="blanco"><%= application.title %></h1>
+</div>
+<%# Config %>
+<% sl = application.sections.length - 1 %>
+<%# End %>
+<% application.sections.each_with_index do |section, s| %>
+  <section class="anuncio <% if s == sl %>no-bordes<% end %>">
+    <div class="contenedor-desktop">
+      <div class="reticula <% if s % 2 == 0 %>alternar-anuncio<% end %>">
+        <div class="columna-tablet-50 columna-desktop-7">
+          <picture>
+            <source srcset="https:<%= section.image.url %>" media="(min-width: 1024px)" />
+            <source srcset="https:<%= section.image.url %>" media="(min-width: 600px)" />
+            <img src="https:<%= section.image.url %>?w=400&h=400" alt="<%= section.image.description %>"/>
+          </picture>
+        </div>
+        <div class="columna-desktop-1"></div>
+        <div class="columna-tablet-50 columna-desktop-4">
+          <div class="contenedor-movil contenedor-tablet">
+            <div class="detalle-anuncio">
+              <header>
+                <h2 class="claro"><%= section.subtitle %></h2>
+                <h1><%= section.title %></h1>
+                <div class="contenido">
+                  <div class="subcontenido">
+                    <p><%= section.description %></p>
+                  </div>
+                  <% section.links.each do |link| %>
+                  <div class="subcontenido">
+                    <a class="negrita verde" href="<%= link.path %>"><%= link.title %><span class="flecha"></span></a>
+                  </div>
+                  <% end %>
+                </div>
+              </header>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<% end %>
