@@ -1444,6 +1444,14 @@ section.error p {
     background-image: url('<%= application.index_image.url %>');
   }
 <% end %>
+<% data.site.product_applications.each do |id, application| %>
+  #<%= application.title.parameterize %>-portada {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('<%= application.hero_image.url %>');
+  }
+<% end %>
 /* Anuncios de Productos mas Buscados - - - - - - - - - - */
 <% data.site.index_page.each do |id, page| %>
   <% page.products.ads.each do |ad| %>
