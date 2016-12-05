@@ -32,6 +32,7 @@ activate :contentful do |f|
   f.all_entries = true
   f.content_types = {
     index_page: "index_page",
+    categories: "product_category",
     subcategories: "subcategory", # Product subcategories
     products_a: "products", # Products with detail page
     products_b: "producto_simple", # Products without detail page
@@ -49,6 +50,15 @@ end
 ###
 # Proxies
 ###
+
+# Product Categories
+data.site.categories.each do |id, category|
+  if category.name != "Ferretería"
+    proxy "/#{ category.name.parameterize }/index.html", "/products/list.html", :locals => { :category => category, :subcategory => false }, :ignore => true
+  else
+    proxy "/#{ category.name.parameterize }/index.html", "/products/pending.html", :locals => { :category => category, :subcategory => false }, :ignore => true
+  end
+end
 
 # Product Applications
 data.site.product_applications.each do |id, application|
