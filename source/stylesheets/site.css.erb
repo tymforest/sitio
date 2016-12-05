@@ -915,12 +915,11 @@ img {
   background-position: center;
   background-repeat: no-repeat;
 }
-/*
-
-  PORTADAS DE LISTA DE PRODUCTOS
-  line 906
-
-*/
+<% data.site.categories.each do |id, category| %>
+  #<%= category.name.parameterize %> {
+    background-image: url('<%= category.hero_image.url %>');
+  }
+<% end %>
 /*
   ----------------------------------------
   Tarjeta de Información Nosotros
