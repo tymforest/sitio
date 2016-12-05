@@ -1,0 +1,15 @@
+<aside class="barra-anuncios">
+  <div class="contenedor-barra-anuncios">
+    <div class="barra-carrusel">
+      <% data.site.ad_banner.each do |id, banner| %>
+        <div class="anuncio-barra">
+          <h4><%= banner.title %></h4>
+          <p class="<% if banner.button %>padding-enlace<% end %>"><%= banner.description %></p>
+          <% if banner.button %>
+            <%= link_to banner.button.title, "#{ banner.button.path }" %>
+          <% end %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</aside>
