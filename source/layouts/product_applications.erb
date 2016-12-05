@@ -4,10 +4,19 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-    <%# Social Meta-tags %>
-    <%# Favicon Meta-tags %>
+    <meta property="og:url" content="<%= data.meta.url %>">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<%= application.seo.title %>">
+    <meta property="og:description" content="<%= application.seo.description %>">
+    <meta property="og:image" content="<%= application.seo.og.url %>">
+    <!-- To learn more about Open Graph markup, visit Facebook for Developers -> https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="<%= application.seo.title %>">
+    <meta name="twitter:description" content="<%= application.seo.description %>">
+    <meta name="twitter:image" content="<%= application.seo.twitter.url %>">
+    <!-- To learn more about Twitter's Summary Card, visit Twitter for Developers -> https://dev.twitter.com/cards/types/summary -->
+    <%= partial "partials/meta" %>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <!-- Test -->
     <%= stylesheet_link_tag :reset %>
     <%= stylesheet_link_tag :site %>
     <%# Google Analytics %>
