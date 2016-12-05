@@ -117,16 +117,8 @@
       <% end %>
     </ul>
     <%# Ofertas %>
-    <% data.site.products_a.each do |id, product| %>
-      <% if product.is_sale %>
-        <li><%= link_to 'Ofertas', '/ofertas' %></li>
-        <% break %>
-      <% end %>
-    <% end %>
-    <% data.site.products_b.each do |id, product| %>
-      <% if product.is_sale %>
-        <li><%= link_to 'Ofertas', '/ofertas' %></li>
-      <% end %>
+    <% if check_sales %>
+      <li><%= link_to 'Ofertas', '/ofertas' %></li>
     <% end %>
     <%# Servicios %>
     <li><%= link_to 'Servicios', '/servicios' %></li>
