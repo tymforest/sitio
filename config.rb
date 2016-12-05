@@ -23,6 +23,8 @@ page '/index.html', layout: 'index'
 ###
 # Contentful configuration
 ###
+
+# Contentful Integration
 activate :contentful do |f|
   f.access_token = '595538fecbbc00253d9baf3defb922f09047601b17bab296fe8ef82d24592adf'
   f.space = { site: 'rvnl2qm3k12r' }
@@ -43,3 +45,19 @@ activate :contentful do |f|
     ad_sections: "ad_sections"
   }
 end
+
+###
+# Proxies
+###
+
+# Product Applications
+data.site.product_applications.each do |id, application|
+  proxy "/productos-por-aplicacion/#{ application.title.parameterize }/index.html", "/product-applications/detail.html", :locals => { :application => application }, :ignore => true
+end
+
+###
+# Ignore Directories
+###
+
+# Product Application Templates
+ignore '/product-applications'
