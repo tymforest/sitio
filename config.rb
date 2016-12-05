@@ -28,7 +28,7 @@ page '/index.html', layout: 'index'
 activate :contentful do |f|
   f.access_token = '595538fecbbc00253d9baf3defb922f09047601b17bab296fe8ef82d24592adf'
   f.space = { site: 'rvnl2qm3k12r' }
-  f.cda_query = { limit: 1000 }
+  f.cda_query = { limit: 1000, include: 10 }
   f.all_entries = true
   f.content_types = {
     index_page: "index_page",
@@ -43,7 +43,8 @@ activate :contentful do |f|
     ad_contact: "ad_contact",
     ad_newsletter: "ad_newsletter",
     ad_sales: "ad_sales",
-    ad_sections: "ad_sections"
+    ad_sections: "ad_sections",
+    ad_banner: "ad_banner"
   }
 end
 
@@ -57,6 +58,15 @@ data.site.categories.each do |id, category|
     proxy "/#{ category.name.parameterize }/index.html", "/products/list.html", :locals => { :category => category, :subcategory => false }, :ignore => true
   else
     proxy "/#{ category.name.parameterize }/index.html", "/products/pending.html", :locals => { :category => category, :subcategory => false }, :ignore => true
+  end
+end
+
+# Product Subcategories
+data.site.subcategories.each do |id, subcategory|
+  if subcategory.category.name != "Ferretería"
+    if subcategory.is_detail
+      proxy "/#{ subcategory.category.name.parameterize }/#{ subcategory.nombre.parameterize }/index.html", "/products/list.html", :locals => { :category => subcategory.category, :subcategory => subcategory }, :ignore => true
+    end
   end
 end
 
