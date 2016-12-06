@@ -1,0 +1,183 @@
+/*  Inicialización - - - - - - - - - - */
+//  Interacción del botón 'Ver Mapa'
+const $contenedor = document.getElementById('contenedor-mapa');
+const $mapa = document.getElementById('mapa');
+const $botonVerMapa = document.getElementById('accion-mapa');
+const $botonCerrarMapa = document.getElementById('cerrar-mapa');
+const $botonDirecciones = document.getElementById('direcciones');
+var anchoPantalla = window.screen.availWidth;
+var mapaVisible = false;
+// Creación de estado inicial del mapa
+if (anchoPantalla < 600) {
+  $mapa.style.height = anchoPantalla + "px";
+}
+else {
+  $mapa.style.height = $contenedor.offsetHeight + "px";
+  $mapa.style.width = $contenedor.offsetWidth + "px";
+}
+//  Creación de valores de latitud y longitud dependiendo del detalle activo
+const $mapaSucursal = document.querySelectorAll('[data-js]')[0];
+var latitud;
+var longitud;
+adminUbicacion($mapaSucursal.dataset.js);
+/*  Eventos - - - - - - - - - - */
+//  Si el navegador es Internet Explorer < 9
+if (window.attachEvent) {
+  // Interacción del botón 'Ver Mapa'
+  $botonVerMapa.attachEvent('onclick', function(event){
+    event.preventDefault();
+    if (!mapaVisible) {
+      mapaVisible = true;
+      $mapa.classList.toggle('mapa-visible');
+      adminBotones();
+    }
+    else {
+      mapaVisible = false
+      $mapa.classList.toggle('mapa-visible');
+      adminBotones();
+    }
+    resetearScroll(150);
+  });
+  //  Interaccion con el botón de cerrar el mapa
+  $botonCerrarMapa.attachEvent('onclick', function(){
+    if (mapaVisible) {
+      mapaVisible = false
+      $mapa.classList.toggle('mapa-visible');
+      adminBotones();
+      setTimeout(initMap, 1000);
+    }
+  });
+  // Interacción al re-escalar la ventana
+  window.attachEvent('onresize', function(){
+    var anchoPantalla = window.screen.availWidth;
+    if (anchoPantalla < 600) {
+      $mapa.style.height = anchoPantalla + "px";
+      $mapa.style.width = "100%";
+    }
+    else {
+      var containerHeight = $contenedor.offsetHeight;
+      var containerWidth = $contenedor.offsetWidth;
+      $mapa.style.height = containerHeight + "px";
+      $mapa.style.width = containerWidth + "px";
+    }
+  });
+}
+//  El resto de los navegadores...
+else if (window.addEventListener) {
+  // Interacción del botón 'Ver Mapa'
+  $botonVerMapa.addEventListener('click', function(event){
+    event.preventDefault();
+    if (!mapaVisible) {
+      mapaVisible = true;
+      $mapa.classList.toggle('mapa-visible');
+      adminBotones();
+    }
+    else {
+      mapaVisible = false
+      $mapa.classList.toggle('mapa-visible');
+      adminBotones();
+    };
+    resetearScroll(150);
+  });
+  //  Interaccion con el botón de cerrar el mapa
+  $botonCerrarMapa.addEventListener("click", function(){
+    if (mapaVisible) {
+      mapaVisible = false
+      $mapa.classList.toggle('mapa-visible');
+      adminBotones();
+      setTimeout(initMap, 1000);
+    }
+  });
+  // Interacción al re-escalar la ventana
+  window.addEventListener("resize", function(){
+    var anchoPantalla = window.screen.availWidth;
+    if (anchoPantalla < 600) {
+      $mapa.style.height = anchoPantalla + "px";
+      $mapa.style.width = "100%";
+    }
+    else {
+      var containerHeight = $contenedor.offsetHeight;
+      var containerWidth = $contenedor.offsetWidth;
+      $mapa.style.height = containerHeight + "px";
+      $mapa.style.width = containerWidth + "px";
+    }
+  });
+}
+/*  Funciones - - - - - - - - - - */
+//  Administración de estilos de botones segun interacciones de 'Ver Mapa' y 'Cerrar Mapa'
+function adminBotones() {
+  if (mapaVisible) {
+    $botonDirecciones.classList.add('mostrar-boton');
+    $botonCerrarMapa.classList.add('mostrar-boton');
+    $botonDirecciones.classList.add('mostrar');
+    $botonCerrarMapa.classList.add('mostrar');
+    $botonDirecciones.classList.remove('esconder-boton');
+    $botonCerrarMapa.classList.remove('esconder-boton');
+    $botonDirecciones.classList.remove('esconder');
+    $botonCerrarMapa.classList.remove('esconder');
+    $botonDirecciones.classList.remove('delatar');
+    $botonCerrarMapa.classList.remove('delatar-2x');
+    mapa.draggable = true;
+    mapa.scrollwheel = true;
+  }
+  if (!mapaVisible) {
+    $botonDirecciones.classList.add('esconder-boton');
+    $botonCerrarMapa.classList.add('esconder-boton');
+    $botonDirecciones.classList.add('esconder');
+    $botonCerrarMapa.classList.add('esconder');
+    $botonDirecciones.classList.remove('mostrar');
+    $botonCerrarMapa.classList.remove('mostrar');
+    mapa.draggable = false;
+    mapa.scrollwheel = false;
+  }
+}
+//  Lorem Ipsum
+function adminUbicacion(sucursal) {
+  switch(sucursal) {
+    <% dato.lista_de_sucursales.each do |sucursal| %>
+    <% if !sucursal.esconder %>
+    case "<%= sucursal.nombre.to_str %>":
+      latitud = <%= sucursal.direccion.latitud %>;
+      longitud = <%= sucursal.direccion.longitud %>;
+      break;
+    <% end %>
+    <% end %>
+    default:
+      latitud = 25.718366;
+      longitud = -100.288213;
+  }
+}
+//  Mover Pantalla al inicio. Obtuve este script de http://stackoverflow.com/questions/21474678/scrolltop-animation-without-jquery
+function resetearScroll(scrollDuration) {
+    var scrollStep = -window.scrollY / (scrollDuration / 15),
+        scrollInterval = setInterval(function(){
+        if ( window.scrollY != 0 ) {
+            window.scrollBy( 0, scrollStep );
+        }
+        else clearInterval(scrollInterval);
+    },15);
+}
+//  Google Maps API
+var mapa;
+var ubicacion = {lat: latitud, lng: longitud};
+function initMap() {
+
+  mapa = new google.maps.Map($mapa, {
+    zoom: 18,
+    center: ubicacion,
+    disableDefaultUI: true,
+    zoomControl: true,
+    draggable: false,
+    scrollwheel: false,
+    zoomControlOptions: {
+      position: google.maps.ControlPosition.TOP_LEFT
+    }
+  });
+
+  var marker = new google.maps.Marker({
+    position: ubicacion,
+    map: mapa,
+    title: 'Hello World!'
+  });
+
+}
