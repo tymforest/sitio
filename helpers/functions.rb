@@ -3,6 +3,28 @@ module Functions
   def phone number
     phone_number = number.gsub(' ', '').gsub('(', '').gsub(')', '')
   end
+  # Enhorar: Transforma '8' a '8:00' y '18.25' a '6:15'
+  def time number
+    itIs = []
+    time = "Cómprate un reloj!"
+    hour = number.floor
+    minutes = number - hour
+    type = "am"
+    if hour > 12
+      hour -= 12
+      type = "pm"
+    end
+    time = "#{hour}:"
+    minutes *= 60
+    if (minutes.floor) == 0
+      time += "00"
+    elsif 0 < minutes && minutes < 10
+      time += "0#{minutes}"
+    else
+      time += "#{minutes.floor}"
+    end
+    itIs.push(time, type)
+  end
   # Schedule Wrapper
   def package_schedule store
     schedules = []
