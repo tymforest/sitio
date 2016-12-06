@@ -51,7 +51,8 @@ activate :contentful do |f|
     services: "service",
     consulting_section: "consulting_section",
     shipping_section: "shipping_section",
-    stores_page: "stores_page"
+    stores_page: "stores_page",
+    about_page: "about"
   }
 end
 
