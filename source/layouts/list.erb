@@ -4,7 +4,27 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <%# Config %>
+    <% if subcategory %>
+      <% list = subcategory %>
+    <% else %>
+      <% list = category %>
+    <% end %>
+    <%# End %>
+    <meta property="og:url" content="<%= data.meta.url %>">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<%= list.seo.title %>">
+    <meta property="og:description" content="<%= list.seo.description %>">
+    <meta property="og:image" content="<%= list.seo.og.url %>">
+    <!-- To learn more about Open Graph markup, visit Facebook for Developers -> https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="<%= list.seo.title %>">
+    <meta name="twitter:description" content="<%= list.seo.description %>">
+    <meta name="twitter:image" content="<%= list.seo.twitter.url %>">
+    <!-- To learn more about Twitter's Summary Card, visit Twitter for Developers -> https://dev.twitter.com/cards/types/summary -->
+    <%= partial "partials/meta" %>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <%# Page Title %>
     <%= stylesheet_link_tag :reset %>
     <%= stylesheet_link_tag :site %>
     <% if subcategory %>
@@ -32,7 +52,21 @@
           </div>
         </div>
       </div>
-      <%# Ad Section %>
+      <%# Config %>
+      <% ad_section = "" %>
+      <% data.site.ad_sections.each do |id, section| %>
+        <% ad_section = section.list_pages %>
+      <% end %>
+      <%# End %>
+      <% if ad_section === "Contacto" %>
+        <%= partial "partials/contacto" %>
+      <% elsif ad_section === "Ofertas" && check_sales %>
+        <%= partial "partials/oferta" %>
+      <% elsif ad_section === "Newsletter" %>
+        <%= partial "partials/newsletter" %>
+      <% else %>
+        <%= partial "partials/contacto" %>
+      <% end %>
       <%= partial "partials/footer" %>
       <%# Mobile Contact %>
     </main>
