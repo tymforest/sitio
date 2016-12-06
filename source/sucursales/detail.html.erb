@@ -1,0 +1,146 @@
+---
+layout: store
+---
+<% store = locals[:store] %>
+<section class="detalle sucursal">
+  <div class="contenedor-desktop">
+    <div class="reticula">
+      <div class="contenedor-tablet-contenido">
+        <div class="columna-desktop-1"></div>
+        <div class="columna-desktop-10 alternar-sucursal">
+          <div id="contenedor-mapa" class="columna-desktop-60" data-js="<%= store.name %>">
+            <div class="mapa-imagen">
+              <div id="cerrar-mapa" class="esconder"></div>
+              <a id="direcciones" class="esconder" target="_blank" href="<%=  %>"></a>
+              <div id="mapa" class="mapa-escondido"></div>
+              <picture>
+                <source srcset="<%= store.image.url %>" media="(min-width: 1024px)" />
+                <source srcset="<%= store.image.url %>" media="(min-width: 600px)" />
+                <img class="sucursal" src="<%= store.image.url %>" alt="<%= store.image.description %>" />
+              </picture>
+            </div>
+          </div>
+          <div class="columna-desktop-40">
+            <div class="tarjeta-detalle-sucursal">
+              <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+                <div class="detalles-sucursal">
+                  <div class="titulo-detalle-sucursal">
+                    <div class="reticula">
+                      <h6>Sucursal</h6>
+                      <div class="columna-movil-60 columna-tablet-50">
+                        <h1><%= store.name %></h1>
+                      </div>
+                      <div class="columna-movil-40 columna-tablet-50">
+                        <p class="estado abierto sucursal-detalle" data-sucursal="<%= store.name %>" data-tipo="Estado Sucursal">
+                          <span></span> Abierto
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="columna-tablet-50">
+                    <div class="contenido">
+                      <h3>Teléfono</h3>
+                      <div class="subcontenido">
+                        <a class="enlace" href="tel:<%= phone store.number %>"><%= store.number %></a>
+                      </div>
+                    </div>
+                    <div class="contenido">
+                      <h3>Dirección</h3>
+                      <div class="subcontenido">
+                        <p>
+                          <%= store.address.street %><br>
+                          <%= store.address.neighborhood %><br>
+                          <%= store.address.city %>, <%= store.address.state %> <%= store.address.zip_code %><br>
+                          <% link_to "", :id => "accion-mapa" do %>
+                            Ver Mapa
+                          <% end %>
+                          <% link_to "#{  }", :id => "enlace-mapa" do %>
+                            Ver en Google Maps<span class="flecha"></span>
+                          <% end %>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="columna-tablet-50">
+                    <div class="contenido">
+                      <h3>Horarios</h3>
+                      <div class="columna-movil-50 columna-desktop-50">
+                        <div class="subcontenido">
+                          <h5>Entre Semana</h5>
+                          <% if store.schedule.weekday_lunch && store.schedule.weekday_afternoon %>
+                            <p><%= time(store.schedule.weekday_open)[0] %><span class="unidad"><%= time(store.schedule.weekday_open)[1] %></span> — <%= time(store.schedule.weekday_lunch)[0] %><span class="unidad"><%= time(store.schedule.weekday_lunch)[1] %></span></p>
+                            <p><%= time(store.schedule.weekday_lunch)[0] %><span class="unidad"><%= time(store.schedule.weekday_lunch)[1] %></span> — <%= time(store.schedule.weekday_close)[0] %><span class="unidad"><%= time(store.schedule.weekday_close)[1] %></span></p>
+                          <% else %>
+                            <p><%= time(store.schedule.weekday_open)[0] %><span class="unidad"><%= time(store.schedule.weekday_open)[1] %></span> — <%= time(store.schedule.weekday_close)[0] %><span class="unidad"><%= time(store.schedule.weekday_close)[1] %></span></p>
+                          <% end %>
+                        </div>
+                      </div>
+                      <div class="columna-movil-50 columna-desktop-50">
+                        <div class="subcontenido">
+                          <h5>Sábados</h5>
+                          <p><%= time(store.schedule.saturday_open)[0] %><span class="unidad"><%= time(store.schedule.saturday_open)[1] %></span> — <%= time(store.schedule.saturday_close)[0] %><span class="unidad"><%= time(store.schedule.saturday_close)[1] %></span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columna-desktop-1"></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="detalle servicios-sucursal">
+  <div class="contenedor-desktop">
+    <div class="reticula">
+      <div class="columna-desktop-1"></div>
+      <div class="columna-desktop-10">
+        <div class="reticula">
+          <div class="carrusel">
+            <div class="columna-desktop-12">
+              <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+                <header id="servicios-relacionados">
+                  <h1>Servicios Disponibles en <%= store.name %></h1>
+                </header>
+              </div>
+            </div>
+            <div class="columna-desktop-12">
+              <div class="reticula listado">
+                <div class="contenedor-movil-carrusel contenedor-tablet-carrusel">
+                  <% store.services.each do |service| %>
+                    <div class="tarjeta-producto columna-desktop-3">
+                      <% link_to "/servicios", :class => "enlace-imagen" do %>
+                        <div class="cubierta"></div>
+                        <picture>
+                          <source srcset="<%= service.card.url %>" media="(min-width: 1024px)" />
+                          <img src="<%= service.card.url %>" alt="<%= service.card.description %>"/>
+                        </picture>
+                      <% end %>
+                      <header>
+                        <h3 class="claro"><% if service.subcategory %><%= fetch_service_subcategory service.subcategory.id %><% else %>Otros<% end %></h3>
+                        <%= link_to service.nombre, "/servicios" %>
+                      </header>
+                    </div>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columna-desktop-1"></div>
+    </div>
+  </div>
+</section>
+<div itemscope itemtype="http://schema.org/LocalBusiness">
+	<span itemprop="name">Tym Forest Sucursal <%= store.name %></span>
+	<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress"><%= store.address.street %>, <%= store.address.neighborhood %></span>
+		<span itemprop="addressLocality"><%= store.address.city %></span>,<span itemprop="addressRegion"><%= store.address.state %></span>
+		<span itemprop="postalCode"><%= store.address.zip_code %></span>
+	</div>
+	Phone: <span itemprop="telephone"><%= store.number %></span>
+</div>

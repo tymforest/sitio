@@ -1,0 +1,61 @@
+---
+layout: default
+---
+<%# Config %>
+<% stores_page = "" %>
+<% data.site.stores_page.each do |id, page| %>
+  <% stores_page = page %>
+<% end %>
+<% states = [] %>
+<% stores = [] %>
+<% data.site.stores.each do |id, store| %>
+  <% if !store.is_base %>
+    <% stores.push(store) %>
+  <% end %>
+  <% state = store.address.state_full %>
+  <% if !states.include? state %>
+    <% states.push(state) %>
+  <% end %>
+<% end %>
+<%# End %>
+<div id="sucursales" class="portada" title="<%= stores_page.hero.description %>"></div>
+<section class="sucursales">
+  <div class="contenedor-desktop">
+    <div class="reticula">
+      <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+        <div class="columna-desktop-4">
+          <header class="sucursales">
+            <p><%= stores_page.description %></p>
+          </header>
+        </div>
+        <div class="columna-desktop-2"></div>
+        <div class="columna-desktop-6">
+          <div class="reticula">
+            <% states.each_with_index do |state, s| %>
+              <% if s % 2 == 0 %>
+                <div class="columna-desktop-12">
+                  <div class="reticula">
+              <% end %>
+              <div class="columna-tablet-6 columna-desktop-6">
+                <div class="contenido">
+                  <h1><%= state %></h1>
+                  <ul class="sucursales">
+                    <% stores.each do |store| %>
+                      <% if store.address.state_full === state %>
+                        <li><p class="obscuro"><%= store.address.city %>, <%= link_to store.name, "/sucursales/#{ store.name.parameterize }" %></p></li>
+                      <% end %>
+                    <% end %>
+                  </ul>
+                </div>
+              </div>
+              <% if s % 2 != 0 %>
+                  </div>
+                </div>
+              <% end %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
