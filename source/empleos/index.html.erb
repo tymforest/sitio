@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<%# Config %>
+<% jobs_page = "" %>
+<% data.site.jobs_page.each do |id, page| %>
+  <% jobs_page = page %>
+<% end %>
+<% states = [] %>
+<% jobs = [] %>
+<% data.site.jobs.each do |id, job| %>
+  <% if job.is_published %>
+    <% jobs.push(job) %>
+  <% end %>
+  <% state = job.location.address.state_full %>
+  <% if !states.include? state %>
+    <% states.push(state) %>
+  <% end %>
+<% end %>
+<%# End %>
+<div id="empleos" class="portada" title="<%= jobs_page.hero.description %>"></div>
+<% states.each do |state| %>
+  <section class="empleos">
+    <div class="contenedor-desktop">
+      <div class="reticula">
+        <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+          <div class="columna-desktop-4">
+            <header>
+              <h1><%= state %></h1>
+            </header>
+          </div>
+          <div class="columna-desktop-1"></div>
+          <div class="columna-desktop-7">
+            <div class="reticula">
+              <% jobs.each_with_index do |job, j| %>
+                <% if job.location.address.state_full === state %>
+                  <% if j % 2 == 0 %>
+                    <div class="columna-desktop-12">
+                      <div class="reticula">
+                  <% end %>
+                  <div class="columan-tablet-6 columna-desktop-6">
+                    <div class="contenido">
+                      <h2 class="claro"><%= job.location.address.city %></h2>
+                      <h1><%= job.title %></h1>
+                      <% link_to "/empleos/#{ job.location.name.parameterize }/#{ job.title.parameterize }" do %>
+                        Ver Detalles del Puesto<span class="flecha"></span>
+                      <% end %>
+                    </div>
+                  </div>
+                  <% if j % 2 != 0 %>
+                      </div>
+                    </div>
+                  <% end %>
+                <% end %>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<% end %>

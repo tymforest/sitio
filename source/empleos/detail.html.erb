@@ -1,0 +1,71 @@
+---
+layout: copy
+---
+<%# Config %>
+<% job = locals[:job] %>
+<% date = "" %>
+<% date += "#{ job.date_of_publication.day } / " %>
+<% date += "#{ job.date_of_publication.month } / " %>
+<% date += "#{ job.date_of_publication.year }" %>
+<%# End %>
+<section>
+  <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+    <header class="aviso">
+      <h1><%= job.title %></h1>
+      <p class="fecha"><%= date %> — <%= job.location.address.city %>, <%= job.location.address.state_full %></p>
+      <% if job.note %>
+        <div class="nota-aviso">
+          <p class="obscuro"><%= job.note %></p>
+        </div>
+      <% end %>
+    </header>
+  </div>
+  <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+    <%# Config %>
+    <% dl = job.details.length - 1 %>
+    <%# End %>
+    <% job.details.each_with_index do |detail, d| %>
+      <article>
+        <div class="titulo-seccion">
+          <h3><%= detail.title %></h3>
+        </div>
+        <% if detail.description %>
+          <div>
+            <p><%= detail.description %></p>
+          </div>
+        <% end %>
+        <div class="subcontenido-empleo">
+          <% if detail.lista %>
+          <ul class="puntos">
+            <% detail.lista.each do |item| %>
+            <li><p><%= item %></p></li>
+            <% end %>
+          </ul>
+          <% end %>
+        </div>
+      </article>
+    <% end %>
+    <% if job.is_locatable %>
+      <article>
+        <div class="contenido">
+          <h3>Detalles de Contacto</h3>
+        </div>
+        <div class="subcontenido-empleo">
+          <div class="contenido">
+            <% link_to "tel:#{ phone job.location.number }" do %>
+              <%= job.location.number %>
+            <% end %>
+          </div>
+          <p>
+            <%= job.location.address.street %><br>
+            <%= job.location.address.neighborhood %><br>
+            <%= job.location.address.city %>, <%= job.location.address.state_full %> <%= job.location.address.zip_code %><br>
+            <% link_to "/sucursales/#{ job.location.name }" do %>
+              Ver Sucursal<span class="flecha"></span>
+            <% end %>
+          </p>
+        </div>
+      </article>
+    <% end %>
+  </div>
+</section>
