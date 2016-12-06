@@ -1,0 +1,63 @@
+---
+layout: sale
+---
+<%# Config %>
+<% products = [] %>
+<% data.site.products_a.each do |id, product| %>
+  <% if product.is_sale %>
+    <% products.push(product) %>
+  <% end %>
+<% end %>
+<% data.site.products_b.each do |id, product| %>
+  <% if product.is_sale %>
+    <% products.push(product) %>
+  <% end %>
+<% end %>
+<%# End %>
+<section id="contenedor-de-contenido" class="lista ofertas">
+  <header>
+    <h1>Productos en Oferta</h1>
+  </header>
+  <div class="contenedor-movil-completo contenedor-tablet-completo">
+    <div class="reticula listado">
+      <% products.each do |product| %>
+        <% category = fetch_category product.category.id %>
+        <% if product.subcategory %>
+          <% subcategory = fetch_subcategory product.subcategory.id %>
+          <% if subcategory.is_detail %>
+            <% path = "/#{ subcategory.nombre.parameterize }/#{ product.name.parameterize }" %>
+          <% else %>
+            <% path = "/#{ subcategory.name.parameterize }" %>
+          <% end %>
+        <% else %>
+          <% subcategory = false %>
+          <% path = "/#{ product.name.parameterize }" %>
+        <% end %>
+        <div class="lista-de-productos columna-movil-50 columna-tablet-33 columna-desktop-3">
+          <div class="tarjeta-producto">
+            <a class="enlace-imagen" href="/<%= category.name.parameterize %><%= path %>">
+              <div class="tarjeta-ofertas">
+                <h2>Ofertas</h2>
+                <% product.measurements_on_sale.each do |sale| %>
+                  <div class="columna-desktop-70">
+                    <h5><%= sale.measurement %><span class="unidad"><%= sale.unit %></span></h5>
+                  </div>
+                  <div class="columna-desktop-30">
+                    <p class="precio naranja"><%= sale.price %></p>
+                  </div>
+                <% end %>
+              </div>
+              <picture class="prueba-hover">
+                <img src="<%= product.card.url %>" alt="<%= product.card.description %>"/>
+              </picture>
+            </a>
+            <header>
+              <h3 class="claro"><% if !subcategory %><%= (category.name).chomp('s') %><% else %><%= (subcategory.nombre).chomp('s') %><% end %></h3>
+              <%= link_to product.name, "/#{ category.name.parameterize }#{ path }" %>
+            </header>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</section>
