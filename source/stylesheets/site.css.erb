@@ -1724,13 +1724,15 @@ p.fecha {
   background-image: url('<%= about_page.hero.url %>');
 }
 /* Empleos - - - - - - - - - -  */
-/*
-
+<%# Config %>
+<% jobs_page = "" %>
+<% data.site.jobs_page.each do |id, job| %>
+  <% jobs_page = job %>
+<% end %>
+<%# End %>
 #empleos {
-  background-image: url('');
+  background-image: url('<%= jobs_page.hero.url %>');
 }
-
-*/
 .empleos h1 {
   margin: 0 0 1.0rem 0;
 }
