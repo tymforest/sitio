@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <%# Social Metas %>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <%= stylesheet_link_tag :reset %>
+    <%= stylesheet_link_tag :site %>
+    <%# Google Analytics %>
+  </head>
+  <body class="difuminar">
+    <div id="cubierta-menu"></div>
+    <%= partial "partials/menu" %>
+    <main class="productos-desktop layout-texto">
+      <div class="contenedor-desktop">
+        <div class="reticula">
+          <div class="columna-tablet-2 columna-desktop-3"></div>
+          <div class="columna-tablet-8 columna-desktop-6">
+            <%= yield %>
+          </div>
+          <div class="columna-tablet-2 columna-desktop-3">
+          </div>
+        </div>
+      </div>
+      <%= partial "partials/footer" %>
+      <%# Mobile Contact %>
+    </main>
+    <%= javascript_include_tag :modernizr %>
+    <%= javascript_include_tag :menu %>
+    <%# Mobile Contact %>
+    <%# Privacy Policy %>
+    <%= javascript_include_tag :difuminar %>
+  </body>
+</html>
