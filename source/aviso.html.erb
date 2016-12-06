@@ -1,30 +1,28 @@
 ---
-layout: layout
+layout: copy
 ---
 <%# Config %>
-<% policy = "" %>
-<% data.site.policy.each do |id, content| %>
-  <% policy = content %>
+<% policy_page = "" %>
+<% data.site.policy_page.each do |id, page| %>
+  <% policy_page = page %>
 <% end %>
 <%# End %>
 <section>
   <div class="contenedor-movil-contenido contenedor-tablet-contenido">
     <header class="aviso">
-      <h1><%= policy.title %></h1>
-      <%# !!! JAVASCRIPT !!! %>
-      <p id="actualizado-el" class="fecha">Actualizado el 18 de Mayo del 2016</p>
-      <%# !!! JAVASCRIPT !!! %>
+      <h1><%= policy_page.title %></h1>
+      <p id="actualizado-el" class="fecha"><%= policy_page.last_updated %></p>
       <div class="nota-aviso">
-        <p class="obscuro"><%= policy.intro %></p>
+        <p class="obscuro"><%= policy_page.intro %></p>
       </div>
     </header>
   </div>
   <%# Content %>
   <div class="contenedor-movil-contenido contenedor-tablet-contenido">
     <%# Config %>
-    <% pdl = policy.details.length - 1 %>
+    <% pdl = policy_page.details.length - 1 %>
     <%# End %>
-    <% policy.details.each_with_index do |detail, d| %>
+    <% policy_page.details.each_with_index do |detail, d| %>
       <article>
         <div class="titulo-seccion">
           <h3><%= detail.title %></h3>
