@@ -52,7 +52,8 @@ activate :contentful do |f|
     consulting_section: "consulting_section",
     shipping_section: "shipping_section",
     stores_page: "stores_page",
-    about_page: "about"
+    about_page: "about",
+    jobs_page: "careers"
   }
 end
 
@@ -89,6 +90,23 @@ data.site.products_a.each do |id, product|
   end
 end
 
+# Products on Sale
+$products_on_sale = 0
+data.site.products_a.each do |id, product|
+  if product.is_sale
+    $products_on_sale += 1
+  end
+end
+data.site.products_b.each do |id, product|
+  if product.is_sale
+    $products_on_sale += 1
+  end
+end
+
+if $products_on_sale > 0
+  ignore "/ofertas/index.html"
+end
+
 # Product Applications
 data.site.product_applications.each do |id, application|
   proxy "/productos-por-aplicacion/#{ application.title.parameterize }/index.html", "/product-applications/detail.html", :locals => { :application => application }, :ignore => true
@@ -99,6 +117,22 @@ data.site.stores.each do |id, store|
   if !store.is_base
     proxy "/sucursales/#{ store.name.parameterize }/index.html",  "/sucursales/detail.html", :locals => { :store => store }, :ignore => true
   end
+end
+
+# Careers
+$jobs = 0
+data.site.jobs.each do |id, job|
+  if job.is_published
+    $jobs += 1
+  end
+end
+
+if $jobs > 0
+  data.site.jobs.each do |id, job|
+    proxy "/empleos/#{ job.location.name.parameterize }/#{ job.title.parameterize }/index.html", "/empleos/detail.html", :locals => { :job => job }, :ignore => true
+  end
+else
+  ignore '/empleos/detail.html'
 end
 
 ###
