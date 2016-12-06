@@ -1714,13 +1714,15 @@ p.fecha {
   margin: 0;
 }
 /* Nosotros - - - - - - - - - -  */
-/*
-
+<%# Config %>
+<% about_page = "" %>
+<% data.site.about_page.each do |id, page| %>
+  <% about_page = page %>
+<% end %>
+<%# End %>
 #nosotros {
-  background-image: url('');
+  background-image: url('<%= about_page.hero.url %>');
 }
-
-*/
 /* Empleos - - - - - - - - - -  */
 /*
 
