@@ -53,7 +53,8 @@ activate :contentful do |f|
     shipping_section: "shipping_section",
     stores_page: "stores_page",
     about_page: "about",
-    jobs_page: "careers"
+    jobs_page: "careers",
+    policy_page: "policy"
   }
 end
 
