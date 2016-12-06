@@ -57,7 +57,7 @@ module Functions
         break
       end
     end
-    if sale = false
+    if sale === false
       data.site.products_b.each do |id, product|
         if product.is_sale
           sale = true
@@ -66,5 +66,38 @@ module Functions
       end
     end
     sale
+  end
+  # Fetch Product Category by ID
+  def fetch_category category_id
+    category = ""
+    data.site.categories.each do |id, c|
+      if category_id == c.id
+        category = c
+        break
+      end
+    end
+    category
+  end
+  # Fetch Product Subcategory by ID
+  def fetch_subcategory subcategory_id
+    subcategory = ""
+    data.site.subcategories.each do |id, sc|
+      if subcategory_id === sc.id
+        subcategory = sc
+        break
+      end
+    end
+    subcategory
+  end
+  # Fetch Service Subcategory by ID
+  def fetch_service_subcategory subcategory_id
+    subcategory = ""
+    data.site.service_subcategory.each do |id, subc|
+      if subc.id === subcategory_id
+        subcategory = subc.nombre
+        break
+      end
+    end
+    subcategory
   end
 end
