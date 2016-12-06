@@ -1,0 +1,142 @@
+---
+layout: default
+---
+<%# Config %>
+<% about_page = "" %>
+<% data.site.about_page.each do |id, page| %>
+  <% about_page = page %>
+<% end %>
+<%# End %>
+<div id="nosotros" class="portada" title="<%= about_page.hero.description %>"></div>
+<section class="nosotros centrado">
+  <div class="contenedor-movil contenedor-tablet contenedor-desktop">
+    <header>
+      <p class="obscuro"><%= about_page.intro %></p>
+    </header>
+  </div>
+</section>
+<div class="contenedor-movil-completo contenedor-tablet contenedor-desktop">
+  <div class="reticula">
+    <div class="columna-desktop-100">
+      <div class="completo">
+        <picture>
+          <img src="<%= about_page.first_image.url %>" alt="<%= about_page.first_image.description %>"/>
+        </picture>
+      </div>
+    </div>
+    <div class="columna-desktop-100">
+      <div class="reticula">
+        <div class="columna-movil-50 columna-tablet-50 columna-desktop-50">
+          <div class="mitad-izquierda">
+            <picture>
+              <img src="<%= about_page.second_image.url %>" alt="<%= about_page.second_image.description %>"/>
+            </picture>
+          </div>
+        </div>
+        <div class="columna-movil-50 columna-tablet-50 columna-desktop-50">
+          <div class="mitad-derecha">
+            <picture>
+              <img src="<%= about_page.third_image.url %>" alt="<%= about_page.third_image.description %>"/>
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%# Descripción + Puntos de Enfoque(3) %>
+<section class="nosotros centrado">
+  <div class="contenedor-movil contenedor-tablet contenedor-desktop">
+    <header class="nosotros-descripcion">
+      <p class="obscuro"><%= about_page.description %></p>
+    </header>
+    <%# Config %>
+    <% dl = about_page.details.length - 1 %>
+    <%# End %>
+    <% about_page.details.each_with_index do |detail, d| %>
+    <div class="columna-desktop-33">
+      <div class="tarjeta-nosotros">
+        <div class="contenido <% if d == dl - 1 %>ultimo<% end %>">
+          <h2><%= detail.title %></h2>
+          <p><%= detail.description %></p>
+        </div>
+      </div>
+    </div>
+    <% end %>
+  </div>
+</section>
+<div class="galeria-nosotros">
+  <div class="contenedor-movil-completo contenedor-tablet contenedor-desktop">
+    <div class="galeria-nosotros">
+      <div class="completo">
+        <picture>
+          <img src="<%= about_page.fourth_image.url %>" alt="<%= about_page.fourth_image.description %>"/>
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="nosotros centrado-movil centrado-tablet">
+  <div class="contenedor-movil contenedor-tablet contenedor-desktop">
+    <div class="reticula">
+      <div class="columna-desktop-4">
+        <header class="nosotros-descripcion">
+          <p class="obscuro"><%= about_page.conclusion %></p>
+        </header>
+      </div>
+      <div class="columna-desktop-2"></div>
+      <div class="columna-desktop-6">
+        <div class="columna-tablet-50 columna-desktop-50">
+          <div class="contenido">
+            <h1>Contacto</h1>
+            <%# Config %>
+            <% contact = "" %>
+            <% data.site.contact.each do |id, page| %>
+              <% contact = page %>
+            <% end %>
+            <%# End %>
+            <% link_to "mailto:#{ contact.email }" do %>
+              <%= contact.email %><span class="flecha"></span>
+            <% end %>
+          </div>
+        </div>
+        <div class="columna-tablet-50  columna-desktop-50">
+          <div class="contenido">
+            <h1>Sucursales</h1>
+            <% link_to "/sucursales" do %>
+              Ver Sucursales<span class="flecha"></span>
+            <% end %>
+          </div>
+        </div>
+        <%# Config %>
+        <% empleos = false %>
+        <% data.site.jobs.each do |id, job| %>
+          <% if job.is_published %>
+            <% empleos = true %>
+            <% break %>
+          <% end %>
+        <% end %>
+        <%# End %>
+        <%# Empleos %>
+        <% if empleos %>
+        <div class="columna-tablet-50  columna-desktop-50">
+          <div class="contenido">
+            <h1>Empleos</h1>
+            <% link_to "/empleos" do %>
+              Ver Empleos<span class="flecha"></span>
+            <% end %>
+          </div>
+        </div>
+        <% end %>
+        <div class="columna-tablet-50 columna-desktop-50">
+          <div class="contenido">
+            <h1>Aviso de Privacidad</h1>
+            <% link_to "/aviso" do %>
+              Ver Aviso de Privacidad<span class="flecha"></span>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
