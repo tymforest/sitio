@@ -28,7 +28,7 @@ page '/index.html', layout: 'index'
 activate :contentful do |f|
   f.access_token = '595538fecbbc00253d9baf3defb922f09047601b17bab296fe8ef82d24592adf'
   f.space = { site: 'rvnl2qm3k12r' }
-  f.cda_query = { limit: 1000, include: 10 }
+  f.cda_query = { include: 10 }
   f.all_entries = true
   f.content_types = {
     index_page: "index_page",
@@ -44,7 +44,8 @@ activate :contentful do |f|
     ad_newsletter: "ad_newsletter",
     ad_sales: "ad_sales",
     ad_sections: "ad_sections",
-    ad_banner: "ad_banner"
+    ad_banner: "ad_banner",
+    service_subcategory: "service_subcategory"
   }
 end
 
@@ -66,7 +67,18 @@ data.site.subcategories.each do |id, subcategory|
   if subcategory.category.name != "Ferretería"
     if subcategory.is_detail
       proxy "/#{ subcategory.category.name.parameterize }/#{ subcategory.nombre.parameterize }/index.html", "/products/list.html", :locals => { :category => subcategory.category, :subcategory => subcategory }, :ignore => true
+    else
+      proxy "/#{ subcategory.category.name.parameterize }/#{ subcategory.nombre.parameterize }/index.html", "/products/subcategory-detail.html", :locals => { :category => subcategory.category, :subcategory => subcategory, :product => false }, :ignore => true
     end
+  end
+end
+
+# Products
+data.site.products_a.each do |id, product|
+  if !product.subcategory
+    proxy "/#{ product.category.name.parameterize }/#{ product.name.parameterize }/index.html", "/products/product-detail.html", :locals => { :category => product.category, :subcategory => false, :product => product }, :ignore => true
+  else
+    proxy "/#{ product.category.name.parameterize }/#{ product.subcategory.nombre.parameterize }/#{ product.name.parameterize }/index.html", "/products/product-detail.html", :locals => { :category => product.category, :subcategory => product.subcategory, :product => product }, :ignore => true
   end
 end
 
