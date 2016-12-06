@@ -1,6 +1,6 @@
 <% data.meta.favicons.each do |favicon| %>
   <% favicon.sizes.each do |size| %>
-    <link rel="<%= favicon.rel %>" sizes="<%= size %>" href="images/metas/<%= favicon.rel %>-<%= size %><%= favicon.extension %>">
+    <link rel="<%= favicon.rel %>" sizes="<%= size %>" href="/images/metas/<%= favicon.rel %>-<%= size %><%= favicon.extension %>">
   <% end %>
 <% end %>
 <% data.meta.tiles.each do |meta| %>
