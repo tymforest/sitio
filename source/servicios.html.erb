@@ -1,0 +1,178 @@
+---
+layout: services
+---
+<%# Config %>
+<% service_page = "" %>
+<% data.site.service_page.each do |id, service| %>
+  <% service_page = service %>
+<% end %>
+<%# End %>
+<div id="servicios-portada" class="portada" title="<%= service_page.hero.description %>">
+  <h1 class="blanco">Servicios</h1>
+</div>
+<%# Servicios para Maderas %>
+<section class="inicio centrado inicial">
+  <div class="contenedor-movil-completo contenedor-tablet contenedor-desktop">
+    <header class="margen-servicios">
+      <h1><%= service_page.wood_section_title %></h1>
+    </header>
+    <div class="reticula listado">
+      <%# Config %>
+      <% subcategories = [] %>
+      <% data.site.service_subcategory.each do |id, subcategory| %>
+        <% subcategories.push(subcategory) %>
+      <% end %>
+      <%# End %>
+      <% subcategories.each do |subcategory| %>
+        <% if subcategory.category === "Maderas" %>
+          <div class="lista-de-anuncios columna-tablet-6 columna-desktop-6">
+            <div id="<%= subcategory.nombre.parameterize %>-maderas" title="<%=  %>" class="servicio-anuncio">
+              <div class="contenido borde-inferior">
+                <div class="subcontenido">
+                  <h4 class="blanco"><%= subcategory.nombre %></h4>
+                  <p class="blanco"><%= subcategory.description %></p>
+                </div>
+              </div>
+              <div class="contenido">
+                <h3 class="blanco">Servicios</h3>
+                <% data.site.services.each do |id, service| %>
+                  <% if service.subcategory && service.subcategory.nombre === subcategory.nombre %>
+                    <div class="subcontenido">
+                      <p class="blanco"><%= service.nombre %></p>
+                    </div>
+                  <% end %>
+                <% end %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</section>
+<%# Servicios para Tableros %>
+<section class="inicio centrado inicial">
+  <div class="contenedor-movil-completo contenedor-tablet contenedor-desktop">
+    <header class="margen-servicios">
+      <h1><%= service_page.board_section_title %></h1>
+    </header>
+    <div class="reticula listado">
+      <%# Config %>
+      <% subcategories = [] %>
+      <% data.site.service_subcategory.each do |id, subcategory| %>
+        <% subcategories.push(subcategory) %>
+      <% end %>
+      <%# End %>
+      <% subcategories.each do |subcategory| %>
+        <% if subcategory.category === "Tableros" %>
+          <div class="lista-de-anuncios columna-tablet-6 columna-desktop-6">
+            <div id="<%= subcategory.nombre.parameterize %>-tableros" title="<%=  %>" class="servicio-anuncio">
+              <div class="contenido borde-inferior">
+                <div class="subcontenido">
+                  <h4 class="blanco"><%= subcategory.nombre %></h4>
+                  <p class="blanco"><%= subcategory.description %></p>
+                </div>
+              </div>
+              <div class="contenido">
+                <h3 class="blanco">Servicios</h3>
+                <% data.site.services.each do |id, service| %>
+                  <% if service.subcategory && service.subcategory.nombre === subcategory.nombre %>
+                    <div class="subcontenido">
+                      <p class="blanco"><%= service.nombre %></p>
+                    </div>
+                  <% end %>
+                <% end %>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      <% end %>
+    </div>
+  </div>
+</section>
+<%# Config %>
+<% shipping = "" %>
+<% data.site.shipping_section.each do |id, section| %>
+  <% shipping = section %>
+<% end %>
+<%# End %>
+<%# Sección de Entregas %>
+<section id="otros" class="anuncio">
+  <div class="contenedor-desktop">
+    <div class="reticula alternar-anuncio">
+      <div class="columna-tablet-50 columna-desktop-7">
+        <picture>
+          <source srcset="<%= shipping.image.url %>" media="(min-width: 1024px)" />
+          <source srcset="<%= shipping.image.url %>" media="(min-width: 600px)" />
+          <img src="<%= shipping.image.url %>" alt="<%= shipping.image.description %>"/>
+        </picture>
+      </div>
+      <div class="columna-desktop-1"></div>
+      <div class="columna-tablet-50 columna-desktop-4">
+        <div class="contenedor-movil contenedor-tablet">
+          <div class="detalle-anuncio">
+            <header>
+              <h1><%= shipping.title %></h1>
+              <div class="contenido">
+                <div class="subcontenido">
+                  <p><%= shipping.description %></p>
+                </div>
+                <div class="subcontenido">
+                  <p class="obscuro"><%= shipping.details.description %></p>
+                  <div class="tarifas">
+                    <% shipping.details.fares.each do |fare| %>
+                      <div class="columna-movil-70 columna-tablet-70 columna-desktop-60">
+                        <p><%= fare.distancia %><span class="unidad"><%= fare.unidad %></span></p>
+                      </div>
+                      <div class="columna-movil-30 columna-movil-30 columna-desktop-40">
+                        <p class="naranja derecha"><%= fare.precio %>*</p>
+                      </div>
+                    <% end %>
+                  </div>
+                  <div class="nota-servicio">
+                    <p class="nota"><%= shipping.details.note %></p>
+                  </div>
+                </div>
+              </div>
+            </header>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<%# Config %>
+<% consulting = "" %>
+<% data.site.consulting_section.each do |id, section| %>
+  <% consulting = section %>
+<% end %>
+<%# End %>
+<%# Sección de Asesoría de Materiales %>
+<section id="otros" class="anuncio no-bordes">
+  <div class="contenedor-desktop">
+    <div class="reticula">
+      <div class="columna-tablet-50 columna-desktop-7">
+        <picture>
+          <source srcset="<%= consulting.image.url %>" media="(min-width: 1024px)" />
+          <source srcset="<%= consulting.image.url %>" media="(min-width: 600px)" />
+          <img src="<%= consulting.image.url %>" alt="<%= consulting.image.description %>"/>
+        </picture>
+      </div>
+      <div class="columna-desktop-1"></div>
+      <div class="columna-tablet-50 columna-desktop-4">
+        <div class="contenedor-movil contenedor-tablet">
+          <div class="detalle-anuncio">
+            <header>
+              <h1><%= consulting.title %></h1>
+              <div class="contenido">
+                <div class="subcontenido">
+                  <p><%= consulting.description %></p>
+                </div>
+              </div>
+            </header>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
