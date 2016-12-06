@@ -1,0 +1,311 @@
+---
+layout: detail
+---
+<%# Config %>
+<% category = locals[:category] %>
+<% subcategory = locals[:subcategory] %>
+<% product = locals[:product] %>
+<% is_sale = false %>
+<% data.site.products_b.each do |id, product| %>
+  <% if subcategory.nombre === product.subcategory.nombre %>
+    <% if product.is_sale %>
+      <% is_sale = true %>
+      <% break %>
+    <% end %>
+  <% end %>
+<% end %>
+<%# End %>
+<div id="contenedor-de-contenido">
+  <section class="detalle <% if subcategoria.imagenes_del_producto_aplicado %>con-galeria<% end %>">
+    <div class="reticula">
+      <div class="columna-desktop-12">
+        <%# Imágen del Producto %>
+        <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+          <header id="encabezado-de-subcategoria">
+            <div class="encabezado">
+              <h2 class="claro"><%= (category.name).chomp('s') %></h2>
+              <h1 class="titulo-detalle">
+                <%= subcategory.nombre %><% if is_sale %><span class="oferta-detalle"></span><% end %>
+              </h1>
+            </div>
+          </header>
+        </div>
+      </div>
+    </div>
+    <div class="reticula">
+      <div class="contenedor-movil contenedor-tablet">
+        <%# Titulo y Descripción %>
+        <div class="columna-desktop-5">
+          <div class="descripcion subcategoria">
+            <p><%= subcategory.description %></p>
+          </div>
+        </div>
+        <%# Medidas, Clases y Tratamientos Disponibles %>
+        <div class="columna-desktop-7">
+          <div class="reticula">
+            <div class="columna-desktop-50">
+              <div class="columna-tablet-6">
+                <div class="contenido">
+                  <h3>Medidas Disponibles</h3>
+                  <% subcategory.measurements.each do |measurement| %>
+                    <div class="<% if measurement.is_range %>columna-movil-50 columna-tablet-50<% else %>columna-movil-100 columna-tablet-100<% end %> columna-desktop-100">
+                      <div class="subcontenido">
+                        <div class="columna-desktop-30">
+                          <h5><%= measurement.name %></h5>
+                        </div>
+                        <div class="columna-desktop-70">
+                          <% if measurement.is_range %>
+                            <% n = measurement.measurements.length - 1 %>
+                            <p><%= measurement.measurements[0] %> — <%= measurement.measurements[n] %><span class="unidad"><%= measurement.unidad %></span></p>
+                          <% else %>
+                            <% measurement.measurements.each do |m| %>
+                              <div class="medida">
+                                <p><%= m %><span class="unidad"><%= measurement.unidad %></span></p>
+                              </div>
+                            <% end %>
+                          <% end %>
+                        </div>
+                      </div>
+                    </div>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+            <div class="columna-desktop-50">
+              <div class="columna-tablet-6">
+                <div class="contenido">
+                  <h3>Clases Disponibles</h3>
+                  <div class="subcontenido">
+                    <p>
+                      <% if !subcategory.classes %>
+                        —
+                      <% else %>
+                        <% n = subcategory.classes.length - 1 %>
+                        <% subcategory.classes.each_with_index do |cle, c| %>
+                          <% if c == n %>
+                            <%= cls %>
+                          <% else %>
+                            <%= cls %>,
+                          <% end %>
+                        <% end %>
+                      <% end %>
+                    </p>
+                  </div>
+                </div>
+                <div class="contenido">
+                  <h3>Tratamientos</h3>
+                  <div class="subcontenido">
+                    <p>
+                      <% if !subcategory.treatments %>
+                        —
+                      <% else %>
+                        <% n = subcategory.treatments.length - 1 %>
+                        <% subcategory.treatments.each_with_index do |treatment, t| %>
+                          <% if t == n %>
+                            <%= treatment %>
+                          <% else %>
+                            <%= treatment %>,
+                          <% end %>
+                        <% end %>
+                      <% end %>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <%# Ofertas de Producto %>
+    <% if is_sale %>
+      <div class="contenedor-movil-contenido contenedor-tablet-contenido borde-superior ofertas-desktop">
+        <div class="reticula">
+          <div class="columna-desktop-3">
+            <header id="detalles-de-producto">
+              <h1 class="ofertas"><%= subcategory.name %> en Oferta</h1>
+              <p class="iva">*Los precios incluyen IVA</p>
+            </header>
+          </div>
+          <div class="columna-desktop-2"></div>
+          <div class="columna-desktop-7">
+            <div class="contenido">
+              <% data.site.products_b.each do |id, product| %>
+                <% if product.subcategory.nombre === subcategory.nombre && product.is_sale %>
+                  <div class="columna-movil-100 columna-tablet-50 columna-desktop-6">
+                    <% product.measurements_on_sale.each do |sale| %>
+                      <div class="subcontenido">
+                        <div class="columna-movil-60 columna-tablet-80 columna-desktop-70 margen-oferta">
+                          <h5>
+                            <%= product.name %> — <br>
+                            <%= sale.measurement %><span class="unidad"><%= sale.unit %></span>
+                          </h5>
+                        </div>
+                        <div class="columna-movil-10"></div>
+                        <div class="columna-movil-30 columna-tablet-20 columna-desktop-30 margen-oferta">
+                          <h5 class="naranja"><%= sale.price %></h5>
+                        </div>
+                      </div>
+                    <% end %>
+                  </div>
+                <% end %>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </section>
+  <%# Imágenes de Producto Aplicado %>
+  <% if subcategory.applied_product_images %>
+  <section class="detalle producto">
+    <% subcategory.applied_product_images.each do |image| %>
+      <div class="columna-tablet-50 columna-desktop-50">
+        <div class="mitad-izquierda producto">
+          <picture>
+            <img src="<%= image.url %>" alt="<%= image.description %>" />
+          </picture>
+        </div>
+      </div>
+    <% end %>
+  </section>
+  <% end %>
+  <%# Variedad de Productos Disponibles %>
+  <section class="detalle">
+    <div class="contenedor-movil-completo contenedor-tablet-completo">
+      <div class="reticula listado">
+        <% data.site.products_b.each do |product| %>
+          <% if product.subcategory.nombre === subcategory.nombre %>
+            <div class="lista-de-productos columna-movil-50 columna-tablet-33 columna-desktop-3">
+              <div class="tarjeta-producto detalle">
+                <picture>
+                  <img src="<%= product.card_detail.url %>" alt="<%= product.card_detail.description %>"/>
+                </picture>
+                <header>
+                  <p><%= product.name %></p>
+                </header>
+              </div>
+            </div>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </section>
+  <%# Detalles de Subcategoría %>
+  <% if subcategoria.detalles_de_la_subcategoria.length > 0 %>
+  <section class="detalle">
+    <div class="reticula">
+      <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+        <div class="columna-desktop-3">
+          <header id="detalles-de-producto">
+            <h1>Detalles de <%= (subcategoria.nombre).chomp('s') %></h1>
+            <% if subcategoria.ficha_tecnica %>
+              <% link_to "#{ subcategoria.ficha_tecnica.path }", :class => "ficha-tecnica", :target => "_blank" do %>
+                <span></span>Descargar Ficha Técnica
+              <% end %>
+            <% end %>
+          </header>
+        </div>
+        <div class="columna-desktop-2"></div>
+        <div class="columna-desktop-7">
+          <div class="reticula">
+            <% detalles = subcategoria.detalles_de_la_subcategoria.length %>
+            <% subcategoria.detalles_de_la_subcategoria.sort_by(&:position).each_with_index do |detalle, d| %>
+              <% if d == 0 || d == ((detalles / 2).ceil) + 1 %>
+                <div class="columna-tablet-6 columna-desktop-6">
+              <% end %>
+              <div class="contenido">
+                <h3><%= detalle.titulo %></h3>
+                <div class="subcontenido">
+                  <p><%= detalle.descripcion %></p>
+                </div>
+              </div>
+              <% if d == ((detalles / 2).floor) - 1 || d == (detalles - 1) %>
+                </div>
+              <% end %>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <% end %>
+  <%# Servicios de Subcategoría %>
+  <section class="detalle productos-relacionados">
+    <div class="reticula">
+      <div class="carrusel">
+        <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+          <header id="servicios-relacionados">
+            <h1>Servicios para <%= (subcategoria.nombre).chomp('s') %></h1>
+          </header>
+        </div>
+        <div class="columna-desktop-12">
+          <div class="reticula listado">
+            <div class="contenedor-movil-carrusel contenedor-tablet-carrusel">
+              <% subcategoria.servicios_relacionados.sort_by(&:position).each do |servicio| %>
+                <div class="tarjeta-producto columna-desktop-3">
+                  <% link_to "/servicios", :class => "enlace-imagen" do %>
+                    <div class="cubierta"></div>
+                    <picture>
+                      <source srcset="<%= servicio.imagen.imagen.file.to_url %>" media="(min-width: 1024px)" />
+                      <img src="<%= servicio.imagen.imagen.file.to_url %>" alt="<%= servicio.imagen.texto_alternativo %>"/>
+                    </picture>
+                  <% end %>
+                  <header>
+                    <h3 class="claro"><% if servicio.subcategoria %><%= servicio.subcategoria.nombre %><% else %><%= servicio.categoria.nombre %><% end %></h3>
+                    <%= link_to servicio.nombre, "/servicios" %>
+                  </header>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <%# Productos Relacionados %>
+  <section class="detalle productos-relacionados">
+    <div class="reticula">
+      <div class="carrusel">
+        <div class="contenedor-movil-contenido contenedor-tablet-contenido">
+          <header id="servicios-relacionados">
+            <h1>Productos Relacionados</h1>
+          </header>
+        </div>
+        <div class="columna-desktop-12">
+          <div class="reticula listado">
+            <div class="contenedor-movil-carrusel contenedor-tablet-carrusel">
+              <% subcategoria.productos_relacionados.sort_by(&:position).each do |pr| %>
+                <% cat = pr.categoria.nombre %>
+                <% if pr.subcategoria %>
+                  <% subc = pr.subcategoria.nombre %>
+                  <% if pr.subcategoria.productos_con_detalle %>
+                    <% ruta = "/#{ enrutar pr.subcategoria.nombre }/#{ enrutar pr.nombre }" %>
+                  <% else %>
+                    <% ruta = "/#{ enrutar pr.subcategoria.nombre }" %>
+                  <% end %>
+                <% else %>
+                  <% subc = false %>
+                  <% ruta = "/#{ enrutar pr.nombre }" %>
+                <% end %>
+                <div class="tarjeta-producto columna-desktop-3">
+                  <% link_to "/#{ enrutar cat }#{ ruta }", :class => "enlace-imagen" do %>
+                    <div class="cubierta"></div>
+                    <picture>
+                      <source srcset="<%= pr.imagen_de_tarjeta_del_producto.file.to_url %>" media="(min-width: 1024px)" />
+                      <img src="<%= pr.imagen_de_tarjeta_del_producto.file.to_url %>" alt="<%= pr.titulo %>"/>
+                    </picture>
+                  <% end %>
+                  <header>
+                    <h3 class="claro"><% if !subc %><%= (cat).chomp('s') %><% else %><%= (subc).chomp('s') %><% end %></h3>
+                    <%= link_to pr.nombre, "/#{ enrutar cat }#{ ruta }" %><% if pr.en_oferta %><span class="oferta-lista"></span><% end %>
+                  </header>
+                </div>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
