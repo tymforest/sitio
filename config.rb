@@ -45,7 +45,13 @@ activate :contentful do |f|
     ad_sales: "ad_sales",
     ad_sections: "ad_sections",
     ad_banner: "ad_banner",
-    service_subcategory: "service_subcategory"
+    service_subcategory: "service_subcategory",
+    sale: "sale",
+    service_page: "service_section",
+    services: "service",
+    consulting_section: "consulting_section",
+    shipping_section: "shipping_section",
+    stores_page: "stores_page"
   }
 end
 
@@ -85,6 +91,13 @@ end
 # Product Applications
 data.site.product_applications.each do |id, application|
   proxy "/productos-por-aplicacion/#{ application.title.parameterize }/index.html", "/product-applications/detail.html", :locals => { :application => application }, :ignore => true
+end
+
+# Stores
+data.site.stores.each do |id, store|
+  if !store.is_base
+    proxy "/sucursales/#{ store.name.parameterize }/index.html",  "/sucursales/detail.html", :locals => { :store => store }, :ignore => true
+  end
 end
 
 ###
