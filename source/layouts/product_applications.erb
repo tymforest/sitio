@@ -15,6 +15,7 @@
     <meta name="twitter:description" content="<%= application.seo.description %>">
     <meta name="twitter:image" content="<%= application.seo.twitter.url %>">
     <!-- To learn more about Twitter's Summary Card, visit Twitter for Developers -> https://dev.twitter.com/cards/types/summary -->
+    <%# Page Title %>
     <%= partial "partials/meta" %>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <%= stylesheet_link_tag :reset %>
@@ -26,7 +27,21 @@
     <%= partial "partials/menu" %>
     <main>
       <%= yield %>
-      <%# Action Banner Ad %>
+      <%# Config %>
+      <% ad_section = "" %>
+      <% data.site.ad_sections.each do |id, section| %>
+        <% ad_section = section.application_pages %>
+      <% end %>
+      <%# End %>
+      <% if ad_section === "Contacto" %>
+        <%= partial "partials/contacto" %>
+      <% elsif ad_section === "Ofertas" && check_sales %>
+        <%= partial "partials/oferta" %>
+      <% elsif ad_section === "Newsletter" %>
+        <%= partial "partials/newsletter" %>
+      <% else %>
+        <%= partial "partials/contacto" %>
+      <% end %>
       <%= partial "partials/footer" %>
       <%# Mobile Contact %>
     </main>
