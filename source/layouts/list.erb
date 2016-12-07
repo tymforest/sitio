@@ -24,7 +24,7 @@
     <!-- To learn more about Twitter's Summary Card, visit Twitter for Developers -> https://dev.twitter.com/cards/types/summary -->
     <%= partial "partials/meta" %>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <%# Page Title %>
+    <title><%= list.seo.title %></title>
     <%= stylesheet_link_tag :reset %>
     <%= stylesheet_link_tag :site %>
     <% if subcategory %>
@@ -68,7 +68,7 @@
         <%= partial "partials/contacto" %>
       <% end %>
       <%= partial "partials/footer" %>
-      <%# Mobile Contact %>
+      <%= partial "partials/contacto_movil" %>
     </main>
     <%= javascript_include_tag :jquery %>
     <%= javascript_include_tag :difuminar %>
@@ -80,6 +80,6 @@
       <%= javascript_include_tag :flickity %>
       <%= javascript_include_tag :barra_anuncio %>
     <% end %>
-    <%# Mobile Contact Script %>
+    <%= javascript_include_tag :contacto_movil %>
   </body>
 </html>
