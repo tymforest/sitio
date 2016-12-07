@@ -54,7 +54,8 @@ activate :contentful do |f|
     stores_page: "stores_page",
     about_page: "about",
     jobs_page: "careers",
-    policy_page: "policy"
+    policy_page: "policy",
+    error_page: "error"
   }
 end
 
