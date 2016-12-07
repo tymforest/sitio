@@ -15,7 +15,7 @@
     <meta name="twitter:description" content="<%= application.seo.description %>">
     <meta name="twitter:image" content="<%= application.seo.twitter.url %>">
     <!-- To learn more about Twitter's Summary Card, visit Twitter for Developers -> https://dev.twitter.com/cards/types/summary -->
-    <%# Page Title %>
+    <title><%= application.seo.title %></title>
     <%= partial "partials/meta" %>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <%= stylesheet_link_tag :reset %>
@@ -43,13 +43,13 @@
         <%= partial "partials/contacto" %>
       <% end %>
       <%= partial "partials/footer" %>
-      <%# Mobile Contact %>
+      <%= partial "partials/contacto_movil" %>
     </main>
     <%= javascript_include_tag :modernizr %>
     <%= javascript_include_tag :menu %>
     <%= javascript_include_tag :horarios %>
-    <%# Mobile Contact Script %>
     <%= javascript_include_tag :alternar_anuncios %>
+    <%= javascript_include_tag :contacto_movil %>
     <%= javascript_include_tag :difuminar %>
   </body>
 </html>
