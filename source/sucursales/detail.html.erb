@@ -11,7 +11,7 @@ layout: store
           <div id="contenedor-mapa" class="columna-desktop-60" data-js="<%= store.name %>">
             <div class="mapa-imagen">
               <div id="cerrar-mapa" class="esconder"></div>
-              <a id="direcciones" class="esconder" target="_blank" href="<%=  %>"></a>
+              <a id="direcciones" class="esconder" target="_blank" href="<%= store.address.url %>"></a>
               <div id="mapa" class="mapa-escondido"></div>
               <picture>
                 <source srcset="<%= store.image.url %>" media="(min-width: 1024px)" />
