@@ -134,17 +134,19 @@ function adminBotones() {
 //  Lorem Ipsum
 function adminUbicacion(sucursal) {
   switch(sucursal) {
-    <% dato.lista_de_sucursales.each do |sucursal| %>
-    <% if !sucursal.esconder %>
-    case "<%= sucursal.nombre.to_str %>":
-      latitud = <%= sucursal.direccion.latitud %>;
-      longitud = <%= sucursal.direccion.longitud %>;
-      break;
-    <% end %>
+    <% base = "" %>
+    <% data.site.stores.each do |id, store| %>
+      <% if store.is_base %>
+        <% base = store %>
+      <% else %>
+        case "<%= store.name %>":
+          latitud = <%= store.address.location.lat %>;
+          longitud = <%= store.address.location.lon %>;
+      <% end %>
     <% end %>
     default:
-      latitud = 25.718366;
-      longitud = -100.288213;
+      latitud = <%= base.address.location.lat %>;
+      longitud = <%= base.address.location.lon %>;
   }
 }
 //  Mover Pantalla al inicio. Obtuve este script de http://stackoverflow.com/questions/21474678/scrolltop-animation-without-jquery
