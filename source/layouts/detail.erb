@@ -62,7 +62,7 @@
       <% else %>
         <%= partial "partials/contacto" %>
       <% end %>
-      <%# Mobile Contact %>
+      <%= partial "partials/contacto_movil" %>
       <%= partial "partials/footer" %>
     </main>
     <%= javascript_include_tag :jquery %>
@@ -74,6 +74,6 @@
     <%= javascript_include_tag :barra_anuncio %>
     <%= javascript_include_tag :menu_productos %>
     <%= javascript_include_tag :horarios %>
-    <%# Mobile Contact Script %>
+    <%= javascript_include_tag :contacto_movil %>
   </body>
 </html>
