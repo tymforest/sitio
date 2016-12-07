@@ -1,0 +1,22 @@
+---
+layout: error
+---
+<%# Config %>
+<% error_page = "" %>
+<% data.site.error_page.each do |id, page| %>
+  <% error_page = page %>
+<% end %>
+<%# End %>
+<section class="error">
+  <header>
+    <div class="icono-error">
+      <div class="base"></div>
+      <div class="signo">?</div>
+    </div>
+    <h1><%= error_page.title %></h1>
+    <div class="contenido">
+      <p><%= error_page.description %></p>
+    </div>
+    <%= link_to "#{ error_page.button.title }", "#{ error_page.button.path }", :class => "boton accion" %>
+  </header>
+</section>
