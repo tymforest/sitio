@@ -67,7 +67,7 @@ layout: index
   <div class="contenedor-movil-completo contenedor-tablet contenedor-desktop">
     <header></header>
     <div class="reticula listado">
-      <% data.site.product_applications.each do |id, application| %>
+      <% index.product_applications.each do |application| %>
         <div class="lista-de-anuncios columna-tablet-6 columna-desktop-6">
           <a id="<%= application.title.parameterize %>-inicio" title="<%= application.index_image.description %>" class="aplicacion-anuncio" href="/productos-por-aplicacion/<%= application.title.parameterize %>">
             <div class="cubierta"></div>
