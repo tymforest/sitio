@@ -71,7 +71,7 @@ $(window).on('load', function() {
   datos += "alpha: " + alpha + "\n";
   datos += "delta: " + delta + "\n";
   datos += "sigma: " + sigma + "\n";
-  console.log(datos);
+  // console.log(datos);
   /*  Inizialicaciones - - - - - - - - - - - - - - - */
   //  Actualizar la Altura Máxima Menú
   $contenedorMenu.style.maxHeight = mam + "px";
