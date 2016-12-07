@@ -347,16 +347,26 @@ function datosDe(nombreDeSucursal, estadoDeSucursal) {
       <% end %>
     <% end %>
   }
+  <%# Config %>
+  <% ad = "" %>
+  <% data.site.ad_contact.each do |id, data| %>
+    <% ad = data %>
+  <% end %>
+  <% contact = "" %>
+  <% data.site.contact.each do |id, data| %>
+    <% contact = data %>
+  <% end %>
+  <%# End %>
   switch(abierto) {
     case true:
-      Datos.titulo = "<%= data.site.ad_contact.call_title %>";
-      Datos.descripcion = "<%= data.site.ad_contact.call_description %>";
+      Datos.titulo = "<%= ad.call_title %>";
+      Datos.descripcion = "<%= ad.call_description %>";
       break;
     default:
-      Datos.titulo = "<%= data.site.ad_contact.message_title %>";
-      Datos.descripcion = "<%= data.site.ad_contact.message_description %>";
+      Datos.titulo = "<%= ad.message_title %>";
+      Datos.descripcion = "<%= ad.message_description %>";
       break;
   }
-  Datos.email = "<%= data.site.contact.email %>";
+  Datos.email = "<%= contact.email %>";
   return Datos;
 }
