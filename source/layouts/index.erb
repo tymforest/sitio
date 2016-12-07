@@ -22,7 +22,7 @@
     <meta name="twitter:image" content="<%= index.seo.twitter.url %>">
     <!-- To learn more about Twitter's Summary Card, visit Twitter for Developers -> https://dev.twitter.com/cards/types/summary -->
     <%= partial "partials/meta" %>
-    <%# Page Title %>
+    <title><%= index.seo.title %></title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <%= stylesheet_link_tag :reset %>
     <%= stylesheet_link_tag :site %>
@@ -58,7 +58,7 @@
     <%= javascript_include_tag :flickity %>
     <%= javascript_include_tag :galeria %>
     <%= javascript_include_tag :carrusel %>
-    <%= javascript_include_tag :contacto_movil %>
+    <%# Mobile Contact %>
     <%= javascript_include_tag :difuminar %>
   </body>
 </html>
