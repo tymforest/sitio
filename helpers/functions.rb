@@ -32,29 +32,30 @@ module Functions
     saturdays = []
     data.site.stores.each do |id, s|
       if s.name === store
-        sc = s.schedule
-        if !sc.weekday_lunch && !sc.weekday_afternoon
+        schedule = s.schedule
+        if !schedule.weekday_lunch && !schedule.weekday_afternoon
           block = []
-          block.push(sc.weekday_open)
-          block.push(sc.weekday_close)
+          block.push(schedule.weekday_open)
+          block.push(schedule.weekday_close)
           weekdays.push(block)
-        else
+        elsif schedule.weekday_lunch && schedule.weekday_afternoon
           block = []
-          block.push(sc.weekday_open)
-          block.push(sc.weekday_lunch)
+          block.push(schedule.weekday_open)
+          block.push(schedule.weekday_lunch)
           weekdays.push(block)
           block = []
-          block.push(sc.weekday_afternoon)
-          block.push(sc.weekday_close)
+          block.push(schedule.weekday_afternoon)
+          block.push(schedule.weekday_close)
+          weekdays.push(block)
         end
         block = []
-        block.push(sc.saturday_open)
-        block.push(sc.saturday_close)
+        block.push(schedule.saturday_open)
+        block.push(schedule.saturday_close)
         saturdays.push(block)
+        schedules.push(weekdays)
+        schedules.push(saturdays)
       end
     end
-    schedules.push(weekdays)
-    schedules.push(saturdays)
     schedules
   end
   # Subcategory on Sale Checker
