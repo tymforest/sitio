@@ -4,8 +4,35 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-    <%# Social Metas %>
+    <%# Config %>
+    <% page = "" %>
+    <% if current_page.data.config === "jobs_page" %>
+      <% data.site.jobs_page.each do |id, jobs| %>
+        <% page = jobs %>
+      <% end %>
+    <% elsif current_page.data.config === "about_page" %>
+      <% data.site.about_page.each do |id, about| %>
+        <% page = about %>
+      <% end %>
+    <% elsif current_page.data.config === "stores_page" %>
+      <% data.site.stores_page.each do |id, stores| %>
+        <% page = stores %>
+      <% end %>
+    <% end %>
+    <%# End %>
+    <meta property="og:url" content="<%= data.meta.url %>">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<%= page.seo.title %>">
+    <meta property="og:description" content="<%= page.seo.description %>">
+    <meta property="og:image" content="<%= page.seo.og.url %>">
+    <!-- To learn more about Open Graph markup, visit Facebook for Developers -> https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="<%= page.seo.title %>">
+    <meta name="twitter:description" content="<%= page.seo.description %>">
+    <meta name="twitter:image" content="<%= page.seo.twitter.url %>">
+    <!-- To learn more about Twitter's Summary Card, visit Twitter for Developers -> https://dev.twitter.com/cards/types/summary -->
     <%= partial "partials/meta" %>
+    <title><%= page.seo.title %></title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <%= stylesheet_link_tag :reset %>
     <%= stylesheet_link_tag :site %>
@@ -17,12 +44,12 @@
       <%= partial "partials/menu" %>
       <%= yield %>
       <%= partial "partials/footer" %>
-      <%# Mobile Contact %>
+      <%= partial "partials/contacto_movil" %>
     </main>
     <%= javascript_include_tag :modernizr %>
     <%= javascript_include_tag :menu %>
     <%= javascript_include_tag :horarios %>
     <%= javascript_include_tag :difuminar %>
-    <%# Mobile Contact %>
+    <%= javascript_include_tag :contacto_movil %>
   </body>
 </html>
