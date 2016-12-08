@@ -14,3 +14,6 @@ gem 'middleman-livereload'
 
 # Contentful Gem
 gem "contentful_middleman"
+
+# Fix
+gem 'thor', '0.19.1'
