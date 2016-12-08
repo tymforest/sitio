@@ -103,7 +103,7 @@ layout: services
       <div class="columna-tablet-50 columna-desktop-7">
         <picture>
           <source srcset="<%= shipping.image.url %>" media="(min-width: 1024px)" />
-          <source srcset="<%= shipping.image.url %>" media="(min-width: 600px)" />
+          <source srcset="<%= shipping.image.url %>?w=400&h=400&fit=fill" media="(min-width: 600px)" />
           <img src="<%= shipping.image.url %>" alt="<%= shipping.image.description %>"/>
         </picture>
       </div>
@@ -154,7 +154,7 @@ layout: services
       <div class="columna-tablet-50 columna-desktop-7">
         <picture>
           <source srcset="<%= consulting.image.url %>" media="(min-width: 1024px)" />
-          <source srcset="<%= consulting.image.url %>" media="(min-width: 600px)" />
+          <source srcset="<%= consulting.image.url %>?w=400&h=400&fit=fill" media="(min-width: 600px)" />
           <img src="<%= consulting.image.url %>" alt="<%= consulting.image.description %>"/>
         </picture>
       </div>
