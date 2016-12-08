@@ -16,9 +16,9 @@ layout: product_applications
       <div class="reticula <% if s % 2 == 0 %>alternar-anuncio<% end %>">
         <div class="columna-tablet-50 columna-desktop-7">
           <picture>
-            <source srcset="https:<%= section.image.url %>" media="(min-width: 1024px)" />
-            <source srcset="https:<%= section.image.url %>" media="(min-width: 600px)" />
-            <img src="https:<%= section.image.url %>?w=400&h=400" alt="<%= section.image.description %>"/>
+            <source srcset="<%= section.image.url %>" media="(min-width: 1024px)" />
+            <source srcset="<%= section.image.url %>?w=400&h=400&fit=fill" media="(min-width: 600px)" />
+            <img src="<%= section.image.url %>" alt="<%= section.image.description %>"/>
           </picture>
         </div>
         <div class="columna-desktop-1"></div>
