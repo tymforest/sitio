@@ -25,36 +25,47 @@ page '/*.txt', layout: false
 
 # Contentful Integration
 activate :contentful do |f|
-  f.access_token = '595538fecbbc00253d9baf3defb922f09047601b17bab296fe8ef82d24592adf'
+  f.access_token = ENV['CONTENTFUL_API_KEY']
   f.space = { site: 'rvnl2qm3k12r' }
   f.cda_query = { include: 10 }
   f.rebuild_on_webhook = true
   f.all_entries = true
   f.content_types = {
+    # Index
     index_page: "index_page",
-    categories: "product_category",
-    subcategories: "subcategory", # Product subcategories
-    products_a: "products", # Products with detail page
-    products_b: "producto_simple", # Products without detail page
-    product_applications: "product_application",
+    # Services
+    service_page: "service_section",
+    services: "service",
+    service_subcategory: "service_subcategory",
+    consulting_section: "consulting_section",
+    shipping_section: "shipping_section",
+    # Stores
+    stores_page: "stores_page",
     stores: "store",
+    # Products
+    categories: "product_category",
+    subcategories: "subcategory",
+    products_a: "products",
+    products_b: "producto_simple",
+    sale: "sale",
+    # Product Applications
+    product_applications: "product_application",
+    # Jobs
+    jobs_page: "careers",
     jobs: "jobs",
+    # Contact
     contact: "contact",
+    # Banner Ads
     ad_contact: "ad_contact",
     ad_newsletter: "ad_newsletter",
     ad_sales: "ad_sales",
     ad_sections: "ad_sections",
     ad_banner: "ad_banner",
-    service_subcategory: "service_subcategory",
-    sale: "sale",
-    service_page: "service_section",
-    services: "service",
-    consulting_section: "consulting_section",
-    shipping_section: "shipping_section",
-    stores_page: "stores_page",
+    # About
     about_page: "about",
-    jobs_page: "careers",
+    # Privacy Policy
     policy_page: "policy",
+    # Error
     error_page: "error"
   }
 end
