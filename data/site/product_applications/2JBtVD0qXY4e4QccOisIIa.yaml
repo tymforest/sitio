@@ -1,0 +1,95 @@
+---
+:id: 2JBtVD0qXY4e4QccOisIIa
+:title: Tableros para Interiores
+:index_image:
+  :title: tableros-para-interiores
+  :description: Tableros para Interiores.
+  :url: "//images.contentful.com/rvnl2qm3k12r/LcLyDWwTCMY8akqyu6OcO/6e2e763c87a525c5399a839302dee126/tableros-para-interiores.jpg"
+:hero_image:
+  :title: portada
+  :description: Favor de agregar descripción de imágen.
+  :url: "//images.contentful.com/rvnl2qm3k12r/4PkoBeaJ5uKAk80qi2gu66/acd046490ce0ab255faac81ab0b58ba4/portada.jpg"
+:sections:
+- :id: fZheiZ8RhYO4OeOwyKo8w
+  :subtitle: Tableros
+  :title: Melaminas
+  :description: La Melamina o laminados de baja presión las tenemos disponibles en
+    sustratos de MDF, MDP y Aglomerado. Ofrecemos los tableros en gruesos de 6, 15
+    y 18 mm.
+  :links:
+  - :id: 1SxoMe4CvSwKgA2cQEKGgQ
+    :title: Ver Melaminas
+    :path: "/tableros/melaminas"
+  :image:
+    :title: melaminas
+    :description: Favor de agregar descripción de la imágen.
+    :url: "//images.contentful.com/rvnl2qm3k12r/3gAl9qDoI0ooG2kmwEiICc/ac5da00768faf8c69414d3b2e3e3c5f4/melaminas.jpg"
+- :id: 5oMfkxqcp2Wu8E0CwueosE
+  :subtitle: Servicios
+  :title: Este es tu Taller
+  :description: Reduce tu gasto en maquinaria y tiempo de mano de obra y utiliza nuestras
+    instalaciones y personal capacitado para hacer tus proyectos. Tenemos disponible
+    los servicios de Optimización de corte, Dimensionado de tableros , Enchapado de
+    canto, Perforación para bisagras y entrega a domicilio.
+  :links:
+  - :id: 3GWgXJDSCcA8aQw4K0cos
+    :title: Ver Servicios
+    :path: "/servicios"
+  :image:
+    :title: este-es-tu-taller
+    :description: Favor de agregar descripción de la imágen.
+    :url: "//images.contentful.com/rvnl2qm3k12r/5YOyOPB9h6oEgM68eecueE/6734d3f3dc5b41ed9ff610a67e09c2a2/este-es-tu-taller-desktop.jpg"
+- :id: 6pxrotrGikkyqgK4ykecyE
+  :subtitle: Tableros
+  :title: Enchapados de Maderas Naturales
+  :description: Contamos con tableros de MDF, y Listonado enchapados de maderas finas
+    como Okumé, Encino y Nogal . Seleccionamos de manera cuidadosa nuestros proveedores
+    para ofrecer la mejor calidad de tablero enchapado.
+  :links:
+  - :id: 1t3V4Ruivq8ugAKgYYqoK2
+    :title: Ver Tableros Enchapados
+    :path: "/tableros/enchapados"
+  :image:
+    :title: enchapados-naturales
+    :description: Favor de agregar una descripción de la imágen.
+    :url: "//images.contentful.com/rvnl2qm3k12r/6C2pngymxUa48CqSimkIWs/567a74fb990eb005dc921f67f44400a9/enchapados-naturales.jpg"
+- :id: 1IaB1QT14gGYgIgiuUeE6Q
+  :subtitle: Tableros
+  :title: MDF Natural
+  :description: Tenemos como producto de linea MDF natural  en espesores desde 2.5mm
+    hasta 25mm , ofrecemos servicio de corte en dimensionadoras.
+  :links:
+  - :id: 6GQtwR2ZHOgao28CMYY8IM
+    :title: Ver MDF
+    :path: "/tableros/mdf"
+  :image:
+    :title: mdf-natural
+    :description: Favor de agregar una descripción de la imágen.
+    :url: "//images.contentful.com/rvnl2qm3k12r/7AhncxjSJqwooUuOgEUcAe/6976a09d6308ab125abfbf92b64d9b45/mdf-natural-desktop.jpg"
+- :id: 5KN25IlKfYIyM8GCuwCOk6
+  :subtitle: Ferretería
+  :title: Cubiertas
+  :description: Tenemos  Cubiertas para Cocina en largos de 8, 10 y 12 pies en una
+    gran variedad de colores y diseños, contamos  con los modelos Cuadro, Anti Derrame
+    y Venecia. Al igual que los tableros las cubiertas también las podemos dimensionar
+    a la medida que nuestros clientes lo requieran.
+  :links:
+  - :id: 6AOSsf0YFyKeI2M8MQmqgu
+    :title: Ver Cubiertas
+    :path: "/ferreteria"
+  :image:
+    :title: cubiertas
+    :description: Favor de agregar descripción de la imágen.
+    :url: "//images.contentful.com/rvnl2qm3k12r/681x1pE2mAm2g8OMaIQ0MK/d5f4241fc17475eb66a7babb1914df54/cubiertas.jpg"
+:seo:
+  :id: 5Utak8ZgEEimQGMASkCg6a
+  :title: Tableros para Interiores | Tym Forest
+  :description: Favor de agregar descripción.
+  :twitter:
+    :title: seo-twitter
+    :description: 
+    :url: "//images.contentful.com/rvnl2qm3k12r/7dgHOn44z6QYQM0i4GcY8I/f6c30fa441377781b78d14536fd6f948/seo-twitter.jpg"
+  :og:
+    :title: seo-facebook
+    :description: 
+    :url: "//images.contentful.com/rvnl2qm3k12r/1zfDNeU0nWoOQIgSKkkmE4/edeb07cc674b6c6787a4bd378428abe7/seo-facebook.jpg"

@@ -1,0 +1,19 @@
+---
+:id: 1SM1zUluzyk8Okk6KKuocE
+:title: Sales de Cobre para Maderas
+:nombre: Sales de Cobre
+:subcategory:
+  :id: 5OeuEfdLs4omESYmoo48U4
+  :title: Tratamientos para Maderas
+  :nombre: Tratamientos
+  :category: Maderas
+  :description: Tratamiento HT para exportar y Sales de Cobre para exterior.
+  :image:
+    :title: tratamientos
+    :description: Madera de Pino Nacional con sello visible de HT.
+    :url: "//images.contentful.com/rvnl2qm3k12r/36iQp0AgSAOamE0AKOqeay/9d5abfc6b6e39d90f253773a5ab0abb8/tratamientos.jpg"
+:description: Tratamiento químico para uso de madera en exterior.
+:card:
+  :title: sales-de-cobre
+  :description: Maderas con un tono verdoso por ser tratadas con sales de cobre.
+  :url: "//images.contentful.com/rvnl2qm3k12r/3IqVbeHJP2SsmW0Gym4m4m/9d997d5acbc6b6411656dd13a5c0eea9/sales-de-cobre.jpg"

@@ -1,0 +1,26 @@
+---
+:id: 2sEp9eDspmQuCKyuUkm8oI
+:is_base: true
+:is_sub: false
+:name: Central
+:address:
+  :id: 5KO2ApaCJOuaqagIa0sSUA
+  :street: Lázaro Cárdenas 1010
+  :neighborhood: Real de San Agustín
+  :zip_code: '66278'
+  :city: Monterrey
+  :state_full: Nuevo León
+  :state: N.L.
+  :location:
+    :lat: 25.652747
+    :lon: -100.336903
+  :url: https://www.google.com.mx/maps/place/Condominio+Torre+IXCO,+Av+L%C3%A1zaro+C%C3%A1rdenas,+Zona+San+Agust%C3%ADn,+66278+San+Pedro+Garza+Garc%C3%ADa,+N.L./@25.652652,-100.3392017,17z/data=!3m1!4b1!4m5!3m4!1s0x8662be12f4f73ecd:0x491533abe956a928!8m2!3d25.652652!4d-100.337013
+:number: "(81) 8363 24525"
+:schedule:
+  :id: 4YaFn1B4dWGueoya0Yg6Oa
+  :weekday_open: 8
+  :weekday_lunch: 13.5
+  :weekday_afternoon: 14.5
+  :weekday_close: 19
+  :saturday_open: 8
+  :saturday_close: 13

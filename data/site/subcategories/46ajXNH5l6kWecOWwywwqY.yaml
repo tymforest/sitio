@@ -1,0 +1,23 @@
+---
+:id: 46ajXNH5l6kWecOWwywwqY
+:nombre: Herrajes
+:category:
+  :id: 6GAtaS3zxeY06oIAaOgCu2
+  :name: Ferretería
+  :hero_image:
+    :title: portada
+    :description: Favor de agregar descripción de imágen
+    :url: "//images.contentful.com/rvnl2qm3k12r/4d2B5XbCX6Y6Q26IK2aEI4/2fad567449af8a419235fca0b3427e84/portada.jpg"
+  :seo:
+    :id: 3oluTgTwJ2s6QceaG0MYA0
+    :title: Ferretería | Tym Forest
+    :description: Favor de agregar descripción de página
+    :twitter:
+      :title: seo-twitter
+      :description: 
+      :url: "//images.contentful.com/rvnl2qm3k12r/4sQfzK6FsAUqsa6ou0uao0/19089f5ccc09790242cd006f231be8ff/seo-twitter.jpg"
+    :og:
+      :title: seo-facebook
+      :description: 
+      :url: "//images.contentful.com/rvnl2qm3k12r/4pKtYR26jKY2e8Aw0gA6SK/d6991a6b889879c2211b9c750e1d89ef/seo-facebook.jpg"
+:is_detail: false

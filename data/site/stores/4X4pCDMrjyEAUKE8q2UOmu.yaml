@@ -1,0 +1,113 @@
+---
+:id: 4X4pCDMrjyEAUKE8q2UOmu
+:is_base: false
+:is_sub: false
+:name: Soledad
+:address:
+  :id: 1qrZZuouAg0Q0QgUo2O4Ei
+  :street: Carretera Matehuala Km3 1150
+  :neighborhood: La Raza
+  :zip_code: '78431'
+  :city: San Luis
+  :state_full: San Luis Potosí
+  :state: S.L.P.
+  :location:
+    :lat: 22.177977
+    :lon: -100.956094
+  :url: https://www.google.com.mx/maps/place/Madereria+Tym+Forest/@22.176359,-100.9669374,14.72z/data=!4m5!3m4!1s0x842aa1bfd7723999:0x191cdf49c0605035!8m2!3d22.1779775!4d-100.9560927
+:number: "(44) 4823 4001"
+:schedule:
+  :id: 6I21mBiepaEAc4UscWkA60
+  :weekday_open: 8
+  :weekday_lunch: 14
+  :weekday_afternoon: 15.5
+  :weekday_close: 18
+  :saturday_open: 8
+  :saturday_close: 13.5
+:image:
+  :title: portada
+  :description: Ayudando a un cliente a bajar tableros de los racks en Sucursal Soledad
+  :url: "//images.contentful.com/rvnl2qm3k12r/2F21qu3EikQaYy8QuAW2MA/337766ce18c6cdee3de86bb20085d6ed/portada.jpg"
+:services:
+- :id: 21euNVgSGc0kgyk8SKgiKk
+  :title: Perforado para Bisagra
+  :nombre: Perforado para Bisagra
+  :subcategory:
+    :id: 1EWKWf7JheI06waYOg4uEE
+  :description: Taladro multiple automático para perforaciones precisas.
+  :card:
+    :title: perforado-para-bisagras
+    :description: Perforando un tablero de MDF en nuestra Sucursal Sendero en Monterrey,
+      Nuevo León.
+    :url: "//images.contentful.com/rvnl2qm3k12r/7gA3DyKU24uiiuqAqsMaQO/9ad70bcf79b56f9a52f0eee85e79a78c/perforado-para-bisagras.jpg"
+- :id: 5qcrMMFIaIcaYsYMa60CCK
+  :title: Perforado para Pernos y Minifix
+  :nombre: Perforado para Pernos y Minifix
+  :subcategory:
+    :id: 1EWKWf7JheI06waYOg4uEE
+    :title: Servicios Adicionales para Tableros
+    :nombre: Adicionales
+    :category: Tableros
+    :description: Servicios especiales para tableros.
+    :image:
+      :title: adicionales
+      :description: Trabajadores de Tym Forest haciendo cortes para traslape en la
+        Sucursal de Matriz.
+      :url: "//images.contentful.com/rvnl2qm3k12r/7INs1Dmd5ScSuga88eoysm/1ab5cee9f4e8edb6067db76d079f6f1f/adicionales.jpg"
+  :description: Taladro multiple automático para perforaciones precisas.
+  :card:
+    :title: perforado-para-pernos-y-minifix
+    :description: Favor de agregar descripción de la imágen.
+    :url: "//images.contentful.com/rvnl2qm3k12r/6AZugLypwW02E6w4g42wmw/279219a75247549829d6e07ed0320c1f/perforado-para-pernos-y-minifix.jpg"
+- :id: 4U0kiEILTywiIWQAmmcaQo
+  :title: Traslape para Maderas
+  :nombre: Traslape
+  :subcategory:
+    :id: 55vEFJF0beU8OSg4I4uwoK
+    :title: Servicios Adicionales para Maderas
+    :nombre: Adicionales
+    :category: Maderas
+    :description: Cortes específicos para procesos industriales.
+    :image:
+      :title: adicionales
+      :description: Trabajadores de Tym Forest preparando una tabla de madera para
+        traslape.
+      :url: "//images.contentful.com/rvnl2qm3k12r/5ou6jdz9XGms4MEwyeUqWW/f11ce54bd4ebf7e64c9c81f9715dfe21/adicionales.jpg"
+  :description: Corte para sobreponer madera solida con madera solida.
+  :card:
+    :title: traslape
+    :description: Haciendo traslape en unas tablas de Pino Nacional en nuestra sucursal
+      Matriz en Monterrey, Nuevo León.
+    :url: "//images.contentful.com/rvnl2qm3k12r/2J76wRug6cUa2wu0wk0Ug2/5819b5aacb51151a1c25b5d7ba26ba4f/traslape.jpg"
+- :id: bYH4OryRJ6aqomYIC4uGa
+  :title: Optimizador de Cortes para Tableros
+  :nombre: Optimizador de Cortes
+  :subcategory:
+    :id: 5kVjLKGNMsmU4e6EMUisAs
+    :title: Programas de Diseño para Tableros
+    :nombre: Programas de Diseño
+    :category: Tableros
+    :description: Sistemas para optimizar y diseñar el uso de tableros.
+    :image:
+      :title: programas-de-diseno
+      :description: Documentación detallando los cortes óptimos para un tablero.
+      :url: "//images.contentful.com/rvnl2qm3k12r/5XLl8bH82ccUKeKgoiOuwu/6e25d21f8d25e7230df0564b67b8d733/programas-de-diseno.jpg"
+  :description: Programa para reducir merma de tablero.
+  :card:
+    :title: optimizador-de-cortes
+    :description: Documentación de la optimización de un tablero.
+    :url: "//images.contentful.com/rvnl2qm3k12r/5T6nYttlMAOCIu0So6EoEY/018c560f7f015a50539550854bb22bdc/optimizador-de-cortes.jpg"
+:seo:
+  :id: xcyR1vHHKS68wE0cYEQUu
+  :title: Sucursal Soledad | Tym Forest
+  :description: Tym Forest es una empresa dedicada a proveer madera al mercado de
+    la construcción, fabricación de muebles, carpinteros y la industria en general.
+    Te esperamos en Sucursal Soledad en San Luis Potosí, San Luis.
+  :twitter:
+    :title: seo-twitter
+    :description: 
+    :url: "//images.contentful.com/rvnl2qm3k12r/6a6yPLg5AQoEEwCM2IekcS/ef28e810554914a205f7c958e4a61f73/seo-twitter.jpg"
+  :og:
+    :title: seo-facebook
+    :description: 
+    :url: "//images.contentful.com/rvnl2qm3k12r/6qcXJKUL1C6cc6qsOYMU6I/bd9c984c016b2b4259092b612fb63673/seo-facebook.jpg"

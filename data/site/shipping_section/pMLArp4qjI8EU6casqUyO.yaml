@@ -1,0 +1,27 @@
+---
+:id: pMLArp4qjI8EU6casqUyO
+:title: Entregas
+:image:
+  :title: entregas
+  :description: Camión de Tym Forest saliendo de Sucursal Matriz a hacer una entrega
+    de Madera de Pino Nacional.
+  :url: "//images.contentful.com/rvnl2qm3k12r/6LHLtPo3du6gsoa4yymi6i/2ea22dab4389bb6c558d106e009f1adf/entregas.jpg"
+:description: Contamos con equipo de transporte de diferentes capacidades según se
+  requiera para servicio de entrega.
+:details:
+  :id: lSoDzBBfvUA6S4eCiKYoE
+  :description: En compras menores de $2,000, las tarifas de las entregas son —
+  :fares:
+  - :id: 5BfCkobTEsAaMOCE0ooSCC
+    :distancia: 0 — 4
+    :unidad: km
+    :precio: "$70"
+  - :id: 2y346Zqg6YymUCoIkmSgk0
+    :distancia: 4 — 8
+    :unidad: km
+    :precio: "$116"
+  - :id: 4xm7hkXmeIueGyCO6iQQmg
+    :distancia: 8 — 16
+    :unidad: km
+    :precio: "$232"
+  :note: "*Los precios incluyen IVA"

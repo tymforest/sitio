@@ -1,0 +1,2701 @@
+---
+:id: b4PZvelNPaOuIi0yCIiQk
+:titulo: Tablero de Celotex
+:name: Celotex
+:category:
+  :id: 6vJaxzKEZqMEeUae2mMYmC
+  :name: Tableros
+  :hero_image:
+    :title: portada
+    :description: Favor de agregar descripción de imágen
+    :url: "//images.contentful.com/rvnl2qm3k12r/4o66ACLac0KeAKSuWKQEAa/9a4aca943571b9891a943d9db259a9a1/portada.jpg"
+  :seo:
+    :id: 3WGvQ5R4YMqkmOC8MIAwi0
+    :title: Tableros | Tym Forest
+    :description: Favor de agregar descripción de sección
+    :twitter:
+      :title: seo-twitter
+      :description: 
+      :url: "//images.contentful.com/rvnl2qm3k12r/2ruWLT27RCMu6mGqEio2mM/a44c266955150b2d6120fba6c49b910c/seo-twitter.jpg"
+    :og:
+      :title: seo-facebook
+      :description: 
+      :url: "//images.contentful.com/rvnl2qm3k12r/7lWAENkrFmYSkAqG6OgWak/f1cc1a68bc3bf5d92ae019a78829f120/seo-facebook.jpg"
+:is_sale: false
+:is_unit: true
+:description: El Celotex es un tablero de fibras de madera con asfalto, se utiliza
+  como aislante termico y acústico en interiores y exteriores. Se comercializa en
+  el grosor de 12 mm y  el tablero mide 1.22 x 2.44 metros .
+:measurements:
+- :id: 509dhXcagowMiYkQsyg6OU
+  :name: Largos
+  :unidad: m
+  :is_range: false
+  :measurements:
+  - '2.44'
+- :id: 13nyLIE2n84u8aG2yaIwwo
+  :name: Anchos
+  :unidad: m
+  :is_range: false
+  :measurements:
+  - '1.22'
+- :id: 6In2eIBZLOQ0Yi0eycsqqo
+  :name: Grosores
+  :unidad: mm
+  :is_range: false
+  :measurements:
+  - '12'
+:services:
+- :id: 2RQNpk0MfuY2Ag4mwYs4KW
+  :title: Corte Transversal para Tableros
+  :nombre: Corte Transversal
+  :subcategory:
+    :id: 3iKM0ow8NioceIaSU2E2uG
+  :description: Cortes rectos con dimensionadora.
+  :card:
+    :title: corte-transversal
+    :description: Haciendo unos cortes transversales en tableros de MDF en nuestra
+      Sucursal Fidel Velázquez en Monterrey, Nuevo León.
+    :url: "//images.contentful.com/rvnl2qm3k12r/24ojwAgCsYUGaUkkUUie2o/38d6df1133bd8e18387b1f69efccc9f4/corte-transversal.jpg"
+- :id: 4M3EbIM7mUg6YEUSYomkYG
+  :title: Corte Longitudinal para Tableros
+  :nombre: Corte Longitudinal
+  :subcategory:
+    :id: 3iKM0ow8NioceIaSU2E2uG
+    :title: Dimensionado para Tableros
+    :nombre: Dimensionado
+    :category: Tableros
+    :description: Cortes rectos transversales y longitudinales a la medida.
+    :image:
+      :title: dimensionado
+      :description: imensionando un tablero en nuestra Sucursal de Nuevo Repueblo.
+      :url: "//images.contentful.com/rvnl2qm3k12r/4RPLkHg9LqoSYMwaguYskk/c8b9d2a9d29f1a1615af531e483d554e/dimensionado.jpg"
+  :description: Cortes rectos con dimensionadora.
+  :card:
+    :title: corte-longitudinal
+    :description: Trabajador de Tym Forest haciendo cortes longitudinales en un tablero
+      de MDF blanco.
+    :url: "//images.contentful.com/rvnl2qm3k12r/2xyy1NNtX6qu2M6yCkwque/9371e035dfdfc7d44b86ca4e0cfeb306/corte-longitudinal.jpg"
+- :id: 1rzxmGz364oO0o4ak2qIki
+  :title: Entregas
+  :nombre: Entregas
+  :description: Servicio de entrega gratuito en pedidos mayores a $2,000.
+  :card:
+    :title: entregas-tarjeta
+    :description: Camión de Tym Forest en camino a entregar un pedido en Monterrey,
+      Nuevo León.
+    :url: "//images.contentful.com/rvnl2qm3k12r/1AfcpkMczCuyku6cUyI0s0/2af15e94202861cba0016b0862ecad16/entregas-tarjeta.jpg"
+- :id: 6PZid7ugikoWKeK02eqi2w
+  :title: Asesoría de Materiales
+  :nombre: Asesoría de Materiales
+  :description: Te ayudamos a encontrar el producto ideal para tu idea.
+  :card:
+    :title: asesoria-de-materiales-tarjeta
+    :description: Trabajador de Tym Forest asesorando a algunos clientes en nuestra
+      Sucursal La Fe en Monterrey, Nuevo León.
+    :url: "//images.contentful.com/rvnl2qm3k12r/3Rgkzwf8LCs4cQMmWwcaMg/1b5b2ba93f1b65557ff0e5ce8823f9cb/asesoria-de-materiales-tarjeta.jpg"
+:products:
+- :id: 3xjzQznLhCOKQmo2CUM4Yk
+  :titulo: Madera de Pino Nacional
+  :name: Pino Nacional
+  :category:
+    :id: 427HuWIDOwEgGAy06aOIUE
+  :is_sale: false
+  :is_unit: true
+  :description: La madera de pino mexicana proviene de aserraderos de Chihuahua, Durango  y
+    Michoacan, esta madera es conocida por su precio competitivo y sus multiples usos.
+    La industria de la construcción la utiliza para cimbra al igual que el Triplay
+    de pino nacional.
+  :measurements:
+  - :id: 6HTjEhKn5eSKcgIQ6ICikA
+    :name: Largos
+    :unidad: ft
+    :is_range: true
+    :measurements:
+    - '8'
+    - '10'
+    - '12'
+    - '14'
+    - '16'
+    - '18'
+  - :id: 5rCupmc1kA6I0M8qCOiWma
+    :name: Anchos
+    :unidad: in
+    :is_range: true
+    :measurements:
+    - '2'
+    - '4'
+    - '6'
+    - '8'
+    - '10'
+    - '12'
+  - :id: 5RuKfeZWuWWiESIYm6oWwi
+    :name: Grosores
+    :unidad: in
+    :is_range: false
+    :measurements:
+    - '1'
+    - '2'
+  :classes:
+  - Selecta
+  - '1'
+  - '2'
+  :treatments:
+  - Estufado
+  :details:
+  - :id: PUZmzOKxI4Gqe2OUmsaso
+    :title: Latín
+    :description: Pinus oocarpa
+  - :id: 4ISDDB4L56geo8gcIq2miQ
+    :title: Origen
+    :description: México
+  - :id: 4QU6ZPgO1Ws2SIyua4CWwo
+    :title: Usos
+    :description: Cimbra, usos estructurales, mobilario, taimas y huacales
+  - :id: 3hicaiThyUYOMMIiW04eyG
+    :title: Veta
+    :description: Granulada con una textura pareja de un grosor mediano
+  - :id: 143pjaGqSysgks0MWuGUM8
+    :title: Durámen
+    :description: Café claro
+  - :id: 3arn6Vks246sooyKKECQ2i
+    :title: Albura
+    :description: Amarillo pálido casi blanco
+  :services:
+  - :id: 6XZFBrMht6as4kU6Kqecmc
+  - :id: 1GRDKIV83GSwSkgUQCOOCy
+  - :id: 1MWEx854Gkgg0aGcE82aUM
+    :title: Tratado HT para Maderas
+    :nombre: Tratado HT
+    :subcategory:
+      :id: 5OeuEfdLs4omESYmoo48U4
+    :description: Tratamiento térmico para exportar madera.
+    :card:
+      :title: tratado-ht
+      :description: Madera de Pino Nacional con un sello 'HT'.
+      :url: "//images.contentful.com/rvnl2qm3k12r/4vepmPvrHyqioMcKySSE04/a32b557bcd3f3f783d3d0db0e92ef25d/tratado-ht.jpg"
+  - :id: 1rzxmGz364oO0o4ak2qIki
+  :products:
+  - :id: 2ve8DiQgv26WymyAuA2q4e
+  - :id: 1OYb1akSCcOeuYCKiY2e4K
+  - :id: 5eCytdkTcI0kKcIEKGWQqM
+  - :id: e2ynE31Fxmakia4Ke62Aq
+  :card:
+    :title: tarjeta-principal
+    :description: Madera de Pino Nacional
+    :url: "//images.contentful.com/rvnl2qm3k12r/4zAG2tWvCM28KGoUsIeCYm/1e1256313c92c9b49a5a3512d78369a8/tarjeta-principal.jpg"
+  :detail_images:
+    :id: rH3tPZmJ6oI4sOcwWgiky
+    :mobile:
+      :title: detalle-movil
+      :description: Madera de Pino Nacional
+      :url: "//images.contentful.com/rvnl2qm3k12r/7ihc5c53bykoksAokA60Ua/271cf89a7af1a9dcf489bfd9ba53c4af/detalle-movil.jpg"
+    :tablet:
+      :title: detalle-tablet
+      :description: Madera de Pino Nacional
+      :url: "//images.contentful.com/rvnl2qm3k12r/7BepXGR7gsu6mmgYks6Yek/cc21f22a5c9cf72644d9ffe48234f830/detalle-tablet.jpg"
+    :desktop:
+      :title: detalle-desktop
+      :description: Madera de Pino Nacional
+      :url: "//images.contentful.com/rvnl2qm3k12r/3MXPn1WtfOeuMKuksssquK/e20a5abc48e4595ccae86f9d92e71e2f/detalle-desktop.jpg"
+  :seo:
+    :id: 1YOc2aLMjesc8mCo0UIiAK
+    :title: 'Madera de Pino Nacional | Tym Forest '
+    :description: La madera de Pino Mexicano es conocida por su precio competitivo
+      se utiliza en la industria de la construcción para cimbra. También se utiliza
+      para usos estructurales, mobilario, taimas y huacales.
+    :twitter:
+      :title: seo-twitter
+      :description: 
+      :url: "//images.contentful.com/rvnl2qm3k12r/5fUddOft68OOKo4i8Uu6U8/dd22d85c83473c6a4b140ad5aa9897f5/seo-twitter.jpg"
+    :og:
+      :title: seo-facebook
+      :description: 
+      :url: "//images.contentful.com/rvnl2qm3k12r/1QTBfXTyS8Sqyiqycmg2aQ/fbe02b8f2dfd007bcfe4e933e3531fdb/seo-facebook.jpg"
+- :id: 4cLsQTSVSosWEuemGykCAm
+  :titulo: Tablero de MDF
+  :name: MDF
+  :category:
+    :id: 6vJaxzKEZqMEeUae2mMYmC
+  :is_sale: false
+  :is_unit: true
+  :description: 'El MDF (Tablero de Fibra de Madera de Densidad Media) es un tablero
+    hecho con fibras de madera unidas con resinas mediante presión y calor. Los Tableros
+    hechos on MDF tienen una consistencia uniforme y una textura fina que permite
+    que sus superficies tengan un buen acabado . Tambien tenemos disponible el HDF
+    ( tablero de Fibra de madera de Alta Densidad ) en espesores de 2.5, 3. 4.7 y
+    5.5 mm '
+  :measurements:
+  - :id: 4fjiyOZ6s0IWIK8GgUewE0
+    :name: Largos
+    :unidad: m
+    :is_range: false
+    :measurements:
+    - '2.44'
+  - :id: 1CvPwevtuMwsYKgGM2gEk8
+    :name: Anchos
+    :unidad: m
+    :is_range: false
+    :measurements:
+    - '1.22'
+  - :id: 55Bo61Es1Gm4ycISEIOIeE
+    :name: Grosores
+    :unidad: mm
+    :is_range: false
+    :measurements:
+    - '3'
+    - '4.7'
+    - '5'
+    - '9'
+    - '12'
+    - '15'
+    - '18'
+    - '25'
+  :classes:
+  - Estándar
+  - Liviano
+  - Ultra Liviano
+  :details:
+  - :id: whQr5ovQAg2sIKMgkoGqw
+    :title: Especia de Madera
+    :description: Eucalipto grandis y Pino radiata
+  - :id: 4QjI2S4AX66sMuWWC8gcoi
+    :title: CARP 2 / E-1
+    :description: Trabajamos con tableros de bajo porcentaje de formalehido
+  - :id: FRMpDO3pKeGcecie0QWMk
+    :title: FSC
+    :description: Nuestros proveedores cumplen con requisitos de sustentabilidad,
+      cadena de custodia y responsabilidad social
+  - :id: 3mlZvV3GRieSCI4EMsswQg
+    :title: Origen
+    :description: " México, Brasil y Chile"
+  - :id: 5ErsoZbHRCU0SKsuQoesCa
+    :title: Usos
+    :description: Mobiliario, puertas, molduras y melaminas
+  - :id: 1eucgc27io0Q2QeiG6ykI4
+    :title: Densidad
+    :description: Liviano — 580 kg/m3
+  :services:
+  - :id: 2RQNpk0MfuY2Ag4mwYs4KW
+  - :id: 4M3EbIM7mUg6YEUSYomkYG
+  - :id: 48Bp6FClGUMCgsEKiWk448
+  - :id: bYH4OryRJ6aqomYIC4uGa
+  :products:
+  - :id: 3cQ8trMgYwSagYUQM04IYo
+  - :id: 6FlMF9cpWgg2WMO2YW6oaU
+  - :id: 1eT4o13XisUUOieqQEOmEc
+  - :id: 61QxYyKpZmGUMskeG64q4U
+  :card:
+    :title: tarjeta-principal
+    :description: Tablero de MDF
+    :url: "//images.contentful.com/rvnl2qm3k12r/6kPAQFZTiMg2cMyikkuemM/019fc0661ad2d219cf49a820474d4831/tarjeta-principal.jpg"
+  :detail_images:
+    :id: 1HUvPnvoaYYwGiaG4YEGSC
+    :mobile:
+      :title: detalle-movil
+      :description: Tablero de MDF
+      :url: "//images.contentful.com/rvnl2qm3k12r/2oyOtYrFOo2cGyGyaioAqk/5311e267cf1aaf8994981518041c5742/detalle-movil.jpg"
+    :tablet:
+      :title: detalle-tablet
+      :description: Tablero de MDF
+      :url: "//images.contentful.com/rvnl2qm3k12r/58u8Pl5qIouYwCwgCIyGu2/9d3fdda76dd2be530c0eddcd453b27c4/detalle-tablet.jpg"
+    :desktop:
+      :title: detalle-desktop
+      :description: Tablero de MDF
+      :url: "//images.contentful.com/rvnl2qm3k12r/Z1LqpNrAGIcOgkwc2k8GC/236951a4743da04660178052e7b6ff88/detalle-desktop.jpg"
+  :seo:
+    :id: 5PaiFsXHPi6MIsMKyuW0UA
+    :title: Tablero de MDF | Tym Forest
+    :description: El MDF es un tablero con una consistencia uniforme y una textura
+      fina que permite que sus superficies tengan un buen acabado. Se utiliza para
+      Mobiliario, puertas, molduras y melaminas.
+    :twitter:
+      :title: seo-twitter
+      :description: 
+      :url: "//images.contentful.com/rvnl2qm3k12r/6ffwVuwNe8CU8eAUk4OqWE/d5a5b127651d2bcf4756ce8e9dee5038/seo-twitter.jpg"
+    :og:
+      :title: seo-facebook
+      :description: 
+      :url: "//images.contentful.com/rvnl2qm3k12r/s4tTwhdqNikIOqSGoIu2i/c09a35986115d49467ea6a255921b2e7/seo-facebook.jpg"
+- :id: 6FlMF9cpWgg2WMO2YW6oaU
+  :titulo: Tablero de OSB
+  :name: OSB
+  :category:
+    :id: 6vJaxzKEZqMEeUae2mMYmC
+  :is_sale: false
+  :is_unit: true
+  :description: El tablero de OSB  ( Oriented Strand Board ) está formado por hojuelas
+    de maderas unidas con resinas y tratada a presión y temperatura. Su principal
+    uso es estructural, y se utiliza mucho en el mercado de la construcción y en la
+    industria para empaques y embalajes.
+  :measurements:
+  - :id: 3qvb3wJZo444G8CsekGyaw
+    :name: Largos
+    :unidad: m
+    :is_range: false
+    :measurements:
+    - '2.44'
+  - :id: 1mDol48EEYmyeK62WmEQU
+    :name: Anchos
+    :unidad: m
+    :is_range: false
+    :measurements:
+    - '1.22'
+  - :id: 14557Jup3WMyMagAeei64s
+    :name: Grosores
+    :unidad: mm
+    :is_range: false
+    :measurements:
+    - '12'
+  :classes:
+  - A
+  :services:
+  - :id: 2RQNpk0MfuY2Ag4mwYs4KW
+  - :id: bYH4OryRJ6aqomYIC4uGa
+  - :id: 1rzxmGz364oO0o4ak2qIki
+  - :id: 6PZid7ugikoWKeK02eqi2w
+  :products:
+  - :id: 3xjzQznLhCOKQmo2CUM4Yk
+  - :id: 3cQ8trMgYwSagYUQM04IYo
+  - :id: 4cLsQTSVSosWEuemGykCAm
+  - :id: 5eCytdkTcI0kKcIEKGWQqM
+  :card:
+    :title: tarjeta-principal
+    :description: Tablero de OSB
+    :url: "//images.contentful.com/rvnl2qm3k12r/1nzZG2hEoIG0WUUgskS8QG/f75d3f658d5bf0183473f58dbde6ec92/tarjeta-principal.jpg"
+  :detail_images:
+    :id: 30N7jCPuwoKeKumiua2KOS
+    :mobile:
+      :title: detalle-movil
+      :description: Tablero de OSB
+      :url: "//images.contentful.com/rvnl2qm3k12r/3vM5NXrOykwKggUMkgiIE/dc3fe72b83fc02500032f070ce45a76e/detalle-movil.jpg"
+    :tablet:
+      :title: detalle-tablet
+      :description: Tablero de OSB
+      :url: "//images.contentful.com/rvnl2qm3k12r/5yEVFKcEx240umKWu2swyI/0a1e73068a7142fc3b8c819823b592be/detalle-tablet.jpg"
+    :desktop:
+      :title: detalle-desktop
+      :description: Tablero de OSB
+      :url: "//images.contentful.com/rvnl2qm3k12r/47gUH9Zgg8CgkqkQqiq2Su/ae1dfb5708736559a7c7d85cb1eeef12/detalle-desktop.jpg"
+  :seo:
+    :id: 7rc2lLlAnS8Wc2WGYYkK4I
+    :title: Tablero de OSB | Tym Forest
+    :description: El tablero de OSB es un tablero formado por hojuelas de madera y
+      su uso principal es estructural en el mercado de la construcción y en la industria
+      para empaques y embalajes.
+    :twitter:
+      :title: seo-twitter
+      :description: 
+      :url: "//images.contentful.com/rvnl2qm3k12r/Qt81c9q86GKQ6UKsKCa0G/78abb96481ac957d80c8f77e1a6c105f/seo-twitter.jpg"
+    :og:
+      :title: seo-facebook
+      :description: 
+      :url: "//images.contentful.com/rvnl2qm3k12r/nuy7EXngOG0GcsA0cuOym/8321eee9c22c45e4d710f955938ba722/seo-facebook.jpg"
+- :id: 5eCytdkTcI0kKcIEKGWQqM
+  :titulo: Triplay de Pino Nacional
+  :name: Pino Nacional
+  :category:
+    :id: 6vJaxzKEZqMEeUae2mMYmC
+  :subcategory:
+    :id: 4f3IRCYrVSsOqeSc6EK22Y
+    :nombre: Triplay
+    :category:
+      :id: 6vJaxzKEZqMEeUae2mMYmC
+    :is_detail: true
+    :card:
+      :title: tarjeta-principal
+      :description: Triplay
+      :url: "//images.contentful.com/rvnl2qm3k12r/3Whi63m3YASiI4qQOWeWUS/ad13e7f0de60f44997bac40dddfb1eac/tarjeta-principal.jpg"
+    :seo:
+      :id: 6WnKUl92ta2kskUeQui8ii
+      :title: Triplay | Tym Forest
+      :description: El Triplay es un tablero hecho de una serie de láminas de madera
+        pegadas una con la otra enchapado de una gran variedad de maderas por una
+        o ambas caras.
+      :twitter:
+        :title: seo-twitter
+        :description: 
+        :url: "//images.contentful.com/rvnl2qm3k12r/6JNoAXR4kM2goqUWYE2eOI/25d8f58672272b077da75b023a8b9718/seo-twitter.jpg"
+      :og:
+        :title: seo-facebook
+        :description: 
+        :url: "//images.contentful.com/rvnl2qm3k12r/wnG23V5zUsYWauWw0eueo/7125123dffdd7d5306d793fa98b69d0f/seo-facebook.jpg"
+  :is_sale: false
+  :is_unit: true
+  :description: El Triplay de Pino Nacional es un tablero hecho de maderas contrachapadas
+    unidas y prensadas , enchapado de Pino Ponderosa Nacional por las dos caras del
+    tablero. Tiene multiples usos como para cimbra en el mercado de la construcción,
+    fabricación de muebles, cajoneras, puertas etc.
+  :measurements:
+  - :id: 5vT04RS7F6qewCqIWkacEa
+    :name: Largos
+    :unidad: cm
+    :is_range: false
+    :measurements:
+    - '244'
+  - :id: 4ytTdgRIgoUwiO64eUWEIM
+    :name: Anchos
+    :unidad: cm
+    :is_range: false
+    :measurements:
+    - '122'
+  - :id: 35OZaV3Jxm4ckWQYqYUQcS
+    :name: Grosores
+    :unidad: mm
+    :is_range: false
+    :measurements:
+    - '3'
+    - '5'
+    - '6'
+    - '9'
+    - '12'
+    - '15'
+    - '18'
+    - '25'
+  :classes:
+  - CDM
+  :details:
+  - :id: 5EnvlvmXLyAwQK8EUki8Mi
+    :title: Latín
+    :description: Pinus oocarpa
+  - :id: 1p9vB23YPCMu2q6o0SCa4i
+    :title: Origen
+    :description: México
+  - :id: 2f3l4YBukUYk6gauOamc8S
+    :title: Usos
+    :description: Cimbra, mobiliaria y estructura
+  - :id: mXI7ktXyz64ugYok6UmIs
+    :title: Veta
+    :description: Granulada con textura media
+  - :id: 2CEy7icLCk6qkI46qEgqi0
+    :title: Durámen
+    :description: Color café claro
+  - :id: xczPCXyRAkq44YesAgy2a
+    :title: Albura
+    :description: Color amarillo palido casi blanco
+  :services:
+  - :id: 2RQNpk0MfuY2Ag4mwYs4KW
+  - :id: bYH4OryRJ6aqomYIC4uGa
+    :title: Optimizador de Cortes para Tableros
+    :nombre: Optimizador de Cortes
+    :subcategory:
+      :id: 5kVjLKGNMsmU4e6EMUisAs
+      :title: Programas de Diseño para Tableros
+      :nombre: Programas de Diseño
+      :category: Tableros
+      :description: Sistemas para optimizar y diseñar el uso de tableros.
+      :image:
+        :title: programas-de-diseno
+        :description: Documentación detallando los cortes óptimos para un tablero.
+        :url: "//images.contentful.com/rvnl2qm3k12r/5XLl8bH82ccUKeKgoiOuwu/6e25d21f8d25e7230df0564b67b8d733/programas-de-diseno.jpg"
+    :description: Programa para reducir merma de tablero.
+    :card:
+      :title: optimizador-de-cortes
+      :description: Documentación de la optimización de un tablero.
+      :url: "//images.contentful.com/rvnl2qm3k12r/5T6nYttlMAOCIu0So6EoEY/018c560f7f015a50539550854bb22bdc/optimizador-de-cortes.jpg"
+  - :id: 1rzxmGz364oO0o4ak2qIki
+  - :id: 6PZid7ugikoWKeK02eqi2w
+  :products:
+  - :id: e2ynE31Fxmakia4Ke62Aq
+    :titulo: Triplay de Pino Chileno
+    :name: Pino Chileno
+    :category:
+      :id: 6vJaxzKEZqMEeUae2mMYmC
+    :subcategory:
+      :id: 4f3IRCYrVSsOqeSc6EK22Y
+    :is_sale: false
+    :is_unit: true
+    :description: El Triplay de Pino Chileno es un tablero hecho de maderas contrachapadas
+      unidas y prensadas con pegamento fenólico una con la otra, enchapado de Pino
+      Chileno por las dos caras del tablero. Tiene múltiples usos como la cimbra en
+      el mercado de la construcción, fabricación de muebles etc.
+    :measurements:
+    - :id: fHCkBZvnmogG0WSwW2MC2
+      :name: Largos
+      :unidad: cm
+      :is_range: false
+      :measurements:
+      - '244'
+    - :id: 84Jel9aJaweeYqIQ6yYqm
+      :name: Anchos
+      :unidad: cm
+      :is_range: false
+      :measurements:
+      - '122'
+    - :id: 10Q5nkxYv4sWmYMQQMkO4U
+      :name: Grosores
+      :unidad: mm
+      :is_range: false
+      :measurements:
+      - '5'
+      - '9'
+      - '12'
+      - '15'
+      - '18'
+    :classes:
+    - CD
+    - CPD
+    - BC
+    :treatments:
+    - Pegamento Fenólico
+    :details:
+    - :id: 2fDMZZmNdq8gYSIGmWCoeA
+      :title: Latín
+      :description: Araucaria araucana
+    - :id: 5PG0emIO4gwOsgmYgOuuKs
+      :title: Origen
+      :description: Chile
+    - :id: 5nYIXKaTa88kwSqIMqO0MK
+      :title: Usos
+      :description: Cimbra, mobilario y estructura
+    - :id: 7DxaA27o7Sq0OeMAGoike4
+      :title: Veta
+      :description: Recta con texturas finas y medianas
+    - :id: 4lZE6l1yOIIOsQCQW4Iq4M
+      :title: Durámen
+      :description: Café claro a café claro con tonos amarillos
+    - :id: 2jsx7f65NaUIOWIgiesma2
+      :title: Albura
+      :description: Café claro con tonos rojizos
+    :services:
+    - :id: 4M3EbIM7mUg6YEUSYomkYG
+    - :id: bYH4OryRJ6aqomYIC4uGa
+    - :id: 1rzxmGz364oO0o4ak2qIki
+    - :id: 6PZid7ugikoWKeK02eqi2w
+    :products:
+    - :id: 5eCytdkTcI0kKcIEKGWQqM
+    - :id: 3xjzQznLhCOKQmo2CUM4Yk
+    - :id: 1OYb1akSCcOeuYCKiY2e4K
+    - :id: 6FlMF9cpWgg2WMO2YW6oaU
+    :card:
+      :title: tarjeta-principal
+      :description: Triplay de Pino Chileno
+      :url: "//images.contentful.com/rvnl2qm3k12r/3R5hNOK8ZWCISWOMQCkcca/5d678372521b8233f54c21329fd4b46b/tarjeta-principal.jpg"
+    :detail_images:
+      :id: 2azklOw1HuoqMykkweiyYW
+      :mobile:
+        :title: detalle-movil
+        :description: Triplay de Pino Chileno
+        :url: "//images.contentful.com/rvnl2qm3k12r/24tcWmPYyAIKOG4QIwMAU2/41521c737ae4433f2923f9bd156e46e2/detalle-movil.jpg"
+      :tablet:
+        :title: detalle-tablet
+        :description: Triplay de Pino Chileno
+        :url: "//images.contentful.com/rvnl2qm3k12r/f4rNrqqQViIAwsiaMEuQU/1f6bdc5f654c74ddfb7e9f358e813586/detalle-tablet.jpg"
+      :desktop:
+        :title: detalle-desktop
+        :description: Triplay de Pino Chileno
+        :url: "//images.contentful.com/rvnl2qm3k12r/1z82Xnfuh2ySkwuCUS0aqQ/05d04a9f2ac07dd4ecf8435e6ac2a9bb/detalle-desktop.jpg"
+    :seo:
+      :id: 1Vk7Z6hc7G8c0KO0M02Siy
+      :title: Triplay de Pino Chileno | Tym Forest
+      :description: El triplay de Pino Chileno es un tablero hecho de maderas contrachapadas
+        unidas y prensadas. Sus principales usos son la cimbra en el mercado de la
+        construcción y la fabricación de muebles.
+      :twitter:
+        :title: seo-twitter
+        :description: 
+        :url: "//images.contentful.com/rvnl2qm3k12r/4mCQxxk2MggaO0wcSuMe6y/945d3fb357ac091f4ee31551bd4e574e/seo-twitter.jpg"
+      :og:
+        :title: seo-facebook
+        :description: 
+        :url: "//images.contentful.com/rvnl2qm3k12r/26PQrbHtPOK8aiKugyYwCQ/eea2582feaf4b2f418bb81d235ac891e/seo-facebook.jpg"
+  - :id: 3xjzQznLhCOKQmo2CUM4Yk
+  - :id: 1OYb1akSCcOeuYCKiY2e4K
+    :titulo: Madera de Pino Chileno
+    :name: Pino Chileno
+    :category:
+      :id: 427HuWIDOwEgGAy06aOIUE
+      :name: Maderas
+      :hero_image:
+        :title: portada
+        :description: Favor de agregar descripción de imágen
+        :url: "//images.contentful.com/rvnl2qm3k12r/5nODNj89tCeMgKSaQIUqqW/a4da372796e3735cd28b6b484da6e6fb/portada.jpg"
+      :seo:
+        :id: 3UO9I212hqMSsiyiAw4eE8
+        :title: Maderas | Tym Forest
+        :description: Favor de agregar descripción de sección
+        :twitter:
+          :title: seo-twitter
+          :description: 
+          :url: "//images.contentful.com/rvnl2qm3k12r/4sfuW1NioMoKIMkCw8KS48/0225ef0a4508e89e0fdb3a8199348446/seo-twitter.jpg"
+        :og:
+          :title: seo-facebook
+          :description: 
+          :url: "//images.contentful.com/rvnl2qm3k12r/bd9ATTN2kS6Ye0gIOKSqG/ce40961a7f13961d545081e291a4d669/seo-facebook.jpg"
+    :is_sale: false
+    :is_unit: true
+    :description: 'La madera de pino chileno es conocida por su precio competitivo
+      y se utiliza principalmente como estructura, fabricación de muebles y cimbra.
+      Es más suave que la madera de pino nacional y esta disponible en tres calidades:
+      G2, GM y MR.'
+    :measurements:
+    - :id: 1C0KiYXhIM46m4SAG2gesI
+      :name: Largos
+      :unidad: ft
+      :is_range: true
+      :measurements:
+      - '8'
+      - '10'
+      - '12'
+      - '13'
+      - '14'
+      - '16'
+    - :id: 6M7JpK82GIUymo6QEkKkqM
+      :name: Anchos
+      :unidad: in
+      :is_range: true
+      :measurements:
+      - '4'
+      - '6'
+      - '8'
+      - '10'
+      - '12'
+    - :id: 6D0MccwVzyW2m46GwqEGgG
+      :name: Grosores
+      :unidad: in
+      :is_range: false
+      :measurements:
+      - '1'
+      - '2'
+    :classes:
+    - GM
+    - G2
+    - MR
+    :treatments:
+    - Estufado
+    :details:
+    - :id: 5LyLROeCdyqeugcaaMCyC0
+      :title: Latín
+      :description: Araucaria araucana
+    - :id: Ww9R48uCuiSasSykY4Icu
+      :title: Origen
+      :description: Chile
+    - :id: 1d3bP1bij0OUEAsCkIUKEy
+      :title: Usos
+      :description: Refuerzo estructural, cimbra y mobiliario
+    - :id: 46ykeQ379usU2AkCEuyiSO
+      :title: Veta
+      :description: Es normalmente recta, con texturas finas y medianas
+    - :id: 1U2Slf9QMow20ACcgAKmo0
+      :title: Durámen
+      :description: Café claro a un café claro con tonos amarillos o rojizos
+    - :id: yZ1y2caSOsyms6e0UC4wy
+      :title: Albura
+      :description: Café claro
+    :services:
+    - :id: 6XZFBrMht6as4kU6Kqecmc
+      :title: Corte Transversal para Maderas
+      :nombre: Corte Transversal
+      :subcategory:
+        :id: 6QolIE1eMgM4CUYQisKmSU
+      :description: Cortes rectos con sierra de péndulo.
+      :card:
+        :title: corte-transversal
+        :description: Máquina de péndulo para hacer cortes transversales en maderas.
+        :url: "//images.contentful.com/rvnl2qm3k12r/1BBRhjU65Ggm68c2KWsqcw/072ebc2615e2bc78e77a7b2339ace26f/corte-transversal.jpg"
+    - :id: 1GRDKIV83GSwSkgUQCOOCy
+      :title: Cepillado de Caras para Maderas
+      :nombre: Cepillado de Caras
+      :subcategory:
+        :id: W90trFNWE0okgo2ikMss0
+        :title: Cepillado para Maderas
+        :nombre: Cepillado
+        :category: Maderas
+        :description: Cepillado fino e industrial en dos caras.
+        :image:
+          :title: cepillado
+          :description: Cepillando tablas de Madera de Pino Nacional en Sucursal Fidel
+            Velázquez.
+          :url: "//images.contentful.com/rvnl2qm3k12r/4UJYrflZ72wOm4EgyaUOm/0a357bd80bbfd8813e4bde5fdc2ad16c/cepillado.jpg"
+      :description: Cepillo de alto rendimiento con corte helicoidal.
+      :card:
+        :title: cepillado-de-caras
+        :description: Cepillando caras en tablas de Madera de Pino Nacional
+        :url: "//images.contentful.com/rvnl2qm3k12r/1U04lQdXyUMiWSWweEOEqy/cbe18338290830af56a8c6f431deef8f/cepillado-de-caras.jpg"
+    - :id: 1rzxmGz364oO0o4ak2qIki
+    - :id: 6PZid7ugikoWKeK02eqi2w
+    :products:
+    - :id: 3xjzQznLhCOKQmo2CUM4Yk
+    - :id: 2ve8DiQgv26WymyAuA2q4e
+      :titulo: Madera de Pino Ponderosa
+      :name: Pino Ponderosa
+      :category:
+        :id: 427HuWIDOwEgGAy06aOIUE
+      :is_sale: false
+      :is_unit: false
+      :description: La madera  de Pino Ponderosa es una madera fácil de trabajar a
+        mano y con herramientas mecánicas. Su disponibilidad es buena y es originaria
+        de Canada y el norte de EUA, se comercializa cepillada de los 4 lados y en
+        calidad No. 3 para la industria de fabricación de muebles.
+      :measurements:
+      - :id: 5VUdty8YXSuUugUi6weMOs
+        :name: Largos
+        :unidad: ft
+        :is_range: true
+        :measurements:
+        - '6'
+        - '8'
+        - '10'
+        - '12'
+        - '14'
+        - '16'
+      - :id: qeSaRZ6Ir6WeuE8g4Ekyi
+        :name: Anchos
+        :unidad: in
+        :is_range: true
+        :measurements:
+        - '8'
+      - :id: Q4ivYei3e0sQ2kE066u0i
+        :name: Grosores
+        :unidad: in
+        :is_range: false
+        :measurements:
+        - '1'
+      :classes:
+      - '3'
+      :treatments:
+      - Estufado
+      :details:
+      - :id: 3oD2QP2fLWSoIsiQ0cQCqE
+        :title: Latín
+        :description: Pinus ponderosa
+      - :id: COdtM8ifKKMuwqsS84kwM
+        :title: Origen
+        :description: Canada
+      - :id: 2ciMD7izuYocywaWggU060
+        :title: Usos
+        :description: Mobiliario y usos estructurales
+      - :id: 3j74r041yUSowUmM6g0s0g
+        :title: Veta
+        :description: Recta con textura mediana
+      - :id: 2odvt6dhYkKkMakaI6wQqE
+        :title: Durámen
+        :description: Café rojizo
+      - :id: 4i9JMFwwLmkoIIKGs0sKEe
+        :title: Albura
+        :description: Color amarillo casi blanco
+      :services:
+      - :id: 6XZFBrMht6as4kU6Kqecmc
+      - :id: 1GRDKIV83GSwSkgUQCOOCy
+      - :id: 1rzxmGz364oO0o4ak2qIki
+      - :id: 6PZid7ugikoWKeK02eqi2w
+      :products:
+      - :id: 4D4LQQlVBuskyAIgegEkSq
+        :titulo: Madera de Pino Americano
+        :name: Pino Americano
+        :category:
+          :id: 427HuWIDOwEgGAy06aOIUE
+        :is_sale: false
+        :is_unit: true
+        :description: La madera de Pino Americano es una madera ampliamente disponible
+          y tiene una excelente proporción de peso y resistencia. Es fácil de trabajar
+          y es clasificada como una madera dura y fuerte. Es también conocida como
+          Yellow Pine, y su precio es muy accesible
+        :measurements:
+        - :id: 1s64UCHkuYI4UcGwukk4cG
+          :name: Largos
+          :unidad: ft
+          :is_range: false
+          :measurements:
+          - '8'
+          - '10'
+          - '12'
+          - '14'
+          - '16'
+          - '20'
+        - :id: 2tkVS6niAMIgiuYKw0gQaK
+          :name: Anchos
+          :unidad: in
+          :is_range: false
+          :measurements:
+          - '6'
+          - '8'
+          - '10'
+          - '12'
+        - :id: 4ebP4Ld0hWUwWAYk6kCOa8
+          :name: Grosores
+          :unidad: in
+          :is_range: false
+          :measurements:
+          - '1'
+          - '2'
+        :classes:
+        - '0'
+        - '1'
+        - '2'
+        - '3'
+        :treatments:
+        - Estufado
+        - Exterior
+        :details:
+        - :id: 1UJOlOghcII8ci6w6oQwmA
+          :title: Latín
+          :description: Pinus palustrius
+        - :id: 3HoydpYhwQc2QKyYySeYoO
+          :title: Origen
+          :description: Sureste de Estados Unidos
+        - :id: 5WQtbGBK9OmKa2kKqgW4Gk
+          :title: Usos
+          :description: Cerchas de madera, vigas, postes, pilas, revestimiento, subsuelos,
+            decks, muebles, puertas, marcos y cabañas
+        - :id: 2W4xDYxd2oYuCcyg8w0yku
+          :title: Veta
+          :description: Es recta y de texturas finas, grosor puede variar
+        - :id: 3T64yQRKzKG8owym2yW0kW
+          :title: Durámen
+          :description: Color café rojizo
+        - :id: 110bSdGU5EWsckKg2e4uEY
+          :title: Albura
+          :description: Color amarillo claro casi blanco
+        :services:
+        - :id: 6XZFBrMht6as4kU6Kqecmc
+        - :id: 1SM1zUluzyk8Okk6KKuocE
+          :title: Sales de Cobre para Maderas
+          :nombre: Sales de Cobre
+          :subcategory:
+            :id: 5OeuEfdLs4omESYmoo48U4
+            :title: Tratamientos para Maderas
+            :nombre: Tratamientos
+            :category: Maderas
+            :description: Tratamiento HT para exportar y Sales de Cobre para exterior.
+            :image:
+              :title: tratamientos
+              :description: Madera de Pino Nacional con sello visible de HT.
+              :url: "//images.contentful.com/rvnl2qm3k12r/36iQp0AgSAOamE0AKOqeay/9d5abfc6b6e39d90f253773a5ab0abb8/tratamientos.jpg"
+          :description: Tratamiento químico para uso de madera en exterior.
+          :card:
+            :title: sales-de-cobre
+            :description: Maderas con un tono verdoso por ser tratadas con sales de
+              cobre.
+            :url: "//images.contentful.com/rvnl2qm3k12r/3IqVbeHJP2SsmW0Gym4m4m/9d997d5acbc6b6411656dd13a5c0eea9/sales-de-cobre.jpg"
+        - :id: 1rzxmGz364oO0o4ak2qIki
+        - :id: 6PZid7ugikoWKeK02eqi2w
+        :products:
+        - :id: 1OYb1akSCcOeuYCKiY2e4K
+        - :id: 3xjzQznLhCOKQmo2CUM4Yk
+        - :id: 2ve8DiQgv26WymyAuA2q4e
+        - :id: 5kNyBhHo5OegSwYsEwkq4s
+          :titulo: Madera de Poplar
+          :name: Poplar
+          :category:
+            :id: 427HuWIDOwEgGAy06aOIUE
+          :is_sale: false
+          :is_unit: false
+          :description: La madera de Poplar es una madera muy popular y ampliamente
+            disponible. A pesar de que es una madera muy suave, es muy fácil de trabajar.
+            Tiene una densidad media y se utiliza para fabricación de muebles  principalmente.
+          :measurements:
+          - :id: 6LHQJ2zcLmEMiOmqEeWIwG
+            :name: Largos
+            :unidad: ft
+            :is_range: true
+            :measurements:
+            - '8'
+            - '16'
+          - :id: xKxxDM9adqw0kOOcY8y4G
+            :name: Anchos
+            :unidad: in
+            :is_range: true
+            :measurements:
+            - '6'
+            - '12'
+          - :id: 3XPR9XsfFSsO2KySuwyYWG
+            :name: Grosores
+            :unidad: in
+            :is_range: false
+            :measurements:
+            - '1'
+            - '1.5'
+            - '2'
+          :classes:
+          - FAS
+          :treatments:
+          - Estufado
+          :details:
+          - :id: 10uz9hJJkyGkMKme2wMMCo
+            :title: Latín
+            :description: Liriodendron tulipifera
+          - :id: 5TdZPCX9AcIYWaeUk0ikmU
+            :title: Origen
+            :description: Este de Estados Unidos
+          - :id: 4IX5mkNUWIsiKGQsYGWaSg
+            :title: Usos
+            :description: Mobilaria fina, molduras y puertas solidas
+          - :id: jraAsTn332KYUYe4CkYQs
+            :title: Veta
+            :description: Recta y uniforme y textura mediana
+          - :id: 7BQQbVO5IA86KUYI6Ysue2
+            :title: Durámen
+            :description: Color crema claro a un café amarillo
+          - :id: 64WqjBOaFG2qiqSyWOOQ4E
+            :title: Albura
+            :description: Amarillo pálido a blanco
+          :services:
+          - :id: 6XZFBrMht6as4kU6Kqecmc
+          - :id: 1GRDKIV83GSwSkgUQCOOCy
+          - :id: 1rzxmGz364oO0o4ak2qIki
+          - :id: 6PZid7ugikoWKeK02eqi2w
+          :products:
+          - :id: 4e4W1c40IUYYOQw4QkcGog
+            :titulo: Madera de Banak
+            :name: Banak
+            :category:
+              :id: 427HuWIDOwEgGAy06aOIUE
+            :is_sale: true
+            :is_unit: false
+            :description: La madera de Banak es una madera tropical , de densidad
+              media , su color va de café rosado a café rojizo es fácil para trabajar
+              y por eso del gusto de la mayoría de los carpinteros, la madera de Banak
+              se utiliza mayormente para la fabricación de muebles, vestidores,molduras
+              y acabados de interiores.
+            :measurements:
+            - :id: 6ahcola652swkiImqaiwu6
+              :name: Largos
+              :unidad: ft
+              :is_range: true
+              :measurements:
+              - '7'
+              - '16'
+            - :id: 3Ha5EV8dLykqasWM2GOoUW
+              :name: Anchos
+              :unidad: in
+              :is_range: true
+              :measurements:
+              - '5'
+              - '10'
+            - :id: 6NZMtCYK9U4c2gECoa8mMM
+              :name: Grosores
+              :unidad: in
+              :is_range: false
+              :measurements:
+              - '1'
+              - '1.5'
+              - '2'
+            :classes:
+            - Selecta
+            :treatments:
+            - Estufado
+            :measurements_on_sale:
+            - :id: 4iB5CWj5KEmueme6COOIgO
+              :price: "$37.49"
+              :measurement: '1'
+              :unit: pt
+            - :id: 4uNQ9pxAU8wKIoqMWIWC6a
+              :price: "$41.99"
+              :measurement: '1.5'
+              :unit: pt
+            - :id: 35RFeHBQMggGccA6688GOq
+              :price: "$47.99"
+              :measurement: '2'
+              :unit: pt
+            :applied_product_images:
+            - :title: imagen-a
+              :description: 'Imágen de Producto Aplicado de Prueba: A'
+              :url: "//images.contentful.com/rvnl2qm3k12r/39H1dWXrr2YICgG6IgGKAm/d8c9607aec42d0affecf382b2781364f/imagen-a.jpg"
+            - :title: imagen-b
+              :description: 'Imágen de Producto Aplicado de Prueba: B'
+              :url: "//images.contentful.com/rvnl2qm3k12r/1Au1UpMka0oe8UQSkc6eC6/d066acd83e4a30e78a9f986b13ce342c/imagen-b.jpg"
+            :details:
+            - :id: 6i50birUEE22mg2OkqqYgc
+              :title: Latín
+              :description: Virola Koschnyi Warb
+            - :id: 2qQxA5fKogyoKokiiKYIIA
+              :title: Origen
+              :description: Peru
+            - :id: 3mpgFoHo522iwkowEIuqyO
+              :title: Usos
+              :description: Fabricación de muebles, molduras, acabado de interiores
+            - :id: 2D8BLvkPtOGYsai2Kw008y
+              :title: Veta
+              :description: Poco pronunciada y recta
+            - :id: 1wlzsuzWbKccKyKKAiqkCA
+              :title: Durámen
+              :description: Color marron rosado a pardo
+            - :id: 5emWjlQkhy6CuciCyoKEsc
+              :title: Albura
+              :description: Pardo nerguzco a gris
+            :documentation:
+              :title: "#00001"
+              :description: 
+              :url: "//assets.contentful.com/rvnl2qm3k12r/4C44ySPEYMYEGcGwgK2Ceg/c7c5af7fcdf45092d5081d774804e48e/_00001.pdf"
+            :services:
+            - :id: 6XZFBrMht6as4kU6Kqecmc
+            - :id: 3tsjNXmTIcyEskyaAwCIkW
+            - :id: 1GRDKIV83GSwSkgUQCOOCy
+            - :id: 1rzxmGz364oO0o4ak2qIki
+            :products:
+            - :id: 1DN9mqj4yYwKKek6U6GQqK
+            - :id: 1f9jSGDHT2esE6Igi4aMo
+            - :id: 5N9Kkwc1McsIy40IQkWioM
+            - :id: 4JaQi92ihqWOseoWIoIyE8
+            :card:
+              :title: tarjeta-principal
+              :description: Madera de Banak
+              :url: "//images.contentful.com/rvnl2qm3k12r/1o1qs7stPiu2GUI26sQ22W/971dd99ac3cfa9c7819295f1e245ed40/tarjeta-principal.jpg"
+            :detail_images:
+              :id: 3YhlfMKYBySoOyoSyCKKYY
+              :mobile:
+                :title: detalle-movil
+                :description: Madera de Banak
+                :url: "//images.contentful.com/rvnl2qm3k12r/1MbhlP2AMwwa6uwoYucWm2/e2ad567cbfe567f22b1617768f713e6d/detalle-movil.jpg"
+              :tablet:
+                :title: detalle-tablet
+                :description: Madera de Banak
+                :url: "//images.contentful.com/rvnl2qm3k12r/5I6YqyWVS8wGsw42okEeeM/9c92d6e45293e1cf80a9100a8b46e890/detalle-tablet.jpg"
+              :desktop:
+                :title: detalle-desktop
+                :description: Madera de Banak
+                :url: "//images.contentful.com/rvnl2qm3k12r/3qbdD95uEMUCcW4OgMCKqq/ff824e1996ce9bca21cf8830bd4632c9/detalle-desktop.jpg"
+            :seo:
+              :id: 2pIpCETrpCeyoMWsIkqAi0
+              :title: Madera de Banak | Tym Forest
+              :description: En Mexico la madera de Banak se utiliza mayormente para
+                la fabricación de muebles económicos, molduras y acabado de interiores.
+              :twitter:
+                :title: seo-twitter
+                :description: 
+                :url: "//images.contentful.com/rvnl2qm3k12r/3hRbVdR4IMyEIQykWSCasC/742d104e173b02ed3d102091f0849a76/seo-twitter.jpg"
+              :og:
+                :title: seo-facebook
+                :description: 
+                :url: "//images.contentful.com/rvnl2qm3k12r/16KaoyzHzGM644YGc6UMCG/4c53b7e95f093d51c2f3b4b90944177d/seo-facebook.jpg"
+          - :id: 1DN9mqj4yYwKKek6U6GQqK
+            :titulo: Madera de Cedro
+            :name: Cedro
+            :category:
+              :id: 427HuWIDOwEgGAy06aOIUE
+            :is_sale: false
+            :is_unit: false
+            :description: La madera de Cedro es importada y es fácil de trabajar manualmente
+              y con herramientas mecánicas, la densidad básica es relativamente baja.
+              El cedro es conocido por ser suave y tener un aroma muy agradable. Sus
+              usos principales son la fabricación de puertas , muebles,  gabinetes
+              y vestidores
+            :measurements:
+            - :id: 3pj6x3IQYMOQEa442qwkYO
+              :name: Largos
+              :unidad: ft
+              :is_range: true
+              :measurements:
+              - '6'
+              - '16'
+            - :id: 57UheseocE46oUyucqas2m
+              :name: Anchos
+              :unidad: in
+              :is_range: true
+              :measurements:
+              - '6'
+              - '12'
+            - :id: N5DClOSsw0si64Um0Cese
+              :name: Grosores
+              :unidad: in
+              :is_range: false
+              :measurements:
+              - '1'
+            :classes:
+            - Selecta
+            :treatments:
+            - Estufado
+            :details:
+            - :id: 5kMluTW5POce2e4SkWoe0y
+              :title: Latín
+              :description: Cereal odorata
+            - :id: 5Bj3VHNRw4eugWu8iiEQYU
+              :title: Usos
+              :description: Fabricación de muebles, gabinetes e instrumentos musicales
+            - :id: 1nD1KZpgL6y88uW68GcEKq
+              :title: Veta
+              :description: Recta con textura mediana y a veces la veta se entrelaza
+            - :id: 2bOrJzmoSEWOE80ocgOAyg
+              :title: Durámen
+              :description: Rosa claro a café rojizo
+            - :id: 5XKs1A8KXYYGEYeA826eSy
+              :title: Albura
+              :description: Café rojizo a café
+            :services:
+            - :id: 6XZFBrMht6as4kU6Kqecmc
+            - :id: 4M3EbIM7mUg6YEUSYomkYG
+            - :id: 1GRDKIV83GSwSkgUQCOOCy
+            - :id: 1rzxmGz364oO0o4ak2qIki
+            :products:
+            - :id: 4e4W1c40IUYYOQw4QkcGog
+            - :id: 1f9jSGDHT2esE6Igi4aMo
+            - :id: 5N9Kkwc1McsIy40IQkWioM
+            - :id: 4JaQi92ihqWOseoWIoIyE8
+            :card:
+              :title: tarjeta-principal
+              :description: Madera de Cedro
+              :url: "//images.contentful.com/rvnl2qm3k12r/6BCDy7FXRSaGI4ie02E2WS/37c8945b48107aebee3ac7a1fa1f5e9e/tarjeta-principal.jpg"
+            :detail_images:
+              :id: 2p6896KTQUSowqUGmygeG6
+              :mobile:
+                :title: detalle-movil
+                :description: Madera de Cedro
+                :url: "//images.contentful.com/rvnl2qm3k12r/3p4qI7M7VSwMqSEisWummW/38cd50a6efdacf3b42c8364f53a3d707/detalle-movil.jpg"
+              :tablet:
+                :title: detalle-tablet
+                :description: Madera de Cedro
+                :url: "//images.contentful.com/rvnl2qm3k12r/uLAiPRBYAgwcSuqa0WuiW/851c3ef44a04188b5b3e310365a6715b/detalle-tablet.jpg"
+              :desktop:
+                :title: detalle-desktop
+                :description: Madera de Cedro
+                :url: "//images.contentful.com/rvnl2qm3k12r/67wh37aTkWqmAuImMmEcwU/07eb59c705721adb2ed13cfbef2e6520/detalle-desktop.jpg"
+            :seo:
+              :id: 7rsffuV9hSmEuSMsks66og
+              :title: Madera de Cedro | Tym Forest
+              :description: La madera de Cedro se usa principalmente para la fabricación
+                de puertas , muebles,  gabinetes y vestidores.
+              :twitter:
+                :title: seo-twitter
+                :description: 
+                :url: "//images.contentful.com/rvnl2qm3k12r/i3QGGosKWWUIY0uoe8oWa/a4761c51763ee501974a7dc293a49889/seo-twitter.jpg"
+              :og:
+                :title: seo-facebook
+                :description: 
+                :url: "//images.contentful.com/rvnl2qm3k12r/6thT0WdZ4sSEkOow26OWuu/fce8428cfc684a29084dd8f64e05f406/seo-facebook.jpg"
+          - :id: 1f9jSGDHT2esE6Igi4aMo
+            :titulo: Madera de Encino
+            :name: Encino
+            :category:
+              :id: 427HuWIDOwEgGAy06aOIUE
+            :is_sale: false
+            :is_unit: false
+            :description: La madera de Encino es una madera fina y muy popular en
+              Mexico. Clasificada como dura y fuerte, es conocida entre los carpinteros
+              por buena trabajabilidad y precio competitivo. En el mercado puedes
+              encontrarla en tabla y tablón, en calidad FAS.
+            :measurements:
+            - :id: sRkUJY125Ei0wOkmQ2kG
+              :name: Largos
+              :unidad: ft
+              :is_range: true
+              :measurements:
+              - '6'
+              - '16'
+            - :id: 1ZMQde1M4wwUu4KSmiGU0C
+              :name: Anchos
+              :unidad: in
+              :is_range: true
+              :measurements:
+              - '6'
+              - '18'
+            - :id: 2FsgRnGsicQ4W08gMS4MUu
+              :name: Grosores
+              :unidad: in
+              :is_range: false
+              :measurements:
+              - '1'
+              - '1.5'
+              - '2'
+            :classes:
+            - FAS
+            :treatments:
+            - Estufado
+            :measurements_on_sale:
+            - :id: cZBNbvIxr20466mu4YWss
+              :price: "$37.40"
+              :measurement: '1'
+            - :id: 3S1GPnoscoW0ywCgaAeMog
+              :price: "$39.00"
+              :measurement: '1.5'
+              :unit: pt
+            - :id: 5xp8sHoENOUOO8KUMyi0MS
+              :price: "$44.00"
+              :measurement: '2'
+              :unit: pt
+            :details:
+            - :id: 5o5hTEGxJmoyaSWskQCcWy
+              :title: Latín
+              :description: Quercus rubra
+            - :id: 691YWzKuHu04YqKWWOAueM
+              :title: Origen
+              :description: Norte de Estados Unidos y Sureste de Canada
+            - :id: 7FQB2cMm3K8k22Koew2o6i
+              :title: Usos
+              :description: Duela, piso de vehiculos de transporte, fabricación de
+                muebles, gabinetes y acabado de interiores
+            - :id: 50O6pGjvWM2aookwKOoAUE
+              :title: Veta
+              :description: Recta con texturas desiguales gruesas
+            - :id: 1KhHcvkCZi0kmA8KAGCAOK
+              :title: Durámen
+              :description: Café a café claro rojizo
+            - :id: BxorPvCeooA28Oq2mEAEm
+              :title: Albura
+              :description: Café claro a café casi blanco
+            :services:
+            - :id: 6XZFBrMht6as4kU6Kqecmc
+            - :id: 3tsjNXmTIcyEskyaAwCIkW
+            - :id: 1GRDKIV83GSwSkgUQCOOCy
+            - :id: 6PZid7ugikoWKeK02eqi2w
+            :products:
+            - :id: 4e4W1c40IUYYOQw4QkcGog
+            - :id: 1DN9mqj4yYwKKek6U6GQqK
+            - :id: 5N9Kkwc1McsIy40IQkWioM
+              :titulo: Madera de Haya
+              :name: Haya
+              :category:
+                :id: 427HuWIDOwEgGAy06aOIUE
+              :is_sale: false
+              :is_unit: false
+              :description: La madera de Haya proviene de Europa  es una madera de
+                alta densidad , es de color pardo rosáceo  claro su veta es suave
+                , se aconseja utilizar taladro antes de atornillado. El cepillado
+                y torneado es muy bueno y se utiliza principalmente para carpintería,
+                mobiliario y molduras.
+              :measurements:
+              - :id: 6pBAmNlkXKKwqimQS8Uuq0
+                :name: Largos
+                :unidad: ft
+                :is_range: true
+                :measurements:
+                - '6'
+                - '10'
+              - :id: 6QgA1uo1Q4U2COosym00UY
+                :name: Anchos
+                :unidad: in
+                :is_range: true
+                :measurements:
+                - '4'
+                - '10'
+              - :id: 6zfLEynGr6YMUCgyESssoO
+                :name: Grosores
+                :unidad: in
+                :is_range: false
+                :measurements:
+                - '1'
+              :classes:
+              - Selecta
+              :treatments:
+              - Estufado
+              :details:
+              - :id: 6raOD5TWTeS2eCmGGOUCU2
+                :title: Latín
+                :description: Fagus sylvatica
+              - :id: 1WV7o38OEY6E2gQAywyMcM
+                :title: Origen
+                :description: Alemania
+              - :id: 5SAK6d2D60EGyeuM4sQSeu
+                :title: Usos
+                :description: Capinteria, acabado de interiores, mobilario y molduras
+              - :id: RBwAIWhxssIYyCyUYMMqQ
+                :title: Veta
+                :description: Repartida discontinuamente en cortas lineas
+              - :id: 3jobhviL68OuwOweOKoEGI
+                :title: Durámen
+                :description: Blanco anaranjado a rosado claro
+              - :id: 5Qt1kVG5A4kOKqS0ei4omw
+                :title: Albura
+                :description: Rosado claro
+              :services:
+              - :id: 6XZFBrMht6as4kU6Kqecmc
+              - :id: 3tsjNXmTIcyEskyaAwCIkW
+              - :id: 1GRDKIV83GSwSkgUQCOOCy
+              - :id: 6PZid7ugikoWKeK02eqi2w
+              :products:
+              - :id: 4e4W1c40IUYYOQw4QkcGog
+              - :id: 1f9jSGDHT2esE6Igi4aMo
+              - :id: 4JaQi92ihqWOseoWIoIyE8
+              - :id: 2a8OZwBztymYYyCsKiKQ2Q
+              :card:
+                :title: tarjeta-principal
+                :description: Madera de Haya
+                :url: "//images.contentful.com/rvnl2qm3k12r/5kGGSXFIc0WaYuysC40W0S/9d2c37ff6e0796c406b86cadde0b8d9c/tarjeta-principal.jpg"
+              :detail_images:
+                :id: 3Et1nkASP6OCSGQoWuQC8I
+                :mobile:
+                  :title: detalle-movil
+                  :description: Madera de Haya
+                  :url: "//images.contentful.com/rvnl2qm3k12r/1Yi4VFjJgAw8IiS6UqwS6M/ada7f17683eab8f9fac4b11cecd14210/detalle-movil.jpg"
+                :tablet:
+                  :title: detalle-tablet
+                  :description: Madera de Haya
+                  :url: "//images.contentful.com/rvnl2qm3k12r/1UchrM0hQwQKaq8Ii6AmKa/37288333e21aa0146c104146c3bff23b/detalle-tablet.jpg"
+                :desktop:
+                  :title: detalle-desktop
+                  :description: 
+                  :url: "//images.contentful.com/rvnl2qm3k12r/q0sI68msz6KIAwWua2iIo/4016e9aea5264ced4aa3481b09118ba3/detalle-desktop.jpg"
+              :seo:
+                :id: 6EzH4rXOakeek0aoiaYcKI
+                :title: Madera de Haya | Tym Forest
+                :description: La madera de Haya proviene de Europa y es utilizada
+                  principalmente para carpintería, mobiliario y molduras.
+                :twitter:
+                  :title: seo-twitter
+                  :description: 
+                  :url: "//images.contentful.com/rvnl2qm3k12r/1qC4H7Gn8wq842y6ASmKy2/01ebd89835a5b390bb98b825e88f2916/seo-twitter.jpg"
+                :og:
+                  :title: seo-facebook
+                  :description: 
+                  :url: "//images.contentful.com/rvnl2qm3k12r/5X4YnipEUocgEoSMAuEaG8/8804213ae61c296c6955d83721d56358/seo-facebook.jpg"
+            - :id: 4JaQi92ihqWOseoWIoIyE8
+            :card:
+              :title: tarjeta-principal
+              :description: Madera de Encino
+              :url: "//images.contentful.com/rvnl2qm3k12r/2EC18lgzRaSWIEWEGAmMGc/248baddfb633c27ba9f8061619d98036/tarjeta-principal.jpg"
+            :detail_images:
+              :id: maDIuhrKKGcUU2u6qYA6K
+              :mobile:
+                :title: detalle-movil
+                :description: Madera de Encino
+                :url: "//images.contentful.com/rvnl2qm3k12r/3jqwXcgy2QMmuweA4Gm8Mk/56de25d8b7dd4cf743dd068d837cd83c/detalle-movil.jpg"
+              :tablet:
+                :title: detalle-tablet
+                :description: Madera de Encino
+                :url: "//images.contentful.com/rvnl2qm3k12r/4jNxczJE5iuGUkoQOSeeuO/ccfdbad78a3574e9a043ecb371c13587/detalle-tablet.jpg"
+              :desktop:
+                :title: detalle-desktop
+                :description: Madera para Encino
+                :url: "//images.contentful.com/rvnl2qm3k12r/5xCq5dEQvKuGyAo2UU4K0m/85f772438177d6cddecea8b9aa41936f/detalle-desktop.jpg"
+            :seo:
+              :id: 7rPUwETCPmAKaMsgS0cMke
+              :title: Madera de Encino | Tym Forest
+              :description: La madera de Encino es una madera muy popular en México
+                y es conocida entre los carpinteros por buena trabajabilidad y precio
+                competitivo.
+              :twitter:
+                :title: seo-twitter
+                :description: 
+                :url: "//images.contentful.com/rvnl2qm3k12r/66hkNG8A2AuwowmoKqy0UC/4b85f7fe8edc42d99388a638b1aa315a/seo-twitter.jpg"
+              :og:
+                :title: seo-facebook
+                :description: 
+                :url: "//images.contentful.com/rvnl2qm3k12r/1tOMo3HygQCoOW2aGQaOAg/de803a9b0289dc8619aa7491f618a8dc/seo-facebook.jpg"
+          - :id: 2a8OZwBztymYYyCsKiKQ2Q
+            :titulo: Madera de Tzalam
+            :name: Tzalam
+            :category:
+              :id: 427HuWIDOwEgGAy06aOIUE
+            :is_sale: false
+            :is_unit: false
+            :description: La madera aserrada de Tzalam a tomado popularidad por su
+              color café rojizo y su dureza, es muy utilizado por arquitectos para
+              proyectos en exterior e interior. El Tzalam es una madera muy dura por
+              lo que su resistencia al interperie es buena.
+            :measurements:
+            - :id: 7ifwfxV7PySSG8AeqK0iqo
+              :name: Largos
+              :unidad: ft
+              :is_range: true
+              :measurements:
+              - '7'
+              - '14'
+            - :id: 3c0WlaGrMsQC00ioWySw8q
+              :name: Anchos
+              :unidad: in
+              :is_range: true
+              :measurements:
+              - '4'
+              - '10'
+            - :id: 2pJws5Fr6Ya8KIiaakYyUo
+              :name: Grosores
+              :unidad: in
+              :is_range: false
+              :measurements:
+              - '1'
+            :classes:
+            - FAS
+            :treatments:
+            - Estufado
+            :details:
+            - :id: 3i9FN8UMSc44MOamQ2iyQy
+              :title: Latín
+              :description: Lysiloma app
+            - :id: 6IINY7jY2IiKm8EuaKK4UQ
+              :title: Origen
+              :description: México y Centro América
+            - :id: 2RR57vJuyIkcOEeAaa2AEO
+              :title: Usos
+              :description: Piso, duela, bancas, acabado de interiores y mobiliario
+                fino
+            - :id: 3BNTSbT292q4ckQigiGIqe
+              :title: Veta
+              :description: Recta con una textura abierta y uniforme
+            - :id: 1UIdGhptjqucC0iA6cCO2U
+              :title: Durámen
+              :description: Café rojizo a café claro
+            - :id: 4MIdUXAqJ22YQguqS4KikQ
+              :title: Albura
+              :description: Café claro
+            :services:
+            - :id: 6XZFBrMht6as4kU6Kqecmc
+            - :id: 1GRDKIV83GSwSkgUQCOOCy
+            - :id: 1rzxmGz364oO0o4ak2qIki
+            - :id: 6PZid7ugikoWKeK02eqi2w
+            :products:
+            - :id: 4xRWoCtD8AimIeyA2Wa6OC
+              :titulo: Triplay de Tzalam
+              :name: Tzalam
+              :category:
+                :id: 6vJaxzKEZqMEeUae2mMYmC
+              :subcategory:
+                :id: 4f3IRCYrVSsOqeSc6EK22Y
+              :is_sale: false
+              :is_unit: true
+              :description: El triplay de Tzalam es un tablero hecho de maderas contrachapadas
+                unidas y prensadas y enchapado de Tzalam por una cara del tablero.
+                Sus principales usos son la fabricación de muebles finos y acabado
+                de interiores.
+              :measurements:
+              - :id: 2Nf5lA7x8AWC0wmqUIEao
+                :name: Largos
+                :unidad: cm
+                :is_range: false
+                :measurements:
+                - '244'
+              - :id: XmAHDr4oQoAkyqsKC8cKw
+                :name: Anchos
+                :unidad: cm
+                :is_range: false
+                :measurements:
+                - '122'
+              - :id: 6jDjiD5sas4aewakuESI6Y
+                :name: Grosores
+                :unidad: mm
+                :is_range: false
+                :measurements:
+                - '5'
+              :classes:
+              - BC
+              :details:
+              - :id: 12ea0hm6IoK4gkmiameIcu
+                :title: Latín
+                :description: Lysiloma app.
+              - :id: 5ZUjxFEkKIEeueukm2UU0s
+                :title: Origen
+                :description: México y Centro America
+              - :id: 1nMFIrkdLau8ow8ISQEOCs
+                :title: Usos
+                :description: Fabricación de muebles, molduras y acabado de interiores
+              - :id: 2LeghSiESIoE6g0iOISGYO
+                :title: Veta
+                :description: Recta con textura abierta
+              - :id: 4cld7I35DqiscAq8AKAqo0
+                :title: Durámen
+                :description: Café a café claro
+              - :id: 4M3JXejQQEOY0Aem2UCcCo
+                :title: Albura
+                :description: Café claro
+              :services:
+              - :id: bYH4OryRJ6aqomYIC4uGa
+              - :id: 4M3EbIM7mUg6YEUSYomkYG
+              - :id: 1rzxmGz364oO0o4ak2qIki
+              - :id: 6PZid7ugikoWKeK02eqi2w
+              :products:
+              - :id: 2a8OZwBztymYYyCsKiKQ2Q
+              - :id: 1f9jSGDHT2esE6Igi4aMo
+              - :id: 5ScmFJvuyk0y2q6aW084WU
+                :titulo: Triplay de Encino
+                :name: Encino
+                :category:
+                  :id: 6vJaxzKEZqMEeUae2mMYmC
+                :subcategory:
+                  :id: 4f3IRCYrVSsOqeSc6EK22Y
+                :is_sale: false
+                :is_unit: true
+                :description: El Triplay de Encino es un tablero hecho de una serie
+                  de láminas de madera pegadas una con la otra encontradas, enchapado
+                  de Encino por una o dos caras del tablero. Sus principal uso es
+                  la fabricación de muebles.
+                :measurements:
+                - :id: 3qOGg0O6VOgw6Ski0GAU0U
+                  :name: Largos
+                  :unidad: cm
+                  :is_range: false
+                  :measurements:
+                  - '244'
+                - :id: f976gCByHm46gCKcyiU24
+                  :name: Anchos
+                  :unidad: cm
+                  :is_range: false
+                  :measurements:
+                  - '122'
+                - :id: 5bOO2stXx6gKE4EAqEIKq
+                  :name: Grosores
+                  :unidad: mm
+                  :is_range: false
+                  :measurements:
+                  - '5'
+                  - '12'
+                  - '18'
+                :classes:
+                - BC
+                :details:
+                - :id: 6DUohutN6M484MuQQu0Gsq
+                  :title: Latín
+                  :description: Quercus rubra
+                - :id: WHXWa5Jv2uCwcAGEyI4wU
+                  :title: Origen
+                  :description: Noreste de Estados Unidos
+                - :id: 3pQKR3Oc2k4k28qKmUMQKK
+                  :title: Usos
+                  :description: Fabricación de muebles, gabinetes y acabados
+                - :id: 45gF34k8eQOAKyQeIEiK6A
+                  :title: Veta
+                  :description: Recta con texturas desiguales gruesas
+                - :id: 1TRsob1X2AG6MWuuOO020
+                  :title: Durámen
+                  :description: Café a café claro rojizo
+                - :id: 10RgsykTkEUGscq6K2UYws
+                  :title: Albura
+                  :description: Café claro a café casi blanco
+                :services:
+                - :id: 4M3EbIM7mUg6YEUSYomkYG
+                - :id: bYH4OryRJ6aqomYIC4uGa
+                - :id: 1rzxmGz364oO0o4ak2qIki
+                - :id: 6PZid7ugikoWKeK02eqi2w
+                :products:
+                - :id: 1f9jSGDHT2esE6Igi4aMo
+                - :id: 4cLsQTSVSosWEuemGykCAm
+                - :id: 6lQ7PLt97y6G2EQEm2KyKS
+                - :id: 7i1H5MzPC8oeG2C2eYw68e
+                  :titulo: Triplay de Poplar
+                  :name: Poplar
+                  :category:
+                    :id: 6vJaxzKEZqMEeUae2mMYmC
+                  :subcategory:
+                    :id: 4f3IRCYrVSsOqeSc6EK22Y
+                  :is_sale: false
+                  :is_unit: true
+                  :description: El Triplay de Poplar es un tablero hecho de maderas
+                    contrachapadas unidas y prensadas y enchapado de Poplar por las
+                    dos caras del tablero. Su principal uso es la fabricación de muebles.
+                  :measurements:
+                  - :id: 6nsUmrGxnUqqy2CWWEw6qW
+                    :name: Largos
+                    :unidad: cm
+                    :is_range: false
+                    :measurements:
+                    - '244'
+                  - :id: 5es5nsfSjuOoCisMW8Ayeu
+                    :name: Anchos
+                    :unidad: cm
+                    :is_range: false
+                    :measurements:
+                    - '122'
+                  - :id: 1AM2t8rbDWYMqI6qOU6iAC
+                    :name: Grosores
+                    :unidad: mm
+                    :is_range: false
+                    :measurements:
+                    - '5'
+                    - '12'
+                    - '15'
+                    - '18'
+                  :classes:
+                  - BC
+                  :details:
+                  - :id: 4Egh15HXeMEw2yYi4awGku
+                    :title: Latín
+                    :description: Liriodendron tulipifera
+                  - :id: 417bave2QgyEeUguik8muM
+                    :title: Origen
+                    :description: Este de Estados Unidos
+                  - :id: 26cgL1uhlG4cggY8OuqWGO
+                    :title: Usos
+                    :description: Fabricacioón de muebles, moldura y acabado de interiores
+                  - :id: 3oGTFZV8CsMiW66eaOsQY8
+                    :title: Veta
+                    :description: Recta, uniforme con textura mediana
+                  - :id: PIrC577lwiqoU4AyekYao
+                    :title: Durámen
+                    :description: Crema claro a café amarillo
+                  - :id: 21lpuVJq9mAOsEwKcCiiaI
+                    :title: Albura
+                    :description: Amarillo palido a blanco
+                  :services:
+                  - :id: 4M3EbIM7mUg6YEUSYomkYG
+                  - :id: bYH4OryRJ6aqomYIC4uGa
+                  - :id: 1rzxmGz364oO0o4ak2qIki
+                  - :id: 6PZid7ugikoWKeK02eqi2w
+                  :products:
+                  - :id: 5kNyBhHo5OegSwYsEwkq4s
+                  - :id: 5ScmFJvuyk0y2q6aW084WU
+                  - :id: 6lQ7PLt97y6G2EQEm2KyKS
+                  - :id: 1f9jSGDHT2esE6Igi4aMo
+                  :card:
+                    :title: tarjeta-principal
+                    :description: Triplay de Poplar
+                    :url: "//images.contentful.com/rvnl2qm3k12r/hn8HeQ9pduESeG4CaiYsi/0ba3f804b1511d6c1c8a848b6eefffd6/tarjeta-principal.jpg"
+                  :detail_images:
+                    :id: 5JmNwjC9VKQG8SekkEs68Q
+                    :mobile:
+                      :title: detalle-movil
+                      :description: Triplay de Poplar
+                      :url: "//images.contentful.com/rvnl2qm3k12r/3m3eYQmbfiu6KkYsEoC42C/252a3530fb5969f64b3608dec24d9ca8/detalle-movil.jpg"
+                    :tablet:
+                      :title: detalle-tablet
+                      :description: Triplay de Poplar
+                      :url: "//images.contentful.com/rvnl2qm3k12r/2WheeGnIVWYGumOQewKEC/4e61caac483974b6c456daa515d42f80/detalle-tablet.jpg"
+                    :desktop:
+                      :title: detalle-desktop
+                      :description: Triplay de Poplar
+                      :url: "//images.contentful.com/rvnl2qm3k12r/62NjMcXMdyy6WA4cGuqYSi/f92733416c0362cf82d09117c76a5577/detalle-desktop.jpg"
+                  :seo:
+                    :id: 1NCzUytTby2MkOeSMeAsA2
+                    :title: Triplay de Poplar | Tym Forest
+                    :description: El triplay de Poplar es un tablero hecho de maderas
+                      contrachapadas unidas y prensadas. Sus principales usos son
+                      fabricación de muebles, moldura y acabado de interiores.
+                    :twitter:
+                      :title: seo-twitter
+                      :description: 
+                      :url: "//images.contentful.com/rvnl2qm3k12r/5PY9MuthhSISamKo2QW6mu/a89ed33a269fe1e36c562923b2458a35/seo-twitter.jpg"
+                    :og:
+                      :title: seo-facebook
+                      :description: 
+                      :url: "//images.contentful.com/rvnl2qm3k12r/71DMWhSc8MuMuIqqIqcwmm/2f3207d2ddf3da28716759e37ba3abc0/seo-facebook.jpg"
+                :card:
+                  :title: tarjeta-principal
+                  :description: Triplay de Encino
+                  :url: "//images.contentful.com/rvnl2qm3k12r/5jDGpDFwLKMMGEWMIsGEQs/951cb0b7b0ddc76bb6cf71d1c1fc493a/tarjeta-principal.jpg"
+                :detail_images:
+                  :id: 6Nx7YuqcAEewoWU4CEGKUi
+                  :mobile:
+                    :title: detalle-movil
+                    :description: Triplay de Encino
+                    :url: "//images.contentful.com/rvnl2qm3k12r/4uGlEkLALmwWccOswMmEaW/13f2a6a3b28811556deae40ec3edcca1/detalle-movil.jpg"
+                  :tablet:
+                    :title: detalle-tablet
+                    :description: Triplay de Encino
+                    :url: "//images.contentful.com/rvnl2qm3k12r/7GBKjK0vle2WYmWyI4MOKq/6aaf360d1000b9c65f788c263c671e50/detalle-tablet.jpg"
+                  :desktop:
+                    :title: detalle-desktop
+                    :description: Triplay de Encino
+                    :url: "//images.contentful.com/rvnl2qm3k12r/790IbPGGrKYQ86Y8OGGggU/81a39b6d1853ff564061dc694fdf26a2/detalle-desktop.jpg"
+                :seo:
+                  :id: eptU5vpttuEkI2GMc28C6
+                  :title: Triplay de Encino | Tym Forest
+                  :description: El triplay de Encino es un tablero hecho de maderas
+                    contrachapadas unidas y prensadas. Sus principales usos son fabricación
+                    de puertas y muebles.
+                  :twitter:
+                    :title: seo-twitter
+                    :description: 
+                    :url: "//images.contentful.com/rvnl2qm3k12r/6P6uTfKPzaC6KIUeQaW4e/f9bcd797171ba635656d236fca993234/seo-twitter.jpg"
+                  :og:
+                    :title: seo-facebook
+                    :description: 
+                    :url: "//images.contentful.com/rvnl2qm3k12r/7aHzKAiZXyoQW0g6QWuKaU/546bf834df32d789b90d2feee28692ed/seo-facebook.jpg"
+              - :id: 1ZcdXxQPcIy4qogccYGWsw
+              :card:
+                :title: tarjeta-principal
+                :description: Triplay de Tzalam
+                :url: "//images.contentful.com/rvnl2qm3k12r/3rCB9KJifCaWeCcyAUe0iu/1f7e552bd2da6f973247bf902860c971/tarjeta-principal.jpg"
+              :detail_images:
+                :id: 3evjmMbOnCaaIsuS8WOSSW
+                :mobile:
+                  :title: detalle-movil
+                  :description: Triplay de Tzalam
+                  :url: "//images.contentful.com/rvnl2qm3k12r/2QroKmNQPYWg6Qa8o8gOiQ/16195c241fee92ffc85b1ccbd87432e2/detalle-movil.jpg"
+                :tablet:
+                  :title: detalle-tablet
+                  :description: Triplay de Tzalam
+                  :url: "//images.contentful.com/rvnl2qm3k12r/3twEhBSQp26WYiAAUQsuU8/ffb1c820d4ce384080a37c0fffa20e17/detalle-tablet.jpg"
+                :desktop:
+                  :title: detalle-desktop
+                  :description: Triplay de Tzalam
+                  :url: "//images.contentful.com/rvnl2qm3k12r/3seVNNrqmI4Q4EEGCMUu2K/a64ae4298b0104dd36dd8d8e46398577/detalle-desktop.jpg"
+              :seo:
+                :id: 2YOz4ftpIQ88yUIWgUA8U4
+                :title: Triplay de Tzalam | Tym Forest
+                :description: El triplay de Tzalam es un tablero hecho de maderas
+                  contrachapadas unidas y prensadas. Sus principales usos son fabricación
+                  de muebles, molduras y acabado de interiores.
+                :twitter:
+                  :title: seo-twitter
+                  :description: 
+                  :url: "//images.contentful.com/rvnl2qm3k12r/5Crrvjxqr6SqaGIQMWeOSy/80f9a3730d651c90635517db26f596f5/seo-twitter.jpg"
+                :og:
+                  :title: seo-facebook
+                  :description: 
+                  :url: "//images.contentful.com/rvnl2qm3k12r/5ygllcV0rKkM48sggQIm2u/789201e2eb386461a21ae2688a435675/seo-facebook.jpg"
+            - :id: 4JaQi92ihqWOseoWIoIyE8
+              :titulo: Madera de Nogal Americano
+              :name: Nogal Americano
+              :category:
+                :id: 427HuWIDOwEgGAy06aOIUE
+              :is_sale: false
+              :is_unit: false
+              :description: La madera de Nogal es considerada una madera preciosa
+                es de color café marrón. Es muy popular y ampliamente disponible.
+                Conocida por ser dura, fuerte y fácil de trabajar. El Nogal esta disponible
+                en grosores de 1, 1.5 y 2 pulgadas.
+              :measurements:
+              - :id: 63ggN5MQJGoM6GuQqeWo2w
+                :name: Largos
+                :unidad: ft
+                :is_range: true
+                :measurements:
+                - '6'
+                - '10'
+              - :id: 1NTPhisJlOQWqaQq0emGMu
+                :name: Anchos
+                :unidad: in
+                :is_range: true
+                :measurements:
+                - '4'
+                - '12'
+              - :id: 6svgJOrI2WkukGmA2uY4Ey
+                :name: Grosores
+                :unidad: in
+                :is_range: false
+                :measurements:
+                - '1'
+                - '1.5'
+                - '2'
+              :classes:
+              - Primera Común
+              - FAS
+              :treatments:
+              - Estufado
+              :details:
+              - :id: 6ruo7Ky3EAsqUQyyKkgsKk
+                :title: Latín
+                :description: Juglans nigra
+              - :id: 4KWOvGu3Ac2A42m6ios0aC
+                :title: Origen
+                :description: Estados Unidos
+              - :id: 1TWA05iSgIaCisU6qeKQ8C
+                :title: Usos
+                :description: Pisos, mobilario, acabado de interiores e intrumentos
+                  musicales
+              - :id: 2Ko5bHToq48UwyIeGEugkq
+                :title: Veta
+                :description: Normalmente recta, puede ser irregular
+              - :id: 1LpLA7Z5GY4I28WsEiugyg
+                :title: Durámen
+                :description: Marrón claro pálido a un marrón chocolate
+              - :id: OfETBRFt6Kuu8oak80Q2O
+                :title: Albura
+                :description: Amarillo-gris a casi blanco
+              :services:
+              - :id: 6XZFBrMht6as4kU6Kqecmc
+              - :id: 3tsjNXmTIcyEskyaAwCIkW
+                :title: Corte Longitudinal para Maderas
+                :nombre: Corte Longitudinal
+                :subcategory:
+                  :id: 6QolIE1eMgM4CUYQisKmSU
+                  :title: Dimensionado para Maderas
+                  :nombre: Dimensionado
+                  :category: Maderas
+                  :description: Cortes rectos transversales y longitudinales a la
+                    medida.
+                  :image:
+                    :title: dimensionado
+                    :description: Dimensionando un tablero en nuestra Sucursal de
+                      Nuevo Repueblo.
+                    :url: "//images.contentful.com/rvnl2qm3k12r/3qutJAFZ9eccSiC8Q024su/c7db74a632868a100bd306914a9662ba/dimensionado.jpg"
+                :description: Corte recto con sierra de mesa o sierra cinta.
+                :card:
+                  :title: corte-longitudinal
+                  :description: Haciendo un corte longitudinal con una sierra vertical.
+                  :url: "//images.contentful.com/rvnl2qm3k12r/6ILATemznywQEGwAeuaCK2/eb98a21a44b3216ed80850d500d77d92/corte-longitudinal.jpg"
+              - :id: 1GRDKIV83GSwSkgUQCOOCy
+              - :id: 6PZid7ugikoWKeK02eqi2w
+              :products:
+              - :id: 4e4W1c40IUYYOQw4QkcGog
+              - :id: 1DN9mqj4yYwKKek6U6GQqK
+              - :id: 1f9jSGDHT2esE6Igi4aMo
+              - :id: 2a8OZwBztymYYyCsKiKQ2Q
+              :card:
+                :title: tarjeta-principal
+                :description: Madera de Nogal Americano
+                :url: "//images.contentful.com/rvnl2qm3k12r/lzMVnMsp0swIeOgAe6W6w/324a3ca4dd73ac12ced931befce95494/tarjeta-principal.jpg"
+              :detail_images:
+                :id: 3a1KdiY7u8gcaqAw68wC4C
+                :mobile:
+                  :title: detalle-movil
+                  :description: Madera de Nogal Americano
+                  :url: "//images.contentful.com/rvnl2qm3k12r/2tInaXQ4X6uYwc2eoqcqYs/d63b361424fa091f4222b3823d7cfc0c/detalle-movil.jpg"
+                :tablet:
+                  :title: detalle-tablet
+                  :description: Madera de Nogal Americano
+                  :url: "//images.contentful.com/rvnl2qm3k12r/7dEzLZsduEmE4GIG6AkmG2/69da3d733fc313c15b829f0fa073edd3/detalle-tablet.jpg"
+                :desktop:
+                  :title: detalle-desktop
+                  :description: Madera de Nogal Americano
+                  :url: "//images.contentful.com/rvnl2qm3k12r/2Ze7Qwg9GoikYcQS0mYEiO/eee294becac8fc9d5ffeeafeebfcd856/detalle-desktop.jpg"
+              :seo:
+                :id: 58cJV939pS0gQK0ki2WY6G
+                :title: Madera de Nogal Americano | Tym Forest
+                :description: La madera de Nogal Americano es una madera muy popular
+                  y ampliamente disponibles. Es utilizada para pisos, mobiliario,
+                  acabado de interiores e instrumentos musicales.
+                :twitter:
+                  :title: seo-twitter
+                  :description: 
+                  :url: "//images.contentful.com/rvnl2qm3k12r/2YYECy1COk2gYAGE66OuAA/cf873b6952e37e4c191fa8c5cad46db9/seo-twitter.jpg"
+                :og:
+                  :title: seo-facebook
+                  :description: 
+                  :url: "//images.contentful.com/rvnl2qm3k12r/29LgMLIt6E268AAIkcmu68/51bd70316831fad39d5ed69e7f816e4e/seo-facebook.jpg"
+            - :id: 1f9jSGDHT2esE6Igi4aMo
+            - :id: aXx00SQo7KCK0uugIQUke
+              :title: Enchapado de Nogal Americano
+              :name: Nogal Americano
+              :category:
+                :id: 6vJaxzKEZqMEeUae2mMYmC
+              :subcategory:
+                :id: 5ZnXpImjEQ6q44OcyqkaW4
+                :nombre: Enchapado
+                :category:
+                  :id: 6vJaxzKEZqMEeUae2mMYmC
+                :is_detail: false
+                :description: Tablero de MDF enchapado por una o ambas caras de maderas
+                  finas . Su principal uso es la fabricación de muebles y acabado
+                  de interiores.
+                :measurements:
+                - :id: EZqLsj93SSy2G44IOuy0g
+                  :name: 4 x 8
+                  :unidad: mm
+                  :is_range: false
+                  :measurements:
+                  - '6'
+                  - '15'
+                  - '18'
+                :classes:
+                - AA
+                :services:
+                - :id: 2RQNpk0MfuY2Ag4mwYs4KW
+                - :id: 48Bp6FClGUMCgsEKiWk448
+                  :title: Enchapado de Cantos para Tableros
+                  :nombre: Enchapado de Cantos
+                  :subcategory:
+                    :id: 6IhYB8gRZCa4kgKsSGGmwa
+                    :title: Enchapados para Tableros
+                    :nombre: Enchapados
+                    :category: Tableros
+                    :description: Servicio de pegado de chapa o cintilla en el canto
+                      del tablero.
+                    :image:
+                      :title: enchapados
+                      :description: Trabajador de Tym Forest enchapando un tablero
+                        de Okumé.
+                      :url: "//images.contentful.com/rvnl2qm3k12r/C7So59QLfisWkoWkMIwKi/17f7aa261a67be69d3e0520ff3b49685/enchapados.jpg"
+                  :description: Enchapado de madera natural y melamina para canto
+                    de tablero.
+                  :card:
+                    :title: enchapado-de-cantos
+                    :description: Trabajador de Tym Forest enchapando los cantos de
+                      un tablero de Okumé.
+                    :url: "//images.contentful.com/rvnl2qm3k12r/oT221fGk92C2I4O4628Ai/4d6bb5cc3f390b288c913c710b33aa2a/enchapado-de-cantos.jpg"
+                - :id: bYH4OryRJ6aqomYIC4uGa
+                - :id: 1rzxmGz364oO0o4ak2qIki
+                :products:
+                - :id: 1ZcdXxQPcIy4qogccYGWsw
+                  :title: Listonado de Okumé
+                  :name: Okumé
+                  :category:
+                    :id: 6vJaxzKEZqMEeUae2mMYmC
+                  :subcategory:
+                    :id: 5AjaCTTv6EwESuMIYw4mUe
+                    :nombre: Listonado
+                    :category:
+                      :id: 6vJaxzKEZqMEeUae2mMYmC
+                    :is_detail: false
+                    :description: Listonado es un tablero con una base hecha de tiras
+                      de madera sólida y  enchapado con diferentes especies de maderas
+                      finas.
+                    :measurements:
+                    - :id: 23nblAqLJSeouWO2MyuqoG
+                      :name: Espesores
+                      :unidad: mm
+                      :is_range: false
+                      :measurements:
+                      - '15'
+                      - '18'
+                    :classes:
+                    - Importado
+                    - Prime
+                    :services:
+                    - :id: 2RQNpk0MfuY2Ag4mwYs4KW
+                    - :id: 48Bp6FClGUMCgsEKiWk448
+                    - :id: bYH4OryRJ6aqomYIC4uGa
+                    - :id: 1rzxmGz364oO0o4ak2qIki
+                    :products:
+                    - :id: 6lQ7PLt97y6G2EQEm2KyKS
+                    - :id: 3pv0po0R16Ks0wCSqWuSyW
+                      :title: Enchapado de Ebano
+                      :name: Ebano
+                      :category:
+                        :id: 427HuWIDOwEgGAy06aOIUE
+                      :subcategory:
+                        :id: 5ZnXpImjEQ6q44OcyqkaW4
+                      :is_sale: false
+                      :card:
+                        :title: tarjeta-principal
+                        :description: Enchapado de Ebano
+                        :url: "//images.contentful.com/rvnl2qm3k12r/bawAi9GbHaUYcmgYOmCiS/34c6400454e6a82ec6f3cbaa81a32bf5/tarjeta-principal.jpg"
+                      :card_detail:
+                        :title: tarjeta-detalle
+                        :description: Enchapado de Ebano
+                        :url: "//images.contentful.com/rvnl2qm3k12r/PAbKZ63W4SoAYOQgimu0a/65aebd70096b835ce1c73d7cc945ed14/tarjeta-detalle.jpg"
+                    - :id: 4cLsQTSVSosWEuemGykCAm
+                    - :id: 5Lee3G0e88uq82o0geCMe6
+                    :card:
+                      :title: tarjeta-principal
+                      :description: Listonado
+                      :url: "//images.contentful.com/rvnl2qm3k12r/6cOtKe8DHUMQUSyUQqIEQc/6bda99ecad4093c7a1d2ad3211a4801f/tarjeta-principal.jpg"
+                    :seo:
+                      :id: 1Och3FcR3C4OomMYCO4E2a
+                      :title: Listonado | Tym Forest
+                      :description: El Listonado es un tablero con una base hecha
+                        de tiras de madera de pino, enchapado con una capa delgada
+                        de otra especie de madera.
+                      :twitter:
+                        :title: seo-twitter
+                        :description: 
+                        :url: "//images.contentful.com/rvnl2qm3k12r/63ru9tTPkAW40IGe64qgEo/de49e6d95f8ca6f3507f40ac39c7e02f/seo-twitter.jpg"
+                      :og:
+                        :title: seo-facebook
+                        :description: 
+                        :url: "//images.contentful.com/rvnl2qm3k12r/40o6QfBwicqyea22QAkGkS/6321b8720a73135de74878ca9c408385/seo-facebook.jpg"
+                  :is_sale: false
+                  :card:
+                    :title: tarjeta-principal
+                    :description: Listonado de Okumé
+                    :url: "//images.contentful.com/rvnl2qm3k12r/5C0rJL0jRe4wmSaqComIo6/f9c7bdd2b1ca87c5b08a48f9125daeb6/tarjeta-principal.jpg"
+                  :card_detail:
+                    :title: tarjeta-detalle
+                    :description: Listonado de Okumé
+                    :url: "//images.contentful.com/rvnl2qm3k12r/sXhMNLduzAcQ4OaQogis/085d08f3a05e9d0528fc927525dfb18b/tarjeta-detalle.jpg"
+                - :id: 2s1ewSArfumuIciKM4OaM0
+                  :title: Melamina de Lombardía
+                  :name: Lombardía
+                  :category:
+                    :id: 6vJaxzKEZqMEeUae2mMYmC
+                  :subcategory:
+                    :id: 1I0wqnXvCsaaGIk8KMsWW2
+                  :is_sale: false
+                  :card:
+                    :title: tarjeta-principal
+                    :description: Melamina de Lombardía
+                    :url: "//images.contentful.com/rvnl2qm3k12r/5iQm75fXUc0oK80CwemWeq/5499c1ed8064898f1835f33d1c2f1d20/tarjeta-principal.jpg"
+                  :card_detail:
+                    :title: tarjeta-detalle
+                    :description: Melamina de Lombardía
+                    :url: "//images.contentful.com/rvnl2qm3k12r/zVc3wwkcBU2MqQkA2u8ci/376ed1adfed0840deaaa2ac9dfbb5ad1/tarjeta-detalle.jpg"
+                - :id: 61QxYyKpZmGUMskeG64q4U
+                  :title: Melamina de Aserrado Nórdico
+                  :name: Aserrado Nórdico
+                  :category:
+                    :id: 6vJaxzKEZqMEeUae2mMYmC
+                  :subcategory:
+                    :id: 1I0wqnXvCsaaGIk8KMsWW2
+                    :nombre: Melaminas
+                    :category:
+                      :id: 6vJaxzKEZqMEeUae2mMYmC
+                    :is_detail: false
+                    :description: La Melamina es un tablero  de MDF. MDP o Aglomerado
+                      cubierto con un laminado de baja presión con diferentes colores
+                      y diseños es muy utilizado en la fabricación de cocinas , muebles
+                      , centros de entretenimiento  etc, este producto no requiere
+                      ningún acabado adicional de pintura .
+                    :measurements:
+                    - :id: 6FBV6Ao9oIaeOgoM28o0c0
+                      :name: Espesores
+                      :unidad: mm
+                      :is_range: false
+                      :measurements:
+                      - '6'
+                      - '15'
+                      - '18'
+                    :classes:
+                    - Vesto
+                    :details:
+                    - :id: 4FCAF7xJ164Ogu0QgwCSKC
+                      :title: Colecciones
+                      :description: Vesto Nature
+                    :services:
+                    - :id: bYH4OryRJ6aqomYIC4uGa
+                    - :id: 21euNVgSGc0kgyk8SKgiKk
+                      :title: Perforado para Bisagra
+                      :nombre: Perforado para Bisagra
+                      :subcategory:
+                        :id: 1EWKWf7JheI06waYOg4uEE
+                        :title: Servicios Adicionales para Tableros
+                        :nombre: Adicionales
+                        :category: Tableros
+                        :description: Servicios especiales para tableros.
+                        :image:
+                          :title: adicionales
+                          :description: Trabajadores de Tym Forest haciendo cortes
+                            para traslape en la Sucursal de Matriz.
+                          :url: "//images.contentful.com/rvnl2qm3k12r/7INs1Dmd5ScSuga88eoysm/1ab5cee9f4e8edb6067db76d079f6f1f/adicionales.jpg"
+                      :description: Taladro multiple automático para perforaciones
+                        precisas.
+                      :card:
+                        :title: perforado-para-bisagras
+                        :description: Perforando un tablero de MDF en nuestra Sucursal
+                          Sendero en Monterrey, Nuevo León.
+                        :url: "//images.contentful.com/rvnl2qm3k12r/7gA3DyKU24uiiuqAqsMaQO/9ad70bcf79b56f9a52f0eee85e79a78c/perforado-para-bisagras.jpg"
+                    - :id: 4M3EbIM7mUg6YEUSYomkYG
+                    - :id: 48Bp6FClGUMCgsEKiWk448
+                    :products:
+                    - :id: 6FlMF9cpWgg2WMO2YW6oaU
+                    - :id: 5Lee3G0e88uq82o0geCMe6
+                      :titulo: Triplay de Birch
+                      :name: Birch
+                      :category:
+                        :id: 6vJaxzKEZqMEeUae2mMYmC
+                      :subcategory:
+                        :id: 4f3IRCYrVSsOqeSc6EK22Y
+                      :is_sale: false
+                      :is_unit: true
+                      :description: El Triplay de Birch es un tablero de maderas contrachapadas
+                        unidas y prensadas , enchapado con madera de Birch por ambas
+                        caras del tablero. Sus principales usos son fabricación de
+                        puertas y cocinas y muebles.
+                      :measurements:
+                      - :id: 5NRtsAK1QkciekgcWogAE4
+                        :name: Largos
+                        :unidad: ft
+                        :is_range: false
+                        :measurements:
+                        - '5'
+                      - :id: 72ptdNDaggwC226Ao0WiIG
+                        :name: Anchos
+                        :unidad: ft
+                        :is_range: false
+                        :measurements:
+                        - '5'
+                      - :id: xMuDV5AwRqyM2OwiqW0wC
+                        :name: Grosores
+                        :unidad: mm
+                        :is_range: false
+                        :measurements:
+                        - '15'
+                      :classes:
+                      - AA
+                      :details:
+                      - :id: 21wxC06NDuawUqouUGuCM4
+                        :title: Latín
+                        :description: Betula pendula
+                      - :id: 6imaa1bUyWwOmK60S2QU2Y
+                        :title: Origen
+                        :description: Rusia
+                      - :id: 4CLQBWYFvas2eAeOQc0Csy
+                        :title: Usos
+                        :description: Fabricacioón de puertas, muebles y cocinas
+                      - :id: 7FCVY9FuqAuOs2UsmcyUOm
+                        :title: Veta
+                        :description: Recta aunque en algunos casos es ligeramente
+                          ondulada
+                      - :id: 5gQNugbLYcSwcaA6mqegcO
+                        :title: Durámen
+                        :description: Color blanco amarillento a blanco anaranjado
+                      - :id: 1RLu7qu4OsM2o0MSUSQwAC
+                        :title: Albura
+                        :description: Blanco anaranjado
+                      :services:
+                      - :id: 2RQNpk0MfuY2Ag4mwYs4KW
+                      - :id: bYH4OryRJ6aqomYIC4uGa
+                      - :id: 1rzxmGz364oO0o4ak2qIki
+                      - :id: 6PZid7ugikoWKeK02eqi2w
+                      :products:
+                      - :id: 1eT4o13XisUUOieqQEOmEc
+                        :titulo: Triplay de Caobilla
+                        :name: Caobilla
+                        :category:
+                          :id: 6vJaxzKEZqMEeUae2mMYmC
+                        :subcategory:
+                          :id: 4f3IRCYrVSsOqeSc6EK22Y
+                        :is_sale: false
+                        :is_unit: true
+                        :description: El Triplay de Caobilla es un tablero hecho de
+                          maderas contrachapadas unidas y prensadas , enchapado de
+                          Caobilla por ambas caras del tablero. Sus principales usos
+                          son fabricación de puertas y muebles.
+                        :measurements:
+                        - :id: jZIA4TZynYw42GSi0AYIA
+                          :name: Largos
+                          :unidad: cm
+                          :is_range: false
+                          :measurements:
+                          - '213'
+                          - '244'
+                        - :id: Tl847MyYqQEKIwaOCAAwa
+                          :name: Anchos
+                          :unidad: cm
+                          :is_range: false
+                          :measurements:
+                          - '91'
+                          - '122'
+                        - :id: 1LHewHZGCYYAkQ6qskyE6K
+                          :name: Grosores
+                          :unidad: mm
+                          :is_range: false
+                          :measurements:
+                          - '3'
+                          - '6'
+                        :details:
+                        - :id: 74VyQcGCk06OAcg04cQ6sM
+                          :title: Latín
+                          :description: Shorea
+                        - :id: 1pd0EKrr9mOwsugaeOMeIa
+                          :title: Origen
+                          :description: Malasia
+                        - :id: LOVQQLFzeCUWy84Y4okEg
+                          :title: Usos
+                          :description: Interior de muebles, puertas, construcción
+                            en general
+                        - :id: 5p7PlLsvF62gYyockww0IC
+                          :title: Veta
+                          :description: Poco pronunciada y recta
+                        - :id: IAabsMYYqyGiqgeyOmsOA
+                          :title: Durámen
+                          :description: Color marrón obscuro
+                        - :id: NnEqlKLlQaKKou0sSKiuS
+                          :title: Albura
+                          :description: Color marrón obscuro
+                        :services:
+                        - :id: 4M3EbIM7mUg6YEUSYomkYG
+                        - :id: bYH4OryRJ6aqomYIC4uGa
+                        - :id: 1rzxmGz364oO0o4ak2qIki
+                        - :id: 6PZid7ugikoWKeK02eqi2w
+                        :products:
+                        - :id: 4cLsQTSVSosWEuemGykCAm
+                        - :id: 5eCytdkTcI0kKcIEKGWQqM
+                        - :id: 3xjzQznLhCOKQmo2CUM4Yk
+                        - :id: 2ve8DiQgv26WymyAuA2q4e
+                        :card:
+                          :title: tarjeta-principal
+                          :description: Triplay de Caobilla
+                          :url: "//images.contentful.com/rvnl2qm3k12r/5CFnHSaO88qKwe86uKacWy/7374562c24978b6078f0617861d1aa7d/tarjeta-principal.jpg"
+                        :detail_images:
+                          :id: 1dGlaIjyPgQGU0iKA24W8U
+                          :mobile:
+                            :title: detalle-movil
+                            :description: Triplay de Caobilla
+                            :url: "//images.contentful.com/rvnl2qm3k12r/3ZtfJbltNmwgSaeOWeUg4K/7c41948295e2b4328ffe7fcabc87e900/detalle-movil.jpg"
+                          :tablet:
+                            :title: detalle-tablet
+                            :description: Triplay de Caobilla
+                            :url: "//images.contentful.com/rvnl2qm3k12r/6RQNwSuSpqGigi6gOYUukC/9f67b8f6cfa7cd803d4d28c3461812e7/detalle-tablet.jpg"
+                          :desktop:
+                            :title: detalle-desktop
+                            :description: Triplay de Caobilla
+                            :url: "//images.contentful.com/rvnl2qm3k12r/6noGx2yxdmiyoOQWsCkkmk/1c42e23d776c9bebaf1ddd2dced7d1f1/detalle-desktop.jpg"
+                        :seo:
+                          :id: 6c0utrb1XqU4oOSsS4ys4K
+                          :title: Triplay de Caobilla | Tym Forest
+                          :description: El Triplay de Caobilla es un tablero hecho
+                            de maderas contrachapadas unidas y prensadas. Sus principales
+                            usos son fabricación de puertas y muebles.
+                          :twitter:
+                            :title: seo-twitter
+                            :description: 
+                            :url: "//images.contentful.com/rvnl2qm3k12r/14c0e1Y7ayQGwEuiG4aGKo/eea4a4bb96aa2d41d5fdc5d513413062/seo-twitter.jpg"
+                          :og:
+                            :title: seo-facebook
+                            :description: 
+                            :url: "//images.contentful.com/rvnl2qm3k12r/5qsaKFO8XSQu2qkSiucEwk/d6452e27dfb4f4fc4d781a8e03f52482/seo-facebook.jpg"
+                      - :id: 6lQ7PLt97y6G2EQEm2KyKS
+                      - :id: 5eCytdkTcI0kKcIEKGWQqM
+                      - :id: 4cLsQTSVSosWEuemGykCAm
+                      :card:
+                        :title: tarjeta-principal
+                        :description: Triplay de Birch
+                        :url: "//images.contentful.com/rvnl2qm3k12r/17spd6lLF8kCCKSMyAWEY2/b8b449dc9355f8952224e21551e9ecba/tarjeta-principal.jpg"
+                      :detail_images:
+                        :id: 6s2eY6x8vSiokyGqY8wKAk
+                        :mobile:
+                          :title: detalle-movil
+                          :description: Triplay de Birch
+                          :url: "//images.contentful.com/rvnl2qm3k12r/6sTwY5KKLmwIIC6sScYqAC/0164fe843c3563e90db3b33709b15a6f/detalle-movil.jpg"
+                        :tablet:
+                          :title: detalle-tablet
+                          :description: Triplay de Birch
+                          :url: "//images.contentful.com/rvnl2qm3k12r/54JSrEo7WwaUyaCiCoiq0o/fa0e0eefa9ba043fa0909608a7d17b41/detalle-tablet.jpg"
+                        :desktop:
+                          :title: detalle-desktop
+                          :description: Triplay de Birch
+                          :url: "//images.contentful.com/rvnl2qm3k12r/5eY0pA09osy0gucIuy8s80/4f5ff53cdd05b0ef8bebb415ff26d349/detalle-desktop.jpg"
+                      :seo:
+                        :id: 6s2OcXvCZqiES2e0Aakgo4
+                        :title: Triplay de Birch | Tym Forest
+                        :description: El triplay de Birch se utiliza principalmente
+                          para la fabricación de puertas, cocinas y muebles.
+                        :twitter:
+                          :title: seo-twitter
+                          :description: 
+                          :url: "//images.contentful.com/rvnl2qm3k12r/34nW9psm6cmg0aa2oesgUW/42c65408235d132c5c034e9c47a96390/seo-twitter.jpg"
+                        :og:
+                          :title: seo-facebook
+                          :description: 
+                          :url: "//images.contentful.com/rvnl2qm3k12r/2YHbaOTykoYQako44Y664c/8e1d55c95841095e08757cb6a01e0a68/seo-facebook.jpg"
+                    - :id: 3cQ8trMgYwSagYUQM04IYo
+                      :titulo: Tablero de Aglomerado
+                      :name: Aglomerado
+                      :category:
+                        :id: 6vJaxzKEZqMEeUae2mMYmC
+                      :is_sale: false
+                      :is_unit: true
+                      :description: El tablero de aglomerado es un material compacto
+                        de partículas de madera prensados y unidos con aglutinante.
+                        La medida estándar es de 1.22 x 2.44 metros y se comercializa
+                        en grosores desde 3 mm a 19 mm.
+                      :measurements:
+                      - :id: 1Ao4OVLV3moo0sM6UcUy4y
+                        :name: Largos
+                        :unidad: m
+                        :is_range: false
+                        :measurements:
+                        - '2.44'
+                      - :id: 52rgJPnRSUSUcU64cmG0Uw
+                        :name: Anchos
+                        :unidad: m
+                        :is_range: false
+                        :measurements:
+                        - '1.22'
+                      - :id: 7gaTuYTx7OmAgmowyQ4IWS
+                        :name: Grosores
+                        :unidad: mm
+                        :is_range: false
+                        :measurements:
+                        - '3.2'
+                        - '4.5'
+                        - '6'
+                        - '8'
+                        - '12'
+                        - '16'
+                        - '19'
+                      :services:
+                      - :id: 2RQNpk0MfuY2Ag4mwYs4KW
+                      - :id: 21euNVgSGc0kgyk8SKgiKk
+                      - :id: 1rzxmGz364oO0o4ak2qIki
+                      - :id: 6PZid7ugikoWKeK02eqi2w
+                      :products:
+                      - :id: 6FlMF9cpWgg2WMO2YW6oaU
+                      - :id: 4cLsQTSVSosWEuemGykCAm
+                      - :id: b4PZvelNPaOuIi0yCIiQk
+                      - :id: 2s1ewSArfumuIciKM4OaM0
+                      :card:
+                        :title: tarjeta-principal
+                        :description: Tablero de Aglomerado
+                        :url: "//images.contentful.com/rvnl2qm3k12r/6yU3hNrAw8yUGOkUy4y02O/4998009a6247746c5507cb980b28a534/tarjeta-principal.jpg"
+                      :detail_images:
+                        :id: iNcPwbv4fm4A26CYywACq
+                        :mobile:
+                          :title: detalle-movil
+                          :description: Tablero de Aglomerado
+                          :url: "//images.contentful.com/rvnl2qm3k12r/2LBTvBQpTiIyAQYAgogiC/9f99632337d2b626c3e98dbbb4f3e54c/detalle-movil.jpg"
+                        :tablet:
+                          :title: detalle-tablet
+                          :description: Tablero de Aglomerado
+                          :url: "//images.contentful.com/rvnl2qm3k12r/1ZZIvYjvSouOSWuAwEGgwM/6a8bd39faab7d2393853f30b68a3013e/detalle-tablet.jpg"
+                        :desktop:
+                          :title: detalle-desktop
+                          :description: Tablero de Aglomerado
+                          :url: "//images.contentful.com/rvnl2qm3k12r/74izsVmYQEIqGMk0m4E8C/b311223cc3ca9895e6afe5ac359544ad/detalle-desktop.jpg"
+                      :seo:
+                        :id: 8H8lSbxUUoGSCEK40agKm
+                        :title: Tablero de Aglomerado | Tym Forest
+                        :description: El tablero de aglomerado es un material compacto
+                          de partículas de madera prensados y unidos con aglutinante.
+                        :twitter:
+                          :title: seo-twitter
+                          :description: 
+                          :url: "//images.contentful.com/rvnl2qm3k12r/3Td3tATmHKMsAQIuSCCuo6/abf300eb6154c41c96658b21eb250377/seo-twitter.jpg"
+                        :og:
+                          :title: seo-facebook
+                          :description: 
+                          :url: "//images.contentful.com/rvnl2qm3k12r/28aP2L8BeY6CgQOwgi0CQu/d3eda2d3d086c2ab803e89b468b5fe85/seo-facebook.jpg"
+                    - :id: 6lQ7PLt97y6G2EQEm2KyKS
+                      :titulo: Triplay de Okumé
+                      :name: Okumé
+                      :category:
+                        :id: 6vJaxzKEZqMEeUae2mMYmC
+                      :subcategory:
+                        :id: 4f3IRCYrVSsOqeSc6EK22Y
+                      :is_sale: false
+                      :is_unit: true
+                      :description: El Triplay de Okumé es un tablero hecho de maderas
+                        contrachapadas unidas y prensadas, enchapado de Okumé por
+                        una o dos caras del tablero. Sus principal uso es la fabricación
+                        de muebles.
+                      :measurements:
+                      - :id: p59AkcraBUeqGwIAgiokM
+                        :name: Largos
+                        :unidad: cm
+                        :is_range: false
+                        :measurements:
+                        - '244'
+                      - :id: 3tXhepRCSsqyyyk0qmsqkM
+                        :name: Anchos
+                        :unidad: cm
+                        :is_range: false
+                        :measurements:
+                        - '122'
+                      - :id: 4dongqbZ4c0ck8u0OkUwMO
+                        :name: Grosores
+                        :unidad: mm
+                        :is_range: false
+                        :measurements:
+                        - '6'
+                        - '12'
+                        - '15'
+                        - '18'
+                      :classes:
+                      - BC
+                      :details:
+                      - :id: 4wyR1wrSy46KGq0UgKWYY6
+                        :title: Latín
+                        :description: Acoumea klaineana
+                      - :id: irAxe01ri04UQ8QMGyIg2
+                        :title: Origen
+                        :description: Africa Central
+                      - :id: 4EfvFXuGBGawKIWA2cgWWs
+                        :title: Usos
+                        :description: Fabricación de muebles, gabinetes y acabado
+                          de interiores
+                      - :id: 6dgCfAgmQ0kOcKIeuSukci
+                        :title: Veta
+                        :description: Recta con textura mediana
+                      - :id: 2YDTNgYssMaQSo8YWCOGiy
+                        :title: Durámen
+                        :description: Rosa palido a café claro
+                      - :id: 4RzEwOlbzWIawsYsKk4U8A
+                        :title: Albura
+                        :description: Café claro
+                      :services:
+                      - :id: 4M3EbIM7mUg6YEUSYomkYG
+                      - :id: bYH4OryRJ6aqomYIC4uGa
+                      - :id: 1rzxmGz364oO0o4ak2qIki
+                      - :id: 6PZid7ugikoWKeK02eqi2w
+                      :products:
+                      - :id: 6hqPmRBKvYQY2GsMeowQWC
+                        :title: Enchapado de Okumé
+                        :name: Okumé
+                        :category:
+                          :id: 6vJaxzKEZqMEeUae2mMYmC
+                        :subcategory:
+                          :id: 5ZnXpImjEQ6q44OcyqkaW4
+                        :is_sale: false
+                        :card:
+                          :title: tarjeta-principal
+                          :description: Enchapado de Okumé
+                          :url: "//images.contentful.com/rvnl2qm3k12r/5bNmnIGDxKQiOSQAYGmSiU/0b7cfcf16daf642c6858f1402f4730b5/tarjeta-principal.jpg"
+                        :card_detail:
+                          :title: tarjeta-detalle
+                          :description: Enchapado de Okumé
+                          :url: "//images.contentful.com/rvnl2qm3k12r/2xGkkcodNqq4Ws8Oqsk8oC/fb0b7023ffdcf11ba32edf5d000cab6c/tarjeta-detalle.jpg"
+                      - :id: 1ZcdXxQPcIy4qogccYGWsw
+                      - :id: 4cLsQTSVSosWEuemGykCAm
+                      - :id: 1OYb1akSCcOeuYCKiY2e4K
+                      :card:
+                        :title: tarjeta-principal
+                        :description: Triplay de Okumé
+                        :url: "//images.contentful.com/rvnl2qm3k12r/3OSGhLqVkckCCIyOm8EYaM/89a11fb56baeee97cd1c8011124bdfc9/tarjeta-principal.jpg"
+                      :detail_images:
+                        :id: 1LTpcvPa40O8mISG6uO8i0
+                        :mobile:
+                          :title: detalle-movil
+                          :description: Triplay de Okumé
+                          :url: "//images.contentful.com/rvnl2qm3k12r/1MYcGZaZ08WkkGeEM4SKSu/e25da0b1e74167ce2e960c26a6a51088/detalle-movil.jpg"
+                        :tablet:
+                          :title: detalle-tablet
+                          :description: Triplay de Okumé
+                          :url: "//images.contentful.com/rvnl2qm3k12r/4LlKwFCIxqiEYAeiOws2Eu/0b5cd1d4d99376b3cecadf0a12ee1673/detalle-tablet.jpg"
+                        :desktop:
+                          :title: detalle-desktop
+                          :description: Triplay de Okumé
+                          :url: "//images.contentful.com/rvnl2qm3k12r/37jb1yD9AcuUMieEsYwKK0/69c57865370de464c01bf577dc6900a9/detalle-desktop.jpg"
+                      :seo:
+                        :id: 4Iskm9gH8cKuMWk6cqSioq
+                        :title: Triplay de Okumé | Tym Forest
+                        :description: El triplay de Okumé es un tablero hecho de maderas
+                          contrachapadas unidas y prensadas. Sus principales usos
+                          son fabricación de puertas y muebles.
+                        :twitter:
+                          :title: seo-twitter
+                          :description: 
+                          :url: "//images.contentful.com/rvnl2qm3k12r/2ZFiMcAwsU2YQCmsMuoMoC/521c0e2eef8a2c85ae14961cdb28ceb5/seo-twitter.jpg"
+                        :og:
+                          :title: seo-facebook
+                          :description: 
+                          :url: "//images.contentful.com/rvnl2qm3k12r/lLKm6Awq5wSW6k8seqAK/7194109bca8db210b28d96ceae7c4973/seo-facebook.jpg"
+                    :card:
+                      :title: tarjeta-principal
+                      :description: Melaminas
+                      :url: "//images.contentful.com/rvnl2qm3k12r/7AobXAyqXKm0QSGA2Ma4O6/d338048bb2288f40e30bee0ced8507f3/tarjeta-principal.jpg"
+                    :seo:
+                      :id: 3XTXwCbCgwY6CoG8cSGMqk
+                      :title: Melaminas | Tym Forest
+                      :description: La Melamina es un tablero de MDF, MDP o Aglomerado
+                        cubierto con un laminado de baja presión con diferentes colores
+                        y diseños es muy utilizado en la fabricación de cocinas ,
+                        muebles y centros de entretenimiento.
+                      :twitter:
+                        :title: seo-twitter
+                        :description: 
+                        :url: "//images.contentful.com/rvnl2qm3k12r/1F0TC3V0sUecAGmo2MgkQU/b342d15c21f85a7470cc54ae614b1888/seo-twitter.jpg"
+                      :og:
+                        :title: seo-facebook
+                        :description: 
+                        :url: "//images.contentful.com/rvnl2qm3k12r/5yQOlUrZ04SWA2WG6e8ois/00b9c94bc5bb0925005f126fe46fb5a1/seo-facebook.jpg"
+                  :is_sale: false
+                  :card:
+                    :title: tarjeta-principal
+                    :description: Melamina de Aserrado Nórdico
+                    :url: "//images.contentful.com/rvnl2qm3k12r/1JXUnkdhSgYyCE8MMEcG6e/f4a42c04f13fcf101bca0907924a6868/tarjeta-principal.jpg"
+                  :card_detail:
+                    :title: tarjeta-detalle
+                    :description: Melamina de Aserrado Nórdico
+                    :url: "//images.contentful.com/rvnl2qm3k12r/2DQO8D1ahYqEco0K0sScAq/cab9caea26bb1477ec7610c0ab0df9f7/tarjeta-detalle.jpg"
+                - :id: 4cLsQTSVSosWEuemGykCAm
+                :card:
+                  :title: tarjeta-principal
+                  :description: Enchapado
+                  :url: "//images.contentful.com/rvnl2qm3k12r/4gMBkuBRskicW4ms8CEmWq/328ce98bbdf5ed4e87a189c12a5903e1/tarjeta-principal.jpg"
+                :seo:
+                  :id: 19cZJp1QTgQYiEM46OaKmo
+                  :title: Enchapado | Tym Forest
+                  :description: Tablero de MDF enchapado por una o ambas caras de
+                    maderas finas. Su principal uso es la fabricación de muebles y
+                    acabado de interiores.
+                  :twitter:
+                    :title: seo-twitter
+                    :description: 
+                    :url: "//images.contentful.com/rvnl2qm3k12r/5cYZnN3K6sUKGg68e6AiWm/ab3bd07d7c1bd39f1a7d4a352af8190c/seo-twitter.jpg"
+                  :og:
+                    :title: seo-facebook
+                    :description: 
+                    :url: "//images.contentful.com/rvnl2qm3k12r/2B8lRZsu8Uyy8IkeGKSoOK/26b9c3e675af2f94e07a5244095a87df/seo-facebook.jpg"
+              :is_sale: false
+              :card:
+                :title: tarjeta-principal
+                :description: Enchapado de Nogal Americano
+                :url: "//images.contentful.com/rvnl2qm3k12r/fe8nLXgWnQSwMmmc4SE0e/597bee1249c60885108c08fcf0b061c9/tarjeta-principal.jpg"
+              :card_detail:
+                :title: tarjeta-detalle
+                :description: Enchapado de Nogal Americano
+                :url: "//images.contentful.com/rvnl2qm3k12r/2rZOJcAtgM8U0WewCCio4M/2a01812de62ae213e39a14ef6f78a7e4/tarjeta-detalle.jpg"
+            :card:
+              :title: tarjeta-principal
+              :description: Madera de Tzalam
+              :url: "//images.contentful.com/rvnl2qm3k12r/1UK7utXOf6ec20gqoo0Amg/c2ad99e1d11799eeaa7cae87c1d76c57/tarjeta-principal.jpg"
+            :detail_images:
+              :id: 5fkUhsGl6MkioqWmWMM8wC
+              :mobile:
+                :title: detalle-movil
+                :description: Madera de Tzalam
+                :url: "//images.contentful.com/rvnl2qm3k12r/4XAQTLD35KkEq6GGqC6EaM/496960ff5f69adc034b28e44ba31d528/detalle-movil.jpg"
+              :tablet:
+                :title: detalle-tablet
+                :description: Madera de Tzalam
+                :url: "//images.contentful.com/rvnl2qm3k12r/4atkPJtQPSmAiucCukEySE/dff87bcf8518027d71908345c0b9bb89/detalle-tablet.jpg"
+              :desktop:
+                :title: detalle-desktop
+                :description: Madera de Tzalam
+                :url: "//images.contentful.com/rvnl2qm3k12r/L37pQSGDYckSO4geMWmEI/7a75d364a5cfc2ffca9c82309921f85c/detalle-desktop.jpg"
+            :seo:
+              :id: 5BaE1Gab7OOsOoGOEmmO2E
+              :title: Madera de Tzalam | Tym Forest
+              :description: La madera de Tzalam es muy utilizada por arquitectos para
+                proyectos en piso, duela, bancas, acabado de interiores y mobiliario
+                fino.
+              :twitter:
+                :title: seo-twitter
+                :description: 
+                :url: "//images.contentful.com/rvnl2qm3k12r/4veqevuwX6oiS6AGOiiMmQ/d76df36bcf2c7511293dd820553735ed/seo-twitter.jpg"
+              :og:
+                :title: seo-facebook
+                :description: 
+                :url: "//images.contentful.com/rvnl2qm3k12r/1KDr6NeSlqiUWQesCICmUs/718790c23258b5d492ace5f564461118/seo-facebook.jpg"
+          :card:
+            :title: tarjeta-principal
+            :description: Madera de Poplar
+            :url: "//images.contentful.com/rvnl2qm3k12r/6ktbCuCgCWUCGqsgOEwwgo/b9b80443eb096ca3283fc93e5e58d0a5/tarjeta-principal.jpg"
+          :detail_images:
+            :id: 6UNkNqNgHu4kmGG62cCo4A
+            :mobile:
+              :title: detalle-movil
+              :description: Madera de Poplar
+              :url: "//images.contentful.com/rvnl2qm3k12r/52YFXsMSG4im4oEceegQIE/2b2117938228b009cfc768fab5877219/detalle-movil.jpg"
+            :tablet:
+              :title: detalle-tablet
+              :description: 
+              :url: "//images.contentful.com/rvnl2qm3k12r/3wHNnBuGWI2MwK2WkAsiMq/22bcebc893f9932b688a836841094ba3/detalle-tablet.jpg"
+            :desktop:
+              :title: detalle-desktop
+              :description: Madera de Poplar
+              :url: "//images.contentful.com/rvnl2qm3k12r/5Lw4kMlkHYoQEIEmY2Gsci/60267578d54abdf5a1cb7fde9d2e424a/detalle-desktop.jpg"
+          :seo:
+            :id: 1XI2bEHmdmQI8a0mqKkI8w
+            :title: Madera de Poplar | Tym Forest
+            :description: La madera de Poplar es una madera ampliamente disponible
+              y muy fácil de trabajar. Es utilizada para mobiliaria fina, molduras
+              y puertas sólidas.
+            :twitter:
+              :title: seo-twitter
+              :description: 
+              :url: "//images.contentful.com/rvnl2qm3k12r/4RqYOSgVGws4eMQoq66We2/46f61158fbc79097086c7df3f047e5d3/seo-twitter.jpg"
+            :og:
+              :title: seo-facebook
+              :description: 
+              :url: "//images.contentful.com/rvnl2qm3k12r/5dvRidlx6gqCG8mAeG6WK/e30340da37701fe526e071f044e35e0b/seo-facebook.jpg"
+        :card:
+          :title: tarjeta-principal
+          :description: Madera de Pino Americano
+          :url: "//images.contentful.com/rvnl2qm3k12r/6QmSDWWXgQmwmYGcmG0yIa/b7fa66716e05aad1cff650ff6fed9b44/tarjeta-principal.jpg"
+        :detail_images:
+          :id: 4WJrNer6tOSs0aoOSI0eM0
+          :mobile:
+            :title: detalle-movil
+            :description: Madera de Pino Americano
+            :url: "//images.contentful.com/rvnl2qm3k12r/PlvZ1PX2iASQWO6sUo6CY/bdf1e240ba1e6bf3cadf39e43da10bfa/detalle-movil.jpg"
+          :tablet:
+            :title: detalle-tablet
+            :description: Madera de Pino Americano
+            :url: "//images.contentful.com/rvnl2qm3k12r/5D33DUZ2N2YmCYSKOQGGu6/2baa24d5bd060ed26e206d07e5969077/detalle-tablet.jpg"
+          :desktop:
+            :title: detalle-desktop
+            :description: 
+            :url: "//images.contentful.com/rvnl2qm3k12r/4q2Hqie1LiaKUM6qy0cQ8W/0e7e80560c0d0f9c9062ffcccd7d133b/detalle-desktop.jpg"
+        :seo:
+          :id: 45WEIvHMxie6YKk84cmyAG
+          :title: Madera de Pino Americano | Tym Forest
+          :description: La madera de Pino Americano es una madera ampliamente disponible.
+            Es utilizada para cerchas de madera, vigas, postes, pilas, revestimiento,
+            subsuelos, decks, muebles, puertas, marcos y cabañas.
+          :twitter:
+            :title: seo-twitter
+            :description: 
+            :url: "//images.contentful.com/rvnl2qm3k12r/6IGy6dT5W800mEGs6EcSi0/a6b43d6a51846e8d27dd6af6fb6a8431/seo-twitter.jpg"
+          :og:
+            :title: seo-facebook
+            :description: 
+            :url: "//images.contentful.com/rvnl2qm3k12r/6DeWoOd2GQUiaEAWCcs266/e927ea244abcf620f3701a8ff3345ee3/seo-facebook.jpg"
+      - :id: 1OYb1akSCcOeuYCKiY2e4K
+      - :id: 3xjzQznLhCOKQmo2CUM4Yk
+      - :id: 4cLsQTSVSosWEuemGykCAm
+      :card:
+        :title: tarjeta-principal
+        :description: Madera de Pino Ponderosa
+        :url: "//images.contentful.com/rvnl2qm3k12r/5gU0YjPV3aWciAWY0O0WoE/26181e78652ac203e88d49d40a0b14ea/tarjeta-principal.jpg"
+      :detail_images:
+        :id: 4onLjLHUOso86iao8OgIYU
+        :mobile:
+          :title: detalle-movil
+          :description: Madera de Pino Ponderosa
+          :url: "//images.contentful.com/rvnl2qm3k12r/62rswQPtja4USEWAWmuqY6/1de3aaf9799f2986c6a48c3713d42e00/detalle-movil.jpg"
+        :tablet:
+          :title: detalle-tablet
+          :description: Madera de Pino Ponderosa
+          :url: "//images.contentful.com/rvnl2qm3k12r/6JNFj0l5bGasKiIA8WKKwc/b5523f89a55573eef0c09d4c605d4129/detalle-tablet.jpg"
+        :desktop:
+          :title: detalle-desktop
+          :description: 
+          :url: "//images.contentful.com/rvnl2qm3k12r/6AKJPvpyCsYeWcEoQyOus0/14a94af9238ea5c87cdbb26471aa047e/detalle-desktop.jpg"
+      :seo:
+        :id: 4bwoDFy8SI0qE0wQMQ6EyO
+        :title: Madera de Pino Ponderosa | Tym Forest
+        :description: 'La madera de Pino Ponderosa es una madera fácil de trabajar
+          a mano y con herramientas mecánicas. Es utilizada para mobiliario y estructuras. '
+        :twitter:
+          :title: seo-twitter
+          :description: 
+          :url: "//images.contentful.com/rvnl2qm3k12r/4YV6NK7SikscW8EKce6E8W/9a8e246d80d95aeb7aaf350c2e31ffdc/seo-twitter.jpg"
+        :og:
+          :title: seo-facebook
+          :description: 
+          :url: "//images.contentful.com/rvnl2qm3k12r/2lvDD3ftmYUOu8kiyYaWYA/99b2397b50b35da19d42d42e6c2b6461/seo-facebook.jpg"
+    - :id: e2ynE31Fxmakia4Ke62Aq
+    - :id: 5eCytdkTcI0kKcIEKGWQqM
+    :card:
+      :title: tarjeta-principal
+      :description: Madera de Pino Chileno
+      :url: "//images.contentful.com/rvnl2qm3k12r/1OiP0FIaxeaQm40c0gQOGY/2db703c2a789b9867766cf996bbd8953/tarjeta-principal.jpg"
+    :detail_images:
+      :id: 555XbzBbBm2WQg8WyQagIY
+      :mobile:
+        :title: detalle-movil
+        :description: Madera de Pino Chileno
+        :url: "//images.contentful.com/rvnl2qm3k12r/gLKZ2fTNNCK8wgMqmUAAa/bed4d8aadef9a0f5d06baea1bdca57bc/detalle-movil.jpg"
+      :tablet:
+        :title: detalle-tablet
+        :description: Madera de Pino Chileno
+        :url: "//images.contentful.com/rvnl2qm3k12r/439gKlQmDuQC2Yui4KISik/c651b7195cf5e55152525b51e52b69d6/detalle-tablet.jpg"
+      :desktop:
+        :title: detalle-desktop
+        :description: Madera de Pino Chileno
+        :url: "//images.contentful.com/rvnl2qm3k12r/qJXz2qm7tIKOeCWqMikwm/8b313a9dd85c848af0acfcfbe6963b1e/detalle-desktop.jpg"
+    :seo:
+      :id: 7wHObbXviwmcgooKk8SYgk
+      :title: Madera de Pino Chileno | Tym Forest
+      :description: La madera de Pino Chileno es conocida por su precio competitivo
+        y se utiliza principalmente como estructura, fabricación de muebles y cimbra.
+      :twitter:
+        :title: seo-twitter
+        :description: 
+        :url: "//images.contentful.com/rvnl2qm3k12r/7hmR07GyvCEiaykEwKiWCa/812826c395245256d35ad1dccb6d399f/seo-twitter.jpg"
+      :og:
+        :title: seo-facebook
+        :description: 
+        :url: "//images.contentful.com/rvnl2qm3k12r/7fSA4ulSU0Ms2wOsIcKGeM/c451e812026b4c991e6ccfa1c4caac50/seo-facebook.jpg"
+  - :id: 6FlMF9cpWgg2WMO2YW6oaU
+  :card:
+    :title: tarjeta-principal
+    :description: Triplay de Pino Nacional
+    :url: "//images.contentful.com/rvnl2qm3k12r/Zd1eOVCn28uS0OqsyWIea/13ebe6b0215204bbabb6903eb740e5b7/tarjeta-principal.jpg"
+  :detail_images:
+    :id: 326UadzvNSgkgwIeosKm8U
+    :mobile:
+      :title: detalle-movil
+      :description: Triplay de Pino Nacional
+      :url: "//images.contentful.com/rvnl2qm3k12r/6O8yPlalLaYY4KY6OcwCkG/f7c2e54ca8d5aa04dc55809bea8680ff/detalle-movil.jpg"
+    :tablet:
+      :title: detalle-tablet
+      :description: Triplay de Pino Nacional
+      :url: "//images.contentful.com/rvnl2qm3k12r/657a24L0PeumC6Em2C4U0s/ba214674425d3e5d40eff88d9a6d9fcc/detalle-tablet.jpg"
+    :desktop:
+      :title: detalle-desktop
+      :description: Triplay de Pino Nacional
+      :url: "//images.contentful.com/rvnl2qm3k12r/3sVuyDpzlYgAwYu2Oq0eGy/90b48b44cfad864ace9917be15eab7ed/detalle-desktop.jpg"
+  :seo:
+    :id: FSBr5ynWQUqgo0c028u6i
+    :title: Triplay de Pino Nacional | Tym Forest
+    :description: El triplay de Pino Nacional es un tablero hecho de maderas contrachapadas
+      unidas y prensadas. Sus principales usos son la cimbra, fabricación de muebles
+      y estructuras.
+    :twitter:
+      :title: seo-twitter
+      :description: 
+      :url: "//images.contentful.com/rvnl2qm3k12r/42iFsmALxmsWwIEKcao0i/7352c5193943ff3c2ab4c39e05d0dc70/seo-twitter.jpg"
+    :og:
+      :title: seo-facebook
+      :description: 
+      :url: "//images.contentful.com/rvnl2qm3k12r/47QSSoIN0QIiyA62e8oG6w/16a3910dc2f590510cd57f5376a52909/seo-facebook.jpg"
+:card:
+  :title: tarjeta-principal
+  :description: Tablero de Celotex
+  :url: "//images.contentful.com/rvnl2qm3k12r/6EgvW6q07YWcqiioiAacGI/56a1166601385adf187720f5447e45be/tarjeta-principal.jpg"
+:detail_images:
+  :id: 462vNlHOHS0GIAAas0eA40
+  :mobile:
+    :title: detalle-movil
+    :description: Tablero de Celotex
+    :url: "//images.contentful.com/rvnl2qm3k12r/2l2gN9lXGYUaSWuoEgmceQ/cd1df56839559d2338ec055b42106b45/detalle-movil.jpg"
+  :tablet:
+    :title: detalle-tablet
+    :description: Tablero de Celotex
+    :url: "//images.contentful.com/rvnl2qm3k12r/6BX3iGe8Mg0YckyUGimMMq/6bc23faff52654ac7606717fd6ce6cc1/detalle-tablet.jpg"
+  :desktop:
+    :title: detalle-desktop
+    :description: Tablero de Celotex
+    :url: "//images.contentful.com/rvnl2qm3k12r/5txUnLjStUsqYqioI8ieQS/b135c7b4b84201785be5bab98a90c2d7/detalle-desktop.jpg"
+:seo:
+  :id: 5vUOE3C1sAmuiwm6kI2Uwu
+  :title: Tablero de Celotex | Tym Forest
+  :description: El Celotex es un tablero de fibras de madera con asfalto, se utiliza
+    como aislante termico y acústico en interiores y exteriores.
+  :twitter:
+    :title: seo-twitter
+    :description: 
+    :url: "//images.contentful.com/rvnl2qm3k12r/1FY3tUJRrK4iYk4oecsWOO/fec875dd4b98248eaa07e27e214a0990/seo-twitter.jpg"
+  :og:
+    :title: seo-facebook
+    :description: 
+    :url: "//images.contentful.com/rvnl2qm3k12r/3QTXOe8uvmq0oYceg4o8mW/049218f6568fec46616bb6935e4445e5/seo-facebook.jpg"

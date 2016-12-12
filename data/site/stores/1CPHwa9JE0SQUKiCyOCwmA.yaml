@@ -1,0 +1,129 @@
+---
+:id: 1CPHwa9JE0SQUKiCyOCwmA
+:is_base: false
+:is_sub: true
+:name: Matriz
+:address:
+  :id: 5EXWg95cKksQusmuEg64SE
+  :street: Avenida Nogalar 305
+  :neighborhood: Antiguo Nogalar
+  :zip_code: '66484'
+  :city: San Nicolás
+  :state_full: Nuevo León
+  :state: N.L.
+  :location:
+    :lat: 25.718366
+    :lon: -100.288213
+  :url: https://www.google.com.mx/maps/place/Madereria+Tym+Forest/@25.7007928,-100.3175975,13.02z/data=!4m12!1m6!3m5!1s0x8662949ce7d3e135:0xa38165bdea840319!2sMadereria+Tym+Forest!8m2!3d25.766648!4d-100.2920242!3m4!1s0x0:0x74eae4915a3080a1!8m2!3d25.718367!4d-100.2882135
+:number: "(81) 8351 6041"
+:schedule:
+  :id: 2MujXtdumsqCS8eaKmoOMU
+  :weekday_open: 8
+  :weekday_close: 18
+  :saturday_open: 8
+  :saturday_close: 13
+:image:
+  :title: portada
+  :description: Descargando tablas de madera en Sucursal Matriz
+  :url: "//images.contentful.com/rvnl2qm3k12r/3DcUb4MTQQg8wMGgYUYUsG/bf38b48a17f977e13b0f5f6a8c6e7ce3/portada.jpg"
+:services:
+- :id: 6XZFBrMht6as4kU6Kqecmc
+  :title: Corte Transversal para Maderas
+  :nombre: Corte Transversal
+  :subcategory:
+    :id: 6QolIE1eMgM4CUYQisKmSU
+  :description: Cortes rectos con sierra de péndulo.
+  :card:
+    :title: corte-transversal
+    :description: Máquina de péndulo para hacer cortes transversales en maderas.
+    :url: "//images.contentful.com/rvnl2qm3k12r/1BBRhjU65Ggm68c2KWsqcw/072ebc2615e2bc78e77a7b2339ace26f/corte-transversal.jpg"
+- :id: 3tsjNXmTIcyEskyaAwCIkW
+  :title: Corte Longitudinal para Maderas
+  :nombre: Corte Longitudinal
+  :subcategory:
+    :id: 6QolIE1eMgM4CUYQisKmSU
+    :title: Dimensionado para Maderas
+    :nombre: Dimensionado
+    :category: Maderas
+    :description: Cortes rectos transversales y longitudinales a la medida.
+    :image:
+      :title: dimensionado
+      :description: Dimensionando un tablero en nuestra Sucursal de Nuevo Repueblo.
+      :url: "//images.contentful.com/rvnl2qm3k12r/3qutJAFZ9eccSiC8Q024su/c7db74a632868a100bd306914a9662ba/dimensionado.jpg"
+  :description: Corte recto con sierra de mesa o sierra cinta.
+  :card:
+    :title: corte-longitudinal
+    :description: Haciendo un corte longitudinal con una sierra vertical.
+    :url: "//images.contentful.com/rvnl2qm3k12r/6ILATemznywQEGwAeuaCK2/eb98a21a44b3216ed80850d500d77d92/corte-longitudinal.jpg"
+- :id: 1GRDKIV83GSwSkgUQCOOCy
+  :title: Cepillado de Caras para Maderas
+  :nombre: Cepillado de Caras
+  :subcategory:
+    :id: W90trFNWE0okgo2ikMss0
+  :description: Cepillo de alto rendimiento con corte helicoidal.
+  :card:
+    :title: cepillado-de-caras
+    :description: Cepillando caras en tablas de Madera de Pino Nacional
+    :url: "//images.contentful.com/rvnl2qm3k12r/1U04lQdXyUMiWSWweEOEqy/cbe18338290830af56a8c6f431deef8f/cepillado-de-caras.jpg"
+- :id: 6Y4xrCu8CIsIgeIGyGYc8a
+  :title: Cepillado de Canto para Maderas
+  :nombre: Cepillado de Canto
+  :subcategory:
+    :id: W90trFNWE0okgo2ikMss0
+    :title: Cepillado para Maderas
+    :nombre: Cepillado
+    :category: Maderas
+    :description: Cepillado fino e industrial en dos caras.
+    :image:
+      :title: cepillado
+      :description: Cepillando tablas de Madera de Pino Nacional en Sucursal Fidel
+        Velázquez.
+      :url: "//images.contentful.com/rvnl2qm3k12r/4UJYrflZ72wOm4EgyaUOm/0a357bd80bbfd8813e4bde5fdc2ad16c/cepillado.jpg"
+  :description: Canteadora industrial con corte helicoidal.
+  :card:
+    :title: cepillado-de-canto
+    :description: Cepillando tableros de madera de pino nacional en la sucursal sendero
+      en Monterrey, Nuevo León.
+    :url: "//images.contentful.com/rvnl2qm3k12r/1Thjhnekuss0kgKQEQoS6S/f52b44aeb3e6bb5dc1cb0252d3de7098/cepillado-de-canto.jpg"
+- :id: 1MWEx854Gkgg0aGcE82aUM
+  :title: Tratado HT para Maderas
+  :nombre: Tratado HT
+  :subcategory:
+    :id: 5OeuEfdLs4omESYmoo48U4
+  :description: Tratamiento térmico para exportar madera.
+  :card:
+    :title: tratado-ht
+    :description: Madera de Pino Nacional con un sello 'HT'.
+    :url: "//images.contentful.com/rvnl2qm3k12r/4vepmPvrHyqioMcKySSE04/a32b557bcd3f3f783d3d0db0e92ef25d/tratado-ht.jpg"
+- :id: 1SM1zUluzyk8Okk6KKuocE
+  :title: Sales de Cobre para Maderas
+  :nombre: Sales de Cobre
+  :subcategory:
+    :id: 5OeuEfdLs4omESYmoo48U4
+    :title: Tratamientos para Maderas
+    :nombre: Tratamientos
+    :category: Maderas
+    :description: Tratamiento HT para exportar y Sales de Cobre para exterior.
+    :image:
+      :title: tratamientos
+      :description: Madera de Pino Nacional con sello visible de HT.
+      :url: "//images.contentful.com/rvnl2qm3k12r/36iQp0AgSAOamE0AKOqeay/9d5abfc6b6e39d90f253773a5ab0abb8/tratamientos.jpg"
+  :description: Tratamiento químico para uso de madera en exterior.
+  :card:
+    :title: sales-de-cobre
+    :description: Maderas con un tono verdoso por ser tratadas con sales de cobre.
+    :url: "//images.contentful.com/rvnl2qm3k12r/3IqVbeHJP2SsmW0Gym4m4m/9d997d5acbc6b6411656dd13a5c0eea9/sales-de-cobre.jpg"
+:seo:
+  :id: 51Q15ukWys2m8SweIKeiSc
+  :title: Sucursal Matriz | Tym Forest
+  :description: Tym Forest es una empresa dedicada a proveer madera al mercado de
+    la construcción, fabricación de muebles, carpinteros y la industria en general.
+    Te esperamos en nuestra Sucursal Matriz en San Nicolás de los Garza, Nuevo León.
+  :twitter:
+    :title: seo-twitter
+    :description: 
+    :url: "//images.contentful.com/rvnl2qm3k12r/3GiXwe7mPYMg6YyMyEYCCY/0793635ad6b0140fd45a8a4bed2ad510/seo-twitter.jpg"
+  :og:
+    :title: seo-facebook
+    :description: 
+    :url: "//images.contentful.com/rvnl2qm3k12r/1d5jXhhDjYQKwOW2WQ8EGg/0b5ad5b2e9be6dab7f4863fe62e2f460/seo-facebook.jpg"

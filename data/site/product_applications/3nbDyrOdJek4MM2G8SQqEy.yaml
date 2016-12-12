@@ -1,0 +1,97 @@
+---
+:id: 3nbDyrOdJek4MM2G8SQqEy
+:title: Madera para Construcción
+:index_image:
+  :title: madera-para-construccion
+  :description: Madera de Cimbra
+  :url: "//images.contentful.com/rvnl2qm3k12r/4CPumEMjaow0qMqaE4Gwua/35e9894965960b54115130e76c8751ca/madera-para-construccion.jpg"
+:hero_image:
+  :title: madera-para-construccion
+  :description: Madera de Cimbra.
+  :url: "//images.contentful.com/rvnl2qm3k12r/xQjusoRBn26iYiQaQ84Ek/a21564a598a56a6211b7f6ec3548bb76/portada.jpg"
+:sections:
+- :id: f3WZgnNQWWK4ci6YaaG2k
+  :subtitle: Maderas
+  :title: Polín y Barrote
+  :description: Tenemos Polín y Barrote para su construcción y contamos con servicio
+    de entrega directo en obra
+  :links:
+  - :id: 2oNl5WSphmiMiwWI8saQwQ
+    :title: Ver Madera de Pino Nacional
+    :path: "/maderas/pino-nacional"
+  :image:
+    :title: polin-y-barrote
+    :description: Rack de polines.
+    :url: "//images.contentful.com/rvnl2qm3k12r/4GF9671fscSkeG2UUKsM04/cc7d041294eb60c225af23fd6494acad/polin-y-barrote.jpg"
+- :id: 4ytQ5zY66ksQUQOkOC4Y2I
+  :subtitle: Tableros
+  :title: Triplay para Cimbra
+  :description: Ofrecemos Triplay de cimbra nacional e importado de calidad y a precios
+    competitivos. Somos distribuidores de la marca Tulsa para una cimbra de concreto
+    aparente.
+  :links:
+  - :id: 1axjYW97sMmagSeg6EuAkO
+    :title: Ver Triplay de Pino Nacional
+    :path: "/tableros/triplay/pino-nacional"
+  - :id: 2rd1TJiGH6O08EKEM6WUeW
+    :title: Ver Triplay de Pino Chileno
+    :path: "/tableros/triplay/pino-chileno"
+  - :id: 2nLzxCtpRi6GySs8SoysCw
+    :title: Ver Triplay de Tulsa
+    :path: "/tableros/triplay/tulsa"
+  :image:
+    :title: triplay-para-cimbra
+    :description: Racks de Triplay para Cimbra.
+    :url: "//images.contentful.com/rvnl2qm3k12r/5BHL81mQrSi8uCOgKoO2ey/7ffa22e014ff6d97517456864b75466f/triplay-para-cimbra.jpg"
+- :id: 3SEZhSOjYsYqYOYeyEgmQ0
+  :subtitle: Maderas
+  :title: Ochavo y Chaflán
+  :description: Ofrecemos Ochavo o Chalfán a la medida y contamos con maquinaria y
+    el personal capacitado para hacer cortes específicos.
+  :links:
+  - :id: 37o9uOpL3qmMsE6SUcwYWA
+    :title: Ver Madera de Pino Nacional
+    :path: "/maderas/pino-nacional"
+  :image:
+    :title: ochavo-o-chaflan
+    :description: Paquete de Ochavo dimensionado.
+    :url: "//images.contentful.com/rvnl2qm3k12r/4FuuMkhgNqCGC4GQ6oy2Su/999271439c420381b6c95fc6bba5fa02/ochavo-o-chaflan.jpg"
+- :id: PIPTia6GSiyCYEa66I8CI
+  :subtitle: Maderas
+  :title: Tabla y Tablón
+  :description: Manejamos madera de Pino Nacional y Pino Chileno en una gran variedad
+    de medidas para tabla y tablón. El espacio con el que contamos nos permite ofrecer
+    madera verde, estufada o secada al aire.
+  :links:
+  - :id: 59elxEtdDiCcOSa0w4miaM
+    :title: Ver Madera de Pino Nacional
+    :path: "/maderas/pino-nacional"
+  :image:
+    :title: tabla-y-tablon
+    :description: Racks de Tablas y Tablones de Madera para Construcción.
+    :url: "//images.contentful.com/rvnl2qm3k12r/14vzxzfZL0qccA4GmQ4eA2/0459ed7d273cb9140c6651e23cf9b6e8/tabla-y-tablon.jpg"
+- :id: 3r6BkT8Ot2W6SMKO8sOsq8
+  :subtitle: Ferretería
+  :title: Clavos
+  :description: Ofrecemos una gran variedad de clavos para madera con y sin cabeza
+    y entregamos tu pedido directamente a la obra.
+  :links:
+  - :id: 2VRPFuHJUAwEU0m2SAswGC
+    :title: Ver Clavos
+    :path: "/ferreteria"
+  :image:
+    :title: clavos-desktop
+    :description: Favor de agregar descripción de imágen.
+    :url: "//images.contentful.com/rvnl2qm3k12r/3LeP2JN0H6Oaq0WYaCM2W4/1b23f9d890b43a528884e6e01f84d576/clavos.jpg"
+:seo:
+  :id: 3wkVtRNlDyAaWgSgscocM2
+  :title: Madera para Construcción | Tym Forest
+  :description: Favor de agregar descripción
+  :twitter:
+    :title: seo-twitter
+    :description: 
+    :url: "//images.contentful.com/rvnl2qm3k12r/4VLoHCL2BGyqQEmWEK46Gm/9863773d7de55fe580909fa2ea29b77d/seo-twitter.jpg"
+  :og:
+    :title: seo-facebook
+    :description: 
+    :url: "//images.contentful.com/rvnl2qm3k12r/6tSOjfwiE8w60guE44cEoC/9279e9e6e23ff25a01041c2726db3556/seo-facebook.jpg"

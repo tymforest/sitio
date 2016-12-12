@@ -1,0 +1,97 @@
+---
+:id: 1GUUsAXjsEa8aEISWy8iES
+:title: Madera para Muebles
+:index_image:
+  :title: madera-para-muebles
+  :description: Madera para Muebles
+  :url: "//images.contentful.com/rvnl2qm3k12r/dUmos8wrySEK0WqYiIsYC/442f5ad775bb0d58d7b5c470c3c033ef/madera-para-muebles.jpg"
+:hero_image:
+  :title: madera-para-muebles
+  :description: Maderas finas para fabcricación de muebles.
+  :url: "//images.contentful.com/rvnl2qm3k12r/1AZdld5BuIkm2aUakGoUc6/7b255f384d905969bee38dd86aeb202e/portada.jpg"
+:sections:
+- :id: 3ZefgPneDYYKOaCUgsccww
+  :subtitle: Maderas
+  :title: Banak
+  :description: La madera aserrada de Banak es muy accesible, su origen es Peruano
+    y esta disponible en calidad FAS para los grosores de 1” y 2”. Su color varía
+    entre rojizo y marrón y se utiliza comúnmente para la fabricación de muebles o
+    carpintería.
+  :links:
+  - :id: 618WU8gFYQeYYSYgqK2C8e
+    :title: Ver Madera de Banak
+    :path: "/maderas/banak"
+  :image:
+    :title: banak
+    :description: Favor de agregar una descripción de la imágen.
+    :url: "//images.contentful.com/rvnl2qm3k12r/7t4IaGvdBKWuKCgcko4uM6/ee0242593d45015dc8c40078ec8f8e63/banak.jpg"
+- :id: 3xNawqxZKockWUoo6sUUQe
+  :subtitle: Maderas
+  :title: Nogal Americano
+  :description: Madera aserrada de nogal americano importada de la zona norte de Estados
+    Unidos, la manejamos en grosores de 1”, 1.5” y 2” en calidad FAS. Es de color
+    marrón y se utiliza comúnmente para la fabricación de muebles o decoraciones de
+    interiores.
+  :links:
+  - :id: 11Wdwyu0PKKYkC80o8iUaU
+    :title: Ver Madera de Nogal Americano
+    :path: "/maderas/nogal-americano"
+  :image:
+    :title: nogal-americano
+    :description: Favor de agregar una descripción de la imágen.
+    :url: "//images.contentful.com/rvnl2qm3k12r/2m7cxLDEaQIKGyaUSCIMK2/5683e7d6a47df67b817ebd9a55ed3b1d/nogal-americano.jpg"
+- :id: 5Q6MCT3Nu0UiIQgyaSu0es
+  :subtitle: Maderas
+  :title: Encino
+  :description: Madera aserrada de encino es dura y pesada de origen americano, a
+    pesar de que tiene densidad alta la trabajabilidad de esta madera es buena. El
+    color del encino varia desde blanco a marrón claro. Disponible en calidad FAS
+    para los grosores de 1”, 1.5” y 2”.
+  :links:
+  - :id: 2wh1WJjQ1iI6WckKsYiGY6
+    :title: Ver Madera de Encino
+    :path: "/maderas/encino"
+  :image:
+    :title: encino
+    :description: Favor de agregar una descripción de la imágen.
+    :url: "//images.contentful.com/rvnl2qm3k12r/10hDAiVUduS6s4QWYyYEmU/1155bdee3c2af86e8843ec1b0636743c/encino.jpg"
+- :id: 7ulhoBFEiWW0mM8CWqwEg8
+  :subtitle: Maderas
+  :title: Haya
+  :description: Madera importada de Alemania, aserrada a grosor de 1" y diferentes
+    anchos. Es considerada una madera liviana y su color varia entre blanca y marrón
+    claro. La tenemos disponible en calidad selecta.
+  :links:
+  - :id: q3uEskyZi0eCoSyQ6Ee4U
+    :title: Ver Madera de Haya
+    :path: "/maderas/haya"
+  :image:
+    :title: haya
+    :description: Favor de agregar una descripción de la imágen.
+    :url: "//images.contentful.com/rvnl2qm3k12r/4SB9MjJmc0cAm0ogc6i8Uk/f4f1ece1ec1388141eaba85d415f47d0/haya.jpg"
+- :id: 2WR4p1PFyMe0sesQaoqWEU
+  :subtitle: Maderas
+  :title: Tzalam
+  :description: La madera de Tzalam tiene como característica principal ser pesada
+    y dura por lo cual es muy utilizada para exterior, pisos, duela, cocinas, muebles
+    finos. Su color varia entre marrón obscuro y rojizo.
+  :links:
+  - :id: 1KsoTPc1zCEy82GE4iUCEE
+    :title: Ver Madera de Tzalam
+    :path: "/maderas/tzalam"
+  :image:
+    :title: tzalam
+    :description: Favor de agregar descripción de la imágen.
+    :url: "//images.contentful.com/rvnl2qm3k12r/taIkJPSX5Y0208U26k8CY/8c93c8a3d27587e70920fb0039fb72f2/tzalam.jpg"
+:seo:
+  :id: 727LmVKZKEe8YC8giQ4oo0
+  :title: Madera para Muebles | Tym Forest
+  :description: Favor de agregar descripción
+  :twitter:
+    :title: seo-twitter
+    :description: 
+    :url: "//images.contentful.com/rvnl2qm3k12r/4uDWayNROo6o00u4cgUG2E/a845540a624aa2555dcbf37648b6c56e/seo-twitter.jpg"
+  :og:
+    :title: seo-facebook
+    :description: 
+    :url: "//images.contentful.com/rvnl2qm3k12r/66yLGluY6s6caCKKKSM42Q/bf8caf46995ac7e872047a1fd241c7cb/seo-facebook.jpg"

@@ -1,0 +1,19 @@
+---
+:id: bYH4OryRJ6aqomYIC4uGa
+:title: Optimizador de Cortes para Tableros
+:nombre: Optimizador de Cortes
+:subcategory:
+  :id: 5kVjLKGNMsmU4e6EMUisAs
+  :title: Programas de Diseño para Tableros
+  :nombre: Programas de Diseño
+  :category: Tableros
+  :description: Sistemas para optimizar y diseñar el uso de tableros.
+  :image:
+    :title: programas-de-diseno
+    :description: Documentación detallando los cortes óptimos para un tablero.
+    :url: "//images.contentful.com/rvnl2qm3k12r/5XLl8bH82ccUKeKgoiOuwu/6e25d21f8d25e7230df0564b67b8d733/programas-de-diseno.jpg"
+:description: Programa para reducir merma de tablero.
+:card:
+  :title: optimizador-de-cortes
+  :description: Documentación de la optimización de un tablero.
+  :url: "//images.contentful.com/rvnl2qm3k12r/5T6nYttlMAOCIu0So6EoEY/018c560f7f015a50539550854bb22bdc/optimizador-de-cortes.jpg"

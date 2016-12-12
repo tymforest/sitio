@@ -1,0 +1,19 @@
+---
+:id: 3tsjNXmTIcyEskyaAwCIkW
+:title: Corte Longitudinal para Maderas
+:nombre: Corte Longitudinal
+:subcategory:
+  :id: 6QolIE1eMgM4CUYQisKmSU
+  :title: Dimensionado para Maderas
+  :nombre: Dimensionado
+  :category: Maderas
+  :description: Cortes rectos transversales y longitudinales a la medida.
+  :image:
+    :title: dimensionado
+    :description: Dimensionando un tablero en nuestra Sucursal de Nuevo Repueblo.
+    :url: "//images.contentful.com/rvnl2qm3k12r/3qutJAFZ9eccSiC8Q024su/c7db74a632868a100bd306914a9662ba/dimensionado.jpg"
+:description: Corte recto con sierra de mesa o sierra cinta.
+:card:
+  :title: corte-longitudinal
+  :description: Haciendo un corte longitudinal con una sierra vertical.
+  :url: "//images.contentful.com/rvnl2qm3k12r/6ILATemznywQEGwAeuaCK2/eb98a21a44b3216ed80850d500d77d92/corte-longitudinal.jpg"

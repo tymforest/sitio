@@ -1,0 +1,35 @@
+---
+:id: 3jbZSujq5Gw8eMYGuAkWCs
+:title: Aviso de Privacidad
+:last_updated: Actualizado el 6 de Diciembre del 2016
+:intro: Este Aviso de Privacidad siempre estará actualizado con información relacionada
+  a todas las funcionalidades de nuestra página que recaben datos de tu visita.
+:details:
+- :id: 11BKpoOZraMUSaQIm26CEu
+  :title: Google Analytics
+  :description: Usamos <a href="https://analytics.google.com/">Google Analytics</a>,
+    un servicio ofrecido por Google para obtener información acerca de tu visita a
+    cualquiera de las páginas de nuestro sitio.
+- :id: 6cbCtNCTNmwsc4mUaIgKYw
+  :title: Datos Recabados
+  :description: La información que obtenemos a travez de Google Analytics no nos permite
+    identificar tu nombre, número de teléfono, email o algún otro dato personal que
+    nos permita identificarte. Los datos que obtenemos con tu visita incluyen —
+  :lista:
+  - Fecha de visita
+  - Tiempo total de visita
+  - Secciones visitadas
+  - País de donde nos visitas
+  - Navegador utilizado
+  - Idioma de tu navegador
+  - Dispositivo utilizado
+- :id: 1RbOHNwDM4uYqemWmqQmg8
+  :title: Uso de Datos
+  :description: Usamos los datos de tu visita para asegurarnos de que nuestra página
+    sea compatible con tu navegador y dispositivo. También usamos la información para
+    mejorar la experiencia en nuestra página para saber que información es la que
+    buscas y así presentarte la información de una manera fácil de encontrar. Si acaso
+    no quieres que Google Analytics nos envíe datos acerca de tu visita, puedes visitar
+    <a href="https://tools.google.com/dlpage/gaoptout?hl=es" target="_blank">esta
+    página</a>, donde Google te ofrece descargar un complemento web para inhabilitar
+    Google Analytics en tu navegador.
