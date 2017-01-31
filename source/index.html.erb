@@ -16,11 +16,11 @@ layout: index
           <div id="<%= gallery.title.parameterize %>" class="anuncio-cubierta" title="<%= gallery.background.description %>">
             <div class="no-js contenedor-movil contenedor-tablet contenedor-desktop">
               <% if gallery.subtitle %>
-                <h2 class="blanco"><%= gallery.subtitle %></h2>
+                <h2 class="<% if gallery.white %>blanco<% else %>obscuro<% end %>"><%= gallery.subtitle %></h2>
               <% end %>
-              <h1 class="blanco"><%= gallery.title %></h1>
+              <h1 class="<% if gallery.white %>blanco<% else %>obscuro<% end %>"><%= gallery.title %></h1>
               <% if gallery.description %>
-                <p class="blanco"><%= gallery.description %></p>
+                <p class="<% if gallery.white %>blanco<% else %>obscuro<% end %>"><%= gallery.description %></p>
               <% end %>
               <% if gallery.button %>
                 <% link_to "#{ gallery.button.path }", :class => "boton accion" do %>
