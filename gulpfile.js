@@ -17,6 +17,7 @@ gulp.task('markup', function(){
 gulp.task('styles', function(){
   gulp.src(['build/stylesheets/*.css'])
   .pipe(cssmin())
+  .pipe(gulp.dest('build/stylesheets'))
   .pipe(gzip())
   .pipe(gulp.dest('build/stylesheets'))
 });
@@ -25,6 +26,7 @@ gulp.task('styles', function(){
 gulp.task('scripts', function(){
   gulp.src('build/javascripts/*.js')
   .pipe(uglify())
+  .pipe(gulp.dest('build/javascripts'))
   .pipe(gzip())
   .pipe(gulp.dest('build/javascripts'))
 });
@@ -42,7 +44,7 @@ gulp.task('sitemap', function() {
 
 // Run previous `gulp` tasks in sequence
 gulp.task('sequence', function(callback) {
-  runSequence(['markup', 'styles', 'scripts', 'sitemap']);
+  runSequence('markup', 'styles', 'scripts', 'sitemap');
 });
 
 // Build
