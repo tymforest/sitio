@@ -22,7 +22,7 @@ gulp.task('styles', function(){
   .pipe(gulp.dest('build/stylesheets'))
 });
 
-//  Minify all.js
+//  Minify and gzip all .js files
 gulp.task('scripts', function(){
   gulp.src('build/javascripts/*.js')
   .pipe(uglify())
