@@ -45,6 +45,7 @@
       <% elsif ad_section === "Ofertas" && check_sales %>
         <%= partial "partials/oferta" %>
       <% elsif ad_section === "Newsletter" %>
+        <h1><%= ad_section %></h1>
         <%= partial "partials/newsletter" %>
       <% else %>
         <%= partial "partials/contacto" %>
