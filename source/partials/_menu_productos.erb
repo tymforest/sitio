@@ -9,7 +9,7 @@
           <div class="cerrar-acordion"></div>
         </div>
       </li>
-      <ul class="">
+      <ul class="<% if category.name === 'Maderas' %>acordion-abierto<% end %>">
         <% data.site.products_a.each do |id, product| %>
           <% if product.category.name === "Maderas" %>
             <li><%= link_to product.name, "/maderas/#{ product.name.parameterize }" %></li>
