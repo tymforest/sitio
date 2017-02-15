@@ -28,9 +28,9 @@
         <% data.site.product_menu.each do |id, menu| %>
           <% menu.tableros.each do |product| %>
             <% if product.subcategory %>
-              <li><%= link_to product.nombre, "/tableros/#{ product.nombre.parameterize }" %></li>
-            <% else %>
               <li><%= link_to product.name, "/tableros/#{ product.name.parameterize }" %></li>
+            <% else %>
+              <li><%= link_to product.nombre, "/tableros/#{ product.nombre.parameterize }" %></li>
             <% end %>
           <% end %>
         <% end %>
