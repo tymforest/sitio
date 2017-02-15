@@ -25,14 +25,13 @@
         </div>
       </li>
       <ul class="<% if category && category.name === 'Tableros' %>acordion-abierto<% end %>">
-        <% data.site.subcategories.each do |id, subcategory| %>
-          <% if subcategory.category.name === "Tableros" %>
-            <li><%= link_to subcategory.nombre, "/tableros/#{ subcategory.nombre.parameterize }" %></li>
-          <% end %>
-        <% end %>
-        <% data.site.products_a.each do |id, product| %>
-          <% if product.category.name === "Tableros" && !product.subcategory %>
-            <li><%= link_to product.name, "/tableros/#{ product.name.parameterize }" %></li>
+        <% data.site.product_menu.each do |id, menu| %>
+          <% menu.tableros.each do |product| %>
+            <% if !product.subcategory %>
+              <li><%= link_to product.name, "/tableros/#{ product.name.parameterize }" %></li>
+            <% else %>
+              <li><%= link_to subcategory.nombre, "/tableros/#{ subcategory.nombre.parameterize }" %></li>
+            <% end %>
           <% end %>
         <% end %>
       </ul>
