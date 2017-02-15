@@ -12,7 +12,9 @@
       <ul class="<% if category && category.name === 'Maderas' %>acordion-abierto<% end %>">
         <% data.site.product_menu.each do |id, menu| %>
           <% menu.maderas.each do |product| %>
-            <li><%= link_to product.name, "/maderas/#{ product.name.parameterize }" %></li>
+            <% if product.category.name === "Maderas" %>
+              <li><%= link_to product.name, "/maderas/#{ product.name.parameterize }" %></li>
+            <% end %>
           <% end %>
         <% end %>
       </ul>
@@ -27,10 +29,12 @@
       <ul class="<% if category && category.name === 'Tableros' %>acordion-abierto<% end %>">
         <% data.site.product_menu.each do |id, menu| %>
           <% menu.tableros.each do |product| %>
-            <% if product.nombre %>
-              <li><%= link_to product.nombre, "/tableros/#{ product.nombre.parameterize }" %></li>
-            <% else %>
-              <li><%= link_to product.name, "/tableros/#{ product.name.parameterize }" %></li>
+            <% if product.category.name === "Tableros" %>
+              <% if product.nombre %>
+                <li><%= link_to product.nombre, "/tableros/#{ product.nombre.parameterize }" %></li>
+              <% else %>
+                <li><%= link_to product.name, "/tableros/#{ product.name.parameterize }" %></li>
+              <% end %>
             <% end %>
           <% end %>
         <% end %>
@@ -46,7 +50,9 @@
       <ul class="<% if category && category.name === 'Ferretería' %>acordion-abierto<% end %>">
         <% data.site.product_menu.each do |id, menu| %>
           <% menu.ferreteria.each do |product| %>
-            <li><%= link_to product.nombre, "/ferreteria" %></li>
+            <% if product.category.name === "Ferretería" %>
+              <li><%= link_to product.nombre, "/ferreteria" %></li>
+            <% end %>
           <% end %>
         <% end %>
       </ul>
