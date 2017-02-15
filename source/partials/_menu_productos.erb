@@ -1,10 +1,3 @@
-<%# Config %>
-<% if locals[:category] %>
-  <% c = locals[:category] %>
-<% else %>
-  <% c = "" %>
-<% end %>
-<%# End %>
 <aside id="contenedor-menu-productos">
   <div id="menu-productos">
     <ul>
@@ -13,10 +6,10 @@
         <p>Maderas</p>
         <div class="boton-acordion">
           <div class="abrir-acordion"></div>
-          <div class="cerrar-acordion"></div>
+          <div class="cerrar-acordion <% if category && category.name === 'Maderas' %>girar<% end %>"></div>
         </div>
       </li>
-      <ul class="<% if c.name === 'Maderas' %>acordion-abierto<% end %>">
+      <ul class="<% if category && category.name === 'Maderas' %>acordion-abierto<% end %>">
         <% data.site.products_a.each do |id, product| %>
           <% if product.category.name === "Maderas" %>
             <li><%= link_to product.name, "/maderas/#{ product.name.parameterize }" %></li>
@@ -28,10 +21,10 @@
         <p>Tableros</p>
         <div class="boton-acordion">
           <div class="abrir-acordion"></div>
-          <div class="cerrar-acordion"></div>
+          <div class="cerrar-acordion <% if category && category.name === 'Tableros' %>girar<% end %>"></div>
         </div>
       </li>
-      <ul class="<% if c.name === 'Tableros' %>acordion-abierto<% end %>">
+      <ul class="<% if category && category.name === 'Tableros' %>acordion-abierto<% end %>">
         <% data.site.subcategories.each do |id, subcategory| %>
           <% if subcategory.category.name === "Tableros" %>
             <li><%= link_to subcategory.nombre, "/tableros/#{ subcategory.nombre.parameterize }" %></li>
@@ -48,10 +41,10 @@
         <p>Ferretería</p>
         <div class="boton-acordion">
           <div class="abrir-acordion"></div>
-          <div class="cerrar-acordion"></div>
+          <div class="cerrar-acordion <% if category && category.name === 'Ferretería' %>girar<% end %>"></div>
         </div>
       </li>
-      <ul class="<% if c.name === 'Ferretería' %>acordion-abierto<% end %>">
+      <ul class="<% if category && category.name === 'Ferretería' %>acordion-abierto<% end %>">
         <% data.site.subcategories.each do |id, subcategory| %>
           <% if subcategory.category.name === "Ferretería" %>
             <li><%= link_to subcategory.nombre, "/ferreteria/#{ subcategory.nombre.parameterize }" %></li>
