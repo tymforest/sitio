@@ -176,7 +176,7 @@ layout: detail
         <div class="contenedor-movil-contenido contenedor-tablet-contenido">
           <div class="columna-desktop-3">
             <header id="detalles-de-producto">
-              <h1>Detalles de <% if subcategory %><% subcategory.nombre %><% else %><%= product.name %><% end %></h1>
+              <h1>Detalles de <%= product.name %></h1>
               <% if product.documentation %>
                 <% link_to "#{ product.documentation.url }", :class => "ficha-tecnica", :target => "_blank" do %>
                   <span></span>Descargar Ficha Técnica
