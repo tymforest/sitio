@@ -119,41 +119,7 @@ layout: detail
     </div>
     <%# Ofertas de Producto %>
     <% if is_sale %>
-      <div class="contenedor-movil-contenido contenedor-tablet-contenido borde-superior ofertas-desktop">
-        <div class="reticula">
-          <div class="columna-desktop-3">
-            <header id="detalles-de-producto">
-              <h1 class="ofertas"><%= subcategory.name %> en Oferta</h1>
-              <p class="iva">*Los precios incluyen IVA</p>
-            </header>
-          </div>
-          <div class="columna-desktop-2"></div>
-          <div class="columna-desktop-7">
-            <div class="contenido">
-              <% data.site.products_b.each do |id, product| %>
-                <% if product.subcategory.nombre === subcategory.nombre && product.is_sale %>
-                  <div class="columna-movil-100 columna-tablet-50 columna-desktop-6">
-                    <% product.measurements_on_sale.each do |sale| %>
-                      <div class="subcontenido">
-                        <div class="columna-movil-60 columna-tablet-80 columna-desktop-70 margen-oferta">
-                          <h5>
-                            <%= product.name %> — <br>
-                            <%= sale.measurement %><span class="unidad"><%= sale.unit %></span>
-                          </h5>
-                        </div>
-                        <div class="columna-movil-10"></div>
-                        <div class="columna-movil-30 columna-tablet-20 columna-desktop-30 margen-oferta">
-                          <h5 class="naranja"><%= sale.price %></h5>
-                        </div>
-                      </div>
-                    <% end %>
-                  </div>
-                <% end %>
-              <% end %>
-            </div>
-          </div>
-        </div>
-      </div>
+      <h1>Is on sale!</h1>
     <% end %>
   </section>
   <%# Imágenes de Producto Aplicado %>
