@@ -1,6 +1,6 @@
 <%# Config %>
 <% if locals[:category] %>
-  <% c = locals[:category].name %>
+  <% c = locals[:category] %>
 <% else %>
   <% c = "" %>
 <% end %>
@@ -16,7 +16,7 @@
           <div class="cerrar-acordion"></div>
         </div>
       </li>
-      <ul class="<% if c === 'Maderas' %>acordion-abierto<% end %>">
+      <ul class="<% if c.name === 'Maderas' %>acordion-abierto<% end %>">
         <% data.site.products_a.each do |id, product| %>
           <% if product.category.name === "Maderas" %>
             <li><%= link_to product.name, "/maderas/#{ product.name.parameterize }" %></li>
@@ -31,7 +31,7 @@
           <div class="cerrar-acordion"></div>
         </div>
       </li>
-      <ul class="">
+      <ul class="<% if c.name === 'Tableros' %>acordion-abierto<% end %>">
         <% data.site.subcategories.each do |id, subcategory| %>
           <% if subcategory.category.name === "Tableros" %>
             <li><%= link_to subcategory.nombre, "/tableros/#{ subcategory.nombre.parameterize }" %></li>
@@ -51,7 +51,7 @@
           <div class="cerrar-acordion"></div>
         </div>
       </li>
-      <ul class="">
+      <ul class="<% if c.name === 'Ferretería' %>acordion-abierto<% end %>">
         <% data.site.subcategories.each do |id, subcategory| %>
           <% if subcategory.category.name === "Ferretería" %>
             <li><%= link_to subcategory.nombre, "/ferreteria/#{ subcategory.nombre.parameterize }" %></li>
