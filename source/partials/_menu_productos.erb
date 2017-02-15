@@ -1,3 +1,10 @@
+<%# Config %>
+<% if locals[:category] %>
+  <% c = locals[:category].name %>
+<% else %>
+  <% c = "" %>
+<% end %>
+<%# End %>
 <aside id="contenedor-menu-productos">
   <div id="menu-productos">
     <ul>
@@ -9,7 +16,7 @@
           <div class="cerrar-acordion"></div>
         </div>
       </li>
-      <ul class="<% if locals[:category].name === 'Maderas' %>acordion-abierto<% end %>">
+      <ul class="<% if c === 'Maderas' %>acordion-abierto<% end %>">
         <% data.site.products_a.each do |id, product| %>
           <% if product.category.name === "Maderas" %>
             <li><%= link_to product.name, "/maderas/#{ product.name.parameterize }" %></li>
