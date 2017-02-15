@@ -38,11 +38,8 @@
     <main class="productos-desktop">
       <div class="contenedor-desktop">
         <div class="reticula">
-          <%# Config %>
-          <% parameter = { :c => locals[:category] } %>
-          <%# End %>
           <div class="columna-desktop-2">
-            <%= partial("partials/menu_productos", :locals => parameter) %>
+            <%= partial "partials/menu_productos" %>
           </div>
           <div class="columna-desktop-1"></div>
           <div class="columna-desktop-9">
