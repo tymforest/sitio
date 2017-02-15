@@ -6,8 +6,8 @@
           <%# Maderas %>
           <h4>Maderas</h4>
           <ul>
-            <% data.site.products_a.each do |id, product| %>
-              <% if product.category.name === "Maderas" %>
+            <% data.site.product_menu.each do |id, menu| %>
+              <% menu.maderas.each do |product| %>
                 <li><%= link_to product.name, "/maderas/#{ product.name.parameterize }", :class => "subseccion" %></li>
               <% end %>
             <% end %>
@@ -18,16 +18,13 @@
           <%# Tableros %>
           <h4>Tableros</h4>
           <ul>
-            <%# Subcategorías de Tableros %>
-            <% data.site.subcategories.each do |id, subcategory| %>
-              <% if subcategory.category.name === "Tableros" %>
-                <li><%= link_to subcategory.nombre, "/tableros/#{ subcategory.nombre.parameterize }", :class => "subseccion" %></li>
-              <% end %>
-            <% end %>
-            <%# Tableros sin Subcategoría %>
-            <% data.site.products_a.each do |id, product| %>
-              <% if product.category.name === "Tableros" && !product.subcategory %>
-                <li><%= link_to product.name, "/tableros/#{ product.name.parameterize }", :class => "subseccion" %></li>
+            <% data.site.product_menu.each do |id, menu| %>
+              <% menu.tableros.each do |product| %>
+                <% if product.nombre %>
+                  <li><%= link_to product.nombre, "/tableros/#{ product.nombre.parameterize }", :class => "subseccion" %></li>
+                <% else %>
+                  <li><%= link_to product.name, "/tableros/#{ product.name.parameterize }", :class => "subseccion" %></li>
+                <% end %>
               <% end %>
             <% end %>
             <li><%= link_to "Ver todos", "/tableros", :class => "subseccion italica" %></li>
@@ -39,9 +36,9 @@
           <%# Ferretería %>
           <h4>Ferretería</h4>
           <ul>
-            <% data.site.subcategories.each do |id, subcategory| %>
-              <% if subcategory.category.name === "Ferretería" %>
-                <li><%= link_to subcategory.nombre, "/ferreteria", :class => "subseccion" %></li>
+            <% data.site.product_menu.each do |id, menu| %>
+              <% menu.ferreteria.each do |product| %>
+                <li><%= link_to product.nombre, "/ferreteria", :class => "subseccion" %></li>
               <% end %>
             <% end %>
             <li><%= link_to "Ver todos", "/ferreteria", :class => "subseccion italica" %></li>
