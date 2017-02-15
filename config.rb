@@ -48,6 +48,7 @@ activate :contentful do |f|
     products_a: "products",
     products_b: "producto_simple",
     sale: "sale",
+    product_menu: "menu_de_productos",
     # Product Applications
     product_applications: "product_application",
     # Jobs
