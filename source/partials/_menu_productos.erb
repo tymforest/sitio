@@ -46,7 +46,7 @@
       <ul class="<% if category && category.name === 'Ferretería' %>acordion-abierto<% end %>">
         <% data.site.product_menu.each do |id, menu| %>
           <% menu.ferreteria.each do |product| %>
-            <li><%= link_to product.nombre, "/ferreteria/#{ product.nombre.parameterize }" %></li>
+            <li><%= link_to product.nombre, "/ferreteria" %></li>
           <% end %>
         <% end %>
       </ul>
