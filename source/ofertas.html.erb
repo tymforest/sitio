@@ -27,7 +27,7 @@ layout: sale
           <% if subcategory.is_detail %>
             <% path = "/#{ subcategory.nombre.parameterize }/#{ product.name.parameterize }" %>
           <% else %>
-            <% path = "/#{ subcategory.name.parameterize }" %>
+            <% path = "/#{ subcategory.nombre.parameterize }" %>
           <% end %>
         <% else %>
           <% subcategory = false %>
