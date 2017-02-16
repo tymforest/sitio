@@ -51,15 +51,19 @@
         <% end %>
       </ul>
       <%# Ofertas %>
+      <% sale = false %>
       <% data.site.products_a.each do |id, product| %>
         <% if product.is_sale %>
           <li><%= link_to 'Ofertas', '/ofertas' %></li>
+          <% sale = true %>
           <% break %>
         <% end %>
       <% end %>
-      <% data.site.products_b.each do |id, product| %>
-        <% if product.is_sale %>
-          <li><%= link_to 'Ofertas', '/ofertas' %></li>
+      <% if !sale %>
+        <% data.site.products_b.each do |id, product| %>
+          <% if product.is_sale %>
+            <li><%= link_to 'Ofertas', '/ofertas' %></li>
+          <% end %>
         <% end %>
       <% end %>
     </ul>
