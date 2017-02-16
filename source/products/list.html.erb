@@ -9,6 +9,18 @@ layout: list
 <% else %>
   <% title = subcategory.nombre %>
 <% end %>
+<% primary_products = [] %>
+<% data.site.product_menu.each do |id, list| %>
+  <% if category.name === "Maderas" %>
+    <% list.maderas.each do |product| %>
+      <% primary_products.push(product) %>
+    <% end %>
+  <% elsif category.name === "Tableros" %>
+    <% list.tableros.each do |product| %>
+      <% primary_products.push(product) %>
+    <% end %>
+  <% end %>
+<% end %>
 <%# End %>
 <section id="contenedor-de-contenido" class="lista <% if subcategory %>lista-tablet-subcategoria<% end %>">
   <header>
@@ -17,8 +29,8 @@ layout: list
   <div class="contenedor-movil-completo contenedor-tablet-completo">
     <div class="reticula listado">
       <% if !subcategory %>
-        <% data.site.products_a.each do |id, product| %>
-          <% if product.category.name === title && !product.subcategory %>
+        <% primary_products.each do |product| %>
+          <% if !product.subcategory %>
             <div class="lista-de-productos columna-movil-50 columna-tablet-33 columna-desktop-3">
               <div class="tarjeta-producto">
                 <% link_to "/#{ title.parameterize }/#{ product.name.parameterize }", :class => "enlace-imagen" do %>
@@ -32,10 +44,7 @@ layout: list
                 </header>
               </div>
             </div>
-          <% end %>
-        <% end %>
-        <% data.site.subcategories.each do |id, subcategory| %>
-          <% if subcategory.category.name === title %>
+          <% else %>
             <div class="lista-de-productos columna-movil-50 columna-tablet-33 columna-desktop-3">
               <div class="tarjeta-producto">
                 <% link_to "/#{ category.name.parameterize }/#{ subcategory.nombre.parameterize }", :class => "enlace-imagen" do %>
@@ -51,6 +60,7 @@ layout: list
             </div>
           <% end %>
         <% end %>
+      <%# Original %>
       <% else %>
         <% data.site.products_a.each do |id, product| %>
           <% if product.subcategory && product.subcategory.nombre === "Triplay" %>
