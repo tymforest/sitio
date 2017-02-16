@@ -124,37 +124,6 @@ layout: detail
     </div>
   </section>
   <%# Ofertas de Producto %>
-  <% if product.is_unit && product.is_sale %>
-    <section class="detalle <% if product.applied_product_images %>con-galeria<% end %>">
-      <div class="reticula">
-        <div class="contenedor-movil-contenido contenedor-tablet-contenido">
-          <div class="columna-desktop-3">
-            <header id="detalles-de-producto">
-              <h1 class="ofertas"><%= product.name %> en Oferta</h1>
-              <p class="iva">*Los precios incluyen IVA</p>
-            </header>
-          </div>
-          <div class="columna-desktop-2"></div>
-          <div class="columna-desktop-7">
-            <div class="contenido">
-              <% measurements_on_sale.each do |sale| %>
-                <div class="columna-movil-80 columna-tablet-50 columna-desktop-50">
-                  <div class="subcontenido">
-                    <div class="columna-movil-50 columna-tablet-50 columna-desktop-50">
-                      <h5><%= sale.measurement %><span class="unidad"><%= sale.unit %></span></h5>
-                    </div>
-                    <div class="columna-movil-50 columna-tablet-50 columna-desktop-50">
-                      <h5 class="naranja"><%= sale.price %></h5>
-                    </div>
-                  </div>
-                </div>
-              <% end %>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  <% end %>
   <%# Imágenes de Producto Aplicado %>
   <% if product.applied_product_images %>
     <section class="detalle producto">
