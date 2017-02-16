@@ -29,8 +29,8 @@ layout: list
   <div class="contenedor-movil-completo contenedor-tablet-completo">
     <div class="reticula listado">
       <% if !subcategory %>
-        <% primary_products.each do |product| %>
-          <% if !product.subcategory %>
+        <% data.site.products_a.each do |id, product| %>
+          <% if product.category.name === title && !product.subcategory %>
             <div class="lista-de-productos columna-movil-50 columna-tablet-33 columna-desktop-3">
               <div class="tarjeta-producto">
                 <% link_to "/#{ title.parameterize }/#{ product.name.parameterize }", :class => "enlace-imagen" do %>
@@ -44,7 +44,10 @@ layout: list
                 </header>
               </div>
             </div>
-          <% else %>
+          <% end %>
+        <% end %>
+        <% data.site.subcategories.each do |id, subcategory| %>
+          <% if subcategory.category.name === title %>
             <div class="lista-de-productos columna-movil-50 columna-tablet-33 columna-desktop-3">
               <div class="tarjeta-producto">
                 <% link_to "/#{ category.name.parameterize }/#{ subcategory.nombre.parameterize }", :class => "enlace-imagen" do %>
@@ -60,7 +63,6 @@ layout: list
             </div>
           <% end %>
         <% end %>
-      <%# Original %>
       <% else %>
         <% data.site.products_a.each do |id, product| %>
           <% if product.subcategory && product.subcategory.nombre === "Triplay" %>
