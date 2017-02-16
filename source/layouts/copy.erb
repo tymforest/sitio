@@ -14,6 +14,17 @@
       <% end %>
     <% end %>
     <%# End %>
+    <meta property="og:url" content="<%= data.meta.url %>">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<%= page.seo.title %>">
+    <meta property="og:description" content="<%= page.seo.description %>">
+    <meta property="og:image" content="https:<%= page.seo.og.url %>">
+    <!-- To learn more about Open Graph markup, visit Facebook for Developers -> https://developers.facebook.com/docs/sharing/webmasters -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="<%= page.seo.title %>">
+    <meta name="twitter:description" content="<%= page.seo.description %>">
+    <meta name="twitter:image" content="https:<%= page.seo.twitter.url %>">
+    <!-- To learn more about Twitter's Summary Card, visit Twitter for Developers -> https://dev.twitter.com/cards/types/summary -->
     <%= partial "partials/meta" %>
     <title><%= page.title %> | Tym Forest</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
