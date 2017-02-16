@@ -117,7 +117,7 @@ data.site.products_b.each do |id, product|
   end
 end
 
-if $products_on_sale > 0
+if $products_on_sale == 0
   ignore "/ofertas/index.html"
 end
 
