@@ -7,7 +7,7 @@ layout: detail
 <% product = locals[:product] %>
 <%# End %>
 <div id="contenedor-de-contenido">
-  <section class="detalle <% if product.applied_product_images && !product.is_sale %>con-galeria<% end %>">
+  <section class="detalle <% if product.applied_product_images %>con-galeria<% end %>">
     <div class="reticula">
       <div class="columna-desktop-5">
         <%# Imágen del Producto %>
