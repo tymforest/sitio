@@ -15,11 +15,11 @@
     :description: Favor de agregar descripción de sección
     :twitter:
       :title: seo-twitter
-      :description: 
+      :description:
       :url: "//images.contentful.com/rvnl2qm3k12r/4sfuW1NioMoKIMkCw8KS48/0225ef0a4508e89e0fdb3a8199348446/seo-twitter.jpg"
     :og:
       :title: seo-facebook
-      :description: 
+      :description:
       :url: "//images.contentful.com/rvnl2qm3k12r/bd9ATTN2kS6Ye0gIOKSqG/ce40961a7f13961d545081e291a4d669/seo-facebook.jpg"
 :subcategory:
   :id: 5ZnXpImjEQ6q44OcyqkaW4
@@ -37,11 +37,11 @@
       :description: Favor de agregar descripción de sección
       :twitter:
         :title: seo-twitter
-        :description: 
+        :description:
         :url: "//images.contentful.com/rvnl2qm3k12r/2ruWLT27RCMu6mGqEio2mM/a44c266955150b2d6120fba6c49b910c/seo-twitter.jpg"
       :og:
         :title: seo-facebook
-        :description: 
+        :description:
         :url: "//images.contentful.com/rvnl2qm3k12r/7lWAENkrFmYSkAqG6OgWak/f1cc1a68bc3bf5d92ae019a78829f120/seo-facebook.jpg"
   :is_detail: false
   :description: Tablero de MDF enchapado por una o ambas caras de maderas finas .
@@ -161,13 +161,13 @@
           de pino, enchapado con una capa delgada de otra especie de madera.
         :twitter:
           :title: seo-twitter
-          :description: 
+          :description:
           :url: "//images.contentful.com/rvnl2qm3k12r/63ru9tTPkAW40IGe64qgEo/de49e6d95f8ca6f3507f40ac39c7e02f/seo-twitter.jpg"
         :og:
           :title: seo-facebook
-          :description: 
+          :description:
           :url: "//images.contentful.com/rvnl2qm3k12r/40o6QfBwicqyea22QAkGkS/6321b8720a73135de74878ca9c408385/seo-facebook.jpg"
-    :is_sale: false
+    :is_sale: true
     :card:
       :title: tarjeta-principal
       :description: Listonado de Okumé
@@ -316,11 +316,11 @@
             de puertas, cocinas y muebles.
           :twitter:
             :title: seo-twitter
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/34nW9psm6cmg0aa2oesgUW/42c65408235d132c5c034e9c47a96390/seo-twitter.jpg"
           :og:
             :title: seo-facebook
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/2YHbaOTykoYQako44Y664c/8e1d55c95841095e08757cb6a01e0a68/seo-facebook.jpg"
       - :id: 3cQ8trMgYwSagYUQM04IYo
       - :id: 6lQ7PLt97y6G2EQEm2KyKS
@@ -336,11 +336,11 @@
           utilizado en la fabricación de cocinas , muebles y centros de entretenimiento.
         :twitter:
           :title: seo-twitter
-          :description: 
+          :description:
           :url: "//images.contentful.com/rvnl2qm3k12r/1F0TC3V0sUecAGmo2MgkQU/b342d15c21f85a7470cc54ae614b1888/seo-twitter.jpg"
         :og:
           :title: seo-facebook
-          :description: 
+          :description:
           :url: "//images.contentful.com/rvnl2qm3k12r/5yQOlUrZ04SWA2WG6e8ois/00b9c94bc5bb0925005f126fe46fb5a1/seo-facebook.jpg"
     :is_sale: false
     :card:
@@ -565,11 +565,11 @@
             se utiliza como aislante termico y acústico en interiores y exteriores.
           :twitter:
             :title: seo-twitter
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/1FY3tUJRrK4iYk4oecsWOO/fec875dd4b98248eaa07e27e214a0990/seo-twitter.jpg"
           :og:
             :title: seo-facebook
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/3QTXOe8uvmq0oYceg4o8mW/049218f6568fec46616bb6935e4445e5/seo-facebook.jpg"
       - :id: 2s1ewSArfumuIciKM4OaM0
       :card:
@@ -597,11 +597,11 @@
           de madera prensados y unidos con aglutinante.
         :twitter:
           :title: seo-twitter
-          :description: 
+          :description:
           :url: "//images.contentful.com/rvnl2qm3k12r/3Td3tATmHKMsAQIuSCCuo6/abf300eb6154c41c96658b21eb250377/seo-twitter.jpg"
         :og:
           :title: seo-facebook
-          :description: 
+          :description:
           :url: "//images.contentful.com/rvnl2qm3k12r/28aP2L8BeY6CgQOwgi0CQu/d3eda2d3d086c2ab803e89b468b5fe85/seo-facebook.jpg"
     - :id: 6FlMF9cpWgg2WMO2YW6oaU
       :titulo: Tablero de OSB
@@ -671,11 +671,11 @@
           la industria para empaques y embalajes.
         :twitter:
           :title: seo-twitter
-          :description: 
+          :description:
           :url: "//images.contentful.com/rvnl2qm3k12r/Qt81c9q86GKQ6UKsKCa0G/78abb96481ac957d80c8f77e1a6c105f/seo-twitter.jpg"
         :og:
           :title: seo-facebook
-          :description: 
+          :description:
           :url: "//images.contentful.com/rvnl2qm3k12r/nuy7EXngOG0GcsA0cuOym/8321eee9c22c45e4d710f955938ba722/seo-facebook.jpg"
     - :id: 1eT4o13XisUUOieqQEOmEc
       :titulo: Triplay de Caobilla
@@ -700,11 +700,11 @@
             por una o ambas caras.
           :twitter:
             :title: seo-twitter
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/6JNoAXR4kM2goqUWYE2eOI/25d8f58672272b077da75b023a8b9718/seo-twitter.jpg"
           :og:
             :title: seo-facebook
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/wnG23V5zUsYWauWw0eueo/7125123dffdd7d5306d793fa98b69d0f/seo-facebook.jpg"
       :is_sale: false
       :is_unit: true
@@ -863,11 +863,11 @@
             fabricación de muebles y estructuras.
           :twitter:
             :title: seo-twitter
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/42iFsmALxmsWwIEKcao0i/7352c5193943ff3c2ab4c39e05d0dc70/seo-twitter.jpg"
           :og:
             :title: seo-facebook
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/47QSSoIN0QIiyA62e8oG6w/16a3910dc2f590510cd57f5376a52909/seo-facebook.jpg"
       - :id: 3xjzQznLhCOKQmo2CUM4Yk
         :titulo: Madera de Pino Nacional
@@ -980,11 +980,11 @@
             utiliza para usos estructurales, mobilario, taimas y huacales.
           :twitter:
             :title: seo-twitter
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/5fUddOft68OOKo4i8Uu6U8/dd22d85c83473c6a4b140ad5aa9897f5/seo-twitter.jpg"
           :og:
             :title: seo-facebook
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/1QTBfXTyS8Sqyiqycmg2aQ/fbe02b8f2dfd007bcfe4e933e3531fdb/seo-facebook.jpg"
       - :id: 2ve8DiQgv26WymyAuA2q4e
         :titulo: Madera de Pino Ponderosa
@@ -1314,7 +1314,7 @@
                 :description: Pardo nerguzco a gris
               :documentation:
                 :title: "#00001"
-                :description: 
+                :description:
                 :url: "//assets.contentful.com/rvnl2qm3k12r/4C44ySPEYMYEGcGwgK2Ceg/c7c5af7fcdf45092d5081d774804e48e/_00001.pdf"
               :services:
               - :id: 6XZFBrMht6as4kU6Kqecmc
@@ -1351,11 +1351,11 @@
                   la fabricación de muebles económicos, molduras y acabado de interiores.
                 :twitter:
                   :title: seo-twitter
-                  :description: 
+                  :description:
                   :url: "//images.contentful.com/rvnl2qm3k12r/3hRbVdR4IMyEIQykWSCasC/742d104e173b02ed3d102091f0849a76/seo-twitter.jpg"
                 :og:
                   :title: seo-facebook
-                  :description: 
+                  :description:
                   :url: "//images.contentful.com/rvnl2qm3k12r/16KaoyzHzGM644YGc6UMCG/4c53b7e95f093d51c2f3b4b90944177d/seo-facebook.jpg"
             - :id: 1DN9mqj4yYwKKek6U6GQqK
               :titulo: Madera de Cedro
@@ -1445,11 +1445,11 @@
                   de puertas , muebles,  gabinetes y vestidores.
                 :twitter:
                   :title: seo-twitter
-                  :description: 
+                  :description:
                   :url: "//images.contentful.com/rvnl2qm3k12r/i3QGGosKWWUIY0uoe8oWa/a4761c51763ee501974a7dc293a49889/seo-twitter.jpg"
                 :og:
                   :title: seo-facebook
-                  :description: 
+                  :description:
                   :url: "//images.contentful.com/rvnl2qm3k12r/6thT0WdZ4sSEkOow26OWuu/fce8428cfc684a29084dd8f64e05f406/seo-facebook.jpg"
             - :id: 1f9jSGDHT2esE6Igi4aMo
               :titulo: Madera de Encino
@@ -1611,7 +1611,7 @@
                     :url: "//images.contentful.com/rvnl2qm3k12r/1UchrM0hQwQKaq8Ii6AmKa/37288333e21aa0146c104146c3bff23b/detalle-tablet.jpg"
                   :desktop:
                     :title: detalle-desktop
-                    :description: 
+                    :description:
                     :url: "//images.contentful.com/rvnl2qm3k12r/q0sI68msz6KIAwWua2iIo/4016e9aea5264ced4aa3481b09118ba3/detalle-desktop.jpg"
                 :seo:
                   :id: 6EzH4rXOakeek0aoiaYcKI
@@ -1620,11 +1620,11 @@
                     principalmente para carpintería, mobiliario y molduras.
                   :twitter:
                     :title: seo-twitter
-                    :description: 
+                    :description:
                     :url: "//images.contentful.com/rvnl2qm3k12r/1qC4H7Gn8wq842y6ASmKy2/01ebd89835a5b390bb98b825e88f2916/seo-twitter.jpg"
                   :og:
                     :title: seo-facebook
-                    :description: 
+                    :description:
                     :url: "//images.contentful.com/rvnl2qm3k12r/5X4YnipEUocgEoSMAuEaG8/8804213ae61c296c6955d83721d56358/seo-facebook.jpg"
               - :id: 4JaQi92ihqWOseoWIoIyE8
               :card:
@@ -1653,11 +1653,11 @@
                   competitivo.
                 :twitter:
                   :title: seo-twitter
-                  :description: 
+                  :description:
                   :url: "//images.contentful.com/rvnl2qm3k12r/66hkNG8A2AuwowmoKqy0UC/4b85f7fe8edc42d99388a638b1aa315a/seo-twitter.jpg"
                 :og:
                   :title: seo-facebook
-                  :description: 
+                  :description:
                   :url: "//images.contentful.com/rvnl2qm3k12r/1tOMo3HygQCoOW2aGQaOAg/de803a9b0289dc8619aa7491f618a8dc/seo-facebook.jpg"
             - :id: 2a8OZwBztymYYyCsKiKQ2Q
               :titulo: Madera de Tzalam
@@ -1953,11 +1953,11 @@
                         fabricación de puertas y muebles.
                       :twitter:
                         :title: seo-twitter
-                        :description: 
+                        :description:
                         :url: "//images.contentful.com/rvnl2qm3k12r/2ZFiMcAwsU2YQCmsMuoMoC/521c0e2eef8a2c85ae14961cdb28ceb5/seo-twitter.jpg"
                       :og:
                         :title: seo-facebook
-                        :description: 
+                        :description:
                         :url: "//images.contentful.com/rvnl2qm3k12r/lLKm6Awq5wSW6k8seqAK/7194109bca8db210b28d96ceae7c4973/seo-facebook.jpg"
                   - :id: 7i1H5MzPC8oeG2C2eYw68e
                     :titulo: Triplay de Poplar
@@ -2052,11 +2052,11 @@
                         fabricación de muebles, moldura y acabado de interiores.
                       :twitter:
                         :title: seo-twitter
-                        :description: 
+                        :description:
                         :url: "//images.contentful.com/rvnl2qm3k12r/5PY9MuthhSISamKo2QW6mu/a89ed33a269fe1e36c562923b2458a35/seo-twitter.jpg"
                       :og:
                         :title: seo-facebook
-                        :description: 
+                        :description:
                         :url: "//images.contentful.com/rvnl2qm3k12r/71DMWhSc8MuMuIqqIqcwmm/2f3207d2ddf3da28716759e37ba3abc0/seo-facebook.jpg"
                   :card:
                     :title: tarjeta-principal
@@ -2084,11 +2084,11 @@
                       fabricación de puertas y muebles.
                     :twitter:
                       :title: seo-twitter
-                      :description: 
+                      :description:
                       :url: "//images.contentful.com/rvnl2qm3k12r/6P6uTfKPzaC6KIUeQaW4e/f9bcd797171ba635656d236fca993234/seo-twitter.jpg"
                     :og:
                       :title: seo-facebook
-                      :description: 
+                      :description:
                       :url: "//images.contentful.com/rvnl2qm3k12r/7aHzKAiZXyoQW0g6QWuKaU/546bf834df32d789b90d2feee28692ed/seo-facebook.jpg"
                 - :id: 1ZcdXxQPcIy4qogccYGWsw
                 :card:
@@ -2117,11 +2117,11 @@
                     de muebles, molduras y acabado de interiores.
                   :twitter:
                     :title: seo-twitter
-                    :description: 
+                    :description:
                     :url: "//images.contentful.com/rvnl2qm3k12r/5Crrvjxqr6SqaGIQMWeOSy/80f9a3730d651c90635517db26f596f5/seo-twitter.jpg"
                   :og:
                     :title: seo-facebook
-                    :description: 
+                    :description:
                     :url: "//images.contentful.com/rvnl2qm3k12r/5ygllcV0rKkM48sggQIm2u/789201e2eb386461a21ae2688a435675/seo-facebook.jpg"
               - :id: 4JaQi92ihqWOseoWIoIyE8
                 :titulo: Madera de Nogal Americano
@@ -2237,11 +2237,11 @@
                     acabado de interiores e instrumentos musicales.
                   :twitter:
                     :title: seo-twitter
-                    :description: 
+                    :description:
                     :url: "//images.contentful.com/rvnl2qm3k12r/2YYECy1COk2gYAGE66OuAA/cf873b6952e37e4c191fa8c5cad46db9/seo-twitter.jpg"
                   :og:
                     :title: seo-facebook
-                    :description: 
+                    :description:
                     :url: "//images.contentful.com/rvnl2qm3k12r/29LgMLIt6E268AAIkcmu68/51bd70316831fad39d5ed69e7f816e4e/seo-facebook.jpg"
               - :id: 1f9jSGDHT2esE6Igi4aMo
               - :id: aXx00SQo7KCK0uugIQUke
@@ -2286,11 +2286,11 @@
                   fino.
                 :twitter:
                   :title: seo-twitter
-                  :description: 
+                  :description:
                   :url: "//images.contentful.com/rvnl2qm3k12r/4veqevuwX6oiS6AGOiiMmQ/d76df36bcf2c7511293dd820553735ed/seo-twitter.jpg"
                 :og:
                   :title: seo-facebook
-                  :description: 
+                  :description:
                   :url: "//images.contentful.com/rvnl2qm3k12r/1KDr6NeSlqiUWQesCICmUs/718790c23258b5d492ace5f564461118/seo-facebook.jpg"
             :card:
               :title: tarjeta-principal
@@ -2304,7 +2304,7 @@
                 :url: "//images.contentful.com/rvnl2qm3k12r/52YFXsMSG4im4oEceegQIE/2b2117938228b009cfc768fab5877219/detalle-movil.jpg"
               :tablet:
                 :title: detalle-tablet
-                :description: 
+                :description:
                 :url: "//images.contentful.com/rvnl2qm3k12r/3wHNnBuGWI2MwK2WkAsiMq/22bcebc893f9932b688a836841094ba3/detalle-tablet.jpg"
               :desktop:
                 :title: detalle-desktop
@@ -2318,11 +2318,11 @@
                 y puertas sólidas.
               :twitter:
                 :title: seo-twitter
-                :description: 
+                :description:
                 :url: "//images.contentful.com/rvnl2qm3k12r/4RqYOSgVGws4eMQoq66We2/46f61158fbc79097086c7df3f047e5d3/seo-twitter.jpg"
               :og:
                 :title: seo-facebook
-                :description: 
+                :description:
                 :url: "//images.contentful.com/rvnl2qm3k12r/5dvRidlx6gqCG8mAeG6WK/e30340da37701fe526e071f044e35e0b/seo-facebook.jpg"
           :card:
             :title: tarjeta-principal
@@ -2340,7 +2340,7 @@
               :url: "//images.contentful.com/rvnl2qm3k12r/5D33DUZ2N2YmCYSKOQGGu6/2baa24d5bd060ed26e206d07e5969077/detalle-tablet.jpg"
             :desktop:
               :title: detalle-desktop
-              :description: 
+              :description:
               :url: "//images.contentful.com/rvnl2qm3k12r/4q2Hqie1LiaKUM6qy0cQ8W/0e7e80560c0d0f9c9062ffcccd7d133b/detalle-desktop.jpg"
           :seo:
             :id: 45WEIvHMxie6YKk84cmyAG
@@ -2350,11 +2350,11 @@
               subsuelos, decks, muebles, puertas, marcos y cabañas.
             :twitter:
               :title: seo-twitter
-              :description: 
+              :description:
               :url: "//images.contentful.com/rvnl2qm3k12r/6IGy6dT5W800mEGs6EcSi0/a6b43d6a51846e8d27dd6af6fb6a8431/seo-twitter.jpg"
             :og:
               :title: seo-facebook
-              :description: 
+              :description:
               :url: "//images.contentful.com/rvnl2qm3k12r/6DeWoOd2GQUiaEAWCcs266/e927ea244abcf620f3701a8ff3345ee3/seo-facebook.jpg"
         - :id: 1OYb1akSCcOeuYCKiY2e4K
           :titulo: Madera de Pino Chileno
@@ -2527,11 +2527,11 @@
                 en el mercado de la construcción y la fabricación de muebles.
               :twitter:
                 :title: seo-twitter
-                :description: 
+                :description:
                 :url: "//images.contentful.com/rvnl2qm3k12r/4mCQxxk2MggaO0wcSuMe6y/945d3fb357ac091f4ee31551bd4e574e/seo-twitter.jpg"
               :og:
                 :title: seo-facebook
-                :description: 
+                :description:
                 :url: "//images.contentful.com/rvnl2qm3k12r/26PQrbHtPOK8aiKugyYwCQ/eea2582feaf4b2f418bb81d235ac891e/seo-facebook.jpg"
           - :id: 5eCytdkTcI0kKcIEKGWQqM
           :card:
@@ -2560,11 +2560,11 @@
               y cimbra.
             :twitter:
               :title: seo-twitter
-              :description: 
+              :description:
               :url: "//images.contentful.com/rvnl2qm3k12r/7hmR07GyvCEiaykEwKiWCa/812826c395245256d35ad1dccb6d399f/seo-twitter.jpg"
             :og:
               :title: seo-facebook
-              :description: 
+              :description:
               :url: "//images.contentful.com/rvnl2qm3k12r/7fSA4ulSU0Ms2wOsIcKGeM/c451e812026b4c991e6ccfa1c4caac50/seo-facebook.jpg"
         - :id: 3xjzQznLhCOKQmo2CUM4Yk
         - :id: 4cLsQTSVSosWEuemGykCAm
@@ -2584,7 +2584,7 @@
             :url: "//images.contentful.com/rvnl2qm3k12r/6JNFj0l5bGasKiIA8WKKwc/b5523f89a55573eef0c09d4c605d4129/detalle-tablet.jpg"
           :desktop:
             :title: detalle-desktop
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/6AKJPvpyCsYeWcEoQyOus0/14a94af9238ea5c87cdbb26471aa047e/detalle-desktop.jpg"
         :seo:
           :id: 4bwoDFy8SI0qE0wQMQ6EyO
@@ -2593,11 +2593,11 @@
             a mano y con herramientas mecánicas. Es utilizada para mobiliario y estructuras. '
           :twitter:
             :title: seo-twitter
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/4YV6NK7SikscW8EKce6E8W/9a8e246d80d95aeb7aaf350c2e31ffdc/seo-twitter.jpg"
           :og:
             :title: seo-facebook
-            :description: 
+            :description:
             :url: "//images.contentful.com/rvnl2qm3k12r/2lvDD3ftmYUOu8kiyYaWYA/99b2397b50b35da19d42d42e6c2b6461/seo-facebook.jpg"
       :card:
         :title: tarjeta-principal
@@ -2624,11 +2624,11 @@
           unidas y prensadas. Sus principales usos son fabricación de puertas y muebles.
         :twitter:
           :title: seo-twitter
-          :description: 
+          :description:
           :url: "//images.contentful.com/rvnl2qm3k12r/14c0e1Y7ayQGwEuiG4aGKo/eea4a4bb96aa2d41d5fdc5d513413062/seo-twitter.jpg"
         :og:
           :title: seo-facebook
-          :description: 
+          :description:
           :url: "//images.contentful.com/rvnl2qm3k12r/5qsaKFO8XSQu2qkSiucEwk/d6452e27dfb4f4fc4d781a8e03f52482/seo-facebook.jpg"
     - :id: 61QxYyKpZmGUMskeG64q4U
     :card:
@@ -2657,11 +2657,11 @@
         Mobiliario, puertas, molduras y melaminas.
       :twitter:
         :title: seo-twitter
-        :description: 
+        :description:
         :url: "//images.contentful.com/rvnl2qm3k12r/6ffwVuwNe8CU8eAUk4OqWE/d5a5b127651d2bcf4756ce8e9dee5038/seo-twitter.jpg"
       :og:
         :title: seo-facebook
-        :description: 
+        :description:
         :url: "//images.contentful.com/rvnl2qm3k12r/s4tTwhdqNikIOqSGoIu2i/c09a35986115d49467ea6a255921b2e7/seo-facebook.jpg"
   :card:
     :title: tarjeta-principal
@@ -2674,11 +2674,11 @@
       Su principal uso es la fabricación de muebles y acabado de interiores.
     :twitter:
       :title: seo-twitter
-      :description: 
+      :description:
       :url: "//images.contentful.com/rvnl2qm3k12r/5cYZnN3K6sUKGg68e6AiWm/ab3bd07d7c1bd39f1a7d4a352af8190c/seo-twitter.jpg"
     :og:
       :title: seo-facebook
-      :description: 
+      :description:
       :url: "//images.contentful.com/rvnl2qm3k12r/2B8lRZsu8Uyy8IkeGKSoOK/26b9c3e675af2f94e07a5244095a87df/seo-facebook.jpg"
 :is_sale: false
 :card:
