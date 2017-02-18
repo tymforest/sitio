@@ -76,7 +76,7 @@ layout: services
               <div class="contenido">
                 <h3 class="blanco">Servicios</h3>
                 <% data.site.services.each do |id, service| %>
-                  <% if service.subcategory && service.subcategory.nombre === subcategory.nombre %>
+                  <% if service.subcategory && service.subcategory.category === subcategory.category && service.subcategory.nombre === subcategory.nombre %>
                     <div class="subcontenido">
                       <p class="blanco"><%= service.nombre %></p>
                     </div>
