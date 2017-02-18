@@ -1,7 +1,7 @@
 <aside class="barra-anuncios">
   <div class="contenedor-barra-anuncios">
     <div class="barra-carrusel">
-      <% data.site.ad_banners.each do |id, banner| %>
+      <% data.site.banner_ads.each do |id, banner| %>
         <% banner.ad.each do |ad| %>
           <div class="anuncio-barra">
             <h4><%= ad.title %></h4>
