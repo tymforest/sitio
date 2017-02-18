@@ -5,7 +5,7 @@
         <% banner.ad.each do |ad| %>
           <div class="anuncio-barra">
             <h4><%= ad.title %></h4>
-            <p class="<% if banner.button %>padding-enlace<% end %>"><%= ad.description %></p>
+            <p class="<% if ad.button %>padding-enlace<% end %>"><%= ad.description %></p>
             <% if ad.button %>
               <%= link_to ad.button.title, "#{ ad.button.path }" %>
             <% end %>
