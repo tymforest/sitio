@@ -62,6 +62,7 @@ activate :contentful do |f|
     ad_sales: "ad_sales",
     ad_sections: "ad_sections",
     ad_banner: "ad_banner",
+    ads_banner: "anuncios_de_barra",
     # About
     about_page: "about",
     # Privacy Policy
