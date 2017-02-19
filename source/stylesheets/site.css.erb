@@ -910,7 +910,7 @@ img {
   background-repeat: no-repeat;
 }
 <% data.site.categories.each do |id, category| %>
-  #<%= category.name.parameterize %> {
+  #<%= category.name.parameterize %>-portada {
     background-image: url('<%= category.hero_image.url %>');
   }
 <% end %>
