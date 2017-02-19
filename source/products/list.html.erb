@@ -16,8 +16,14 @@ layout: list
       <% list.push(product) %>
     <% end %>
   <% elsif category.name === "Tableros" %>
-    <% menu.tableros.each do |product| %>
-      <% list.push(product) %>
+    <% if !subcategory %>
+      <% menu.triplay.each do |product| %>
+        <% list.push(product) %>
+      <% end %>
+    <% else %>
+      <% menu.tableros.each do |product| %>
+        <% list.push(product) %>
+      <% end %>
     <% end %>
   <% end %>
 <% end %>
@@ -32,10 +38,15 @@ layout: list
         <%# Config %>
         <% if product.nombre %>
           <% name = product.nombre %>
+          <% if category.name === "Maderas" %>
+            <% path = "/#{ title.parameterize }/#{ name.parameterize }" %>
+          <% elsif category.name === "Tableros" %>
+            <% path = "/#{ title.parameterize }/#{ product.subcategory.nombre.parameterize }/#{ name.parameterize }" %>
+          <% end %>
         <% else %>
           <% name = product.name %>
+          <% path = "/#{ title.parameterize }/#{ name.parameterize }" %>
         <% end %>
-        <% path = "/#{ title.parameterize }/#{ name.parameterize }" %>
         <% src = "#{ product.card.url }" %>
         <% alt = "#{ product.card.description }" %>
         <%# End %>
