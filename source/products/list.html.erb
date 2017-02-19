@@ -44,7 +44,7 @@ layout: list
           <% if category.name === "Maderas" %>
             <% path = "/#{ title.parameterize }/#{ name.parameterize }" %>
           <% elsif category.name === "Tableros" %>
-            <% path = "/#{ title.parameterize }/#{ product.subcategory.nombre.parameterize }/#{ name.parameterize }" %>
+            <% path = "/#{ title.parameterize }/#{ subcategory.nombre.parameterize }/#{ name.parameterize }" %>
           <% end %>
         <% end %>
         <% src = "#{ product.card.url }" %>
