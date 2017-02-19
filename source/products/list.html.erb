@@ -38,10 +38,15 @@ layout: list
         <%# Config %>
         <% if product.nombre %>
           <% name = product.nombre %>
+          <% path = "/#{ title.parameterize }/#{ name.parameterize }" %>
         <% else %>
           <% name = product.name %>
+          <% if !subcategory %>
+            <% path = "/#{ title.parameterize }/#{ name.parameterize }" %>
+          <% else %>
+            <% path = "/#{ title.parameterize }/#{ subcategory.nombre.parameterize }/#{ name.parameterize }" %>
+          <% end %>
         <% end %>
-        <% path = "/#{ title.parameterize }/#{ name.parameterize }" %>
         <% src = "#{ product.card.url }" %>
         <% alt = "#{ product.card.description }" %>
         <%# End %>
