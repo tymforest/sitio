@@ -13,9 +13,9 @@ layout: list
     </div>
   </header>
   <ul class="puntos">
-    <% data.site.subcategories.each do |id, subcategory| %>
-      <% if subcategory.category.name === category.name %>
-        <li><p><%= subcategory.nombre %></p></li>
+    <% data.site.product_menu.each do |id, menu| %>
+      <% menu.ferreteria.each do |product| %>
+        <li><p><%= product.nombre %></p></li>
       <% end %>
     <% end %>
   </ul>
