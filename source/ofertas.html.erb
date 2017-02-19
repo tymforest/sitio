@@ -3,14 +3,21 @@ layout: sale
 ---
 <%# Config %>
 <% products = [] %>
-<% data.site.products_a.each do |id, product| %>
-  <% if product.is_sale %>
-    <% products.push(product) %>
+<% data.site.product_menu.each do |id, menu| %>
+  <% menu.maderas.each do |product| %>
+    <% if product.is_sale %>
+      <% products.push(product) %>
+    <% end %>
   <% end %>
-<% end %>
-<% data.site.products_b.each do |id, product| %>
-  <% if product.is_sale %>
-    <% products.push(product) %>
+  <% menu.tableros.each do |product| %>
+    <% if product.is_sale %>
+      <% products.push(product) %>
+    <% end %>
+  <% end %>
+  <% menu.triplay.each do |product| %>
+    <% if product.is_sale %>
+      <% products.push(product) %>
+    <% end %>
   <% end %>
 <% end %>
 <%# End %>
