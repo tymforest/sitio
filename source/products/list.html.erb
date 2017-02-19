@@ -9,15 +9,15 @@ layout: list
 <% else %>
   <% title = subcategory.nombre %>
 <% end %>
-<% primary_products = [] %>
-<% data.site.product_menu.each do |id, list| %>
+<% list = [] %>
+<% data.site.product_menu.each do |id, menu| %>
   <% if category.name === "Maderas" %>
-    <% list.maderas.each do |product| %>
-      <% primary_products.push(product) %>
+    <% menu.maderas.each do |product| %>
+      <% list.push(product) %>
     <% end %>
   <% elsif category.name === "Tableros" %>
-    <% list.tableros.each do |product| %>
-      <% primary_products.push(product) %>
+    <% menu.tableros.each do |product| %>
+      <% list.push(product) %>
     <% end %>
   <% end %>
 <% end %>
@@ -28,7 +28,13 @@ layout: list
   </header>
   <div class="contenedor-movil-completo contenedor-tablet-completo">
     <div class="reticula listado">
-      <h1><%= title %></h1>
+      <% list.each do |product| %>
+        <% if product.nombre %>
+          <h1><%= product.nombre %></h1>
+        <% else %>
+          <h1><%= product.name %></h1>
+        <% end %>
+      <% end %>
     </div>
   </div>
 </section>
