@@ -29,11 +29,38 @@ layout: list
   <div class="contenedor-movil-completo contenedor-tablet-completo">
     <div class="reticula listado">
       <% list.each do |product| %>
+        <%# Config %>
         <% if product.nombre %>
-          <h1><%= product.nombre %></h1>
+          <% name = product.nombre %>
         <% else %>
-          <h1><%= product.name %></h1>
+          <% name = product.name %>
         <% end %>
+        <% path = "/#{ title.parameterize }/#{ name.parameterize }" %>
+        <% src = "#{ product.card.url }" %>
+        <% alt = "#{ product.card.description }" %>
+        <%# End %>
+        <div class="list-de-productos columna-movil-50 columna-tablet-33 columna-desktop-3">
+            <div class="tarjeta-producto">
+              <% link_to "/#{ path }", :class => "enlace-imagen" do %>
+                <div class="cubierta"></div>
+                <picture>
+                  <img src="<%= src %>" alt="<%= alt %>"/>
+                </picture>
+              <% end %>
+              <header>
+                <%= link_to name, "#{ path }" %>
+                <% if product.nombre %>
+                  <% if subcategory_on_sale name %>
+                    <span class="oferta-lista"></span>
+                  <% end %>
+                <% else %>
+                  <% if product.is_sale %>
+                    <span class="oferta-lista"></span>
+                  <% end %>
+                <% end %>
+              </header>
+            </div>
+          </div>
       <% end %>
     </div>
   </div>
