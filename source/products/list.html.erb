@@ -28,18 +28,7 @@ layout: list
   </header>
   <div class="contenedor-movil-completo contenedor-tablet-completo">
     <div class="reticula listado">
-      <% data.product_menu.each do |id, menu| %>
-        <%# Config %>
-        <% if title === "Maderas" %>
-          <% list = menu.maderas %>
-        <% elsif title === "Tableros" %>
-          <% list = menu.tableros %>
-        <% end %>
-        <%# End %>
-        <%# Test %>
-        <h1><%= title %></h1>
-        <%# End %>
-      <% end %>
+      <h1><%= title %></h1>
     </div>
   </div>
 </section>
