@@ -17,11 +17,11 @@ layout: list
     <% end %>
   <% elsif category.name === "Tableros" %>
     <% if !subcategory %>
-      <% menu.triplay.each do |product| %>
+      <% menu.tableros.each do |product| %>
         <% list.push(product) %>
       <% end %>
     <% else %>
-      <% menu.tableros.each do |product| %>
+      <% menu.triplay.each do |product| %>
         <% list.push(product) %>
       <% end %>
     <% end %>
