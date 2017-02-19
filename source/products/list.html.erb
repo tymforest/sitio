@@ -38,44 +38,14 @@ layout: list
           <% end %>
         <% end %>
         <%# End %>
-        <% list.each do |product| %>
-          <%# Config %>
-          <% if !product.subcategory %>
-            <% name = product.name %>
-            <% path = "/#{ title.parameterize }/#{ name.parameterize }" %>
-            <% src = "#{ product.card.url }" %>
-            <% alt = "#{ product.card.description }" %>
-          <% else %>
-            <% name = subcategory.nombre %>
-            <% path = "/#{ title.parameterize }/#{ name.parameterize }" %>
-            <% src = "#{ subcategory.card.url }" %>
-            <% alt = "#{ subcategory.card.description }" %>
-          <% end %>
-          <%# End %>
-          <div class="list-de-productos columna-movil-50 columna-tablet-33 columna-desktop-3">
-            <div class="tarjeta-producto">
-              <% link_to "/#{ path }", :class => "enlace-imagen" do %>
-                <div class="cubierta"></div>
-                <picture>
-                  <img src="<%= src %>" alt="<%= alt %>"/>
-                </picture>
-              <% end %>
-              <header>
-                <%= link_to name, "#{ path }" %>
-                <% if !product.subcategory %>
-                  <% if product.is_sale %>
-                    <span class="oferta-lista"></span>
-                  <% end %>
-                <% else %>
-                  <% if subcategory_on_sale name %>
-                    <span class="oferta-lista"></span>
-                  <% end %>
-                <% end %>
-              </header>
-            </div>
-          </div>
+        <%# Test %>
+        <h1><%= title %></h1>
+        <% if !list[0].subcategory %>
+          <h2><%= product.name %></h2>
+        <% else %>
+          <h2><%= subcategory.nombre %></h2>
         <% end %>
-      <% end %>
+        <%# End %>
     </div>
   </div>
 </section>
