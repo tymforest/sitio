@@ -19,6 +19,11 @@ layout: sale
       <% products.push(product) %>
     <% end %>
   <% end %>
+  <% menu.productos_sin_detalle.each do |product| %>
+    <% if product.is_sale %>
+      <% products.push(product) %>
+    <% end %>
+  <% end %>
 <% end %>
 <%# End %>
 <section id="contenedor-de-contenido" class="lista ofertas">
