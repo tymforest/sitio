@@ -32,17 +32,17 @@ config: stores_page
         <div class="columna-desktop-2"></div>
         <div class="columna-desktop-6">
           <div class="reticula">
-            <% states.each_with_index do |state, s| %>
+            <% stores_page.estados.each_with_index do |state, s| %>
               <% if s % 2 == 0 %>
                 <div class="columna-desktop-12">
                   <div class="reticula">
               <% end %>
               <div class="columna-tablet-6 columna-desktop-6">
                 <div class="contenido">
-                  <h1><%= state %></h1>
+                  <h1><%= state.nombre %></h1>
                   <ul class="sucursales">
                     <% stores.each do |store| %>
-                      <% if store.address.state_full === state %>
+                      <% if store.address.state_full === state.nombre %>
                         <li><p class="obscuro"><%= store.address.city %>, <%= link_to store.name, "/sucursales/#{ store.name.parameterize }" %></p></li>
                       <% end %>
                     <% end %>
