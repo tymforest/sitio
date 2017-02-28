@@ -8,11 +8,10 @@ config: stores_page
   <% stores_page = page %>
 <% end %>
 <% stores_page.estados.each do |estado| %>
-  <% stores_page.sucursales.each do |sucursal| %>
-    <% if sucursal.address.estado.nombre == estado.nombre %>
-      <h1><%= sucursal.name %>, <%= estado.abreviacion %></h1>
-    <% end %>
-  <% end %>
+  <%= estado.nombre %>
+<% end %>
+<% stores_page.sucursales.each do |sucursal| %>
+  <%= sucursal.name %>
 <% end %>
 <%# End %>
 <div id="sucursales" class="portada" title="<%= stores_page.hero.description %>"></div>
