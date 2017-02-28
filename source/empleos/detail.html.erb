@@ -16,8 +16,11 @@ config: job
 <section>
   <div class="contenedor-movil-contenido contenedor-tablet-contenido">
     <header class="aviso">
+      <%# Config %>
+      <% job_state = fetch_job_state job.title %>
+      <%# End %>
       <h1><%= job.title %></h1>
-      <p class="fecha"><%= date %> — <%= job.location.address.city %>, <%= job.location.address.state_full %></p>
+      <p class="fecha"><%= date %> — <%= job.location.address.city %>, <%= job_state.nombre %></p>
       <% if job.note %>
         <div class="nota-aviso">
           <p class="obscuro"><%= job.note %></p>
@@ -64,7 +67,7 @@ config: job
           <p>
             <%= job.location.address.street %><br>
             <%= job.location.address.neighborhood %><br>
-            <%= job.location.address.city %>, <%= job.location.address.state_full %> <%= job.location.address.zip_code %><br>
+            <%= job.location.address.city %>, <%= job_state.nombre %> <%= job.location.address.zip_code %><br>
             <% link_to "/sucursales/#{ job.location.name }" do %>
               Ver Sucursal<span class="flecha"></span>
             <% end %>
