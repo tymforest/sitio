@@ -7,17 +7,6 @@ config: jobs_page
 <% data.site.jobs_page.each do |id, page| %>
   <% jobs_page = page %>
 <% end %>
-<% states = [] %>
-<% jobs = [] %>
-<% data.site.jobs.each do |id, job| %>
-  <% if job.is_published %>
-    <% jobs.push(job) %>
-  <% end %>
-  <% state = job.location.address.state_full %>
-  <% if !states.include? state %>
-    <% states.push(state) %>
-  <% end %>
-<% end %>
 <%# End %>
 <div id="empleos" class="portada" title="<%= jobs_page.hero.description %>"></div>
 <% jobs_page.estados.each do |state| %>
