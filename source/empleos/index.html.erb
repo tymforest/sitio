@@ -20,21 +20,24 @@ config: jobs_page
 <% end %>
 <%# End %>
 <div id="empleos" class="portada" title="<%= jobs_page.hero.description %>"></div>
-<% states.each do |state| %>
+<% jobs_page.estados.each do |state| %>
   <section class="empleos">
     <div class="contenedor-desktop">
       <div class="reticula">
         <div class="contenedor-movil-contenido contenedor-tablet-contenido">
           <div class="columna-desktop-4">
             <header>
-              <h1><%= state %></h1>
+              <h1><%= state.nombre %></h1>
             </header>
           </div>
           <div class="columna-desktop-2"></div>
           <div class="columna-desktop-6">
             <div class="reticula">
-              <% jobs.each_with_index do |job, j| %>
-                <% if job.location.address.state_full === state %>
+              <% jobs_page.empleos.each_with_index do |job, j| %>
+                <%# Config %>
+                <% job_state = fetch_job_state job.title %>
+                <%# End %>
+                <% if job_state.nombre === state.nombre %>
                   <% if j % 2 == 0 %>
                     <div class="columna-desktop-12">
                       <div class="reticula">
