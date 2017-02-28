@@ -8,10 +8,10 @@ config: stores_page
   <% stores_page = page %>
 <% end %>
 <% stores_page.estados.each do |estado| %>
-  <%= estado.nombre %>
+  <h1><%= estado.nombre %></h1>
 <% end %>
 <% stores_page.sucursales.each do |sucursal| %>
-  <%= sucursal.name %>
+  <h4><%= sucursal.name %>, <%= sucursal.address.estado.nombre %></h4>
 <% end %>
 <%# End %>
 <div id="sucursales" class="portada" title="<%= stores_page.hero.description %>"></div>
