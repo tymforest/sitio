@@ -123,4 +123,20 @@ module Functions
     end
     subcategory
   end
+  # Fetch State Object by Store Name
+  def fetch_state store_name
+    state = ""
+    state_name = ""
+    data.site.stores.each do |id, store|
+      if store.name === store_name
+        state_name = store.address.estado.nombre
+      end
+    end
+    data.site.estados.each do |id, estado|
+      if estado.nombre === state_name
+        state = estado
+      end
+    end
+    state
+  end
 end
