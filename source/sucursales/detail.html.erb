@@ -1,7 +1,10 @@
 ---
 layout: store
 ---
+<%# Config %>
 <% store = locals[:store] %>
+<% store_state = fetch_state store.name %>
+<%# End %>
 <section class="detalle sucursal">
   <div class="contenedor-desktop">
     <div class="reticula">
@@ -50,7 +53,7 @@ layout: store
                         <p>
                           <%= store.address.street %><br>
                           <%= store.address.neighborhood %><br>
-                          <%= store.address.city %>, <%= store.address.state %> <%= store.address.zip_code %><br>
+                          <%= store.address.city %>, <%= store_state.abreviacion %> <%= store.address.zip_code %><br>
                           <% link_to "", :id => "accion-mapa" do %>
                             Ver Mapa
                           <% end %>
@@ -139,7 +142,7 @@ layout: store
 	<span itemprop="name">Tym Forest Sucursal <%= store.name %></span>
 	<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 		<span itemprop="streetAddress"><%= store.address.street %>, <%= store.address.neighborhood %></span>
-		<span itemprop="addressLocality"><%= store.address.city %></span>,<span itemprop="addressRegion"><%= store.address.state %></span>
+		<span itemprop="addressLocality"><%= store.address.city %></span>,<span itemprop="addressRegion"><%= store_state.abreviacion %></span>
 		<span itemprop="postalCode"><%= store.address.zip_code %></span>
 	</div>
 	Phone: <span itemprop="telephone"><%= store.number %></span>
