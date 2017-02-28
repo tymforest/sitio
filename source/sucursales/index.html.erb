@@ -11,7 +11,14 @@ config: stores_page
   <h1><%= estado.nombre %></h1>
 <% end %>
 <% stores_page.sucursales.each do |sucursal| %>
-  <h4><%= sucursal.name %>, <%= sucursal.address.estado.nombre %></h4>
+  <h4><%= sucursal.name %>, <%= sucursal.address.estado.abreviacion %></h4>
+<% end %>
+<% stores_page.estados.each do |estado| %>
+  <% stores_page.sucursales.each do |sucursal| %>
+    <% if sucursal.address.estado.id === estado.id %>
+      <%= sucursal.nombre %>, <%= estado.abreviacion %>
+    <% end %>
+  <% end %>
 <% end %>
 <%# End %>
 <div id="sucursales" class="portada" title="<%= stores_page.hero.description %>"></div>
