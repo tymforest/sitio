@@ -139,4 +139,20 @@ module Functions
     end
     state
   end
+  # Fetch Job Object by Job Title
+  def fetch_job_state job_title
+    state = ""
+    state_name = ""
+    data.site.jobs.each do |id, job|
+      if job.title === job_title
+        state_name = job.location.address.estado.nombre
+      end
+    end
+    data.site.estados.each do |id, estado|
+      if estado.nombre === state_name
+        state = estado
+      end
+    end
+    state
+  end
 end
