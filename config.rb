@@ -42,6 +42,7 @@ activate :contentful do |f|
     # Stores
     stores_page: "stores_page",
     stores: "store",
+    estados: "estados",
     # Products
     categories: "product_category",
     subcategories: "subcategory",
