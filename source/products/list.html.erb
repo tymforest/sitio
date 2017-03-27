@@ -44,7 +44,7 @@ layout: list
           <% if !subcategory %>
             <% path = "/#{ title.parameterize }/#{ name.parameterize }" %>
           <% else %>
-            <% path = "/#{ title.parameterize }/#{ name.parameterize }" %>
+            <% path = "/#{ category.parameterize }/#{ title.parameterize }/#{ name.parameterize }" %>
           <% end %>
         <% end %>
         <% src = "#{ product.card.url }" %>
