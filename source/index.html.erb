@@ -78,29 +78,6 @@ layout: index
     </div>
   </div>
 </section>
-<%# Productos mas Buscados %>
-<section class="inicio centrado inicial">
-  <div class="reticula listado">
-    <div class="contenedor-tablet contenedor-desktop">
-      <header>
-        <h1><%= index.products.title %></h1>
-        <div class="contenido carrusel">
-          <p><%= index.products.description %></p>
-        </div>
-      </header>
-    </div>
-    <div class="contenedor-movil contenedor-tablet contenedor-desktop">
-      <% index.products.ads.each do |ad| %>
-        <div class="lista-de-anuncios columna-movil-100 <% if !ad.is_ad %>columna-tablet-8 columna-desktop-8<% else %>columna-tablet-4 columna-desktop-4<% end %>">
-          <% link_to ad.path, :id => "#{ ad.title.parameterize }", :title => "#{ ad.image.description }", :class => "producto-anuncio" do %>
-            <div class="cubierta"></div>
-            <h2><%= ad.title %></h2>
-          <% end %>
-        </div>
-      <% end %>
-    </div>
-  </div>
-</section>
 <%# Servicios %>
 <section id="servicios" class="centrado" <% if index.services.image.description %>title="<%= index.services.image.description %>"<% end %>>
   <div class="reticula">
