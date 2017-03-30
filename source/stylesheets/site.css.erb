@@ -1463,14 +1463,6 @@ section.error p {
     background-image: url('<%= application.hero_image.url %>');
   }
 <% end %>
-/* Anuncios de Productos mas Buscados - - - - - - - - - - */
-<% data.site.index_page.each do |id, page| %>
-  <% page.products.ads.each do |ad| %>
-    #<%= ad.title.parameterize %> {
-      background-image: url('<%= ad.image.url %>');
-    }
-  <% end %>
-<% end %>
 /* Detalle de Subcategoria - - - - - - - - - - */
 .descripcion.subcategoria {
   margin: 0 0 50px 0;
