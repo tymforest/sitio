@@ -17,10 +17,6 @@ else {
 }
 //  Creación de valores de latitud y longitud dependiendo del detalle activo
 const $mapaSucursal = document.querySelectorAll('[data-js]')[0];
-//
-console.log("Prueba");
-console.log($mapaSucursal.dataset.js);
-//
 var latitud;
 var longitud;
 adminUbicacion($mapaSucursal.dataset.js);
@@ -144,11 +140,13 @@ function adminUbicacion(sucursal) {
         <% base = store %>
       <% else %>
         case "<%= store.name %>":
+          console.log("<%= store.name %>");
           latitud = <%= store.address.location.lat %>;
           longitud = <%= store.address.location.lon %>;
       <% end %>
     <% end %>
     default:
+      console.log("Error on line 153.");
       latitud = <%= base.address.location.lat %>;
       longitud = <%= base.address.location.lon %>;
   }
