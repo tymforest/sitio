@@ -140,13 +140,12 @@ function adminUbicacion(sucursal) {
         <% base = store %>
       <% else %>
         case "<%= store.name %>":
-          console.log("<%= store.name %>");
           latitud = <%= store.address.location.lat %>;
           longitud = <%= store.address.location.lon %>;
+          break;
       <% end %>
     <% end %>
     default:
-      console.log("Error on line 153.");
       latitud = <%= base.address.location.lat %>;
       longitud = <%= base.address.location.lon %>;
   }
