@@ -20,3 +20,6 @@
 
 # Contentful
 .*-space-hash
+
+# Ignore data folder
+/data
