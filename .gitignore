@@ -22,4 +22,4 @@
 .*-space-hash
 
 # Ignore data folder
-/data
+data/
