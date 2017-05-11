@@ -50,25 +50,16 @@ layout: sale
             <a class="enlace-imagen" href="/<%= category.name.parameterize %><%= path %>">
               <div class="tarjeta-ofertas">
                 <h2>Ofertas</h2>
-                <%# Test %>
-                <% if product.is_unit %>
-                  <% product.measurements_on_sale.each do |sale| %>
-                    <div class="columna-desktop-70">
-                      <h5><%= sale.measurement %><span class="unidad"><%= sale.unit %></span></h5>
-                    </div>
-                    <div class="columna-desktop-30">
-                      <p class="precio naranja"><%= sale.price %></p>
-                    </div>
-                  <% end %>
-                <% else %>
+                <% product.measurements_on_sale.each do |id| %>
+                  <%# CONFIG %>
+                  <% sale = fetch_measurement_on_sale(id.id) %>
                   <div class="columna-desktop-70">
-                    <h5><%= product.measurements_on_sale[0].measurement %><span class="unidad"><%= product.measurements_on_sale[0].unit %></span></h5>
+                    <h5><%= sale.measurement %><span class="unidad"><%= sale.unit %></span></h5>
                   </div>
                   <div class="columna-desktop-30">
-                    <p class="precio naranja"><%= product.measurements_on_sale[0].price %></p>
+                    <p class="precio naranja"><%= sale.price %></p>
                   </div>
                 <% end %>
-                <%# End %>
               </div>
               <picture class="prueba-hover">
                 <img src="<%= product.card.url %>" alt="<%= product.card.description %>"/>
