@@ -155,4 +155,15 @@ module Functions
     end
     state
   end
+  # Fetch measurement on sale by ID
+  def fetch_measurement_on_sale measurement_id
+    measurement = ""
+    data.site.measurements_on_sale.each do |id, sale|
+      if sale.id === measurement_id
+        measurement = sale
+        break
+      end
+    end
+    measurement
+  end
 end
