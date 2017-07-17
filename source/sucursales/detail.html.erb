@@ -4,6 +4,23 @@ layout: store
 <%# Config %>
 <% store = locals[:store] %>
 <% store_state = fetch_state store.name %>
+<%# Analytics %>
+<%= store.name %>
+<% if store.name === "Matriz" %>
+  <% name = "Matriz" %>
+<% elsif store.name === "Fidel Velázquez" %>
+  <% name = "Fidel" %>
+<% elsif store.name === "Nuevo Repueblo" %>
+  <% name = "Repueblo" %>
+<% elsif store.name === "La Fe" %>
+  <% name = "Lafe" %>
+<% elsif store.name === "Sendero" %>
+  <% name = "Sendero" %>
+  <% elsif store.name === "Saucito" %>
+    <% name = "Saucito" %>
+  <% elsif store.name === "Soledad" %>
+    <% name = "Soledad" %>
+<% end %>
 <%# End %>
 <div class="google-sucursal">
   <section class="detalle sucursal">
@@ -45,7 +62,7 @@ layout: store
                       <div class="contenido">
                         <h3>Teléfono</h3>
                         <div class="subcontenido">
-                          <a class="enlace" href="tel:<%= phone store.number %>"><%= store.number %></a>
+                          <a class="enlace" href="tel:<%= phone store.number %>" onclick="ga('send', 'event', 'Boton', 'Llamar', '<%= name %>')"><%= store.number %></a>
                         </div>
                       </div>
                       <div class="contenido">
