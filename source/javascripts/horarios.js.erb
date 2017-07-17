@@ -201,6 +201,7 @@ function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemen
           boton.classList.remove('email');
           boton.classList.add('telefono');
           boton.setAttribute('href', 'tel:' + Sucursal.telefono + '');
+          boton.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Llamar', 'Telefono');");
           boton.innerHTML = '<span></span>' + Sucursal.telefono + '';
           break;
         case "Cerrado":
@@ -210,6 +211,7 @@ function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemen
           boton.classList.remove('telefono');
           boton.classList.add('email');
           boton.setAttribute('href', 'mailto:' + Sucursal.email + '');
+          boton.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Mensaje', 'Correo');");
           boton.innerHTML = "<span></span>Enviar Mensaje";
           break;
         default:
@@ -229,6 +231,7 @@ function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemen
           contacto.classList.remove('email');
           contacto.innerHTML = Sucursal.telefono;
           contacto.setAttribute('href', 'tel:' + Sucursal.telefono + '');
+          contacto.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Llamar', 'Telefono');");
           break;
         case "Cerrado":
           estadoMovil.classList.remove('abierto');
@@ -238,6 +241,7 @@ function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemen
           contacto.classList.remove('telefono');
           contacto.innerHTML = Sucursal.email;
           contacto.setAttribute('href', 'mailto:' + Sucursal.email + '');
+          contacto.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Mensaje', 'Correo');");
           break;
         default:
           console.log("Administrador de Contenido: Error en Menú Movil...");
@@ -279,6 +283,7 @@ function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemen
           botonAccion.classList.add('telefono');
           botonAccion.classList.remove('email');
           botonAccion.setAttribute('href', 'tel:' + Sucursal.telefono + '');
+          botonAccion.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Llamar', 'Telefono');");
           botonAccion.innerHTML = "<span></span>" + Sucursal.telefono + '';
           break;
         case "Cerrado":
@@ -287,6 +292,7 @@ function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemen
           botonAccion.classList.add('email');
           botonAccion.classList.remove('telefono');
           botonAccion.setAttribute('href', 'mailto:' + Sucursal.email + '');
+          botonAccion.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Mensaje', 'Correo');");
           botonAccion.innerHTML = "<span></span>" + Sucursal.email;
           break;
       }
@@ -298,11 +304,13 @@ function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemen
           $elemento.classList.remove('email');
           $elemento.classList.add('telefono');
           $elemento.setAttribute('href', 'tel:' + Sucursal.telefono + '');
+          $elemento.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Llamar', 'Telefono');");
           break;
         case "Cerrado":
           $elemento.classList.remove('telefono');
           $elemento.classList.add('email');
           $elemento.setAttribute('href', 'mailto:' + Sucursal.email + '');
+          $elemento.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Mensaje', 'Correo');");
           break;
       }
       break;
