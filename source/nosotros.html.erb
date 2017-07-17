@@ -96,9 +96,9 @@ config: about_page
               <% contact = page %>
             <% end %>
             <%# End %>
-            <% link_to "mailto:#{ contact.email }" do %>
+            <a href="mailto:<%= contact.email %>" onclick="ga('send', 'event', 'Boton', 'Mensaje', 'Correo');">
               <%= contact.email %><span class="flecha"></span>
-            <% end %>
+            </a>
           </div>
         </div>
         <div class="columna-tablet-50  columna-desktop-50">
