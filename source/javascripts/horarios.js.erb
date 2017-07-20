@@ -201,7 +201,7 @@ function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemen
           boton.classList.remove('email');
           boton.classList.add('telefono');
           boton.setAttribute('href', 'tel:' + Sucursal.telefono + '');
-          boton.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Llamar', 'Telefono');");
+          boton.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Llamar', 'Telefono'); fbq('track', 'Lead');");
           boton.innerHTML = '<span></span>' + Sucursal.telefono + '';
           break;
         case "Cerrado":
@@ -231,7 +231,7 @@ function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemen
           contacto.classList.remove('email');
           contacto.innerHTML = Sucursal.telefono;
           contacto.setAttribute('href', 'tel:' + Sucursal.telefono + '');
-          contacto.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Llamar', 'Telefono');");
+          contacto.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Llamar', 'Telefono'); fbq('track', 'Lead');");
           break;
         case "Cerrado":
           estadoMovil.classList.remove('abierto');
@@ -283,7 +283,7 @@ function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemen
           botonAccion.classList.add('telefono');
           botonAccion.classList.remove('email');
           botonAccion.setAttribute('href', 'tel:' + Sucursal.telefono + '');
-          botonAccion.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Llamar', 'Telefono');");
+          botonAccion.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Llamar', 'Telefono'); fbq('track', 'Lead');");
           botonAccion.innerHTML = "<span></span>" + Sucursal.telefono + '';
           break;
         case "Cerrado":
@@ -304,7 +304,7 @@ function administradorDeContenido(nombreDeSucursal, estadoSucursal, tipoDeElemen
           $elemento.classList.remove('email');
           $elemento.classList.add('telefono');
           $elemento.setAttribute('href', 'tel:' + Sucursal.telefono + '');
-          $elemento.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Llamar', 'Telefono');");
+          $elemento.setAttribute('onclick', "ga('send', 'event', 'Boton', 'Llamar', 'Telefono'); fbq('track', 'Lead');");
           break;
         case "Cerrado":
           $elemento.classList.remove('telefono');
