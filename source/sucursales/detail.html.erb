@@ -62,7 +62,7 @@ layout: store
                       <div class="contenido">
                         <h3>Teléfono</h3>
                         <div class="subcontenido">
-                          <a class="enlace" href="tel:<%= phone store.number %>" onclick="ga('send', 'event', 'Boton', 'Llamar', '<%= name %>')"><%= store.number %></a>
+                          <a class="enlace" href="tel:<%= phone store.number %>" onclick="ga('send', 'event', 'Boton', 'Llamar', '<%= name %>'); fbq('track', 'Lead');"><%= store.number %></a>
                         </div>
                       </div>
                       <div class="contenido">
