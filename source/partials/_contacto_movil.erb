@@ -6,4 +6,4 @@
   <% end %>
 <% end %>
 <%# End %>
-<a id="contacto-movil" class="telefono esconder" href="tel:<%= phone main_store.number %>" data-sucursal="<%= main_store.name %>" data-tipo="Botón Movil" onclick="ga(‘send’, ‘event’, ‘Boton’, ‘Llamar’, ‘Telefono’);"></a>
+<a id="contacto-movil" class="telefono esconder" href="tel:<%= phone main_store.number %>" data-sucursal="<%= main_store.name %>" data-tipo="Botón Movil" onclick="ga(‘send’, ‘event’, ‘Boton’, ‘Llamar’, ‘Telefono’); fbq('track', 'Lead');"></a>
