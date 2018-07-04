@@ -4,11 +4,11 @@
 :index_image:
   :title: tableros-para-interiores
   :description: Tableros para Interiores.
-  :url: "//images.contentful.com/rvnl2qm3k12r/LcLyDWwTCMY8akqyu6OcO/6e2e763c87a525c5399a839302dee126/tableros-para-interiores.jpg"
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/LcLyDWwTCMY8akqyu6OcO/8169f529137d565802fd8253355d5cac/tableros-para-interiores.jpg"
 :hero_image:
   :title: portada
-  :description: Favor de agregar descripción de imágen.
-  :url: "//images.contentful.com/rvnl2qm3k12r/4PkoBeaJ5uKAk80qi2gu66/acd046490ce0ab255faac81ab0b58ba4/portada.jpg"
+  :description: Melamina para cocina
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/4PkoBeaJ5uKAk80qi2gu66/1cf60f15d384fd88ec72b94289a35b97/portada.jpg"
 :sections:
 - :id: fZheiZ8RhYO4OeOwyKo8w
   :subtitle: Tableros
@@ -23,7 +23,7 @@
   :image:
     :title: melaminas
     :description: Favor de agregar descripción de la imágen.
-    :url: "//images.contentful.com/rvnl2qm3k12r/3gAl9qDoI0ooG2kmwEiICc/ac5da00768faf8c69414d3b2e3e3c5f4/melaminas.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/3gAl9qDoI0ooG2kmwEiICc/bbfadf160b781c1b017518d6b857f644/melaminas.jpg"
 - :id: 5oMfkxqcp2Wu8E0CwueosE
   :subtitle: Servicios
   :title: Este es tu Taller
@@ -37,8 +37,8 @@
     :path: "/servicios"
   :image:
     :title: este-es-tu-taller
-    :description: Favor de agregar descripción de la imágen.
-    :url: "//images.contentful.com/rvnl2qm3k12r/5YOyOPB9h6oEgM68eecueE/6734d3f3dc5b41ed9ff610a67e09c2a2/este-es-tu-taller-desktop.jpg"
+    :description: Servicios para tableros
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/bzlrQ2YGn6komweAi0qO4/d7d1ba5072b05c774e1bcf8d6911bf7b/este-es-tu-taller.jpg"
 - :id: 6pxrotrGikkyqgK4ykecyE
   :subtitle: Tableros
   :title: Enchapados de Maderas Naturales
@@ -52,7 +52,7 @@
   :image:
     :title: enchapados-naturales
     :description: Favor de agregar una descripción de la imágen.
-    :url: "//images.contentful.com/rvnl2qm3k12r/6C2pngymxUa48CqSimkIWs/567a74fb990eb005dc921f67f44400a9/enchapados-naturales.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/6C2pngymxUa48CqSimkIWs/48bca44277ae5adbc6eb3b91e057e916/enchapados-naturales.jpg"
 - :id: 1IaB1QT14gGYgIgiuUeE6Q
   :subtitle: Tableros
   :title: MDF Natural
@@ -65,22 +65,21 @@
   :image:
     :title: mdf-natural
     :description: Favor de agregar una descripción de la imágen.
-    :url: "//images.contentful.com/rvnl2qm3k12r/7AhncxjSJqwooUuOgEUcAe/6976a09d6308ab125abfbf92b64d9b45/mdf-natural-desktop.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4s4vEr78qsWQkyqmg0oiW4/6cae5569cdfe32e04c7436aa0b46a59e/mdf-natural.jpg"
 - :id: 5KN25IlKfYIyM8GCuwCOk6
-  :subtitle: Ferretería
-  :title: Cubiertas
-  :description: Tenemos  Cubiertas para Cocina en largos de 8, 10 y 12 pies en una
-    gran variedad de colores y diseños, contamos  con los modelos Cuadro, Anti Derrame
-    y Venecia. Al igual que los tableros las cubiertas también las podemos dimensionar
-    a la medida que nuestros clientes lo requieran.
+  :subtitle: Tableros
+  :title: Melamina Blanca
+  :description: Manejamos Melamina Blanca con substratos de MDF, MDP y Aglomerado
+    en diferentes grosores. Al igual que los servicios de corte y enchapado de canto
+    a las necesidades del cliente.
   :links:
   - :id: 6AOSsf0YFyKeI2M8MQmqgu
-    :title: Ver Cubiertas
-    :path: "/ferreteria"
+    :title: Ver Melamina
+    :path: "/melamina"
   :image:
-    :title: cubiertas
-    :description: Favor de agregar descripción de la imágen.
-    :url: "//images.contentful.com/rvnl2qm3k12r/681x1pE2mAm2g8OMaIQ0MK/d5f4241fc17475eb66a7babb1914df54/cubiertas.jpg"
+    :title: Melamina
+    :description: Corte de Melamina Blanca
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/681x1pE2mAm2g8OMaIQ0MK/d1a17d0d82bf5c0a93c385c69501015a/MDP-blanco.jpg"
 :seo:
   :id: 5Utak8ZgEEimQGMASkCg6a
   :title: Tableros para Interiores | Tym Forest
@@ -88,8 +87,8 @@
   :twitter:
     :title: seo-twitter
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/7dgHOn44z6QYQM0i4GcY8I/f6c30fa441377781b78d14536fd6f948/seo-twitter.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/7dgHOn44z6QYQM0i4GcY8I/f6c30fa441377781b78d14536fd6f948/seo-twitter.jpg"
   :og:
     :title: seo-facebook
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/1zfDNeU0nWoOQIgSKkkmE4/edeb07cc674b6c6787a4bd378428abe7/seo-facebook.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/1zfDNeU0nWoOQIgSKkkmE4/edeb07cc674b6c6787a4bd378428abe7/seo-facebook.jpg"

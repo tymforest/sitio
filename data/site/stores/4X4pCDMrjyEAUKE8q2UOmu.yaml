@@ -9,76 +9,28 @@
   :neighborhood: La Raza
   :zip_code: '78431'
   :city: San Luis
+  :estado:
+    :id: H6rA5jyQOky2OKyiOW6Wi
+    :nombre: San Luis Potosí
+    :abreviacion: S.L.P.
   :state_full: San Luis Potosí
   :state: S.L.P.
   :location:
     :lat: 22.177977
     :lon: -100.956094
   :url: https://www.google.com.mx/maps/place/Madereria+Tym+Forest/@22.176359,-100.9669374,14.72z/data=!4m5!3m4!1s0x842aa1bfd7723999:0x191cdf49c0605035!8m2!3d22.1779775!4d-100.9560927
-:number: "(44) 4823 4001"
+:number: "(44) 4831 0202"
 :schedule:
   :id: 6I21mBiepaEAc4UscWkA60
-  :weekday_open: 8
-  :weekday_lunch: 14
-  :weekday_afternoon: 15.5
+  :weekday_open: 8.5
   :weekday_close: 18
-  :saturday_open: 8
-  :saturday_close: 13.5
+  :saturday_open: 8.5
+  :saturday_close: 14
 :image:
   :title: portada
   :description: Ayudando a un cliente a bajar tableros de los racks en Sucursal Soledad
-  :url: "//images.contentful.com/rvnl2qm3k12r/2F21qu3EikQaYy8QuAW2MA/337766ce18c6cdee3de86bb20085d6ed/portada.jpg"
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/2F21qu3EikQaYy8QuAW2MA/337766ce18c6cdee3de86bb20085d6ed/portada.jpg"
 :services:
-- :id: 21euNVgSGc0kgyk8SKgiKk
-  :title: Perforado para Bisagra
-  :nombre: Perforado para Bisagra
-  :subcategory:
-    :id: 1EWKWf7JheI06waYOg4uEE
-  :description: Taladro multiple automático para perforaciones precisas.
-  :card:
-    :title: perforado-para-bisagras
-    :description: Perforando un tablero de MDF en nuestra Sucursal Sendero en Monterrey,
-      Nuevo León.
-    :url: "//images.contentful.com/rvnl2qm3k12r/7gA3DyKU24uiiuqAqsMaQO/9ad70bcf79b56f9a52f0eee85e79a78c/perforado-para-bisagras.jpg"
-- :id: 5qcrMMFIaIcaYsYMa60CCK
-  :title: Perforado para Pernos y Minifix
-  :nombre: Perforado para Pernos y Minifix
-  :subcategory:
-    :id: 1EWKWf7JheI06waYOg4uEE
-    :title: Servicios Adicionales para Tableros
-    :nombre: Adicionales
-    :category: Tableros
-    :description: Servicios especiales para tableros.
-    :image:
-      :title: adicionales
-      :description: Trabajadores de Tym Forest haciendo cortes para traslape en la
-        Sucursal de Matriz.
-      :url: "//images.contentful.com/rvnl2qm3k12r/7INs1Dmd5ScSuga88eoysm/1ab5cee9f4e8edb6067db76d079f6f1f/adicionales.jpg"
-  :description: Taladro multiple automático para perforaciones precisas.
-  :card:
-    :title: perforado-para-pernos-y-minifix
-    :description: Favor de agregar descripción de la imágen.
-    :url: "//images.contentful.com/rvnl2qm3k12r/6AZugLypwW02E6w4g42wmw/279219a75247549829d6e07ed0320c1f/perforado-para-pernos-y-minifix.jpg"
-- :id: 4U0kiEILTywiIWQAmmcaQo
-  :title: Traslape para Maderas
-  :nombre: Traslape
-  :subcategory:
-    :id: 55vEFJF0beU8OSg4I4uwoK
-    :title: Servicios Adicionales para Maderas
-    :nombre: Adicionales
-    :category: Maderas
-    :description: Cortes específicos para procesos industriales.
-    :image:
-      :title: adicionales
-      :description: Trabajadores de Tym Forest preparando una tabla de madera para
-        traslape.
-      :url: "//images.contentful.com/rvnl2qm3k12r/5ou6jdz9XGms4MEwyeUqWW/f11ce54bd4ebf7e64c9c81f9715dfe21/adicionales.jpg"
-  :description: Corte para sobreponer madera solida con madera solida.
-  :card:
-    :title: traslape
-    :description: Haciendo traslape en unas tablas de Pino Nacional en nuestra sucursal
-      Matriz en Monterrey, Nuevo León.
-    :url: "//images.contentful.com/rvnl2qm3k12r/2J76wRug6cUa2wu0wk0Ug2/5819b5aacb51151a1c25b5d7ba26ba4f/traslape.jpg"
 - :id: bYH4OryRJ6aqomYIC4uGa
   :title: Optimizador de Cortes para Tableros
   :nombre: Optimizador de Cortes
@@ -91,12 +43,96 @@
     :image:
       :title: programas-de-diseno
       :description: Documentación detallando los cortes óptimos para un tablero.
-      :url: "//images.contentful.com/rvnl2qm3k12r/5XLl8bH82ccUKeKgoiOuwu/6e25d21f8d25e7230df0564b67b8d733/programas-de-diseno.jpg"
-  :description: Programa para reducir merma de tablero.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/5XLl8bH82ccUKeKgoiOuwu/6e25d21f8d25e7230df0564b67b8d733/programas-de-diseno.jpg"
+  :description: 'Programa para reducir merma de tablero. :tree:'
   :card:
     :title: optimizador-de-cortes
     :description: Documentación de la optimización de un tablero.
-    :url: "//images.contentful.com/rvnl2qm3k12r/5T6nYttlMAOCIu0So6EoEY/018c560f7f015a50539550854bb22bdc/optimizador-de-cortes.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/5T6nYttlMAOCIu0So6EoEY/018c560f7f015a50539550854bb22bdc/optimizador-de-cortes.jpg"
+- :id: 1GRDKIV83GSwSkgUQCOOCy
+  :title: Cepillado de Caras para Maderas
+  :nombre: Cepillado de Caras
+  :subcategory:
+    :id: W90trFNWE0okgo2ikMss0
+    :title: Cepillado para Maderas
+    :nombre: Cepillado
+    :category: Maderas
+    :description: Cepillado fino e industrial en dos caras.
+    :image:
+      :title: cepillado
+      :description: Cepillando tablas de Madera de Pino Nacional en Sucursal Fidel
+        Velázquez.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4UJYrflZ72wOm4EgyaUOm/0a357bd80bbfd8813e4bde5fdc2ad16c/cepillado.jpg"
+  :description: Cepillo de alto rendimiento con corte helicoidal.
+  :card:
+    :title: cepillado-de-caras
+    :description: Cepillando caras en tablas de Madera de Pino Nacional
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/1U04lQdXyUMiWSWweEOEqy/cbe18338290830af56a8c6f431deef8f/cepillado-de-caras.jpg"
+- :id: 6XZFBrMht6as4kU6Kqecmc
+  :title: Corte Transversal para Maderas
+  :nombre: Corte Transversal
+  :subcategory:
+    :id: 6QolIE1eMgM4CUYQisKmSU
+    :title: Dimensionado para Maderas
+    :nombre: Dimensionado
+    :category: Maderas
+    :description: "Cortes rectos transversales y longitudinales a la medida. \U0001F332"
+    :image:
+      :title: dimensionado
+      :description: Dimensionando un tablero en nuestra Sucursal de Nuevo Repueblo.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/3qutJAFZ9eccSiC8Q024su/c7db74a632868a100bd306914a9662ba/dimensionado.jpg"
+  :description: Cortes rectos con sierra de péndulo.
+  :card:
+    :title: corte-transversal
+    :description: Máquina de péndulo para hacer cortes transversales en maderas.
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/1BBRhjU65Ggm68c2KWsqcw/072ebc2615e2bc78e77a7b2339ace26f/corte-transversal.jpg"
+- :id: 2RQNpk0MfuY2Ag4mwYs4KW
+  :title: Corte Transversal para Tableros
+  :nombre: Corte Transversal
+  :subcategory:
+    :id: 3iKM0ow8NioceIaSU2E2uG
+    :title: Dimensionado para Tableros
+    :nombre: Dimensionado
+    :category: Tableros
+    :description: Cortes rectos transversales y longitudinales a la medida.
+    :image:
+      :title: dimensionado
+      :description: imensionando un tablero en nuestra Sucursal de Nuevo Repueblo.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4RPLkHg9LqoSYMwaguYskk/c8b9d2a9d29f1a1615af531e483d554e/dimensionado.jpg"
+  :description: Cortes rectos con dimensionadora.
+  :card:
+    :title: corte-transversal
+    :description: Haciendo unos cortes transversales en tableros de MDF en nuestra
+      Sucursal Fidel Velázquez en Monterrey, Nuevo León.
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/24ojwAgCsYUGaUkkUUie2o/38d6df1133bd8e18387b1f69efccc9f4/corte-transversal.jpg"
+- :id: 48Bp6FClGUMCgsEKiWk448
+  :title: Enchapado de Cantos para Tableros
+  :nombre: Enchapado de Cantos
+  :subcategory:
+    :id: 6IhYB8gRZCa4kgKsSGGmwa
+    :title: Enchapados para Tableros
+    :nombre: Enchapados
+    :category: Tableros
+    :description: Servicio de pegado de chapa o cintilla en el canto del tablero.
+    :image:
+      :title: enchapados
+      :description: Trabajador de Tym Forest enchapando un tablero de Okumé.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/C7So59QLfisWkoWkMIwKi/17f7aa261a67be69d3e0520ff3b49685/enchapados.jpg"
+  :description: Enchapado de madera natural y melamina para canto de tablero.
+  :card:
+    :title: enchapado-de-cantos
+    :description: Trabajador de Tym Forest enchapando los cantos de un tablero de
+      Okumé.
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/oT221fGk92C2I4O4628Ai/4d6bb5cc3f390b288c913c710b33aa2a/enchapado-de-cantos.jpg"
+- :id: 1rzxmGz364oO0o4ak2qIki
+  :title: Entregas
+  :nombre: Entregas
+  :description: Servicio de entrega gratuito en pedidos mayores a $2,000.
+  :card:
+    :title: entregas-tarjeta
+    :description: Camión de Tym Forest en camino a entregar un pedido en Monterrey,
+      Nuevo León.
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/1AfcpkMczCuyku6cUyI0s0/2af15e94202861cba0016b0862ecad16/entregas-tarjeta.jpg"
 :seo:
   :id: xcyR1vHHKS68wE0cYEQUu
   :title: Sucursal Soledad | Tym Forest
@@ -106,8 +142,8 @@
   :twitter:
     :title: seo-twitter
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/6a6yPLg5AQoEEwCM2IekcS/ef28e810554914a205f7c958e4a61f73/seo-twitter.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/6a6yPLg5AQoEEwCM2IekcS/ef28e810554914a205f7c958e4a61f73/seo-twitter.jpg"
   :og:
     :title: seo-facebook
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/6qcXJKUL1C6cc6qsOYMU6I/bd9c984c016b2b4259092b612fb63673/seo-facebook.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/6qcXJKUL1C6cc6qsOYMU6I/bd9c984c016b2b4259092b612fb63673/seo-facebook.jpg"

@@ -9,6 +9,10 @@
   :neighborhood: Santa Rosa
   :zip_code: '78115'
   :city: San Luis
+  :estado:
+    :id: H6rA5jyQOky2OKyiOW6Wi
+    :nombre: San Luis Potosí
+    :abreviacion: S.L.P.
   :state_full: San Luis Potosí
   :state: S.L.P.
   :location:
@@ -18,54 +22,25 @@
 :number: "(44) 4823 4001"
 :schedule:
   :id: 4CQajH1aAwccWIuOiuumgi
-  :weekday_open: 8
-  :weekday_lunch: 14
-  :weekday_afternoon: 15.5
+  :weekday_open: 8.5
   :weekday_close: 18
-  :saturday_open: 8
-  :saturday_close: 13.5
+  :saturday_open: 8.5
+  :saturday_close: 14
 :image:
   :title: portada
   :description: Vista superior de toda la bodega de Sucursal Saucito
-  :url: "//images.contentful.com/rvnl2qm3k12r/LNPXS4QFSEcQSMA6ISuQm/2906abbd9996ff6bc2085c777cc4b3ea/portada.jpg"
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/LNPXS4QFSEcQSMA6ISuQm/2906abbd9996ff6bc2085c777cc4b3ea/portada.jpg"
 :services:
 - :id: 3tsjNXmTIcyEskyaAwCIkW
   :title: Corte Longitudinal para Maderas
   :nombre: Corte Longitudinal
   :subcategory:
     :id: 6QolIE1eMgM4CUYQisKmSU
-    :title: Dimensionado para Maderas
-    :nombre: Dimensionado
-    :category: Maderas
-    :description: Cortes rectos transversales y longitudinales a la medida.
-    :image:
-      :title: dimensionado
-      :description: Dimensionando un tablero en nuestra Sucursal de Nuevo Repueblo.
-      :url: "//images.contentful.com/rvnl2qm3k12r/3qutJAFZ9eccSiC8Q024su/c7db74a632868a100bd306914a9662ba/dimensionado.jpg"
   :description: Corte recto con sierra de mesa o sierra cinta.
   :card:
     :title: corte-longitudinal
     :description: Haciendo un corte longitudinal con una sierra vertical.
-    :url: "//images.contentful.com/rvnl2qm3k12r/6ILATemznywQEGwAeuaCK2/eb98a21a44b3216ed80850d500d77d92/corte-longitudinal.jpg"
-- :id: 5qcrMMFIaIcaYsYMa60CCK
-  :title: Perforado para Pernos y Minifix
-  :nombre: Perforado para Pernos y Minifix
-  :subcategory:
-    :id: 1EWKWf7JheI06waYOg4uEE
-    :title: Servicios Adicionales para Tableros
-    :nombre: Adicionales
-    :category: Tableros
-    :description: Servicios especiales para tableros.
-    :image:
-      :title: adicionales
-      :description: Trabajadores de Tym Forest haciendo cortes para traslape en la
-        Sucursal de Matriz.
-      :url: "//images.contentful.com/rvnl2qm3k12r/7INs1Dmd5ScSuga88eoysm/1ab5cee9f4e8edb6067db76d079f6f1f/adicionales.jpg"
-  :description: Taladro multiple automático para perforaciones precisas.
-  :card:
-    :title: perforado-para-pernos-y-minifix
-    :description: Favor de agregar descripción de la imágen.
-    :url: "//images.contentful.com/rvnl2qm3k12r/6AZugLypwW02E6w4g42wmw/279219a75247549829d6e07ed0320c1f/perforado-para-pernos-y-minifix.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/6ILATemznywQEGwAeuaCK2/eb98a21a44b3216ed80850d500d77d92/corte-longitudinal.jpg"
 - :id: 1GRDKIV83GSwSkgUQCOOCy
   :title: Cepillado de Caras para Maderas
   :nombre: Cepillado de Caras
@@ -79,15 +54,44 @@
       :title: cepillado
       :description: Cepillando tablas de Madera de Pino Nacional en Sucursal Fidel
         Velázquez.
-      :url: "//images.contentful.com/rvnl2qm3k12r/4UJYrflZ72wOm4EgyaUOm/0a357bd80bbfd8813e4bde5fdc2ad16c/cepillado.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4UJYrflZ72wOm4EgyaUOm/0a357bd80bbfd8813e4bde5fdc2ad16c/cepillado.jpg"
   :description: Cepillo de alto rendimiento con corte helicoidal.
   :card:
     :title: cepillado-de-caras
     :description: Cepillando caras en tablas de Madera de Pino Nacional
-    :url: "//images.contentful.com/rvnl2qm3k12r/1U04lQdXyUMiWSWweEOEqy/cbe18338290830af56a8c6f431deef8f/cepillado-de-caras.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/1U04lQdXyUMiWSWweEOEqy/cbe18338290830af56a8c6f431deef8f/cepillado-de-caras.jpg"
 - :id: 4M3EbIM7mUg6YEUSYomkYG
   :title: Corte Longitudinal para Tableros
   :nombre: Corte Longitudinal
+  :subcategory:
+    :id: 3iKM0ow8NioceIaSU2E2uG
+  :description: Cortes rectos con dimensionadora.
+  :card:
+    :title: corte-longitudinal
+    :description: Trabajador de Tym Forest haciendo cortes longitudinales en un tablero
+      de MDF blanco.
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/2xyy1NNtX6qu2M6yCkwque/9371e035dfdfc7d44b86ca4e0cfeb306/corte-longitudinal.jpg"
+- :id: 6XZFBrMht6as4kU6Kqecmc
+  :title: Corte Transversal para Maderas
+  :nombre: Corte Transversal
+  :subcategory:
+    :id: 6QolIE1eMgM4CUYQisKmSU
+    :title: Dimensionado para Maderas
+    :nombre: Dimensionado
+    :category: Maderas
+    :description: "Cortes rectos transversales y longitudinales a la medida. \U0001F332"
+    :image:
+      :title: dimensionado
+      :description: Dimensionando un tablero en nuestra Sucursal de Nuevo Repueblo.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/3qutJAFZ9eccSiC8Q024su/c7db74a632868a100bd306914a9662ba/dimensionado.jpg"
+  :description: Cortes rectos con sierra de péndulo.
+  :card:
+    :title: corte-transversal
+    :description: Máquina de péndulo para hacer cortes transversales en maderas.
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/1BBRhjU65Ggm68c2KWsqcw/072ebc2615e2bc78e77a7b2339ace26f/corte-transversal.jpg"
+- :id: 2RQNpk0MfuY2Ag4mwYs4KW
+  :title: Corte Transversal para Tableros
+  :nombre: Corte Transversal
   :subcategory:
     :id: 3iKM0ow8NioceIaSU2E2uG
     :title: Dimensionado para Tableros
@@ -97,13 +101,22 @@
     :image:
       :title: dimensionado
       :description: imensionando un tablero en nuestra Sucursal de Nuevo Repueblo.
-      :url: "//images.contentful.com/rvnl2qm3k12r/4RPLkHg9LqoSYMwaguYskk/c8b9d2a9d29f1a1615af531e483d554e/dimensionado.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4RPLkHg9LqoSYMwaguYskk/c8b9d2a9d29f1a1615af531e483d554e/dimensionado.jpg"
   :description: Cortes rectos con dimensionadora.
   :card:
-    :title: corte-longitudinal
-    :description: Trabajador de Tym Forest haciendo cortes longitudinales en un tablero
-      de MDF blanco.
-    :url: "//images.contentful.com/rvnl2qm3k12r/2xyy1NNtX6qu2M6yCkwque/9371e035dfdfc7d44b86ca4e0cfeb306/corte-longitudinal.jpg"
+    :title: corte-transversal
+    :description: Haciendo unos cortes transversales en tableros de MDF en nuestra
+      Sucursal Fidel Velázquez en Monterrey, Nuevo León.
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/24ojwAgCsYUGaUkkUUie2o/38d6df1133bd8e18387b1f69efccc9f4/corte-transversal.jpg"
+- :id: 1rzxmGz364oO0o4ak2qIki
+  :title: Entregas
+  :nombre: Entregas
+  :description: Servicio de entrega gratuito en pedidos mayores a $2,000.
+  :card:
+    :title: entregas-tarjeta
+    :description: Camión de Tym Forest en camino a entregar un pedido en Monterrey,
+      Nuevo León.
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/1AfcpkMczCuyku6cUyI0s0/2af15e94202861cba0016b0862ecad16/entregas-tarjeta.jpg"
 :seo:
   :id: 4OqJfQYIr60IWKgoA0GMAY
   :title: Sucursal Saucito | Tym Forest
@@ -113,8 +126,8 @@
   :twitter:
     :title: seo-twitter
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/5ZmOr0V75SesKyC600Amqe/186d6fd99395567e8f062a022c1ecf46/seo-twitter.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/5ZmOr0V75SesKyC600Amqe/186d6fd99395567e8f062a022c1ecf46/seo-twitter.jpg"
   :og:
     :title: seo-facebook
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/1eSDERHCfe0w6umgak0GS4/e57b18623b299589650a4922023e674e/seo-facebook.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/1eSDERHCfe0w6umgak0GS4/e57b18623b299589650a4922023e674e/seo-facebook.jpg"

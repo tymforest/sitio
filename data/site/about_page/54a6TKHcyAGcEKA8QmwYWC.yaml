@@ -3,45 +3,41 @@
 :hero:
   :title: portada
   :description: Cerro de la Silla. Monterrey, Nuevo León es la cede de Tym Forest.
-  :url: "//images.contentful.com/rvnl2qm3k12r/25zwdxrZ8goSc2MsoC06q2/509ca2e184e6ce2505e6a692f4c95575/portada.jpg"
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/25zwdxrZ8goSc2MsoC06q2/509ca2e184e6ce2505e6a692f4c95575/portada.jpg"
 :intro: Queremos crear un cultura de excelencia y transparencia.
 :description: Promoviendo la cultura de mejora continua en servicios y procesos, para
   ofrecer a nuestros clientes la gama de productos mas amplia del mercado.
 :first_image:
   :title: grande
   :description: Camión Hyundai estacionado dentro de la bodega de la Sucursal Matriz.
-  :url: "//images.contentful.com/rvnl2qm3k12r/22Yufsqcp6AKy2MUqMe08c/72c7d909aeceeef311f21ee2c6e081fa/grande.jpg"
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/22Yufsqcp6AKy2MUqMe08c/72c7d909aeceeef311f21ee2c6e081fa/grande.jpg"
 :second_image:
   :title: mitad1
   :description: Montacargas cargando paquetes de Tableros de Aglomerado.
-  :url: "//images.contentful.com/rvnl2qm3k12r/34zNRofy1aKWYus62YO66K/2bcec1b196ed562fade4d0d62a5f0af7/mitad1.jpg"
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/34zNRofy1aKWYus62YO66K/2bcec1b196ed562fade4d0d62a5f0af7/mitad1.jpg"
 :third_image:
   :title: mitad2
   :description: Oficinas de Sucursal Matriz.
-  :url: "//images.contentful.com/rvnl2qm3k12r/2mDQpiRH9i4QeOceKAqySO/010a072cc2b718cac397d5e21408ee4a/mitad2.jpg"
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/2mDQpiRH9i4QeOceKAqySO/010a072cc2b718cac397d5e21408ee4a/mitad2.jpg"
 :details:
 - :id: 36Oy0Sb0NaCuS2s2ygMkko
   :title: Sustentabilidad
   :description: Somos una empresa responsable con el medio ambiente y por lo mismo
-    buscamos que  nuestros productos provengan de Bosque Sustentable , de empresas
-    certificadas  con cadenas de custodia como  la certificación FSC  y otras certificaciones
-    que  implica que  la maderas proviene bosques de plantaciones .
+    buscamos que  nuestros productos provengan de bosques sustentable , de empresas
+    certificadas  con cadenas de custodia (FSC).
 - :id: 3zQ0ynkNuoqyEAG4gQIYwm
   :title: Experiencia
-  :description: Con más de 30 años de experiencia en los mercados de Construcción,
-    la Industria del Mueble y la Industria de Manufactura,  TYM Forest ha aprendido
-    que la mejora continua en servicio y variedad de producto es la manera de mantener
-    una clientela satisfecha.
+  :description: Con más de 30 años de experiencia en los mercados de la construcción,
+    fabricación de muebles y cocinas, carpintería e industria manufacturera.
 - :id: 1h99RLJxjY4EEO0uWEIeYo
   :title: Equipo
   :description: Para lograr una cultura de excelencia y transparencia sabemos que
     se requiere de un gran equipo por eso TYM Forest cuenta con personal capacitado
-    para brindar la mejor atención y servicio. Nuestro programa de capacitación abarca
-    temas como productos, tendencias, objetivos, procesos entre otros.
+    para brindar la mejor atención y servicio.
 :fourth_image:
   :title: final
   :description: Oficinas de Sucursal Matriz. ¡Visítanos!
-  :url: "//images.contentful.com/rvnl2qm3k12r/6725tgEqt2IE48M8GoqKSo/0d33c7a0f1ace2ec45e3a94cce13b5dc/final.jpg"
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/6725tgEqt2IE48M8GoqKSo/5dc0aaf7f5f4836956ca081542db020a/Copia_de_IMG_6791.jpg"
 :conclusion: Si deseas obtener más información sobre nosotros no dudes en contactarnos,
   visitarnos o agendar una entrevista.
 :seo:
@@ -51,8 +47,8 @@
   :twitter:
     :title: seo-twitter
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/7BopFr0i6AqGIKe4Q8ACI0/cde131758ba0531311f564389c787dd3/seo-twitter.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/7BopFr0i6AqGIKe4Q8ACI0/cde131758ba0531311f564389c787dd3/seo-twitter.jpg"
   :og:
     :title: seo-facebook
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/3H3oiEAfMIaqeaiiuOA2su/4900f37083c19dc6e59f73a9b015dc6e/seo-facebook.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/3H3oiEAfMIaqeaiiuOA2su/4900f37083c19dc6e59f73a9b015dc6e/seo-facebook.jpg"

@@ -4,25 +4,12 @@
 :index_image:
   :title: madera-para-construccion
   :description: Madera de Cimbra
-  :url: "//images.contentful.com/rvnl2qm3k12r/4CPumEMjaow0qMqaE4Gwua/35e9894965960b54115130e76c8751ca/madera-para-construccion.jpg"
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/4CPumEMjaow0qMqaE4Gwua/adea50fc666670127699be15cb2426f6/madera-para-construccion.jpg"
 :hero_image:
   :title: madera-para-construccion
-  :description: Madera de Cimbra.
-  :url: "//images.contentful.com/rvnl2qm3k12r/xQjusoRBn26iYiQaQ84Ek/a21564a598a56a6211b7f6ec3548bb76/portada.jpg"
+  :description: Madera para Construccion
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/xQjusoRBn26iYiQaQ84Ek/65c3f4621f0c06c1d333c6675cc2bf94/portada.jpg"
 :sections:
-- :id: f3WZgnNQWWK4ci6YaaG2k
-  :subtitle: Maderas
-  :title: Polín y Barrote
-  :description: Tenemos Polín y Barrote para su construcción y contamos con servicio
-    de entrega directo en obra
-  :links:
-  - :id: 2oNl5WSphmiMiwWI8saQwQ
-    :title: Ver Madera de Pino Nacional
-    :path: "/maderas/pino-nacional"
-  :image:
-    :title: polin-y-barrote
-    :description: Rack de polines.
-    :url: "//images.contentful.com/rvnl2qm3k12r/4GF9671fscSkeG2UUKsM04/cc7d041294eb60c225af23fd6494acad/polin-y-barrote.jpg"
 - :id: 4ytQ5zY66ksQUQOkOC4Y2I
   :subtitle: Tableros
   :title: Triplay para Cimbra
@@ -42,20 +29,20 @@
   :image:
     :title: triplay-para-cimbra
     :description: Racks de Triplay para Cimbra.
-    :url: "//images.contentful.com/rvnl2qm3k12r/5BHL81mQrSi8uCOgKoO2ey/7ffa22e014ff6d97517456864b75466f/triplay-para-cimbra.jpg"
-- :id: 3SEZhSOjYsYqYOYeyEgmQ0
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/5BHL81mQrSi8uCOgKoO2ey/6f263a9340cb0566ba093323bcbefd81/triplay-para-cimbra.jpg"
+- :id: f3WZgnNQWWK4ci6YaaG2k
   :subtitle: Maderas
-  :title: Ochavo y Chaflán
-  :description: Ofrecemos Ochavo o Chalfán a la medida y contamos con maquinaria y
-    el personal capacitado para hacer cortes específicos.
+  :title: Polín y Barrote
+  :description: Contamos con Polin y Barrote para cimbra y con servicio de entrega
+    directamente a la obra.
   :links:
-  - :id: 37o9uOpL3qmMsE6SUcwYWA
+  - :id: 2oNl5WSphmiMiwWI8saQwQ
     :title: Ver Madera de Pino Nacional
     :path: "/maderas/pino-nacional"
   :image:
-    :title: ochavo-o-chaflan
-    :description: Paquete de Ochavo dimensionado.
-    :url: "//images.contentful.com/rvnl2qm3k12r/4FuuMkhgNqCGC4GQ6oy2Su/999271439c420381b6c95fc6bba5fa02/ochavo-o-chaflan.jpg"
+    :title: polin-y-barrote
+    :description: Rack de polines
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4GF9671fscSkeG2UUKsM04/b75950c684502aad288a92789a9f7e51/polin-y-barrote.jpg"
 - :id: PIPTia6GSiyCYEa66I8CI
   :subtitle: Maderas
   :title: Tabla y Tablón
@@ -69,20 +56,20 @@
   :image:
     :title: tabla-y-tablon
     :description: Racks de Tablas y Tablones de Madera para Construcción.
-    :url: "//images.contentful.com/rvnl2qm3k12r/14vzxzfZL0qccA4GmQ4eA2/0459ed7d273cb9140c6651e23cf9b6e8/tabla-y-tablon.jpg"
-- :id: 3r6BkT8Ot2W6SMKO8sOsq8
-  :subtitle: Ferretería
-  :title: Clavos
-  :description: Ofrecemos una gran variedad de clavos para madera con y sin cabeza
-    y entregamos tu pedido directamente a la obra.
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/14vzxzfZL0qccA4GmQ4eA2/0459ed7d273cb9140c6651e23cf9b6e8/tabla-y-tablon.jpg"
+- :id: 3SEZhSOjYsYqYOYeyEgmQ0
+  :subtitle: Maderas
+  :title: Ochavo y Chaflán
+  :description: Ofrecemos Ochavo o Chalfán a la medida y contamos con maquinaria y
+    el personal capacitado para hacer cortes específicos.
   :links:
-  - :id: 2VRPFuHJUAwEU0m2SAswGC
-    :title: Ver Clavos
-    :path: "/ferreteria"
+  - :id: 37o9uOpL3qmMsE6SUcwYWA
+    :title: Ver Madera de Pino Nacional
+    :path: "/maderas/pino-nacional"
   :image:
-    :title: clavos-desktop
-    :description: Favor de agregar descripción de imágen.
-    :url: "//images.contentful.com/rvnl2qm3k12r/3LeP2JN0H6Oaq0WYaCM2W4/1b23f9d890b43a528884e6e01f84d576/clavos.jpg"
+    :title: ochavo-o-chaflan
+    :description: Paquete de Ochavo dimensionado.
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4FuuMkhgNqCGC4GQ6oy2Su/999271439c420381b6c95fc6bba5fa02/ochavo-o-chaflan.jpg"
 :seo:
   :id: 3wkVtRNlDyAaWgSgscocM2
   :title: Madera para Construcción | Tym Forest
@@ -90,8 +77,8 @@
   :twitter:
     :title: seo-twitter
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/4VLoHCL2BGyqQEmWEK46Gm/9863773d7de55fe580909fa2ea29b77d/seo-twitter.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4VLoHCL2BGyqQEmWEK46Gm/9863773d7de55fe580909fa2ea29b77d/seo-twitter.jpg"
   :og:
     :title: seo-facebook
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/6tSOjfwiE8w60guE44cEoC/9279e9e6e23ff25a01041c2726db3556/seo-facebook.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/6tSOjfwiE8w60guE44cEoC/9279e9e6e23ff25a01041c2726db3556/seo-facebook.jpg"

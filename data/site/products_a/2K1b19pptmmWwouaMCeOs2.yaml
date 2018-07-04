@@ -8,7 +8,7 @@
   :hero_image:
     :title: portada
     :description: Favor de agregar descripción de imágen
-    :url: "//images.contentful.com/rvnl2qm3k12r/4o66ACLac0KeAKSuWKQEAa/9a4aca943571b9891a943d9db259a9a1/portada.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4o66ACLac0KeAKSuWKQEAa/9a4aca943571b9891a943d9db259a9a1/portada.jpg"
   :seo:
     :id: 3WGvQ5R4YMqkmOC8MIAwi0
     :title: Tableros | Tym Forest
@@ -16,11 +16,11 @@
     :twitter:
       :title: seo-twitter
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/2ruWLT27RCMu6mGqEio2mM/a44c266955150b2d6120fba6c49b910c/seo-twitter.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/2ruWLT27RCMu6mGqEio2mM/a44c266955150b2d6120fba6c49b910c/seo-twitter.jpg"
     :og:
       :title: seo-facebook
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/7lWAENkrFmYSkAqG6OgWak/f1cc1a68bc3bf5d92ae019a78829f120/seo-facebook.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/7lWAENkrFmYSkAqG6OgWak/f1cc1a68bc3bf5d92ae019a78829f120/seo-facebook.jpg"
 :subcategory:
   :id: 4f3IRCYrVSsOqeSc6EK22Y
   :nombre: Triplay
@@ -30,7 +30,7 @@
   :card:
     :title: tarjeta-principal
     :description: Triplay
-    :url: "//images.contentful.com/rvnl2qm3k12r/3Whi63m3YASiI4qQOWeWUS/ad13e7f0de60f44997bac40dddfb1eac/tarjeta-principal.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/3Whi63m3YASiI4qQOWeWUS/ad13e7f0de60f44997bac40dddfb1eac/tarjeta-principal.jpg"
   :seo:
     :id: 6WnKUl92ta2kskUeQui8ii
     :title: Triplay | Tym Forest
@@ -40,11 +40,11 @@
     :twitter:
       :title: seo-twitter
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/6JNoAXR4kM2goqUWYE2eOI/25d8f58672272b077da75b023a8b9718/seo-twitter.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/6JNoAXR4kM2goqUWYE2eOI/25d8f58672272b077da75b023a8b9718/seo-twitter.jpg"
     :og:
       :title: seo-facebook
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/wnG23V5zUsYWauWw0eueo/7125123dffdd7d5306d793fa98b69d0f/seo-facebook.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/wnG23V5zUsYWauWw0eueo/7125123dffdd7d5306d793fa98b69d0f/seo-facebook.jpg"
 :is_sale: false
 :is_unit: true
 :description: El Triplay de Cedro es un tablero hecho de maderas contrachapadas unidas
@@ -102,7 +102,7 @@
     :title: corte-transversal
     :description: Haciendo unos cortes transversales en tableros de MDF en nuestra
       Sucursal Fidel Velázquez en Monterrey, Nuevo León.
-    :url: "//images.contentful.com/rvnl2qm3k12r/24ojwAgCsYUGaUkkUUie2o/38d6df1133bd8e18387b1f69efccc9f4/corte-transversal.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/24ojwAgCsYUGaUkkUUie2o/38d6df1133bd8e18387b1f69efccc9f4/corte-transversal.jpg"
 - :id: bYH4OryRJ6aqomYIC4uGa
   :title: Optimizador de Cortes para Tableros
   :nombre: Optimizador de Cortes
@@ -115,12 +115,12 @@
     :image:
       :title: programas-de-diseno
       :description: Documentación detallando los cortes óptimos para un tablero.
-      :url: "//images.contentful.com/rvnl2qm3k12r/5XLl8bH82ccUKeKgoiOuwu/6e25d21f8d25e7230df0564b67b8d733/programas-de-diseno.jpg"
-  :description: Programa para reducir merma de tablero.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/5XLl8bH82ccUKeKgoiOuwu/6e25d21f8d25e7230df0564b67b8d733/programas-de-diseno.jpg"
+  :description: 'Programa para reducir merma de tablero. :tree:'
   :card:
     :title: optimizador-de-cortes
     :description: Documentación de la optimización de un tablero.
-    :url: "//images.contentful.com/rvnl2qm3k12r/5T6nYttlMAOCIu0So6EoEY/018c560f7f015a50539550854bb22bdc/optimizador-de-cortes.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/5T6nYttlMAOCIu0So6EoEY/018c560f7f015a50539550854bb22bdc/optimizador-de-cortes.jpg"
 - :id: 1rzxmGz364oO0o4ak2qIki
   :title: Entregas
   :nombre: Entregas
@@ -129,7 +129,7 @@
     :title: entregas-tarjeta
     :description: Camión de Tym Forest en camino a entregar un pedido en Monterrey,
       Nuevo León.
-    :url: "//images.contentful.com/rvnl2qm3k12r/1AfcpkMczCuyku6cUyI0s0/2af15e94202861cba0016b0862ecad16/entregas-tarjeta.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/1AfcpkMczCuyku6cUyI0s0/2af15e94202861cba0016b0862ecad16/entregas-tarjeta.jpg"
 - :id: 6PZid7ugikoWKeK02eqi2w
   :title: Asesoría de Materiales
   :nombre: Asesoría de Materiales
@@ -138,7 +138,7 @@
     :title: asesoria-de-materiales-tarjeta
     :description: Trabajador de Tym Forest asesorando a algunos clientes en nuestra
       Sucursal La Fe en Monterrey, Nuevo León.
-    :url: "//images.contentful.com/rvnl2qm3k12r/3Rgkzwf8LCs4cQMmWwcaMg/1b5b2ba93f1b65557ff0e5ce8823f9cb/asesoria-de-materiales-tarjeta.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/3Rgkzwf8LCs4cQMmWwcaMg/1b5b2ba93f1b65557ff0e5ce8823f9cb/asesoria-de-materiales-tarjeta.jpg"
 :products:
 - :id: 1DN9mqj4yYwKKek6U6GQqK
   :titulo: Madera de Cedro
@@ -205,21 +205,21 @@
   :card:
     :title: tarjeta-principal
     :description: Madera de Cedro
-    :url: "//images.contentful.com/rvnl2qm3k12r/6BCDy7FXRSaGI4ie02E2WS/37c8945b48107aebee3ac7a1fa1f5e9e/tarjeta-principal.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/6BCDy7FXRSaGI4ie02E2WS/37c8945b48107aebee3ac7a1fa1f5e9e/tarjeta-principal.jpg"
   :detail_images:
     :id: 2p6896KTQUSowqUGmygeG6
     :mobile:
       :title: detalle-movil
       :description: Madera de Cedro
-      :url: "//images.contentful.com/rvnl2qm3k12r/3p4qI7M7VSwMqSEisWummW/38cd50a6efdacf3b42c8364f53a3d707/detalle-movil.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/3p4qI7M7VSwMqSEisWummW/38cd50a6efdacf3b42c8364f53a3d707/detalle-movil.jpg"
     :tablet:
       :title: detalle-tablet
       :description: Madera de Cedro
-      :url: "//images.contentful.com/rvnl2qm3k12r/uLAiPRBYAgwcSuqa0WuiW/851c3ef44a04188b5b3e310365a6715b/detalle-tablet.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/uLAiPRBYAgwcSuqa0WuiW/851c3ef44a04188b5b3e310365a6715b/detalle-tablet.jpg"
     :desktop:
       :title: detalle-desktop
       :description: Madera de Cedro
-      :url: "//images.contentful.com/rvnl2qm3k12r/67wh37aTkWqmAuImMmEcwU/07eb59c705721adb2ed13cfbef2e6520/detalle-desktop.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/67wh37aTkWqmAuImMmEcwU/07eb59c705721adb2ed13cfbef2e6520/detalle-desktop.jpg"
   :seo:
     :id: 7rsffuV9hSmEuSMsks66og
     :title: Madera de Cedro | Tym Forest
@@ -228,11 +228,11 @@
     :twitter:
       :title: seo-twitter
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/i3QGGosKWWUIY0uoe8oWa/a4761c51763ee501974a7dc293a49889/seo-twitter.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/i3QGGosKWWUIY0uoe8oWa/a4761c51763ee501974a7dc293a49889/seo-twitter.jpg"
     :og:
       :title: seo-facebook
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/6thT0WdZ4sSEkOow26OWuu/fce8428cfc684a29084dd8f64e05f406/seo-facebook.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/6thT0WdZ4sSEkOow26OWuu/fce8428cfc684a29084dd8f64e05f406/seo-facebook.jpg"
 - :id: zQvDJCO9lmssic20qCmmE
   :titulo: Triplay de Nogal Americano
   :name: Nogal Americano
@@ -301,21 +301,21 @@
   :card:
     :title: tarjeta-principal
     :description: Triplay de Nogal Americano
-    :url: "//images.contentful.com/rvnl2qm3k12r/2iVW6w34XaoAAuyaCsU2ko/0c1fb14c719fa7f24b8436263278f764/tarjeta-principal.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/2iVW6w34XaoAAuyaCsU2ko/0c1fb14c719fa7f24b8436263278f764/tarjeta-principal.jpg"
   :detail_images:
     :id: WwMJUWvW0MK468iuwsECk
     :mobile:
       :title: detalle-movil
       :description: Triplay de Nogal Americano
-      :url: "//images.contentful.com/rvnl2qm3k12r/1nKPHu6hbKqe0yosGUeguU/11c222505a01dc02ac24b44705c6b5a1/detalle-movil.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/1nKPHu6hbKqe0yosGUeguU/11c222505a01dc02ac24b44705c6b5a1/detalle-movil.jpg"
     :tablet:
       :title: detalle-tablet
       :description: Triplay de Nogal Americano
-      :url: "//images.contentful.com/rvnl2qm3k12r/3gOx6WJk7CYOQ88kyWYOIk/a209caa3e66c841e5e9d95aae6393dd6/detalle-tablet.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/3gOx6WJk7CYOQ88kyWYOIk/a209caa3e66c841e5e9d95aae6393dd6/detalle-tablet.jpg"
     :desktop:
       :title: detalle-desktop
       :description: Triplay de Nogal Americano
-      :url: "//images.contentful.com/rvnl2qm3k12r/1sbq5UfkrKucwom6kkQAAe/8ce5ac044afeddbcb27fdea2020d57d5/detalle-desktop.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/1sbq5UfkrKucwom6kkQAAe/8ce5ac044afeddbcb27fdea2020d57d5/detalle-desktop.jpg"
   :seo:
     :id: 1hdAOnqQ9Ik8CAaEQwaII4
     :title: Triplay de Nogal Americano | Tym Forest
@@ -324,11 +324,11 @@
     :twitter:
       :title: seo-twitter
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/Ezv631jkdM8uy8aYKi6W6/427d3c8547d8c35270e188805eee2db4/seo-twitter.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/Ezv631jkdM8uy8aYKi6W6/427d3c8547d8c35270e188805eee2db4/seo-twitter.jpg"
     :og:
       :title: seo-facebook
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/4nANhSih8kOMkACkGAaySy/01ebb402dba078031efde222a6033a9b/seo-facebook.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4nANhSih8kOMkACkGAaySy/01ebb402dba078031efde222a6033a9b/seo-facebook.jpg"
 - :id: 4JaQi92ihqWOseoWIoIyE8
   :titulo: Madera de Nogal Americano
   :name: Nogal Americano
@@ -367,6 +367,8 @@
   - FAS
   :treatments:
   - Estufado
+  :measurements_on_sale:
+  - :id: 3N2n1HlBi8UCUAQaWe8MKU
   :details:
   - :id: 6ruo7Ky3EAsqUQyyKkgsKk
     :title: Latín
@@ -399,21 +401,21 @@
   :card:
     :title: tarjeta-principal
     :description: Madera de Nogal Americano
-    :url: "//images.contentful.com/rvnl2qm3k12r/lzMVnMsp0swIeOgAe6W6w/324a3ca4dd73ac12ced931befce95494/tarjeta-principal.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/lzMVnMsp0swIeOgAe6W6w/324a3ca4dd73ac12ced931befce95494/tarjeta-principal.jpg"
   :detail_images:
     :id: 3a1KdiY7u8gcaqAw68wC4C
     :mobile:
       :title: detalle-movil
       :description: Madera de Nogal Americano
-      :url: "//images.contentful.com/rvnl2qm3k12r/2tInaXQ4X6uYwc2eoqcqYs/d63b361424fa091f4222b3823d7cfc0c/detalle-movil.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/2tInaXQ4X6uYwc2eoqcqYs/d63b361424fa091f4222b3823d7cfc0c/detalle-movil.jpg"
     :tablet:
       :title: detalle-tablet
       :description: Madera de Nogal Americano
-      :url: "//images.contentful.com/rvnl2qm3k12r/7dEzLZsduEmE4GIG6AkmG2/69da3d733fc313c15b829f0fa073edd3/detalle-tablet.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/7dEzLZsduEmE4GIG6AkmG2/69da3d733fc313c15b829f0fa073edd3/detalle-tablet.jpg"
     :desktop:
       :title: detalle-desktop
       :description: Madera de Nogal Americano
-      :url: "//images.contentful.com/rvnl2qm3k12r/2Ze7Qwg9GoikYcQS0mYEiO/eee294becac8fc9d5ffeeafeebfcd856/detalle-desktop.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/2Ze7Qwg9GoikYcQS0mYEiO/eee294becac8fc9d5ffeeafeebfcd856/detalle-desktop.jpg"
   :seo:
     :id: 58cJV939pS0gQK0ki2WY6G
     :title: Madera de Nogal Americano | Tym Forest
@@ -423,11 +425,11 @@
     :twitter:
       :title: seo-twitter
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/2YYECy1COk2gYAGE66OuAA/cf873b6952e37e4c191fa8c5cad46db9/seo-twitter.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/2YYECy1COk2gYAGE66OuAA/cf873b6952e37e4c191fa8c5cad46db9/seo-twitter.jpg"
     :og:
       :title: seo-facebook
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/29LgMLIt6E268AAIkcmu68/51bd70316831fad39d5ed69e7f816e4e/seo-facebook.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/29LgMLIt6E268AAIkcmu68/51bd70316831fad39d5ed69e7f816e4e/seo-facebook.jpg"
 - :id: 6lQ7PLt97y6G2EQEm2KyKS
   :titulo: Triplay de Okumé
   :name: Okumé
@@ -496,13 +498,13 @@
       :image:
         :title: dimensionado
         :description: imensionando un tablero en nuestra Sucursal de Nuevo Repueblo.
-        :url: "//images.contentful.com/rvnl2qm3k12r/4RPLkHg9LqoSYMwaguYskk/c8b9d2a9d29f1a1615af531e483d554e/dimensionado.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/4RPLkHg9LqoSYMwaguYskk/c8b9d2a9d29f1a1615af531e483d554e/dimensionado.jpg"
     :description: Cortes rectos con dimensionadora.
     :card:
       :title: corte-longitudinal
       :description: Trabajador de Tym Forest haciendo cortes longitudinales en un
         tablero de MDF blanco.
-      :url: "//images.contentful.com/rvnl2qm3k12r/2xyy1NNtX6qu2M6yCkwque/9371e035dfdfc7d44b86ca4e0cfeb306/corte-longitudinal.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/2xyy1NNtX6qu2M6yCkwque/9371e035dfdfc7d44b86ca4e0cfeb306/corte-longitudinal.jpg"
   - :id: bYH4OryRJ6aqomYIC4uGa
   - :id: 1rzxmGz364oO0o4ak2qIki
   - :id: 6PZid7ugikoWKeK02eqi2w
@@ -518,11 +520,11 @@
     :card:
       :title: tarjeta-principal
       :description: Enchapado de Okumé
-      :url: "//images.contentful.com/rvnl2qm3k12r/5bNmnIGDxKQiOSQAYGmSiU/0b7cfcf16daf642c6858f1402f4730b5/tarjeta-principal.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/5bNmnIGDxKQiOSQAYGmSiU/0b7cfcf16daf642c6858f1402f4730b5/tarjeta-principal.jpg"
     :card_detail:
       :title: tarjeta-detalle
       :description: Enchapado de Okumé
-      :url: "//images.contentful.com/rvnl2qm3k12r/2xGkkcodNqq4Ws8Oqsk8oC/fb0b7023ffdcf11ba32edf5d000cab6c/tarjeta-detalle.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/2xGkkcodNqq4Ws8Oqsk8oC/fb0b7023ffdcf11ba32edf5d000cab6c/tarjeta-detalle.jpg"
   - :id: 1ZcdXxQPcIy4qogccYGWsw
     :title: Listonado de Okumé
     :name: Okumé
@@ -565,17 +567,17 @@
         :card:
           :title: tarjeta-principal
           :description: Enchapado de Ebano
-          :url: "//images.contentful.com/rvnl2qm3k12r/bawAi9GbHaUYcmgYOmCiS/34c6400454e6a82ec6f3cbaa81a32bf5/tarjeta-principal.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/bawAi9GbHaUYcmgYOmCiS/34c6400454e6a82ec6f3cbaa81a32bf5/tarjeta-principal.jpg"
         :card_detail:
           :title: tarjeta-detalle
           :description: Enchapado de Ebano
-          :url: "//images.contentful.com/rvnl2qm3k12r/PAbKZ63W4SoAYOQgimu0a/65aebd70096b835ce1c73d7cc945ed14/tarjeta-detalle.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/PAbKZ63W4SoAYOQgimu0a/65aebd70096b835ce1c73d7cc945ed14/tarjeta-detalle.jpg"
       - :id: 4cLsQTSVSosWEuemGykCAm
       - :id: 5Lee3G0e88uq82o0geCMe6
       :card:
         :title: tarjeta-principal
         :description: Listonado
-        :url: "//images.contentful.com/rvnl2qm3k12r/6cOtKe8DHUMQUSyUQqIEQc/6bda99ecad4093c7a1d2ad3211a4801f/tarjeta-principal.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/6cOtKe8DHUMQUSyUQqIEQc/6bda99ecad4093c7a1d2ad3211a4801f/tarjeta-principal.jpg"
       :seo:
         :id: 1Och3FcR3C4OomMYCO4E2a
         :title: Listonado | Tym Forest
@@ -584,20 +586,29 @@
         :twitter:
           :title: seo-twitter
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/63ru9tTPkAW40IGe64qgEo/de49e6d95f8ca6f3507f40ac39c7e02f/seo-twitter.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/63ru9tTPkAW40IGe64qgEo/de49e6d95f8ca6f3507f40ac39c7e02f/seo-twitter.jpg"
         :og:
           :title: seo-facebook
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/40o6QfBwicqyea22QAkGkS/6321b8720a73135de74878ca9c408385/seo-facebook.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/40o6QfBwicqyea22QAkGkS/6321b8720a73135de74878ca9c408385/seo-facebook.jpg"
     :is_sale: false
+    :measurements_on_sale:
+    - :id: 4EhK2gXxeM02EQAu8C4Cym
+      :price: "$595.05"
+      :measurement: '15'
+      :unit: mm
+    - :id: 7LiHkmQeNqyWYq4qwqkmMC
+      :price: "$661.05"
+      :measurement: '18'
+      :unit: mm
     :card:
       :title: tarjeta-principal
       :description: Listonado de Okumé
-      :url: "//images.contentful.com/rvnl2qm3k12r/5C0rJL0jRe4wmSaqComIo6/f9c7bdd2b1ca87c5b08a48f9125daeb6/tarjeta-principal.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/5C0rJL0jRe4wmSaqComIo6/f9c7bdd2b1ca87c5b08a48f9125daeb6/tarjeta-principal.jpg"
     :card_detail:
       :title: tarjeta-detalle
       :description: Listonado de Okumé
-      :url: "//images.contentful.com/rvnl2qm3k12r/sXhMNLduzAcQ4OaQogis/085d08f3a05e9d0528fc927525dfb18b/tarjeta-detalle.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/sXhMNLduzAcQ4OaQogis/085d08f3a05e9d0528fc927525dfb18b/tarjeta-detalle.jpg"
   - :id: 4cLsQTSVSosWEuemGykCAm
     :titulo: Tablero de MDF
     :name: MDF
@@ -674,21 +685,21 @@
     :card:
       :title: tarjeta-principal
       :description: Tablero de MDF
-      :url: "//images.contentful.com/rvnl2qm3k12r/6kPAQFZTiMg2cMyikkuemM/019fc0661ad2d219cf49a820474d4831/tarjeta-principal.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/6kPAQFZTiMg2cMyikkuemM/019fc0661ad2d219cf49a820474d4831/tarjeta-principal.jpg"
     :detail_images:
       :id: 1HUvPnvoaYYwGiaG4YEGSC
       :mobile:
         :title: detalle-movil
         :description: Tablero de MDF
-        :url: "//images.contentful.com/rvnl2qm3k12r/2oyOtYrFOo2cGyGyaioAqk/5311e267cf1aaf8994981518041c5742/detalle-movil.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/2oyOtYrFOo2cGyGyaioAqk/5311e267cf1aaf8994981518041c5742/detalle-movil.jpg"
       :tablet:
         :title: detalle-tablet
         :description: Tablero de MDF
-        :url: "//images.contentful.com/rvnl2qm3k12r/58u8Pl5qIouYwCwgCIyGu2/9d3fdda76dd2be530c0eddcd453b27c4/detalle-tablet.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/58u8Pl5qIouYwCwgCIyGu2/9d3fdda76dd2be530c0eddcd453b27c4/detalle-tablet.jpg"
       :desktop:
         :title: detalle-desktop
         :description: Tablero de MDF
-        :url: "//images.contentful.com/rvnl2qm3k12r/Z1LqpNrAGIcOgkwc2k8GC/236951a4743da04660178052e7b6ff88/detalle-desktop.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/Z1LqpNrAGIcOgkwc2k8GC/236951a4743da04660178052e7b6ff88/detalle-desktop.jpg"
     :seo:
       :id: 5PaiFsXHPi6MIsMKyuW0UA
       :title: Tablero de MDF | Tym Forest
@@ -698,11 +709,11 @@
       :twitter:
         :title: seo-twitter
         :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/6ffwVuwNe8CU8eAUk4OqWE/d5a5b127651d2bcf4756ce8e9dee5038/seo-twitter.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/6ffwVuwNe8CU8eAUk4OqWE/d5a5b127651d2bcf4756ce8e9dee5038/seo-twitter.jpg"
       :og:
         :title: seo-facebook
         :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/s4tTwhdqNikIOqSGoIu2i/c09a35986115d49467ea6a255921b2e7/seo-facebook.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/s4tTwhdqNikIOqSGoIu2i/c09a35986115d49467ea6a255921b2e7/seo-facebook.jpg"
   - :id: 1OYb1akSCcOeuYCKiY2e4K
     :titulo: Madera de Pino Chileno
     :name: Pino Chileno
@@ -712,7 +723,7 @@
       :hero_image:
         :title: portada
         :description: Favor de agregar descripción de imágen
-        :url: "//images.contentful.com/rvnl2qm3k12r/5nODNj89tCeMgKSaQIUqqW/a4da372796e3735cd28b6b484da6e6fb/portada.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/5nODNj89tCeMgKSaQIUqqW/a4da372796e3735cd28b6b484da6e6fb/portada.jpg"
       :seo:
         :id: 3UO9I212hqMSsiyiAw4eE8
         :title: Maderas | Tym Forest
@@ -720,11 +731,11 @@
         :twitter:
           :title: seo-twitter
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/4sfuW1NioMoKIMkCw8KS48/0225ef0a4508e89e0fdb3a8199348446/seo-twitter.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/4sfuW1NioMoKIMkCw8KS48/0225ef0a4508e89e0fdb3a8199348446/seo-twitter.jpg"
         :og:
           :title: seo-facebook
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/bd9ATTN2kS6Ye0gIOKSqG/ce40961a7f13961d545081e291a4d669/seo-facebook.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/bd9ATTN2kS6Ye0gIOKSqG/ce40961a7f13961d545081e291a4d669/seo-facebook.jpg"
     :is_sale: false
     :is_unit: true
     :description: 'La madera de pino chileno es conocida por su precio competitivo
@@ -735,7 +746,7 @@
     - :id: 1C0KiYXhIM46m4SAG2gesI
       :name: Largos
       :unidad: ft
-      :is_range: true
+      :is_range: false
       :measurements:
       - '8'
       - '10'
@@ -746,7 +757,7 @@
     - :id: 6M7JpK82GIUymo6QEkKkqM
       :name: Anchos
       :unidad: in
-      :is_range: true
+      :is_range: false
       :measurements:
       - '4'
       - '6'
@@ -795,7 +806,7 @@
       :card:
         :title: corte-transversal
         :description: Máquina de péndulo para hacer cortes transversales en maderas.
-        :url: "//images.contentful.com/rvnl2qm3k12r/1BBRhjU65Ggm68c2KWsqcw/072ebc2615e2bc78e77a7b2339ace26f/corte-transversal.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/1BBRhjU65Ggm68c2KWsqcw/072ebc2615e2bc78e77a7b2339ace26f/corte-transversal.jpg"
     - :id: 1GRDKIV83GSwSkgUQCOOCy
       :title: Cepillado de Caras para Maderas
       :nombre: Cepillado de Caras
@@ -809,12 +820,12 @@
           :title: cepillado
           :description: Cepillando tablas de Madera de Pino Nacional en Sucursal Fidel
             Velázquez.
-          :url: "//images.contentful.com/rvnl2qm3k12r/4UJYrflZ72wOm4EgyaUOm/0a357bd80bbfd8813e4bde5fdc2ad16c/cepillado.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/4UJYrflZ72wOm4EgyaUOm/0a357bd80bbfd8813e4bde5fdc2ad16c/cepillado.jpg"
       :description: Cepillo de alto rendimiento con corte helicoidal.
       :card:
         :title: cepillado-de-caras
         :description: Cepillando caras en tablas de Madera de Pino Nacional
-        :url: "//images.contentful.com/rvnl2qm3k12r/1U04lQdXyUMiWSWweEOEqy/cbe18338290830af56a8c6f431deef8f/cepillado-de-caras.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/1U04lQdXyUMiWSWweEOEqy/cbe18338290830af56a8c6f431deef8f/cepillado-de-caras.jpg"
     - :id: 1rzxmGz364oO0o4ak2qIki
     - :id: 6PZid7ugikoWKeK02eqi2w
     :products:
@@ -826,25 +837,22 @@
       :is_sale: false
       :is_unit: true
       :description: La madera de pino mexicana proviene de aserraderos de Chihuahua,
-        Durango  y Michoacan, esta madera es conocida por su precio competitivo y
-        sus multiples usos. La industria de la construcción la utiliza para cimbra
-        al igual que el Triplay de pino nacional.
+        esta madera es conocida por su precio competitivo y sus multiples usos.
       :measurements:
       - :id: 6HTjEhKn5eSKcgIQ6ICikA
         :name: Largos
         :unidad: ft
-        :is_range: true
+        :is_range: false
         :measurements:
         - '8'
         - '10'
         - '12'
         - '14'
         - '16'
-        - '18'
       - :id: 5rCupmc1kA6I0M8qCOiWma
         :name: Anchos
         :unidad: in
-        :is_range: true
+        :is_range: false
         :measurements:
         - '2'
         - '4'
@@ -896,7 +904,7 @@
         :card:
           :title: tratado-ht
           :description: Madera de Pino Nacional con un sello 'HT'.
-          :url: "//images.contentful.com/rvnl2qm3k12r/4vepmPvrHyqioMcKySSE04/a32b557bcd3f3f783d3d0db0e92ef25d/tratado-ht.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/4vepmPvrHyqioMcKySSE04/a32b557bcd3f3f783d3d0db0e92ef25d/tratado-ht.jpg"
       - :id: 1rzxmGz364oO0o4ak2qIki
       :products:
       - :id: 2ve8DiQgv26WymyAuA2q4e
@@ -906,21 +914,21 @@
       :card:
         :title: tarjeta-principal
         :description: Madera de Pino Nacional
-        :url: "//images.contentful.com/rvnl2qm3k12r/4zAG2tWvCM28KGoUsIeCYm/1e1256313c92c9b49a5a3512d78369a8/tarjeta-principal.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/4zAG2tWvCM28KGoUsIeCYm/1e1256313c92c9b49a5a3512d78369a8/tarjeta-principal.jpg"
       :detail_images:
         :id: rH3tPZmJ6oI4sOcwWgiky
         :mobile:
           :title: detalle-movil
           :description: Madera de Pino Nacional
-          :url: "//images.contentful.com/rvnl2qm3k12r/7ihc5c53bykoksAokA60Ua/271cf89a7af1a9dcf489bfd9ba53c4af/detalle-movil.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/7ihc5c53bykoksAokA60Ua/271cf89a7af1a9dcf489bfd9ba53c4af/detalle-movil.jpg"
         :tablet:
           :title: detalle-tablet
           :description: Madera de Pino Nacional
-          :url: "//images.contentful.com/rvnl2qm3k12r/7BepXGR7gsu6mmgYks6Yek/cc21f22a5c9cf72644d9ffe48234f830/detalle-tablet.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/7BepXGR7gsu6mmgYks6Yek/cc21f22a5c9cf72644d9ffe48234f830/detalle-tablet.jpg"
         :desktop:
           :title: detalle-desktop
           :description: Madera de Pino Nacional
-          :url: "//images.contentful.com/rvnl2qm3k12r/3MXPn1WtfOeuMKuksssquK/e20a5abc48e4595ccae86f9d92e71e2f/detalle-desktop.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/3MXPn1WtfOeuMKuksssquK/e20a5abc48e4595ccae86f9d92e71e2f/detalle-desktop.jpg"
       :seo:
         :id: 1YOc2aLMjesc8mCo0UIiAK
         :title: 'Madera de Pino Nacional | Tym Forest '
@@ -930,11 +938,11 @@
         :twitter:
           :title: seo-twitter
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/5fUddOft68OOKo4i8Uu6U8/dd22d85c83473c6a4b140ad5aa9897f5/seo-twitter.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/5fUddOft68OOKo4i8Uu6U8/dd22d85c83473c6a4b140ad5aa9897f5/seo-twitter.jpg"
         :og:
           :title: seo-facebook
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/1QTBfXTyS8Sqyiqycmg2aQ/fbe02b8f2dfd007bcfe4e933e3531fdb/seo-facebook.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/1QTBfXTyS8Sqyiqycmg2aQ/fbe02b8f2dfd007bcfe4e933e3531fdb/seo-facebook.jpg"
     - :id: 2ve8DiQgv26WymyAuA2q4e
       :titulo: Madera de Pino Ponderosa
       :name: Pino Ponderosa
@@ -950,7 +958,7 @@
       - :id: 5VUdty8YXSuUugUi6weMOs
         :name: Largos
         :unidad: ft
-        :is_range: true
+        :is_range: false
         :measurements:
         - '6'
         - '8'
@@ -961,7 +969,7 @@
       - :id: qeSaRZ6Ir6WeuE8g4Ekyi
         :name: Anchos
         :unidad: in
-        :is_range: true
+        :is_range: false
         :measurements:
         - '8'
       - :id: Q4ivYei3e0sQ2kE066u0i
@@ -974,6 +982,11 @@
       - '3'
       :treatments:
       - Estufado
+      :measurements_on_sale:
+      - :id: 4QPSE2IObmkUUWik0okCgo
+        :price: "$368.25"
+        :measurement: 'BC 9 '
+        :unit: mm
       :details:
       - :id: 3oD2QP2fLWSoIsiQ0cQCqE
         :title: Latín
@@ -994,11 +1007,12 @@
         :title: Albura
         :description: Color amarillo casi blanco
       :services:
-      - :id: 6XZFBrMht6as4kU6Kqecmc
       - :id: 1GRDKIV83GSwSkgUQCOOCy
+      - :id: 6XZFBrMht6as4kU6Kqecmc
       - :id: 1rzxmGz364oO0o4ak2qIki
       - :id: 6PZid7ugikoWKeK02eqi2w
       :products:
+      - :id: 1OYb1akSCcOeuYCKiY2e4K
       - :id: 4D4LQQlVBuskyAIgegEkSq
         :titulo: Madera de Pino Americano
         :name: Pino Americano
@@ -1080,13 +1094,13 @@
             :image:
               :title: tratamientos
               :description: Madera de Pino Nacional con sello visible de HT.
-              :url: "//images.contentful.com/rvnl2qm3k12r/36iQp0AgSAOamE0AKOqeay/9d5abfc6b6e39d90f253773a5ab0abb8/tratamientos.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/36iQp0AgSAOamE0AKOqeay/9d5abfc6b6e39d90f253773a5ab0abb8/tratamientos.jpg"
           :description: Tratamiento químico para uso de madera en exterior.
           :card:
             :title: sales-de-cobre
             :description: Maderas con un tono verdoso por ser tratadas con sales de
               cobre.
-            :url: "//images.contentful.com/rvnl2qm3k12r/3IqVbeHJP2SsmW0Gym4m4m/9d997d5acbc6b6411656dd13a5c0eea9/sales-de-cobre.jpg"
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/3IqVbeHJP2SsmW0Gym4m4m/9d997d5acbc6b6411656dd13a5c0eea9/sales-de-cobre.jpg"
         - :id: 1rzxmGz364oO0o4ak2qIki
         - :id: 6PZid7ugikoWKeK02eqi2w
         :products:
@@ -1130,6 +1144,12 @@
           - FAS
           :treatments:
           - Estufado
+          :measurements_on_sale:
+          - :id: 1WeeQIFm9iwqSGWc2IkMSs
+          - :id: 1KCx81fkTa822M4IWSQ6KK
+            :price: "$588.04"
+            :measurement: BC 18
+            :unit: mm
           :details:
           - :id: 10uz9hJJkyGkMKme2wMMCo
             :title: Latín
@@ -1160,7 +1180,7 @@
             :name: Banak
             :category:
               :id: 427HuWIDOwEgGAy06aOIUE
-            :is_sale: true
+            :is_sale: false
             :is_unit: false
             :description: La madera de Banak es una madera tropical , de densidad
               media , su color va de café rosado a café rojizo es fácil para trabajar
@@ -1200,9 +1220,9 @@
               :measurement: '1'
               :unit: pt
             - :id: 4uNQ9pxAU8wKIoqMWIWC6a
-              :price: "$41.99"
-              :measurement: '1.5'
-              :unit: pt
+              :price: "$401.73"
+              :measurement: '12'
+              :unit: mm
             - :id: 35RFeHBQMggGccA6688GOq
               :price: "$47.99"
               :measurement: '2'
@@ -1210,10 +1230,10 @@
             :applied_product_images:
             - :title: imagen-a
               :description: 'Imágen de Producto Aplicado de Prueba: A'
-              :url: "//images.contentful.com/rvnl2qm3k12r/39H1dWXrr2YICgG6IgGKAm/d8c9607aec42d0affecf382b2781364f/imagen-a.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/39H1dWXrr2YICgG6IgGKAm/d8c9607aec42d0affecf382b2781364f/imagen-a.jpg"
             - :title: imagen-b
               :description: 'Imágen de Producto Aplicado de Prueba: B'
-              :url: "//images.contentful.com/rvnl2qm3k12r/1Au1UpMka0oe8UQSkc6eC6/d066acd83e4a30e78a9f986b13ce342c/imagen-b.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/1Au1UpMka0oe8UQSkc6eC6/d066acd83e4a30e78a9f986b13ce342c/imagen-b.jpg"
             :details:
             - :id: 6i50birUEE22mg2OkqqYgc
               :title: Latín
@@ -1233,13 +1253,9 @@
             - :id: 5emWjlQkhy6CuciCyoKEsc
               :title: Albura
               :description: Pardo nerguzco a gris
-            :documentation:
-              :title: "#00001"
-              :description: 
-              :url: "//assets.contentful.com/rvnl2qm3k12r/4C44ySPEYMYEGcGwgK2Ceg/c7c5af7fcdf45092d5081d774804e48e/_00001.pdf"
             :services:
-            - :id: 6XZFBrMht6as4kU6Kqecmc
             - :id: 3tsjNXmTIcyEskyaAwCIkW
+            - :id: 6XZFBrMht6as4kU6Kqecmc
             - :id: 1GRDKIV83GSwSkgUQCOOCy
             - :id: 1rzxmGz364oO0o4ak2qIki
             :products:
@@ -1250,21 +1266,21 @@
             :card:
               :title: tarjeta-principal
               :description: Madera de Banak
-              :url: "//images.contentful.com/rvnl2qm3k12r/1o1qs7stPiu2GUI26sQ22W/971dd99ac3cfa9c7819295f1e245ed40/tarjeta-principal.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/1o1qs7stPiu2GUI26sQ22W/971dd99ac3cfa9c7819295f1e245ed40/tarjeta-principal.jpg"
             :detail_images:
               :id: 3YhlfMKYBySoOyoSyCKKYY
               :mobile:
                 :title: detalle-movil
                 :description: Madera de Banak
-                :url: "//images.contentful.com/rvnl2qm3k12r/1MbhlP2AMwwa6uwoYucWm2/e2ad567cbfe567f22b1617768f713e6d/detalle-movil.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/1MbhlP2AMwwa6uwoYucWm2/e2ad567cbfe567f22b1617768f713e6d/detalle-movil.jpg"
               :tablet:
                 :title: detalle-tablet
                 :description: Madera de Banak
-                :url: "//images.contentful.com/rvnl2qm3k12r/5I6YqyWVS8wGsw42okEeeM/9c92d6e45293e1cf80a9100a8b46e890/detalle-tablet.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/5I6YqyWVS8wGsw42okEeeM/9c92d6e45293e1cf80a9100a8b46e890/detalle-tablet.jpg"
               :desktop:
                 :title: detalle-desktop
                 :description: Madera de Banak
-                :url: "//images.contentful.com/rvnl2qm3k12r/3qbdD95uEMUCcW4OgMCKqq/ff824e1996ce9bca21cf8830bd4632c9/detalle-desktop.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/3qbdD95uEMUCcW4OgMCKqq/ff824e1996ce9bca21cf8830bd4632c9/detalle-desktop.jpg"
             :seo:
               :id: 2pIpCETrpCeyoMWsIkqAi0
               :title: Madera de Banak | Tym Forest
@@ -1273,11 +1289,11 @@
               :twitter:
                 :title: seo-twitter
                 :description: 
-                :url: "//images.contentful.com/rvnl2qm3k12r/3hRbVdR4IMyEIQykWSCasC/742d104e173b02ed3d102091f0849a76/seo-twitter.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/3hRbVdR4IMyEIQykWSCasC/742d104e173b02ed3d102091f0849a76/seo-twitter.jpg"
               :og:
                 :title: seo-facebook
                 :description: 
-                :url: "//images.contentful.com/rvnl2qm3k12r/16KaoyzHzGM644YGc6UMCG/4c53b7e95f093d51c2f3b4b90944177d/seo-facebook.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/16KaoyzHzGM644YGc6UMCG/4c53b7e95f093d51c2f3b4b90944177d/seo-facebook.jpg"
           - :id: 1DN9mqj4yYwKKek6U6GQqK
           - :id: 1f9jSGDHT2esE6Igi4aMo
             :titulo: Madera de Encino
@@ -1319,15 +1335,8 @@
             - Estufado
             :measurements_on_sale:
             - :id: cZBNbvIxr20466mu4YWss
-              :price: "$37.40"
+              :price: "$54.91"
               :measurement: '1'
-            - :id: 3S1GPnoscoW0ywCgaAeMog
-              :price: "$39.00"
-              :measurement: '1.5'
-              :unit: pt
-            - :id: 5xp8sHoENOUOO8KUMyi0MS
-              :price: "$44.00"
-              :measurement: '2'
               :unit: pt
             :details:
             - :id: 5o5hTEGxJmoyaSWskQCcWy
@@ -1359,17 +1368,18 @@
                 :title: Dimensionado para Maderas
                 :nombre: Dimensionado
                 :category: Maderas
-                :description: Cortes rectos transversales y longitudinales a la medida.
+                :description: "Cortes rectos transversales y longitudinales a la medida.
+                  \U0001F332"
                 :image:
                   :title: dimensionado
                   :description: Dimensionando un tablero en nuestra Sucursal de Nuevo
                     Repueblo.
-                  :url: "//images.contentful.com/rvnl2qm3k12r/3qutJAFZ9eccSiC8Q024su/c7db74a632868a100bd306914a9662ba/dimensionado.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/3qutJAFZ9eccSiC8Q024su/c7db74a632868a100bd306914a9662ba/dimensionado.jpg"
               :description: Corte recto con sierra de mesa o sierra cinta.
               :card:
                 :title: corte-longitudinal
                 :description: Haciendo un corte longitudinal con una sierra vertical.
-                :url: "//images.contentful.com/rvnl2qm3k12r/6ILATemznywQEGwAeuaCK2/eb98a21a44b3216ed80850d500d77d92/corte-longitudinal.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/6ILATemznywQEGwAeuaCK2/eb98a21a44b3216ed80850d500d77d92/corte-longitudinal.jpg"
             - :id: 1GRDKIV83GSwSkgUQCOOCy
             - :id: 6PZid7ugikoWKeK02eqi2w
             :products:
@@ -1444,21 +1454,21 @@
               :card:
                 :title: tarjeta-principal
                 :description: Madera de Haya
-                :url: "//images.contentful.com/rvnl2qm3k12r/5kGGSXFIc0WaYuysC40W0S/9d2c37ff6e0796c406b86cadde0b8d9c/tarjeta-principal.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/5kGGSXFIc0WaYuysC40W0S/f5ba4b3468b5c35fa13498647381c9a4/tarjeta-principal.jpg"
               :detail_images:
                 :id: 3Et1nkASP6OCSGQoWuQC8I
                 :mobile:
                   :title: detalle-movil
                   :description: Madera de Haya
-                  :url: "//images.contentful.com/rvnl2qm3k12r/1Yi4VFjJgAw8IiS6UqwS6M/ada7f17683eab8f9fac4b11cecd14210/detalle-movil.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/1Yi4VFjJgAw8IiS6UqwS6M/1479a9176848b4df099719e40a9241f8/detalle-movil.jpg"
                 :tablet:
                   :title: detalle-tablet
                   :description: Madera de Haya
-                  :url: "//images.contentful.com/rvnl2qm3k12r/1UchrM0hQwQKaq8Ii6AmKa/37288333e21aa0146c104146c3bff23b/detalle-tablet.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/1UchrM0hQwQKaq8Ii6AmKa/cdeef1ba5b43298d40837cde7d1c5d81/detalle-tablet.jpg"
                 :desktop:
                   :title: detalle-desktop
                   :description: 
-                  :url: "//images.contentful.com/rvnl2qm3k12r/q0sI68msz6KIAwWua2iIo/4016e9aea5264ced4aa3481b09118ba3/detalle-desktop.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/q0sI68msz6KIAwWua2iIo/0552d3767b2272e020ee907fb4c2ca9a/detalle-desktop.jpg"
               :seo:
                 :id: 6EzH4rXOakeek0aoiaYcKI
                 :title: Madera de Haya | Tym Forest
@@ -1467,30 +1477,30 @@
                 :twitter:
                   :title: seo-twitter
                   :description: 
-                  :url: "//images.contentful.com/rvnl2qm3k12r/1qC4H7Gn8wq842y6ASmKy2/01ebd89835a5b390bb98b825e88f2916/seo-twitter.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/1qC4H7Gn8wq842y6ASmKy2/655093f0b72e3e51bd5f3c7dd1671df3/seo-twitter.jpg"
                 :og:
                   :title: seo-facebook
                   :description: 
-                  :url: "//images.contentful.com/rvnl2qm3k12r/5X4YnipEUocgEoSMAuEaG8/8804213ae61c296c6955d83721d56358/seo-facebook.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/5X4YnipEUocgEoSMAuEaG8/08ab8bab6c25b57409704d71d924cd9a/seo-facebook.jpg"
             - :id: 4JaQi92ihqWOseoWIoIyE8
             :card:
               :title: tarjeta-principal
               :description: Madera de Encino
-              :url: "//images.contentful.com/rvnl2qm3k12r/2EC18lgzRaSWIEWEGAmMGc/248baddfb633c27ba9f8061619d98036/tarjeta-principal.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/2EC18lgzRaSWIEWEGAmMGc/c1718b8995a4668aea7ac3384436d6a7/tarjeta-principal.jpg"
             :detail_images:
               :id: maDIuhrKKGcUU2u6qYA6K
               :mobile:
                 :title: detalle-movil
                 :description: Madera de Encino
-                :url: "//images.contentful.com/rvnl2qm3k12r/3jqwXcgy2QMmuweA4Gm8Mk/56de25d8b7dd4cf743dd068d837cd83c/detalle-movil.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/3jqwXcgy2QMmuweA4Gm8Mk/2e0d7d789e8f5c389af04db0224791a5/detalle-movil.jpg"
               :tablet:
                 :title: detalle-tablet
                 :description: Madera de Encino
-                :url: "//images.contentful.com/rvnl2qm3k12r/4jNxczJE5iuGUkoQOSeeuO/ccfdbad78a3574e9a043ecb371c13587/detalle-tablet.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/4jNxczJE5iuGUkoQOSeeuO/d2a19a11dd0c13e58a2fbb2ea1920b7a/detalle-tablet.jpg"
               :desktop:
                 :title: detalle-desktop
                 :description: Madera para Encino
-                :url: "//images.contentful.com/rvnl2qm3k12r/5xCq5dEQvKuGyAo2UU4K0m/85f772438177d6cddecea8b9aa41936f/detalle-desktop.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/5xCq5dEQvKuGyAo2UU4K0m/332561c06ec7941f1369455cbdffb6df/detalle-desktop.jpg"
             :seo:
               :id: 7rPUwETCPmAKaMsgS0cMke
               :title: Madera de Encino | Tym Forest
@@ -1500,11 +1510,11 @@
               :twitter:
                 :title: seo-twitter
                 :description: 
-                :url: "//images.contentful.com/rvnl2qm3k12r/66hkNG8A2AuwowmoKqy0UC/4b85f7fe8edc42d99388a638b1aa315a/seo-twitter.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/66hkNG8A2AuwowmoKqy0UC/4b85f7fe8edc42d99388a638b1aa315a/seo-twitter.jpg"
               :og:
                 :title: seo-facebook
                 :description: 
-                :url: "//images.contentful.com/rvnl2qm3k12r/1tOMo3HygQCoOW2aGQaOAg/de803a9b0289dc8619aa7491f618a8dc/seo-facebook.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/1tOMo3HygQCoOW2aGQaOAg/de803a9b0289dc8619aa7491f618a8dc/seo-facebook.jpg"
           - :id: 2a8OZwBztymYYyCsKiKQ2Q
             :titulo: Madera de Tzalam
             :name: Tzalam
@@ -1601,6 +1611,15 @@
                 - '5'
               :classes:
               - BC
+              :measurements_on_sale:
+              - :id: 2yrh8HoppeyycgIEswsMMQ
+                :price: "$71.25"
+                :measurement: '244'
+                :unit: mm
+              - :id: 3N2n1HlBi8UCUAQaWe8MKU
+                :price: "$118.36"
+                :measurement: '1'
+                :unit: pt
               :details:
               - :id: 12ea0hm6IoK4gkmiameIcu
                 :title: Latín
@@ -1760,21 +1779,21 @@
                   :card:
                     :title: tarjeta-principal
                     :description: Triplay de Poplar
-                    :url: "//images.contentful.com/rvnl2qm3k12r/hn8HeQ9pduESeG4CaiYsi/0ba3f804b1511d6c1c8a848b6eefffd6/tarjeta-principal.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/hn8HeQ9pduESeG4CaiYsi/0ba3f804b1511d6c1c8a848b6eefffd6/tarjeta-principal.jpg"
                   :detail_images:
                     :id: 5JmNwjC9VKQG8SekkEs68Q
                     :mobile:
                       :title: detalle-movil
                       :description: Triplay de Poplar
-                      :url: "//images.contentful.com/rvnl2qm3k12r/3m3eYQmbfiu6KkYsEoC42C/252a3530fb5969f64b3608dec24d9ca8/detalle-movil.jpg"
+                      :url: "//images.ctfassets.net/rvnl2qm3k12r/3m3eYQmbfiu6KkYsEoC42C/252a3530fb5969f64b3608dec24d9ca8/detalle-movil.jpg"
                     :tablet:
                       :title: detalle-tablet
                       :description: Triplay de Poplar
-                      :url: "//images.contentful.com/rvnl2qm3k12r/2WheeGnIVWYGumOQewKEC/4e61caac483974b6c456daa515d42f80/detalle-tablet.jpg"
+                      :url: "//images.ctfassets.net/rvnl2qm3k12r/2WheeGnIVWYGumOQewKEC/4e61caac483974b6c456daa515d42f80/detalle-tablet.jpg"
                     :desktop:
                       :title: detalle-desktop
                       :description: Triplay de Poplar
-                      :url: "//images.contentful.com/rvnl2qm3k12r/62NjMcXMdyy6WA4cGuqYSi/f92733416c0362cf82d09117c76a5577/detalle-desktop.jpg"
+                      :url: "//images.ctfassets.net/rvnl2qm3k12r/62NjMcXMdyy6WA4cGuqYSi/f92733416c0362cf82d09117c76a5577/detalle-desktop.jpg"
                   :seo:
                     :id: 1NCzUytTby2MkOeSMeAsA2
                     :title: Triplay de Poplar | Tym Forest
@@ -1784,29 +1803,29 @@
                     :twitter:
                       :title: seo-twitter
                       :description: 
-                      :url: "//images.contentful.com/rvnl2qm3k12r/5PY9MuthhSISamKo2QW6mu/a89ed33a269fe1e36c562923b2458a35/seo-twitter.jpg"
+                      :url: "//images.ctfassets.net/rvnl2qm3k12r/5PY9MuthhSISamKo2QW6mu/a89ed33a269fe1e36c562923b2458a35/seo-twitter.jpg"
                     :og:
                       :title: seo-facebook
                       :description: 
-                      :url: "//images.contentful.com/rvnl2qm3k12r/71DMWhSc8MuMuIqqIqcwmm/2f3207d2ddf3da28716759e37ba3abc0/seo-facebook.jpg"
+                      :url: "//images.ctfassets.net/rvnl2qm3k12r/71DMWhSc8MuMuIqqIqcwmm/2f3207d2ddf3da28716759e37ba3abc0/seo-facebook.jpg"
                 :card:
                   :title: tarjeta-principal
                   :description: Triplay de Encino
-                  :url: "//images.contentful.com/rvnl2qm3k12r/5jDGpDFwLKMMGEWMIsGEQs/951cb0b7b0ddc76bb6cf71d1c1fc493a/tarjeta-principal.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/5jDGpDFwLKMMGEWMIsGEQs/951cb0b7b0ddc76bb6cf71d1c1fc493a/tarjeta-principal.jpg"
                 :detail_images:
                   :id: 6Nx7YuqcAEewoWU4CEGKUi
                   :mobile:
                     :title: detalle-movil
                     :description: Triplay de Encino
-                    :url: "//images.contentful.com/rvnl2qm3k12r/4uGlEkLALmwWccOswMmEaW/13f2a6a3b28811556deae40ec3edcca1/detalle-movil.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/4uGlEkLALmwWccOswMmEaW/13f2a6a3b28811556deae40ec3edcca1/detalle-movil.jpg"
                   :tablet:
                     :title: detalle-tablet
                     :description: Triplay de Encino
-                    :url: "//images.contentful.com/rvnl2qm3k12r/7GBKjK0vle2WYmWyI4MOKq/6aaf360d1000b9c65f788c263c671e50/detalle-tablet.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/7GBKjK0vle2WYmWyI4MOKq/6aaf360d1000b9c65f788c263c671e50/detalle-tablet.jpg"
                   :desktop:
                     :title: detalle-desktop
                     :description: Triplay de Encino
-                    :url: "//images.contentful.com/rvnl2qm3k12r/790IbPGGrKYQ86Y8OGGggU/81a39b6d1853ff564061dc694fdf26a2/detalle-desktop.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/790IbPGGrKYQ86Y8OGGggU/81a39b6d1853ff564061dc694fdf26a2/detalle-desktop.jpg"
                 :seo:
                   :id: eptU5vpttuEkI2GMc28C6
                   :title: Triplay de Encino | Tym Forest
@@ -1816,30 +1835,30 @@
                   :twitter:
                     :title: seo-twitter
                     :description: 
-                    :url: "//images.contentful.com/rvnl2qm3k12r/6P6uTfKPzaC6KIUeQaW4e/f9bcd797171ba635656d236fca993234/seo-twitter.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/6P6uTfKPzaC6KIUeQaW4e/f9bcd797171ba635656d236fca993234/seo-twitter.jpg"
                   :og:
                     :title: seo-facebook
                     :description: 
-                    :url: "//images.contentful.com/rvnl2qm3k12r/7aHzKAiZXyoQW0g6QWuKaU/546bf834df32d789b90d2feee28692ed/seo-facebook.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/7aHzKAiZXyoQW0g6QWuKaU/546bf834df32d789b90d2feee28692ed/seo-facebook.jpg"
               - :id: 1ZcdXxQPcIy4qogccYGWsw
               :card:
                 :title: tarjeta-principal
                 :description: Triplay de Tzalam
-                :url: "//images.contentful.com/rvnl2qm3k12r/3rCB9KJifCaWeCcyAUe0iu/1f7e552bd2da6f973247bf902860c971/tarjeta-principal.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/3rCB9KJifCaWeCcyAUe0iu/1f7e552bd2da6f973247bf902860c971/tarjeta-principal.jpg"
               :detail_images:
                 :id: 3evjmMbOnCaaIsuS8WOSSW
                 :mobile:
                   :title: detalle-movil
                   :description: Triplay de Tzalam
-                  :url: "//images.contentful.com/rvnl2qm3k12r/2QroKmNQPYWg6Qa8o8gOiQ/16195c241fee92ffc85b1ccbd87432e2/detalle-movil.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/2QroKmNQPYWg6Qa8o8gOiQ/16195c241fee92ffc85b1ccbd87432e2/detalle-movil.jpg"
                 :tablet:
                   :title: detalle-tablet
                   :description: Triplay de Tzalam
-                  :url: "//images.contentful.com/rvnl2qm3k12r/3twEhBSQp26WYiAAUQsuU8/ffb1c820d4ce384080a37c0fffa20e17/detalle-tablet.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/3twEhBSQp26WYiAAUQsuU8/ffb1c820d4ce384080a37c0fffa20e17/detalle-tablet.jpg"
                 :desktop:
                   :title: detalle-desktop
                   :description: Triplay de Tzalam
-                  :url: "//images.contentful.com/rvnl2qm3k12r/3seVNNrqmI4Q4EEGCMUu2K/a64ae4298b0104dd36dd8d8e46398577/detalle-desktop.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/3seVNNrqmI4Q4EEGCMUu2K/a64ae4298b0104dd36dd8d8e46398577/detalle-desktop.jpg"
               :seo:
                 :id: 2YOz4ftpIQ88yUIWgUA8U4
                 :title: Triplay de Tzalam | Tym Forest
@@ -1849,11 +1868,11 @@
                 :twitter:
                   :title: seo-twitter
                   :description: 
-                  :url: "//images.contentful.com/rvnl2qm3k12r/5Crrvjxqr6SqaGIQMWeOSy/80f9a3730d651c90635517db26f596f5/seo-twitter.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/5Crrvjxqr6SqaGIQMWeOSy/80f9a3730d651c90635517db26f596f5/seo-twitter.jpg"
                 :og:
                   :title: seo-facebook
                   :description: 
-                  :url: "//images.contentful.com/rvnl2qm3k12r/5ygllcV0rKkM48sggQIm2u/789201e2eb386461a21ae2688a435675/seo-facebook.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/5ygllcV0rKkM48sggQIm2u/789201e2eb386461a21ae2688a435675/seo-facebook.jpg"
             - :id: 4JaQi92ihqWOseoWIoIyE8
             - :id: 1f9jSGDHT2esE6Igi4aMo
             - :id: aXx00SQo7KCK0uugIQUke
@@ -1900,16 +1919,16 @@
                   :card:
                     :title: tarjeta-principal
                     :description: Melamina de Aserrado Nórdico
-                    :url: "//images.contentful.com/rvnl2qm3k12r/1JXUnkdhSgYyCE8MMEcG6e/f4a42c04f13fcf101bca0907924a6868/tarjeta-principal.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/1JXUnkdhSgYyCE8MMEcG6e/f4a42c04f13fcf101bca0907924a6868/tarjeta-principal.jpg"
                   :card_detail:
                     :title: tarjeta-detalle
                     :description: Melamina de Aserrado Nórdico
-                    :url: "//images.contentful.com/rvnl2qm3k12r/2DQO8D1ahYqEco0K0sScAq/cab9caea26bb1477ec7610c0ab0df9f7/tarjeta-detalle.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/2DQO8D1ahYqEco0K0sScAq/cab9caea26bb1477ec7610c0ab0df9f7/tarjeta-detalle.jpg"
                 - :id: 4cLsQTSVSosWEuemGykCAm
                 :card:
                   :title: tarjeta-principal
                   :description: Enchapado
-                  :url: "//images.contentful.com/rvnl2qm3k12r/4gMBkuBRskicW4ms8CEmWq/328ce98bbdf5ed4e87a189c12a5903e1/tarjeta-principal.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/4gMBkuBRskicW4ms8CEmWq/328ce98bbdf5ed4e87a189c12a5903e1/tarjeta-principal.jpg"
                 :seo:
                   :id: 19cZJp1QTgQYiEM46OaKmo
                   :title: Enchapado | Tym Forest
@@ -1919,38 +1938,38 @@
                   :twitter:
                     :title: seo-twitter
                     :description: 
-                    :url: "//images.contentful.com/rvnl2qm3k12r/5cYZnN3K6sUKGg68e6AiWm/ab3bd07d7c1bd39f1a7d4a352af8190c/seo-twitter.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/5cYZnN3K6sUKGg68e6AiWm/ab3bd07d7c1bd39f1a7d4a352af8190c/seo-twitter.jpg"
                   :og:
                     :title: seo-facebook
                     :description: 
-                    :url: "//images.contentful.com/rvnl2qm3k12r/2B8lRZsu8Uyy8IkeGKSoOK/26b9c3e675af2f94e07a5244095a87df/seo-facebook.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/2B8lRZsu8Uyy8IkeGKSoOK/26b9c3e675af2f94e07a5244095a87df/seo-facebook.jpg"
               :is_sale: false
               :card:
                 :title: tarjeta-principal
                 :description: Enchapado de Nogal Americano
-                :url: "//images.contentful.com/rvnl2qm3k12r/fe8nLXgWnQSwMmmc4SE0e/597bee1249c60885108c08fcf0b061c9/tarjeta-principal.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/fe8nLXgWnQSwMmmc4SE0e/597bee1249c60885108c08fcf0b061c9/tarjeta-principal.jpg"
               :card_detail:
                 :title: tarjeta-detalle
                 :description: Enchapado de Nogal Americano
-                :url: "//images.contentful.com/rvnl2qm3k12r/2rZOJcAtgM8U0WewCCio4M/2a01812de62ae213e39a14ef6f78a7e4/tarjeta-detalle.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/2rZOJcAtgM8U0WewCCio4M/2a01812de62ae213e39a14ef6f78a7e4/tarjeta-detalle.jpg"
             :card:
               :title: tarjeta-principal
               :description: Madera de Tzalam
-              :url: "//images.contentful.com/rvnl2qm3k12r/1UK7utXOf6ec20gqoo0Amg/c2ad99e1d11799eeaa7cae87c1d76c57/tarjeta-principal.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/1UK7utXOf6ec20gqoo0Amg/c2ad99e1d11799eeaa7cae87c1d76c57/tarjeta-principal.jpg"
             :detail_images:
               :id: 5fkUhsGl6MkioqWmWMM8wC
               :mobile:
                 :title: detalle-movil
                 :description: Madera de Tzalam
-                :url: "//images.contentful.com/rvnl2qm3k12r/4XAQTLD35KkEq6GGqC6EaM/496960ff5f69adc034b28e44ba31d528/detalle-movil.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/4XAQTLD35KkEq6GGqC6EaM/496960ff5f69adc034b28e44ba31d528/detalle-movil.jpg"
               :tablet:
                 :title: detalle-tablet
                 :description: Madera de Tzalam
-                :url: "//images.contentful.com/rvnl2qm3k12r/4atkPJtQPSmAiucCukEySE/dff87bcf8518027d71908345c0b9bb89/detalle-tablet.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/4atkPJtQPSmAiucCukEySE/dff87bcf8518027d71908345c0b9bb89/detalle-tablet.jpg"
               :desktop:
                 :title: detalle-desktop
                 :description: Madera de Tzalam
-                :url: "//images.contentful.com/rvnl2qm3k12r/L37pQSGDYckSO4geMWmEI/7a75d364a5cfc2ffca9c82309921f85c/detalle-desktop.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/L37pQSGDYckSO4geMWmEI/7a75d364a5cfc2ffca9c82309921f85c/detalle-desktop.jpg"
             :seo:
               :id: 5BaE1Gab7OOsOoGOEmmO2E
               :title: Madera de Tzalam | Tym Forest
@@ -1960,29 +1979,29 @@
               :twitter:
                 :title: seo-twitter
                 :description: 
-                :url: "//images.contentful.com/rvnl2qm3k12r/4veqevuwX6oiS6AGOiiMmQ/d76df36bcf2c7511293dd820553735ed/seo-twitter.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/4veqevuwX6oiS6AGOiiMmQ/d76df36bcf2c7511293dd820553735ed/seo-twitter.jpg"
               :og:
                 :title: seo-facebook
                 :description: 
-                :url: "//images.contentful.com/rvnl2qm3k12r/1KDr6NeSlqiUWQesCICmUs/718790c23258b5d492ace5f564461118/seo-facebook.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/1KDr6NeSlqiUWQesCICmUs/718790c23258b5d492ace5f564461118/seo-facebook.jpg"
           :card:
             :title: tarjeta-principal
             :description: Madera de Poplar
-            :url: "//images.contentful.com/rvnl2qm3k12r/6ktbCuCgCWUCGqsgOEwwgo/b9b80443eb096ca3283fc93e5e58d0a5/tarjeta-principal.jpg"
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/6ktbCuCgCWUCGqsgOEwwgo/b9b80443eb096ca3283fc93e5e58d0a5/tarjeta-principal.jpg"
           :detail_images:
             :id: 6UNkNqNgHu4kmGG62cCo4A
             :mobile:
               :title: detalle-movil
               :description: Madera de Poplar
-              :url: "//images.contentful.com/rvnl2qm3k12r/52YFXsMSG4im4oEceegQIE/2b2117938228b009cfc768fab5877219/detalle-movil.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/52YFXsMSG4im4oEceegQIE/2b2117938228b009cfc768fab5877219/detalle-movil.jpg"
             :tablet:
               :title: detalle-tablet
               :description: 
-              :url: "//images.contentful.com/rvnl2qm3k12r/3wHNnBuGWI2MwK2WkAsiMq/22bcebc893f9932b688a836841094ba3/detalle-tablet.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/3wHNnBuGWI2MwK2WkAsiMq/22bcebc893f9932b688a836841094ba3/detalle-tablet.jpg"
             :desktop:
               :title: detalle-desktop
               :description: Madera de Poplar
-              :url: "//images.contentful.com/rvnl2qm3k12r/5Lw4kMlkHYoQEIEmY2Gsci/60267578d54abdf5a1cb7fde9d2e424a/detalle-desktop.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/5Lw4kMlkHYoQEIEmY2Gsci/60267578d54abdf5a1cb7fde9d2e424a/detalle-desktop.jpg"
           :seo:
             :id: 1XI2bEHmdmQI8a0mqKkI8w
             :title: Madera de Poplar | Tym Forest
@@ -1992,29 +2011,29 @@
             :twitter:
               :title: seo-twitter
               :description: 
-              :url: "//images.contentful.com/rvnl2qm3k12r/4RqYOSgVGws4eMQoq66We2/46f61158fbc79097086c7df3f047e5d3/seo-twitter.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/4RqYOSgVGws4eMQoq66We2/46f61158fbc79097086c7df3f047e5d3/seo-twitter.jpg"
             :og:
               :title: seo-facebook
               :description: 
-              :url: "//images.contentful.com/rvnl2qm3k12r/5dvRidlx6gqCG8mAeG6WK/e30340da37701fe526e071f044e35e0b/seo-facebook.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/5dvRidlx6gqCG8mAeG6WK/e30340da37701fe526e071f044e35e0b/seo-facebook.jpg"
         :card:
           :title: tarjeta-principal
           :description: Madera de Pino Americano
-          :url: "//images.contentful.com/rvnl2qm3k12r/6QmSDWWXgQmwmYGcmG0yIa/b7fa66716e05aad1cff650ff6fed9b44/tarjeta-principal.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/6QmSDWWXgQmwmYGcmG0yIa/b7fa66716e05aad1cff650ff6fed9b44/tarjeta-principal.jpg"
         :detail_images:
           :id: 4WJrNer6tOSs0aoOSI0eM0
           :mobile:
             :title: detalle-movil
             :description: Madera de Pino Americano
-            :url: "//images.contentful.com/rvnl2qm3k12r/PlvZ1PX2iASQWO6sUo6CY/bdf1e240ba1e6bf3cadf39e43da10bfa/detalle-movil.jpg"
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/PlvZ1PX2iASQWO6sUo6CY/bdf1e240ba1e6bf3cadf39e43da10bfa/detalle-movil.jpg"
           :tablet:
             :title: detalle-tablet
             :description: Madera de Pino Americano
-            :url: "//images.contentful.com/rvnl2qm3k12r/5D33DUZ2N2YmCYSKOQGGu6/2baa24d5bd060ed26e206d07e5969077/detalle-tablet.jpg"
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/5D33DUZ2N2YmCYSKOQGGu6/2baa24d5bd060ed26e206d07e5969077/detalle-tablet.jpg"
           :desktop:
             :title: detalle-desktop
             :description: 
-            :url: "//images.contentful.com/rvnl2qm3k12r/4q2Hqie1LiaKUM6qy0cQ8W/0e7e80560c0d0f9c9062ffcccd7d133b/detalle-desktop.jpg"
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/4q2Hqie1LiaKUM6qy0cQ8W/0e7e80560c0d0f9c9062ffcccd7d133b/detalle-desktop.jpg"
         :seo:
           :id: 45WEIvHMxie6YKk84cmyAG
           :title: Madera de Pino Americano | Tym Forest
@@ -2024,32 +2043,31 @@
           :twitter:
             :title: seo-twitter
             :description: 
-            :url: "//images.contentful.com/rvnl2qm3k12r/6IGy6dT5W800mEGs6EcSi0/a6b43d6a51846e8d27dd6af6fb6a8431/seo-twitter.jpg"
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/6IGy6dT5W800mEGs6EcSi0/a6b43d6a51846e8d27dd6af6fb6a8431/seo-twitter.jpg"
           :og:
             :title: seo-facebook
             :description: 
-            :url: "//images.contentful.com/rvnl2qm3k12r/6DeWoOd2GQUiaEAWCcs266/e927ea244abcf620f3701a8ff3345ee3/seo-facebook.jpg"
-      - :id: 1OYb1akSCcOeuYCKiY2e4K
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/6DeWoOd2GQUiaEAWCcs266/e927ea244abcf620f3701a8ff3345ee3/seo-facebook.jpg"
       - :id: 3xjzQznLhCOKQmo2CUM4Yk
       - :id: 4cLsQTSVSosWEuemGykCAm
       :card:
         :title: tarjeta-principal
         :description: Madera de Pino Ponderosa
-        :url: "//images.contentful.com/rvnl2qm3k12r/5gU0YjPV3aWciAWY0O0WoE/26181e78652ac203e88d49d40a0b14ea/tarjeta-principal.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/5gU0YjPV3aWciAWY0O0WoE/26181e78652ac203e88d49d40a0b14ea/tarjeta-principal.jpg"
       :detail_images:
         :id: 4onLjLHUOso86iao8OgIYU
         :mobile:
           :title: detalle-movil
           :description: Madera de Pino Ponderosa
-          :url: "//images.contentful.com/rvnl2qm3k12r/62rswQPtja4USEWAWmuqY6/1de3aaf9799f2986c6a48c3713d42e00/detalle-movil.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/62rswQPtja4USEWAWmuqY6/1de3aaf9799f2986c6a48c3713d42e00/detalle-movil.jpg"
         :tablet:
           :title: detalle-tablet
           :description: Madera de Pino Ponderosa
-          :url: "//images.contentful.com/rvnl2qm3k12r/6JNFj0l5bGasKiIA8WKKwc/b5523f89a55573eef0c09d4c605d4129/detalle-tablet.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/6JNFj0l5bGasKiIA8WKKwc/b5523f89a55573eef0c09d4c605d4129/detalle-tablet.jpg"
         :desktop:
           :title: detalle-desktop
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/6AKJPvpyCsYeWcEoQyOus0/14a94af9238ea5c87cdbb26471aa047e/detalle-desktop.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/6AKJPvpyCsYeWcEoQyOus0/14a94af9238ea5c87cdbb26471aa047e/detalle-desktop.jpg"
       :seo:
         :id: 4bwoDFy8SI0qE0wQMQ6EyO
         :title: Madera de Pino Ponderosa | Tym Forest
@@ -2058,11 +2076,11 @@
         :twitter:
           :title: seo-twitter
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/4YV6NK7SikscW8EKce6E8W/9a8e246d80d95aeb7aaf350c2e31ffdc/seo-twitter.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/4YV6NK7SikscW8EKce6E8W/9a8e246d80d95aeb7aaf350c2e31ffdc/seo-twitter.jpg"
         :og:
           :title: seo-facebook
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/2lvDD3ftmYUOu8kiyYaWYA/99b2397b50b35da19d42d42e6c2b6461/seo-facebook.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/2lvDD3ftmYUOu8kiyYaWYA/99b2397b50b35da19d42d42e6c2b6461/seo-facebook.jpg"
     - :id: e2ynE31Fxmakia4Ke62Aq
       :titulo: Triplay de Pino Chileno
       :name: Pino Chileno
@@ -2105,6 +2123,11 @@
       - BC
       :treatments:
       - Pegamento Fenólico
+      :measurements_on_sale:
+      - :id: 1WeeQIFm9iwqSGWc2IkMSs
+        :price: "$234.24"
+        :measurement: BC 5
+        :unit: mm
       :details:
       - :id: 2fDMZZmNdq8gYSIGmWCoeA
         :title: Latín
@@ -2137,21 +2160,21 @@
       :card:
         :title: tarjeta-principal
         :description: Triplay de Pino Chileno
-        :url: "//images.contentful.com/rvnl2qm3k12r/3R5hNOK8ZWCISWOMQCkcca/5d678372521b8233f54c21329fd4b46b/tarjeta-principal.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/3R5hNOK8ZWCISWOMQCkcca/5d678372521b8233f54c21329fd4b46b/tarjeta-principal.jpg"
       :detail_images:
         :id: 2azklOw1HuoqMykkweiyYW
         :mobile:
           :title: detalle-movil
           :description: Triplay de Pino Chileno
-          :url: "//images.contentful.com/rvnl2qm3k12r/24tcWmPYyAIKOG4QIwMAU2/41521c737ae4433f2923f9bd156e46e2/detalle-movil.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/24tcWmPYyAIKOG4QIwMAU2/41521c737ae4433f2923f9bd156e46e2/detalle-movil.jpg"
         :tablet:
           :title: detalle-tablet
           :description: Triplay de Pino Chileno
-          :url: "//images.contentful.com/rvnl2qm3k12r/f4rNrqqQViIAwsiaMEuQU/1f6bdc5f654c74ddfb7e9f358e813586/detalle-tablet.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/f4rNrqqQViIAwsiaMEuQU/1f6bdc5f654c74ddfb7e9f358e813586/detalle-tablet.jpg"
         :desktop:
           :title: detalle-desktop
           :description: Triplay de Pino Chileno
-          :url: "//images.contentful.com/rvnl2qm3k12r/1z82Xnfuh2ySkwuCUS0aqQ/05d04a9f2ac07dd4ecf8435e6ac2a9bb/detalle-desktop.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/1z82Xnfuh2ySkwuCUS0aqQ/05d04a9f2ac07dd4ecf8435e6ac2a9bb/detalle-desktop.jpg"
       :seo:
         :id: 1Vk7Z6hc7G8c0KO0M02Siy
         :title: Triplay de Pino Chileno | Tym Forest
@@ -2161,11 +2184,11 @@
         :twitter:
           :title: seo-twitter
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/4mCQxxk2MggaO0wcSuMe6y/945d3fb357ac091f4ee31551bd4e574e/seo-twitter.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/4mCQxxk2MggaO0wcSuMe6y/945d3fb357ac091f4ee31551bd4e574e/seo-twitter.jpg"
         :og:
           :title: seo-facebook
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/26PQrbHtPOK8aiKugyYwCQ/eea2582feaf4b2f418bb81d235ac891e/seo-facebook.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/26PQrbHtPOK8aiKugyYwCQ/eea2582feaf4b2f418bb81d235ac891e/seo-facebook.jpg"
     - :id: 5eCytdkTcI0kKcIEKGWQqM
       :titulo: Triplay de Pino Nacional
       :name: Pino Nacional
@@ -2324,13 +2347,13 @@
                 :title: adicionales
                 :description: Trabajadores de Tym Forest haciendo cortes para traslape
                   en la Sucursal de Matriz.
-                :url: "//images.contentful.com/rvnl2qm3k12r/7INs1Dmd5ScSuga88eoysm/1ab5cee9f4e8edb6067db76d079f6f1f/adicionales.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/7INs1Dmd5ScSuga88eoysm/1ab5cee9f4e8edb6067db76d079f6f1f/adicionales.jpg"
             :description: Taladro multiple automático para perforaciones precisas.
             :card:
               :title: perforado-para-bisagras
               :description: Perforando un tablero de MDF en nuestra Sucursal Sendero
                 en Monterrey, Nuevo León.
-              :url: "//images.contentful.com/rvnl2qm3k12r/7gA3DyKU24uiiuqAqsMaQO/9ad70bcf79b56f9a52f0eee85e79a78c/perforado-para-bisagras.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/7gA3DyKU24uiiuqAqsMaQO/9ad70bcf79b56f9a52f0eee85e79a78c/perforado-para-bisagras.jpg"
           - :id: 1rzxmGz364oO0o4ak2qIki
           - :id: 6PZid7ugikoWKeK02eqi2w
           :products:
@@ -2367,8 +2390,8 @@
               :measurements:
               - '12'
             :services:
-            - :id: 2RQNpk0MfuY2Ag4mwYs4KW
             - :id: 4M3EbIM7mUg6YEUSYomkYG
+            - :id: 2RQNpk0MfuY2Ag4mwYs4KW
             - :id: 1rzxmGz364oO0o4ak2qIki
             - :id: 6PZid7ugikoWKeK02eqi2w
             :products:
@@ -2379,21 +2402,21 @@
             :card:
               :title: tarjeta-principal
               :description: Tablero de Celotex
-              :url: "//images.contentful.com/rvnl2qm3k12r/6EgvW6q07YWcqiioiAacGI/56a1166601385adf187720f5447e45be/tarjeta-principal.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/6EgvW6q07YWcqiioiAacGI/56a1166601385adf187720f5447e45be/tarjeta-principal.jpg"
             :detail_images:
               :id: 462vNlHOHS0GIAAas0eA40
               :mobile:
                 :title: detalle-movil
                 :description: Tablero de Celotex
-                :url: "//images.contentful.com/rvnl2qm3k12r/2l2gN9lXGYUaSWuoEgmceQ/cd1df56839559d2338ec055b42106b45/detalle-movil.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/2l2gN9lXGYUaSWuoEgmceQ/cd1df56839559d2338ec055b42106b45/detalle-movil.jpg"
               :tablet:
                 :title: detalle-tablet
                 :description: Tablero de Celotex
-                :url: "//images.contentful.com/rvnl2qm3k12r/6BX3iGe8Mg0YckyUGimMMq/6bc23faff52654ac7606717fd6ce6cc1/detalle-tablet.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/6BX3iGe8Mg0YckyUGimMMq/6bc23faff52654ac7606717fd6ce6cc1/detalle-tablet.jpg"
               :desktop:
                 :title: detalle-desktop
                 :description: Tablero de Celotex
-                :url: "//images.contentful.com/rvnl2qm3k12r/5txUnLjStUsqYqioI8ieQS/b135c7b4b84201785be5bab98a90c2d7/detalle-desktop.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/5txUnLjStUsqYqioI8ieQS/b135c7b4b84201785be5bab98a90c2d7/detalle-desktop.jpg"
             :seo:
               :id: 5vUOE3C1sAmuiwm6kI2Uwu
               :title: Tablero de Celotex | Tym Forest
@@ -2402,11 +2425,11 @@
               :twitter:
                 :title: seo-twitter
                 :description: 
-                :url: "//images.contentful.com/rvnl2qm3k12r/1FY3tUJRrK4iYk4oecsWOO/fec875dd4b98248eaa07e27e214a0990/seo-twitter.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/1FY3tUJRrK4iYk4oecsWOO/fec875dd4b98248eaa07e27e214a0990/seo-twitter.jpg"
               :og:
                 :title: seo-facebook
                 :description: 
-                :url: "//images.contentful.com/rvnl2qm3k12r/3QTXOe8uvmq0oYceg4o8mW/049218f6568fec46616bb6935e4445e5/seo-facebook.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/3QTXOe8uvmq0oYceg4o8mW/049218f6568fec46616bb6935e4445e5/seo-facebook.jpg"
           - :id: 2s1ewSArfumuIciKM4OaM0
             :title: Melamina de Lombardía
             :name: Lombardía
@@ -2456,14 +2479,14 @@
                     :title: enchapados
                     :description: Trabajador de Tym Forest enchapando un tablero de
                       Okumé.
-                    :url: "//images.contentful.com/rvnl2qm3k12r/C7So59QLfisWkoWkMIwKi/17f7aa261a67be69d3e0520ff3b49685/enchapados.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/C7So59QLfisWkoWkMIwKi/17f7aa261a67be69d3e0520ff3b49685/enchapados.jpg"
                 :description: Enchapado de madera natural y melamina para canto de
                   tablero.
                 :card:
                   :title: enchapado-de-cantos
                   :description: Trabajador de Tym Forest enchapando los cantos de
                     un tablero de Okumé.
-                  :url: "//images.contentful.com/rvnl2qm3k12r/oT221fGk92C2I4O4628Ai/4d6bb5cc3f390b288c913c710b33aa2a/enchapado-de-cantos.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/oT221fGk92C2I4O4628Ai/4d6bb5cc3f390b288c913c710b33aa2a/enchapado-de-cantos.jpg"
               :products:
               - :id: 6FlMF9cpWgg2WMO2YW6oaU
               - :id: 5Lee3G0e88uq82o0geCMe6
@@ -2592,21 +2615,21 @@
                   :card:
                     :title: tarjeta-principal
                     :description: Triplay de Caobilla
-                    :url: "//images.contentful.com/rvnl2qm3k12r/5CFnHSaO88qKwe86uKacWy/7374562c24978b6078f0617861d1aa7d/tarjeta-principal.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/5CFnHSaO88qKwe86uKacWy/7374562c24978b6078f0617861d1aa7d/tarjeta-principal.jpg"
                   :detail_images:
                     :id: 1dGlaIjyPgQGU0iKA24W8U
                     :mobile:
                       :title: detalle-movil
                       :description: Triplay de Caobilla
-                      :url: "//images.contentful.com/rvnl2qm3k12r/3ZtfJbltNmwgSaeOWeUg4K/7c41948295e2b4328ffe7fcabc87e900/detalle-movil.jpg"
+                      :url: "//images.ctfassets.net/rvnl2qm3k12r/3ZtfJbltNmwgSaeOWeUg4K/7c41948295e2b4328ffe7fcabc87e900/detalle-movil.jpg"
                     :tablet:
                       :title: detalle-tablet
                       :description: Triplay de Caobilla
-                      :url: "//images.contentful.com/rvnl2qm3k12r/6RQNwSuSpqGigi6gOYUukC/9f67b8f6cfa7cd803d4d28c3461812e7/detalle-tablet.jpg"
+                      :url: "//images.ctfassets.net/rvnl2qm3k12r/6RQNwSuSpqGigi6gOYUukC/9f67b8f6cfa7cd803d4d28c3461812e7/detalle-tablet.jpg"
                     :desktop:
                       :title: detalle-desktop
                       :description: Triplay de Caobilla
-                      :url: "//images.contentful.com/rvnl2qm3k12r/6noGx2yxdmiyoOQWsCkkmk/1c42e23d776c9bebaf1ddd2dced7d1f1/detalle-desktop.jpg"
+                      :url: "//images.ctfassets.net/rvnl2qm3k12r/6noGx2yxdmiyoOQWsCkkmk/1c42e23d776c9bebaf1ddd2dced7d1f1/detalle-desktop.jpg"
                   :seo:
                     :id: 6c0utrb1XqU4oOSsS4ys4K
                     :title: Triplay de Caobilla | Tym Forest
@@ -2616,32 +2639,32 @@
                     :twitter:
                       :title: seo-twitter
                       :description: 
-                      :url: "//images.contentful.com/rvnl2qm3k12r/14c0e1Y7ayQGwEuiG4aGKo/eea4a4bb96aa2d41d5fdc5d513413062/seo-twitter.jpg"
+                      :url: "//images.ctfassets.net/rvnl2qm3k12r/14c0e1Y7ayQGwEuiG4aGKo/eea4a4bb96aa2d41d5fdc5d513413062/seo-twitter.jpg"
                     :og:
                       :title: seo-facebook
                       :description: 
-                      :url: "//images.contentful.com/rvnl2qm3k12r/5qsaKFO8XSQu2qkSiucEwk/d6452e27dfb4f4fc4d781a8e03f52482/seo-facebook.jpg"
+                      :url: "//images.ctfassets.net/rvnl2qm3k12r/5qsaKFO8XSQu2qkSiucEwk/d6452e27dfb4f4fc4d781a8e03f52482/seo-facebook.jpg"
                 - :id: 6lQ7PLt97y6G2EQEm2KyKS
                 - :id: 5eCytdkTcI0kKcIEKGWQqM
                 - :id: 4cLsQTSVSosWEuemGykCAm
                 :card:
                   :title: tarjeta-principal
                   :description: Triplay de Birch
-                  :url: "//images.contentful.com/rvnl2qm3k12r/17spd6lLF8kCCKSMyAWEY2/b8b449dc9355f8952224e21551e9ecba/tarjeta-principal.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/17spd6lLF8kCCKSMyAWEY2/b8b449dc9355f8952224e21551e9ecba/tarjeta-principal.jpg"
                 :detail_images:
                   :id: 6s2eY6x8vSiokyGqY8wKAk
                   :mobile:
                     :title: detalle-movil
                     :description: Triplay de Birch
-                    :url: "//images.contentful.com/rvnl2qm3k12r/6sTwY5KKLmwIIC6sScYqAC/0164fe843c3563e90db3b33709b15a6f/detalle-movil.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/6sTwY5KKLmwIIC6sScYqAC/0164fe843c3563e90db3b33709b15a6f/detalle-movil.jpg"
                   :tablet:
                     :title: detalle-tablet
                     :description: Triplay de Birch
-                    :url: "//images.contentful.com/rvnl2qm3k12r/54JSrEo7WwaUyaCiCoiq0o/fa0e0eefa9ba043fa0909608a7d17b41/detalle-tablet.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/54JSrEo7WwaUyaCiCoiq0o/fa0e0eefa9ba043fa0909608a7d17b41/detalle-tablet.jpg"
                   :desktop:
                     :title: detalle-desktop
                     :description: Triplay de Birch
-                    :url: "//images.contentful.com/rvnl2qm3k12r/5eY0pA09osy0gucIuy8s80/4f5ff53cdd05b0ef8bebb415ff26d349/detalle-desktop.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/5eY0pA09osy0gucIuy8s80/4f5ff53cdd05b0ef8bebb415ff26d349/detalle-desktop.jpg"
                 :seo:
                   :id: 6s2OcXvCZqiES2e0Aakgo4
                   :title: Triplay de Birch | Tym Forest
@@ -2650,17 +2673,17 @@
                   :twitter:
                     :title: seo-twitter
                     :description: 
-                    :url: "//images.contentful.com/rvnl2qm3k12r/34nW9psm6cmg0aa2oesgUW/42c65408235d132c5c034e9c47a96390/seo-twitter.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/34nW9psm6cmg0aa2oesgUW/42c65408235d132c5c034e9c47a96390/seo-twitter.jpg"
                   :og:
                     :title: seo-facebook
                     :description: 
-                    :url: "//images.contentful.com/rvnl2qm3k12r/2YHbaOTykoYQako44Y664c/8e1d55c95841095e08757cb6a01e0a68/seo-facebook.jpg"
+                    :url: "//images.ctfassets.net/rvnl2qm3k12r/2YHbaOTykoYQako44Y664c/8e1d55c95841095e08757cb6a01e0a68/seo-facebook.jpg"
               - :id: 3cQ8trMgYwSagYUQM04IYo
               - :id: 6lQ7PLt97y6G2EQEm2KyKS
               :card:
                 :title: tarjeta-principal
                 :description: Melaminas
-                :url: "//images.contentful.com/rvnl2qm3k12r/7AobXAyqXKm0QSGA2Ma4O6/d338048bb2288f40e30bee0ced8507f3/tarjeta-principal.jpg"
+                :url: "//images.ctfassets.net/rvnl2qm3k12r/7AobXAyqXKm0QSGA2Ma4O6/d338048bb2288f40e30bee0ced8507f3/tarjeta-principal.jpg"
               :seo:
                 :id: 3XTXwCbCgwY6CoG8cSGMqk
                 :title: Melaminas | Tym Forest
@@ -2671,38 +2694,38 @@
                 :twitter:
                   :title: seo-twitter
                   :description: 
-                  :url: "//images.contentful.com/rvnl2qm3k12r/1F0TC3V0sUecAGmo2MgkQU/b342d15c21f85a7470cc54ae614b1888/seo-twitter.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/1F0TC3V0sUecAGmo2MgkQU/b342d15c21f85a7470cc54ae614b1888/seo-twitter.jpg"
                 :og:
                   :title: seo-facebook
                   :description: 
-                  :url: "//images.contentful.com/rvnl2qm3k12r/5yQOlUrZ04SWA2WG6e8ois/00b9c94bc5bb0925005f126fe46fb5a1/seo-facebook.jpg"
+                  :url: "//images.ctfassets.net/rvnl2qm3k12r/5yQOlUrZ04SWA2WG6e8ois/00b9c94bc5bb0925005f126fe46fb5a1/seo-facebook.jpg"
             :is_sale: false
             :card:
               :title: tarjeta-principal
               :description: Melamina de Lombardía
-              :url: "//images.contentful.com/rvnl2qm3k12r/5iQm75fXUc0oK80CwemWeq/5499c1ed8064898f1835f33d1c2f1d20/tarjeta-principal.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/5iQm75fXUc0oK80CwemWeq/5499c1ed8064898f1835f33d1c2f1d20/tarjeta-principal.jpg"
             :card_detail:
               :title: tarjeta-detalle
               :description: Melamina de Lombardía
-              :url: "//images.contentful.com/rvnl2qm3k12r/zVc3wwkcBU2MqQkA2u8ci/376ed1adfed0840deaaa2ac9dfbb5ad1/tarjeta-detalle.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/zVc3wwkcBU2MqQkA2u8ci/376ed1adfed0840deaaa2ac9dfbb5ad1/tarjeta-detalle.jpg"
           :card:
             :title: tarjeta-principal
             :description: Tablero de Aglomerado
-            :url: "//images.contentful.com/rvnl2qm3k12r/6yU3hNrAw8yUGOkUy4y02O/4998009a6247746c5507cb980b28a534/tarjeta-principal.jpg"
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/6yU3hNrAw8yUGOkUy4y02O/4998009a6247746c5507cb980b28a534/tarjeta-principal.jpg"
           :detail_images:
             :id: iNcPwbv4fm4A26CYywACq
             :mobile:
               :title: detalle-movil
               :description: Tablero de Aglomerado
-              :url: "//images.contentful.com/rvnl2qm3k12r/2LBTvBQpTiIyAQYAgogiC/9f99632337d2b626c3e98dbbb4f3e54c/detalle-movil.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/2LBTvBQpTiIyAQYAgogiC/9f99632337d2b626c3e98dbbb4f3e54c/detalle-movil.jpg"
             :tablet:
               :title: detalle-tablet
               :description: Tablero de Aglomerado
-              :url: "//images.contentful.com/rvnl2qm3k12r/1ZZIvYjvSouOSWuAwEGgwM/6a8bd39faab7d2393853f30b68a3013e/detalle-tablet.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/1ZZIvYjvSouOSWuAwEGgwM/6a8bd39faab7d2393853f30b68a3013e/detalle-tablet.jpg"
             :desktop:
               :title: detalle-desktop
               :description: Tablero de Aglomerado
-              :url: "//images.contentful.com/rvnl2qm3k12r/74izsVmYQEIqGMk0m4E8C/b311223cc3ca9895e6afe5ac359544ad/detalle-desktop.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/74izsVmYQEIqGMk0m4E8C/b311223cc3ca9895e6afe5ac359544ad/detalle-desktop.jpg"
           :seo:
             :id: 8H8lSbxUUoGSCEK40agKm
             :title: Tablero de Aglomerado | Tym Forest
@@ -2711,31 +2734,31 @@
             :twitter:
               :title: seo-twitter
               :description: 
-              :url: "//images.contentful.com/rvnl2qm3k12r/3Td3tATmHKMsAQIuSCCuo6/abf300eb6154c41c96658b21eb250377/seo-twitter.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/3Td3tATmHKMsAQIuSCCuo6/abf300eb6154c41c96658b21eb250377/seo-twitter.jpg"
             :og:
               :title: seo-facebook
               :description: 
-              :url: "//images.contentful.com/rvnl2qm3k12r/28aP2L8BeY6CgQOwgi0CQu/d3eda2d3d086c2ab803e89b468b5fe85/seo-facebook.jpg"
+              :url: "//images.ctfassets.net/rvnl2qm3k12r/28aP2L8BeY6CgQOwgi0CQu/d3eda2d3d086c2ab803e89b468b5fe85/seo-facebook.jpg"
         - :id: 4cLsQTSVSosWEuemGykCAm
         - :id: 5eCytdkTcI0kKcIEKGWQqM
         :card:
           :title: tarjeta-principal
           :description: Tablero de OSB
-          :url: "//images.contentful.com/rvnl2qm3k12r/1nzZG2hEoIG0WUUgskS8QG/f75d3f658d5bf0183473f58dbde6ec92/tarjeta-principal.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/1nzZG2hEoIG0WUUgskS8QG/f75d3f658d5bf0183473f58dbde6ec92/tarjeta-principal.jpg"
         :detail_images:
           :id: 30N7jCPuwoKeKumiua2KOS
           :mobile:
             :title: detalle-movil
             :description: Tablero de OSB
-            :url: "//images.contentful.com/rvnl2qm3k12r/3vM5NXrOykwKggUMkgiIE/dc3fe72b83fc02500032f070ce45a76e/detalle-movil.jpg"
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/3vM5NXrOykwKggUMkgiIE/dc3fe72b83fc02500032f070ce45a76e/detalle-movil.jpg"
           :tablet:
             :title: detalle-tablet
             :description: Tablero de OSB
-            :url: "//images.contentful.com/rvnl2qm3k12r/5yEVFKcEx240umKWu2swyI/0a1e73068a7142fc3b8c819823b592be/detalle-tablet.jpg"
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/5yEVFKcEx240umKWu2swyI/0a1e73068a7142fc3b8c819823b592be/detalle-tablet.jpg"
           :desktop:
             :title: detalle-desktop
             :description: Tablero de OSB
-            :url: "//images.contentful.com/rvnl2qm3k12r/47gUH9Zgg8CgkqkQqiq2Su/ae1dfb5708736559a7c7d85cb1eeef12/detalle-desktop.jpg"
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/47gUH9Zgg8CgkqkQqiq2Su/ae1dfb5708736559a7c7d85cb1eeef12/detalle-desktop.jpg"
         :seo:
           :id: 7rc2lLlAnS8Wc2WGYYkK4I
           :title: Tablero de OSB | Tym Forest
@@ -2745,29 +2768,29 @@
           :twitter:
             :title: seo-twitter
             :description: 
-            :url: "//images.contentful.com/rvnl2qm3k12r/Qt81c9q86GKQ6UKsKCa0G/78abb96481ac957d80c8f77e1a6c105f/seo-twitter.jpg"
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/Qt81c9q86GKQ6UKsKCa0G/78abb96481ac957d80c8f77e1a6c105f/seo-twitter.jpg"
           :og:
             :title: seo-facebook
             :description: 
-            :url: "//images.contentful.com/rvnl2qm3k12r/nuy7EXngOG0GcsA0cuOym/8321eee9c22c45e4d710f955938ba722/seo-facebook.jpg"
+            :url: "//images.ctfassets.net/rvnl2qm3k12r/nuy7EXngOG0GcsA0cuOym/8321eee9c22c45e4d710f955938ba722/seo-facebook.jpg"
       :card:
         :title: tarjeta-principal
         :description: Triplay de Pino Nacional
-        :url: "//images.contentful.com/rvnl2qm3k12r/Zd1eOVCn28uS0OqsyWIea/13ebe6b0215204bbabb6903eb740e5b7/tarjeta-principal.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/Zd1eOVCn28uS0OqsyWIea/13ebe6b0215204bbabb6903eb740e5b7/tarjeta-principal.jpg"
       :detail_images:
         :id: 326UadzvNSgkgwIeosKm8U
         :mobile:
           :title: detalle-movil
           :description: Triplay de Pino Nacional
-          :url: "//images.contentful.com/rvnl2qm3k12r/6O8yPlalLaYY4KY6OcwCkG/f7c2e54ca8d5aa04dc55809bea8680ff/detalle-movil.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/6O8yPlalLaYY4KY6OcwCkG/f7c2e54ca8d5aa04dc55809bea8680ff/detalle-movil.jpg"
         :tablet:
           :title: detalle-tablet
           :description: Triplay de Pino Nacional
-          :url: "//images.contentful.com/rvnl2qm3k12r/657a24L0PeumC6Em2C4U0s/ba214674425d3e5d40eff88d9a6d9fcc/detalle-tablet.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/657a24L0PeumC6Em2C4U0s/ba214674425d3e5d40eff88d9a6d9fcc/detalle-tablet.jpg"
         :desktop:
           :title: detalle-desktop
           :description: Triplay de Pino Nacional
-          :url: "//images.contentful.com/rvnl2qm3k12r/3sVuyDpzlYgAwYu2Oq0eGy/90b48b44cfad864ace9917be15eab7ed/detalle-desktop.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/3sVuyDpzlYgAwYu2Oq0eGy/90b48b44cfad864ace9917be15eab7ed/detalle-desktop.jpg"
       :seo:
         :id: FSBr5ynWQUqgo0c028u6i
         :title: Triplay de Pino Nacional | Tym Forest
@@ -2777,29 +2800,29 @@
         :twitter:
           :title: seo-twitter
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/42iFsmALxmsWwIEKcao0i/7352c5193943ff3c2ab4c39e05d0dc70/seo-twitter.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/42iFsmALxmsWwIEKcao0i/7352c5193943ff3c2ab4c39e05d0dc70/seo-twitter.jpg"
         :og:
           :title: seo-facebook
           :description: 
-          :url: "//images.contentful.com/rvnl2qm3k12r/47QSSoIN0QIiyA62e8oG6w/16a3910dc2f590510cd57f5376a52909/seo-facebook.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/47QSSoIN0QIiyA62e8oG6w/16a3910dc2f590510cd57f5376a52909/seo-facebook.jpg"
     :card:
       :title: tarjeta-principal
       :description: Madera de Pino Chileno
-      :url: "//images.contentful.com/rvnl2qm3k12r/1OiP0FIaxeaQm40c0gQOGY/2db703c2a789b9867766cf996bbd8953/tarjeta-principal.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/1OiP0FIaxeaQm40c0gQOGY/2db703c2a789b9867766cf996bbd8953/tarjeta-principal.jpg"
     :detail_images:
       :id: 555XbzBbBm2WQg8WyQagIY
       :mobile:
         :title: detalle-movil
         :description: Madera de Pino Chileno
-        :url: "//images.contentful.com/rvnl2qm3k12r/gLKZ2fTNNCK8wgMqmUAAa/bed4d8aadef9a0f5d06baea1bdca57bc/detalle-movil.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/gLKZ2fTNNCK8wgMqmUAAa/bed4d8aadef9a0f5d06baea1bdca57bc/detalle-movil.jpg"
       :tablet:
         :title: detalle-tablet
         :description: Madera de Pino Chileno
-        :url: "//images.contentful.com/rvnl2qm3k12r/439gKlQmDuQC2Yui4KISik/c651b7195cf5e55152525b51e52b69d6/detalle-tablet.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/439gKlQmDuQC2Yui4KISik/c651b7195cf5e55152525b51e52b69d6/detalle-tablet.jpg"
       :desktop:
         :title: detalle-desktop
         :description: Madera de Pino Chileno
-        :url: "//images.contentful.com/rvnl2qm3k12r/qJXz2qm7tIKOeCWqMikwm/8b313a9dd85c848af0acfcfbe6963b1e/detalle-desktop.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/qJXz2qm7tIKOeCWqMikwm/8b313a9dd85c848af0acfcfbe6963b1e/detalle-desktop.jpg"
     :seo:
       :id: 7wHObbXviwmcgooKk8SYgk
       :title: Madera de Pino Chileno | Tym Forest
@@ -2808,29 +2831,29 @@
       :twitter:
         :title: seo-twitter
         :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/7hmR07GyvCEiaykEwKiWCa/812826c395245256d35ad1dccb6d399f/seo-twitter.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/7hmR07GyvCEiaykEwKiWCa/812826c395245256d35ad1dccb6d399f/seo-twitter.jpg"
       :og:
         :title: seo-facebook
         :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/7fSA4ulSU0Ms2wOsIcKGeM/c451e812026b4c991e6ccfa1c4caac50/seo-facebook.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/7fSA4ulSU0Ms2wOsIcKGeM/c451e812026b4c991e6ccfa1c4caac50/seo-facebook.jpg"
   :card:
     :title: tarjeta-principal
     :description: Triplay de Okumé
-    :url: "//images.contentful.com/rvnl2qm3k12r/3OSGhLqVkckCCIyOm8EYaM/89a11fb56baeee97cd1c8011124bdfc9/tarjeta-principal.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/3OSGhLqVkckCCIyOm8EYaM/89a11fb56baeee97cd1c8011124bdfc9/tarjeta-principal.jpg"
   :detail_images:
     :id: 1LTpcvPa40O8mISG6uO8i0
     :mobile:
       :title: detalle-movil
       :description: Triplay de Okumé
-      :url: "//images.contentful.com/rvnl2qm3k12r/1MYcGZaZ08WkkGeEM4SKSu/e25da0b1e74167ce2e960c26a6a51088/detalle-movil.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/1MYcGZaZ08WkkGeEM4SKSu/e25da0b1e74167ce2e960c26a6a51088/detalle-movil.jpg"
     :tablet:
       :title: detalle-tablet
       :description: Triplay de Okumé
-      :url: "//images.contentful.com/rvnl2qm3k12r/4LlKwFCIxqiEYAeiOws2Eu/0b5cd1d4d99376b3cecadf0a12ee1673/detalle-tablet.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4LlKwFCIxqiEYAeiOws2Eu/0b5cd1d4d99376b3cecadf0a12ee1673/detalle-tablet.jpg"
     :desktop:
       :title: detalle-desktop
       :description: Triplay de Okumé
-      :url: "//images.contentful.com/rvnl2qm3k12r/37jb1yD9AcuUMieEsYwKK0/69c57865370de464c01bf577dc6900a9/detalle-desktop.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/37jb1yD9AcuUMieEsYwKK0/69c57865370de464c01bf577dc6900a9/detalle-desktop.jpg"
   :seo:
     :id: 4Iskm9gH8cKuMWk6cqSioq
     :title: Triplay de Okumé | Tym Forest
@@ -2839,29 +2862,29 @@
     :twitter:
       :title: seo-twitter
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/2ZFiMcAwsU2YQCmsMuoMoC/521c0e2eef8a2c85ae14961cdb28ceb5/seo-twitter.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/2ZFiMcAwsU2YQCmsMuoMoC/521c0e2eef8a2c85ae14961cdb28ceb5/seo-twitter.jpg"
     :og:
       :title: seo-facebook
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/lLKm6Awq5wSW6k8seqAK/7194109bca8db210b28d96ceae7c4973/seo-facebook.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/lLKm6Awq5wSW6k8seqAK/7194109bca8db210b28d96ceae7c4973/seo-facebook.jpg"
 :card:
   :title: tarjeta-principal
   :description: Triplay de Cedro
-  :url: "//images.contentful.com/rvnl2qm3k12r/7kiACMYbniiGoOu6yaeksW/5875a318c499a85cc93964d1e0e7e688/tarjeta-principal.jpg"
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/7kiACMYbniiGoOu6yaeksW/5875a318c499a85cc93964d1e0e7e688/tarjeta-principal.jpg"
 :detail_images:
   :id: 7xlnVpj11C8kKOSacuUqMq
   :mobile:
     :title: detalle-movil
     :description: Triplay de Cedro
-    :url: "//images.contentful.com/rvnl2qm3k12r/4pqHHCqVnWUw4e6MKsm2s4/cab70f1223f94789109a18aad39ea4aa/detalle-movil.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4pqHHCqVnWUw4e6MKsm2s4/cab70f1223f94789109a18aad39ea4aa/detalle-movil.jpg"
   :tablet:
     :title: detalle-tablet
     :description: Triplay de Cedro
-    :url: "//images.contentful.com/rvnl2qm3k12r/62ijDXaA9yMMuuEOqkOQiu/5310fd80d755abcca8fa66bcafa5e686/detalle-tablet.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/62ijDXaA9yMMuuEOqkOQiu/5310fd80d755abcca8fa66bcafa5e686/detalle-tablet.jpg"
   :desktop:
     :title: detalle-desktop
     :description: Triplay de Cedro
-    :url: "//images.contentful.com/rvnl2qm3k12r/4D5xz2sdKE2QmCYGqcoqmi/941120616c3d9b54ad6ed44b185ff9e0/detalle-desktop.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4D5xz2sdKE2QmCYGqcoqmi/941120616c3d9b54ad6ed44b185ff9e0/detalle-desktop.jpg"
 :seo:
   :id: 1syS6yQqCku4mWA68q2EY
   :title: Triplay de Cedro | Tym Forest
@@ -2870,8 +2893,8 @@
   :twitter:
     :title: seo-twitter
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/ZUzqxGjT8akMmSOOesyC6/fce59f1fa6bbf84776d239d239a5cf57/seo-twitter.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/ZUzqxGjT8akMmSOOesyC6/fce59f1fa6bbf84776d239d239a5cf57/seo-twitter.jpg"
   :og:
     :title: seo-facebook
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/1kHGAlXuMcQa6KcS4GOucA/4f49fa896369aece8f91e254ab3bf5fc/seo-facebook.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/1kHGAlXuMcQa6KcS4GOucA/4f49fa896369aece8f91e254ab3bf5fc/seo-facebook.jpg"

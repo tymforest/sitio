@@ -1,7 +1,7 @@
 ---
 :id: 3jbZSujq5Gw8eMYGuAkWCs
 :title: Aviso de Privacidad
-:last_updated: Actualizado el 6 de Diciembre del 2016
+:last_updated: Actualizado el 14 de Febrero del 2017
 :intro: Este Aviso de Privacidad siempre estará actualizado con información relacionada
   a todas las funcionalidades de nuestra página que recaben datos de tu visita.
 :details:
@@ -33,3 +33,20 @@
     <a href="https://tools.google.com/dlpage/gaoptout?hl=es" target="_blank">esta
     página</a>, donde Google te ofrece descargar un complemento web para inhabilitar
     Google Analytics en tu navegador.
+- :id: 2a1R1pIQnmcOcWg4SwsuSG
+  :title: MX Guarddog
+  :description: |-
+    Utilizamos un servicio de filtrado para correos electrónicos,
+    MX Guarddog - puedes visitar su página aquí <a href="http://www.mxguarddog.com/es/">stopping spam</a>
+:seo:
+  :id: 2BuV0Y8qOIuK0ayoOS2CKK
+  :title: Aviso de Privacidad  |  Tym Forest
+  :description: Detalles de las políticas de privacidad para nuestros usuarios.
+  :twitter:
+    :title: seo-twitter
+    :description: ''
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/22DAie58VCoiYEioGoKU0C/55445820e2d91edf53a075ad51726c68/seo-twitter.jpg"
+  :og:
+    :title: seo-facebook
+    :description: 
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/3sQWliSxIAUWEGCgGWmyeC/0c69836dbeae068d38306c27d0fb0e01/seo-facebook.jpg"

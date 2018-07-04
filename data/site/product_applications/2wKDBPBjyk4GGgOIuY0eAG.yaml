@@ -4,12 +4,52 @@
 :index_image:
   :title: madera-para-industria
   :description: Madera para Industria
-  :url: "//images.contentful.com/rvnl2qm3k12r/4ZPtliyyqcwyOCUYUqemSI/2e047dd342ea2687a32a9e4adcf15e03/madera-para-industria.jpg"
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/4ZPtliyyqcwyOCUYUqemSI/2e047dd342ea2687a32a9e4adcf15e03/madera-para-industria.jpg"
 :hero_image:
   :title: pino-americano
   :description: Tablas de Pino Americano
-  :url: "//images.contentful.com/rvnl2qm3k12r/4uYi6mAJWgsSK8A26IwokS/83746fbf590cea8b697741a80352f766/portada.jpg"
+  :url: "//images.ctfassets.net/rvnl2qm3k12r/4uYi6mAJWgsSK8A26IwokS/d5d5bfafd3ecf13ee89eda65bc5a16e1/portada.jpg"
 :sections:
+- :id: FAqdeMy9yKqKMwUAYqwGs
+  :subtitle: Maderas
+  :title: Pino Americano
+  :description: Tabla y Tablón de Pino Americano disponible en diferentes medidas
+    y calidades, también contamos Pino Americano con tratamiento con sales de cobre
+    para exterior .
+  :links:
+  - :id: 6fccrP422c4qWC4yaya0OQ
+    :title: Ver Madera de Pino Americano
+    :path: "/maderas/pino-americano"
+  :image:
+    :title: pino-americano
+    :description: Rack de Madera de Pino Americano.
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/xpInRsPew0OyQ0CmYgKyK/8644ed3343b3cd04b4fdcbfe8f9c415a/pino-americano.jpg"
+- :id: iWF0LFEvYcgS4Yuec48sS
+  :subtitle: Tableros
+  :title: OSB
+  :description: Importamos tablero OSB y ofrecemos los mejores precios del mercado.
+    Tenemos la capacidad de surtir cualquier cantidad y lo enviamos a domicilio.
+  :links:
+  - :id: WBEmYhYDeeMYiccuWkQaG
+    :title: Ver OSB
+    :path: "/tableros/osb"
+  :image:
+    :title: osb
+    :description: Rack de tableros de OSB.
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/zdalQgCIcoA02qYwqUMy6/9b66d88c3b77dbf90308d3baf626a057/osb.jpg"
+- :id: 6zySzgLTpKW0WU8WM6y2oU
+  :subtitle: Tableros
+  :title: MDF
+  :description: Contamos con Tableros de  MDF natural en todas las medidas , y ofrecemos
+    servicio de corte y dimensionado .
+  :links:
+  - :id: GCAoGtR9egAsKcY44SA4w
+    :title: Ver MDF
+    :path: "/tableros/mdf"
+  :image:
+    :title: mdf
+    :description: Tableros de MDF
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/3GfV3r84NacEOWCKis8ki/78906cdd05478c4e62d70fc9e6b61272/mdf.jpg"
 - :id: 6d4yQYgSE8Iw6I88qc6Mcq
   :subtitle: Servicios
   :title: Reduce tus Gastos
@@ -23,34 +63,7 @@
     :title: reduce-tus-costos
     :description: Trabajadores de Tym Forest dimensionando tableros en Sucursal Fidel
       Velázquez
-    :url: "//images.contentful.com/rvnl2qm3k12r/4Zib0RQj2UCW4ykAAaaoW/28ef8117fb87f417c54fb8eeb2e1d5e0/reduce-tus-costos.jpg"
-- :id: iWF0LFEvYcgS4Yuec48sS
-  :subtitle: Tableros
-  :title: OSB
-  :description: Importamos tablero OSB y ofrecemos los mejores precios del mercado.
-    Tenemos la capacidad de surtir cualquier cantidad y lo enviamos a domicilio.
-  :links:
-  - :id: WBEmYhYDeeMYiccuWkQaG
-    :title: Ver OSB
-    :path: "/tableros/osb"
-  :image:
-    :title: osb
-    :description: Rack de tableros de OSB.
-    :url: "//images.contentful.com/rvnl2qm3k12r/zdalQgCIcoA02qYwqUMy6/9b66d88c3b77dbf90308d3baf626a057/osb.jpg"
-- :id: FAqdeMy9yKqKMwUAYqwGs
-  :subtitle: Maderas
-  :title: Pino Americano
-  :description: Tabla y Tablón de Pino Americano disponible en diferentes medidas
-    y calidades, también tenemos Pino Americano con tratamiento con sales de cobre
-    para exterior .
-  :links:
-  - :id: 6fccrP422c4qWC4yaya0OQ
-    :title: Ver Madera de Pino Americano
-    :path: "/maderas/pino-americano"
-  :image:
-    :title: pino-americano
-    :description: Rack de Madera de Pino Americano.
-    :url: "//images.contentful.com/rvnl2qm3k12r/xpInRsPew0OyQ0CmYgKyK/def9eb415def6d29f831d2b111a0b5ca/pino-americano.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4Zib0RQj2UCW4ykAAaaoW/28ef8117fb87f417c54fb8eeb2e1d5e0/reduce-tus-costos.jpg"
 - :id: 3Pv9kMKjKgAEy4Y6Yaa4y6
   :subtitle: Maderas
   :title: Pino Nacional
@@ -63,20 +76,7 @@
   :image:
     :title: pino-nacional
     :description: Racks de Madera de Pino Nacional.
-    :url: "//images.contentful.com/rvnl2qm3k12r/eL6e8NwxCSkAoS6CAO8Ai/be079bbf7bb14aea9e4eac6ab7a2a6e4/pino-nacional.jpg"
-- :id: 6zySzgLTpKW0WU8WM6y2oU
-  :subtitle: Tableros
-  :title: MDF
-  :description: Contamos con Tableros de  MDF natural en todas las medidas , y ofrecemos
-    servicio de corte y dimensionado .
-  :links:
-  - :id: GCAoGtR9egAsKcY44SA4w
-    :title: Ver MDF
-    :path: "/tableros/mdf"
-  :image:
-    :title: mdf
-    :description: Rack de Tableros de MDF
-    :url: "//images.contentful.com/rvnl2qm3k12r/3GfV3r84NacEOWCKis8ki/4c6212226bb43ed03cd3422802174e5d/mdf.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/eL6e8NwxCSkAoS6CAO8Ai/be079bbf7bb14aea9e4eac6ab7a2a6e4/pino-nacional.jpg"
 - :id: 2upIZavBZOEm02OIO2OuMu
   :subtitle: Tableros
   :title: Triplay de Pino
@@ -89,8 +89,8 @@
     :path: "/tableros/triplay/pino-nacional"
   :image:
     :title: triplay-de-pino
-    :description: Rack de Triplay de Pino Nacional
-    :url: "//images.contentful.com/rvnl2qm3k12r/2xKsogcy9OgMqaIW80cYmM/76b025e5d5a80faf8412913d43334803/triplay-de-pino.jpg"
+    :description: Triplay de Pino
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/2xKsogcy9OgMqaIW80cYmM/5742e2be1043202bf72234ac01bf51f9/triplay-de-pino.jpg"
 :seo:
   :id: 3Z69IpoRgcAomm8yKg4CKO
   :title: Madera para Industria | Tym Forest
@@ -98,8 +98,8 @@
   :twitter:
     :title: seo-twitter
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/6FmgQYoMCc8cE0mgc0CMo2/aa8722e46a27991765c43b69f8795fc5/seo-twitter.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/6FmgQYoMCc8cE0mgc0CMo2/aa8722e46a27991765c43b69f8795fc5/seo-twitter.jpg"
   :og:
     :title: seo-facebook
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/4yQZUy1SAwg0AAgIaSWe0e/2e1db39f24caff3fbd53507fd3a41c99/seo-facebook.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4yQZUy1SAwg0AAgIaSWe0e/2e1db39f24caff3fbd53507fd3a41c99/seo-facebook.jpg"

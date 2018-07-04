@@ -18,7 +18,9 @@
         <h1><%= contact_ad.title %></h1>
         <p><%= contact_ad.description %></p>
       </header>
-      <%= link_to "<span></span>#{ main_store.number }", "tel:#{ phone main_store.number }", :class => "boton telefono", "onclick='ga(‘send’, ‘event’, ‘Boton’, ‘Llamar’, ‘Telefono’); fbq('track', 'Lead');'" %>
+      <a class="boton telefono" href="tel:<%= phone main_store.number %>" onclick="ga('send', 'event', 'Boton', 'Llamar', 'Telefono'); fbq('track', 'Lead');">
+        <%= main_store.number %>
+      </a>
     </div>
   </div>
 </section>

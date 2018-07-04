@@ -2,20 +2,24 @@
 :id: 4UW4lK8bWUCqaUIy6me6wG
 :title: Inicio
 :gallery:
-- :id: 5w2kb0svi8UmiWQcmk6Yw
-  :subtitle: Maderería
+- :id: 42UGSb52M0uyOi4CSweKWK
+  :subtitle: Tableros y Maderas
   :title: Madera para tus Ideas
-  :description: Maecenas lorem ipsum ejemplo de una descripción de un anuncio.
+  :description: "¿Como te podemos ayudar hoy?"
+  :button:
+    :id: 4580b5SGCIksqEyYKwu6uK
+    :title: Ver Ofertas
+    :path: "/ofertas"
   :background:
-    :title: madera-compu
-    :description: Contenido de prueba y probando el contenido.
-    :url: "//images.contentful.com/rvnl2qm3k12r/48OnnC3GycMyYMoaMekSEE/0d9a29cf2496b380a32d0a248cf9fa9f/madera_compu.jpg"
+    :title: Anuncio Banak Version 1
+    :description: Madera de Banak en Oferta
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/5izXVMZ9Uk0wi0guCKOCGc/5ec7f5324a4a35a1b5b7148ec578af9e/prueba-desktop.jpg"
   :white: true
-  :align: true
+  :align: false
 - :id: 48siAIbnPGkYKAw8okaAY0
-  :subtitle: Sucursales
+  :subtitle: Maderería
   :title: Visita Nuestras Sucursales
-  :description: Te esperamos en nuestras Madererías de Monterrey y San Luis Potosí.
+  :description: Presencia en Nuevo León y San Luis Potosí.
   :button:
     :id: nnIKP1xMuky2AYW0Kwwau
     :title: Ver Sucursales
@@ -23,7 +27,21 @@
   :background:
     :title: sucursales
     :description: Clientes escogiendo madera en sucursal La Fe.
-    :url: "//images.contentful.com/rvnl2qm3k12r/5BtHJcmCcMQm8I2OYoAO4q/e4495b38c8642298ba948e2815e658fa/sucursales.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/5BtHJcmCcMQm8I2OYoAO4q/e4495b38c8642298ba948e2815e658fa/sucursales.jpg"
+  :white: false
+  :align: true
+- :id: 3gQG25EJi06i6M04k2WWe2
+  :subtitle: Servicios
+  :title: Pregunta por nuestros Servicios
+  :description: Transformamos madera y tableros a tus necesidades.
+  :button:
+    :id: 4xuQxvlvNSGa8Wgug4ac0u
+    :title: Ver Servicios
+    :path: servicios/
+  :background:
+    :title: TYM Forest Servicios
+    :description: Servicios
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4bvEvg5qH6AO6oeI6EIaoY/4a29db610127c38db94e072bb5b99953/prueba-desktop.jpg"
   :white: true
   :align: true
 :product_applications:
@@ -32,25 +50,12 @@
   :index_image:
     :title: madera-para-construccion
     :description: Madera de Cimbra
-    :url: "//images.contentful.com/rvnl2qm3k12r/4CPumEMjaow0qMqaE4Gwua/35e9894965960b54115130e76c8751ca/madera-para-construccion.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4CPumEMjaow0qMqaE4Gwua/adea50fc666670127699be15cb2426f6/madera-para-construccion.jpg"
   :hero_image:
     :title: madera-para-construccion
-    :description: Madera de Cimbra.
-    :url: "//images.contentful.com/rvnl2qm3k12r/xQjusoRBn26iYiQaQ84Ek/a21564a598a56a6211b7f6ec3548bb76/portada.jpg"
+    :description: Madera para Construccion
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/xQjusoRBn26iYiQaQ84Ek/65c3f4621f0c06c1d333c6675cc2bf94/portada.jpg"
   :sections:
-  - :id: f3WZgnNQWWK4ci6YaaG2k
-    :subtitle: Maderas
-    :title: Polín y Barrote
-    :description: Tenemos Polín y Barrote para su construcción y contamos con servicio
-      de entrega directo en obra
-    :links:
-    - :id: 2oNl5WSphmiMiwWI8saQwQ
-      :title: Ver Madera de Pino Nacional
-      :path: "/maderas/pino-nacional"
-    :image:
-      :title: polin-y-barrote
-      :description: Rack de polines.
-      :url: "//images.contentful.com/rvnl2qm3k12r/4GF9671fscSkeG2UUKsM04/cc7d041294eb60c225af23fd6494acad/polin-y-barrote.jpg"
   - :id: 4ytQ5zY66ksQUQOkOC4Y2I
     :subtitle: Tableros
     :title: Triplay para Cimbra
@@ -70,20 +75,20 @@
     :image:
       :title: triplay-para-cimbra
       :description: Racks de Triplay para Cimbra.
-      :url: "//images.contentful.com/rvnl2qm3k12r/5BHL81mQrSi8uCOgKoO2ey/7ffa22e014ff6d97517456864b75466f/triplay-para-cimbra.jpg"
-  - :id: 3SEZhSOjYsYqYOYeyEgmQ0
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/5BHL81mQrSi8uCOgKoO2ey/6f263a9340cb0566ba093323bcbefd81/triplay-para-cimbra.jpg"
+  - :id: f3WZgnNQWWK4ci6YaaG2k
     :subtitle: Maderas
-    :title: Ochavo y Chaflán
-    :description: Ofrecemos Ochavo o Chalfán a la medida y contamos con maquinaria
-      y el personal capacitado para hacer cortes específicos.
+    :title: Polín y Barrote
+    :description: Contamos con Polin y Barrote para cimbra y con servicio de entrega
+      directamente a la obra.
     :links:
-    - :id: 37o9uOpL3qmMsE6SUcwYWA
+    - :id: 2oNl5WSphmiMiwWI8saQwQ
       :title: Ver Madera de Pino Nacional
       :path: "/maderas/pino-nacional"
     :image:
-      :title: ochavo-o-chaflan
-      :description: Paquete de Ochavo dimensionado.
-      :url: "//images.contentful.com/rvnl2qm3k12r/4FuuMkhgNqCGC4GQ6oy2Su/999271439c420381b6c95fc6bba5fa02/ochavo-o-chaflan.jpg"
+      :title: polin-y-barrote
+      :description: Rack de polines
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4GF9671fscSkeG2UUKsM04/b75950c684502aad288a92789a9f7e51/polin-y-barrote.jpg"
   - :id: PIPTia6GSiyCYEa66I8CI
     :subtitle: Maderas
     :title: Tabla y Tablón
@@ -97,20 +102,20 @@
     :image:
       :title: tabla-y-tablon
       :description: Racks de Tablas y Tablones de Madera para Construcción.
-      :url: "//images.contentful.com/rvnl2qm3k12r/14vzxzfZL0qccA4GmQ4eA2/0459ed7d273cb9140c6651e23cf9b6e8/tabla-y-tablon.jpg"
-  - :id: 3r6BkT8Ot2W6SMKO8sOsq8
-    :subtitle: Ferretería
-    :title: Clavos
-    :description: Ofrecemos una gran variedad de clavos para madera con y sin cabeza
-      y entregamos tu pedido directamente a la obra.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/14vzxzfZL0qccA4GmQ4eA2/0459ed7d273cb9140c6651e23cf9b6e8/tabla-y-tablon.jpg"
+  - :id: 3SEZhSOjYsYqYOYeyEgmQ0
+    :subtitle: Maderas
+    :title: Ochavo y Chaflán
+    :description: Ofrecemos Ochavo o Chalfán a la medida y contamos con maquinaria
+      y el personal capacitado para hacer cortes específicos.
     :links:
-    - :id: 2VRPFuHJUAwEU0m2SAswGC
-      :title: Ver Clavos
-      :path: "/ferreteria"
+    - :id: 37o9uOpL3qmMsE6SUcwYWA
+      :title: Ver Madera de Pino Nacional
+      :path: "/maderas/pino-nacional"
     :image:
-      :title: clavos-desktop
-      :description: Favor de agregar descripción de imágen.
-      :url: "//images.contentful.com/rvnl2qm3k12r/3LeP2JN0H6Oaq0WYaCM2W4/1b23f9d890b43a528884e6e01f84d576/clavos.jpg"
+      :title: ochavo-o-chaflan
+      :description: Paquete de Ochavo dimensionado.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4FuuMkhgNqCGC4GQ6oy2Su/999271439c420381b6c95fc6bba5fa02/ochavo-o-chaflan.jpg"
   :seo:
     :id: 3wkVtRNlDyAaWgSgscocM2
     :title: Madera para Construcción | Tym Forest
@@ -118,133 +123,29 @@
     :twitter:
       :title: seo-twitter
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/4VLoHCL2BGyqQEmWEK46Gm/9863773d7de55fe580909fa2ea29b77d/seo-twitter.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4VLoHCL2BGyqQEmWEK46Gm/9863773d7de55fe580909fa2ea29b77d/seo-twitter.jpg"
     :og:
       :title: seo-facebook
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/6tSOjfwiE8w60guE44cEoC/9279e9e6e23ff25a01041c2726db3556/seo-facebook.jpg"
-- :id: 2wKDBPBjyk4GGgOIuY0eAG
-  :title: Madera para Industria
-  :index_image:
-    :title: madera-para-industria
-    :description: Madera para Industria
-    :url: "//images.contentful.com/rvnl2qm3k12r/4ZPtliyyqcwyOCUYUqemSI/2e047dd342ea2687a32a9e4adcf15e03/madera-para-industria.jpg"
-  :hero_image:
-    :title: pino-americano
-    :description: Tablas de Pino Americano
-    :url: "//images.contentful.com/rvnl2qm3k12r/4uYi6mAJWgsSK8A26IwokS/83746fbf590cea8b697741a80352f766/portada.jpg"
-  :sections:
-  - :id: 6d4yQYgSE8Iw6I88qc6Mcq
-    :subtitle: Servicios
-    :title: Reduce tus Gastos
-    :description: Reduce tus costos de producción al utilizar los servicios de corte
-      que ofrecemos.
-    :links:
-    - :id: 2qNDVXv0xieoMIK4ESOA6a
-      :title: Ver Servicios
-      :path: "/servicios"
-    :image:
-      :title: reduce-tus-costos
-      :description: Trabajadores de Tym Forest dimensionando tableros en Sucursal
-        Fidel Velázquez
-      :url: "//images.contentful.com/rvnl2qm3k12r/4Zib0RQj2UCW4ykAAaaoW/28ef8117fb87f417c54fb8eeb2e1d5e0/reduce-tus-costos.jpg"
-  - :id: iWF0LFEvYcgS4Yuec48sS
-    :subtitle: Tableros
-    :title: OSB
-    :description: Importamos tablero OSB y ofrecemos los mejores precios del mercado.
-      Tenemos la capacidad de surtir cualquier cantidad y lo enviamos a domicilio.
-    :links:
-    - :id: WBEmYhYDeeMYiccuWkQaG
-      :title: Ver OSB
-      :path: "/tableros/osb"
-    :image:
-      :title: osb
-      :description: Rack de tableros de OSB.
-      :url: "//images.contentful.com/rvnl2qm3k12r/zdalQgCIcoA02qYwqUMy6/9b66d88c3b77dbf90308d3baf626a057/osb.jpg"
-  - :id: FAqdeMy9yKqKMwUAYqwGs
-    :subtitle: Maderas
-    :title: Pino Americano
-    :description: Tabla y Tablón de Pino Americano disponible en diferentes medidas
-      y calidades, también tenemos Pino Americano con tratamiento con sales de cobre
-      para exterior .
-    :links:
-    - :id: 6fccrP422c4qWC4yaya0OQ
-      :title: Ver Madera de Pino Americano
-      :path: "/maderas/pino-americano"
-    :image:
-      :title: pino-americano
-      :description: Rack de Madera de Pino Americano.
-      :url: "//images.contentful.com/rvnl2qm3k12r/xpInRsPew0OyQ0CmYgKyK/def9eb415def6d29f831d2b111a0b5ca/pino-americano.jpg"
-  - :id: 3Pv9kMKjKgAEy4Y6Yaa4y6
-    :subtitle: Maderas
-    :title: Pino Nacional
-    :description: Tabla y Tablón de Pino Nacional en diferentes dimensiones y calidades
-      para todos los proyectos.
-    :links:
-    - :id: 5Tl7bdqIBqaMQQQswSsw6q
-      :title: Ver Madera de Pino Nacional
-      :path: "/maderas/pino-nacional"
-    :image:
-      :title: pino-nacional
-      :description: Racks de Madera de Pino Nacional.
-      :url: "//images.contentful.com/rvnl2qm3k12r/eL6e8NwxCSkAoS6CAO8Ai/be079bbf7bb14aea9e4eac6ab7a2a6e4/pino-nacional.jpg"
-  - :id: 6zySzgLTpKW0WU8WM6y2oU
-    :subtitle: Tableros
-    :title: MDF
-    :description: Contamos con Tableros de  MDF natural en todas las medidas , y ofrecemos
-      servicio de corte y dimensionado .
-    :links:
-    - :id: GCAoGtR9egAsKcY44SA4w
-      :title: Ver MDF
-      :path: "/tableros/mdf"
-    :image:
-      :title: mdf
-      :description: Rack de Tableros de MDF
-      :url: "//images.contentful.com/rvnl2qm3k12r/3GfV3r84NacEOWCKis8ki/4c6212226bb43ed03cd3422802174e5d/mdf.jpg"
-  - :id: 2upIZavBZOEm02OIO2OuMu
-    :subtitle: Tableros
-    :title: Triplay de Pino
-    :description: Tenemos Triplay importado y nacional para fabricación de tarima,
-      empaque industrial  etc. . En espesores desde 3 mm hasta 18 mm. y calidades
-      BC , CPD , y CD.
-    :links:
-    - :id: 2If27Pq8WkWsaM0QwcQaQI
-      :title: Ver Triplay de Pino Nacional
-      :path: "/tableros/triplay/pino-nacional"
-    :image:
-      :title: triplay-de-pino
-      :description: Rack de Triplay de Pino Nacional
-      :url: "//images.contentful.com/rvnl2qm3k12r/2xKsogcy9OgMqaIW80cYmM/76b025e5d5a80faf8412913d43334803/triplay-de-pino.jpg"
-  :seo:
-    :id: 3Z69IpoRgcAomm8yKg4CKO
-    :title: Madera para Industria | Tym Forest
-    :description: Favor de agregar descripción
-    :twitter:
-      :title: seo-twitter
-      :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/6FmgQYoMCc8cE0mgc0CMo2/aa8722e46a27991765c43b69f8795fc5/seo-twitter.jpg"
-    :og:
-      :title: seo-facebook
-      :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/4yQZUy1SAwg0AAgIaSWe0e/2e1db39f24caff3fbd53507fd3a41c99/seo-facebook.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/6tSOjfwiE8w60guE44cEoC/9279e9e6e23ff25a01041c2726db3556/seo-facebook.jpg"
 - :id: 1GUUsAXjsEa8aEISWy8iES
   :title: Madera para Muebles
   :index_image:
     :title: madera-para-muebles
     :description: Madera para Muebles
-    :url: "//images.contentful.com/rvnl2qm3k12r/dUmos8wrySEK0WqYiIsYC/442f5ad775bb0d58d7b5c470c3c033ef/madera-para-muebles.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/dUmos8wrySEK0WqYiIsYC/442f5ad775bb0d58d7b5c470c3c033ef/madera-para-muebles.jpg"
   :hero_image:
     :title: madera-para-muebles
     :description: Maderas finas para fabcricación de muebles.
-    :url: "//images.contentful.com/rvnl2qm3k12r/1AZdld5BuIkm2aUakGoUc6/7b255f384d905969bee38dd86aeb202e/portada.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/1AZdld5BuIkm2aUakGoUc6/7c4a2ac39850c1bc76036e59f38f2eed/portada.jpg"
   :sections:
   - :id: 3ZefgPneDYYKOaCUgsccww
     :subtitle: Maderas
     :title: Banak
-    :description: La madera aserrada de Banak es muy accesible, su origen es Peruano
-      y esta disponible en calidad FAS para los grosores de 1” y 2”. Su color varía
-      entre rojizo y marrón y se utiliza comúnmente para la fabricación de muebles
-      o carpintería.
+    :description: La madera aserrada de Banak es muy accesible, es de origen Sudamericano
+      y esta disponible en calidad Selecto para los grosores de 1”, 1.5" y 2”. Su
+      color varía entre rojizo y marrón y se utiliza comúnmente para la fabricación
+      de muebles o carpintería.
     :links:
     - :id: 618WU8gFYQeYYSYgqK2C8e
       :title: Ver Madera de Banak
@@ -252,7 +153,7 @@
     :image:
       :title: banak
       :description: Favor de agregar una descripción de la imágen.
-      :url: "//images.contentful.com/rvnl2qm3k12r/7t4IaGvdBKWuKCgcko4uM6/ee0242593d45015dc8c40078ec8f8e63/banak.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/7t4IaGvdBKWuKCgcko4uM6/5071c5b9a8956a22820d989e2c247424/banak.jpg"
   - :id: 3xNawqxZKockWUoo6sUUQe
     :subtitle: Maderas
     :title: Nogal Americano
@@ -266,8 +167,8 @@
       :path: "/maderas/nogal-americano"
     :image:
       :title: nogal-americano
-      :description: Favor de agregar una descripción de la imágen.
-      :url: "//images.contentful.com/rvnl2qm3k12r/2m7cxLDEaQIKGyaUSCIMK2/5683e7d6a47df67b817ebd9a55ed3b1d/nogal-americano.jpg"
+      :description: Madera de Nogal Americano
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/2m7cxLDEaQIKGyaUSCIMK2/8fc71dadcdca9cd7263b064d411906cd/nogal-americano.jpg"
   - :id: 5Q6MCT3Nu0UiIQgyaSu0es
     :subtitle: Maderas
     :title: Encino
@@ -282,7 +183,7 @@
     :image:
       :title: encino
       :description: Favor de agregar una descripción de la imágen.
-      :url: "//images.contentful.com/rvnl2qm3k12r/10hDAiVUduS6s4QWYyYEmU/1155bdee3c2af86e8843ec1b0636743c/encino.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/10hDAiVUduS6s4QWYyYEmU/de9c9600f3cf998492b6fba22df38666/encino.jpg"
   - :id: 7ulhoBFEiWW0mM8CWqwEg8
     :subtitle: Maderas
     :title: Haya
@@ -296,7 +197,7 @@
     :image:
       :title: haya
       :description: Favor de agregar una descripción de la imágen.
-      :url: "//images.contentful.com/rvnl2qm3k12r/4SB9MjJmc0cAm0ogc6i8Uk/f4f1ece1ec1388141eaba85d415f47d0/haya.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4SB9MjJmc0cAm0ogc6i8Uk/f4f1ece1ec1388141eaba85d415f47d0/haya.jpg"
   - :id: 2WR4p1PFyMe0sesQaoqWEU
     :subtitle: Maderas
     :title: Tzalam
@@ -310,7 +211,7 @@
     :image:
       :title: tzalam
       :description: Favor de agregar descripción de la imágen.
-      :url: "//images.contentful.com/rvnl2qm3k12r/taIkJPSX5Y0208U26k8CY/8c93c8a3d27587e70920fb0039fb72f2/tzalam.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/taIkJPSX5Y0208U26k8CY/8c93c8a3d27587e70920fb0039fb72f2/tzalam.jpg"
   :seo:
     :id: 727LmVKZKEe8YC8giQ4oo0
     :title: Madera para Muebles | Tym Forest
@@ -318,21 +219,125 @@
     :twitter:
       :title: seo-twitter
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/4uDWayNROo6o00u4cgUG2E/a845540a624aa2555dcbf37648b6c56e/seo-twitter.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4uDWayNROo6o00u4cgUG2E/a845540a624aa2555dcbf37648b6c56e/seo-twitter.jpg"
     :og:
       :title: seo-facebook
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/66yLGluY6s6caCKKKSM42Q/bf8caf46995ac7e872047a1fd241c7cb/seo-facebook.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/66yLGluY6s6caCKKKSM42Q/bf8caf46995ac7e872047a1fd241c7cb/seo-facebook.jpg"
+- :id: 2wKDBPBjyk4GGgOIuY0eAG
+  :title: Madera para Industria
+  :index_image:
+    :title: madera-para-industria
+    :description: Madera para Industria
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4ZPtliyyqcwyOCUYUqemSI/2e047dd342ea2687a32a9e4adcf15e03/madera-para-industria.jpg"
+  :hero_image:
+    :title: pino-americano
+    :description: Tablas de Pino Americano
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4uYi6mAJWgsSK8A26IwokS/d5d5bfafd3ecf13ee89eda65bc5a16e1/portada.jpg"
+  :sections:
+  - :id: FAqdeMy9yKqKMwUAYqwGs
+    :subtitle: Maderas
+    :title: Pino Americano
+    :description: Tabla y Tablón de Pino Americano disponible en diferentes medidas
+      y calidades, también contamos Pino Americano con tratamiento con sales de cobre
+      para exterior .
+    :links:
+    - :id: 6fccrP422c4qWC4yaya0OQ
+      :title: Ver Madera de Pino Americano
+      :path: "/maderas/pino-americano"
+    :image:
+      :title: pino-americano
+      :description: Rack de Madera de Pino Americano.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/xpInRsPew0OyQ0CmYgKyK/8644ed3343b3cd04b4fdcbfe8f9c415a/pino-americano.jpg"
+  - :id: iWF0LFEvYcgS4Yuec48sS
+    :subtitle: Tableros
+    :title: OSB
+    :description: Importamos tablero OSB y ofrecemos los mejores precios del mercado.
+      Tenemos la capacidad de surtir cualquier cantidad y lo enviamos a domicilio.
+    :links:
+    - :id: WBEmYhYDeeMYiccuWkQaG
+      :title: Ver OSB
+      :path: "/tableros/osb"
+    :image:
+      :title: osb
+      :description: Rack de tableros de OSB.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/zdalQgCIcoA02qYwqUMy6/9b66d88c3b77dbf90308d3baf626a057/osb.jpg"
+  - :id: 6zySzgLTpKW0WU8WM6y2oU
+    :subtitle: Tableros
+    :title: MDF
+    :description: Contamos con Tableros de  MDF natural en todas las medidas , y ofrecemos
+      servicio de corte y dimensionado .
+    :links:
+    - :id: GCAoGtR9egAsKcY44SA4w
+      :title: Ver MDF
+      :path: "/tableros/mdf"
+    :image:
+      :title: mdf
+      :description: Tableros de MDF
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/3GfV3r84NacEOWCKis8ki/78906cdd05478c4e62d70fc9e6b61272/mdf.jpg"
+  - :id: 6d4yQYgSE8Iw6I88qc6Mcq
+    :subtitle: Servicios
+    :title: Reduce tus Gastos
+    :description: Reduce tus costos de producción al utilizar los servicios de corte
+      que ofrecemos.
+    :links:
+    - :id: 2qNDVXv0xieoMIK4ESOA6a
+      :title: Ver Servicios
+      :path: "/servicios"
+    :image:
+      :title: reduce-tus-costos
+      :description: Trabajadores de Tym Forest dimensionando tableros en Sucursal
+        Fidel Velázquez
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4Zib0RQj2UCW4ykAAaaoW/28ef8117fb87f417c54fb8eeb2e1d5e0/reduce-tus-costos.jpg"
+  - :id: 3Pv9kMKjKgAEy4Y6Yaa4y6
+    :subtitle: Maderas
+    :title: Pino Nacional
+    :description: Tabla y Tablón de Pino Nacional en diferentes dimensiones y calidades
+      para todos los proyectos.
+    :links:
+    - :id: 5Tl7bdqIBqaMQQQswSsw6q
+      :title: Ver Madera de Pino Nacional
+      :path: "/maderas/pino-nacional"
+    :image:
+      :title: pino-nacional
+      :description: Racks de Madera de Pino Nacional.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/eL6e8NwxCSkAoS6CAO8Ai/be079bbf7bb14aea9e4eac6ab7a2a6e4/pino-nacional.jpg"
+  - :id: 2upIZavBZOEm02OIO2OuMu
+    :subtitle: Tableros
+    :title: Triplay de Pino
+    :description: Tenemos Triplay importado y nacional para fabricación de tarima,
+      empaque industrial  etc. . En espesores desde 3 mm hasta 18 mm. y calidades
+      BC , CPD , y CD.
+    :links:
+    - :id: 2If27Pq8WkWsaM0QwcQaQI
+      :title: Ver Triplay de Pino Nacional
+      :path: "/tableros/triplay/pino-nacional"
+    :image:
+      :title: triplay-de-pino
+      :description: Triplay de Pino
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/2xKsogcy9OgMqaIW80cYmM/5742e2be1043202bf72234ac01bf51f9/triplay-de-pino.jpg"
+  :seo:
+    :id: 3Z69IpoRgcAomm8yKg4CKO
+    :title: Madera para Industria | Tym Forest
+    :description: Favor de agregar descripción
+    :twitter:
+      :title: seo-twitter
+      :description: 
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/6FmgQYoMCc8cE0mgc0CMo2/aa8722e46a27991765c43b69f8795fc5/seo-twitter.jpg"
+    :og:
+      :title: seo-facebook
+      :description: 
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4yQZUy1SAwg0AAgIaSWe0e/2e1db39f24caff3fbd53507fd3a41c99/seo-facebook.jpg"
 - :id: 2JBtVD0qXY4e4QccOisIIa
   :title: Tableros para Interiores
   :index_image:
     :title: tableros-para-interiores
     :description: Tableros para Interiores.
-    :url: "//images.contentful.com/rvnl2qm3k12r/LcLyDWwTCMY8akqyu6OcO/6e2e763c87a525c5399a839302dee126/tableros-para-interiores.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/LcLyDWwTCMY8akqyu6OcO/8169f529137d565802fd8253355d5cac/tableros-para-interiores.jpg"
   :hero_image:
     :title: portada
-    :description: Favor de agregar descripción de imágen.
-    :url: "//images.contentful.com/rvnl2qm3k12r/4PkoBeaJ5uKAk80qi2gu66/acd046490ce0ab255faac81ab0b58ba4/portada.jpg"
+    :description: Melamina para cocina
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/4PkoBeaJ5uKAk80qi2gu66/1cf60f15d384fd88ec72b94289a35b97/portada.jpg"
   :sections:
   - :id: fZheiZ8RhYO4OeOwyKo8w
     :subtitle: Tableros
@@ -347,7 +352,7 @@
     :image:
       :title: melaminas
       :description: Favor de agregar descripción de la imágen.
-      :url: "//images.contentful.com/rvnl2qm3k12r/3gAl9qDoI0ooG2kmwEiICc/ac5da00768faf8c69414d3b2e3e3c5f4/melaminas.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/3gAl9qDoI0ooG2kmwEiICc/bbfadf160b781c1b017518d6b857f644/melaminas.jpg"
   - :id: 5oMfkxqcp2Wu8E0CwueosE
     :subtitle: Servicios
     :title: Este es tu Taller
@@ -361,8 +366,8 @@
       :path: "/servicios"
     :image:
       :title: este-es-tu-taller
-      :description: Favor de agregar descripción de la imágen.
-      :url: "//images.contentful.com/rvnl2qm3k12r/5YOyOPB9h6oEgM68eecueE/6734d3f3dc5b41ed9ff610a67e09c2a2/este-es-tu-taller-desktop.jpg"
+      :description: Servicios para tableros
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/bzlrQ2YGn6komweAi0qO4/d7d1ba5072b05c774e1bcf8d6911bf7b/este-es-tu-taller.jpg"
   - :id: 6pxrotrGikkyqgK4ykecyE
     :subtitle: Tableros
     :title: Enchapados de Maderas Naturales
@@ -376,7 +381,7 @@
     :image:
       :title: enchapados-naturales
       :description: Favor de agregar una descripción de la imágen.
-      :url: "//images.contentful.com/rvnl2qm3k12r/6C2pngymxUa48CqSimkIWs/567a74fb990eb005dc921f67f44400a9/enchapados-naturales.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/6C2pngymxUa48CqSimkIWs/48bca44277ae5adbc6eb3b91e057e916/enchapados-naturales.jpg"
   - :id: 1IaB1QT14gGYgIgiuUeE6Q
     :subtitle: Tableros
     :title: MDF Natural
@@ -389,22 +394,21 @@
     :image:
       :title: mdf-natural
       :description: Favor de agregar una descripción de la imágen.
-      :url: "//images.contentful.com/rvnl2qm3k12r/7AhncxjSJqwooUuOgEUcAe/6976a09d6308ab125abfbf92b64d9b45/mdf-natural-desktop.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/4s4vEr78qsWQkyqmg0oiW4/6cae5569cdfe32e04c7436aa0b46a59e/mdf-natural.jpg"
   - :id: 5KN25IlKfYIyM8GCuwCOk6
-    :subtitle: Ferretería
-    :title: Cubiertas
-    :description: Tenemos  Cubiertas para Cocina en largos de 8, 10 y 12 pies en una
-      gran variedad de colores y diseños, contamos  con los modelos Cuadro, Anti Derrame
-      y Venecia. Al igual que los tableros las cubiertas también las podemos dimensionar
-      a la medida que nuestros clientes lo requieran.
+    :subtitle: Tableros
+    :title: Melamina Blanca
+    :description: Manejamos Melamina Blanca con substratos de MDF, MDP y Aglomerado
+      en diferentes grosores. Al igual que los servicios de corte y enchapado de canto
+      a las necesidades del cliente.
     :links:
     - :id: 6AOSsf0YFyKeI2M8MQmqgu
-      :title: Ver Cubiertas
-      :path: "/ferreteria"
+      :title: Ver Melamina
+      :path: "/melamina"
     :image:
-      :title: cubiertas
-      :description: Favor de agregar descripción de la imágen.
-      :url: "//images.contentful.com/rvnl2qm3k12r/681x1pE2mAm2g8OMaIQ0MK/d5f4241fc17475eb66a7babb1914df54/cubiertas.jpg"
+      :title: Melamina
+      :description: Corte de Melamina Blanca
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/681x1pE2mAm2g8OMaIQ0MK/d1a17d0d82bf5c0a93c385c69501015a/MDP-blanco.jpg"
   :seo:
     :id: 5Utak8ZgEEimQGMASkCg6a
     :title: Tableros para Interiores | Tym Forest
@@ -412,48 +416,11 @@
     :twitter:
       :title: seo-twitter
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/7dgHOn44z6QYQM0i4GcY8I/f6c30fa441377781b78d14536fd6f948/seo-twitter.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/7dgHOn44z6QYQM0i4GcY8I/f6c30fa441377781b78d14536fd6f948/seo-twitter.jpg"
     :og:
       :title: seo-facebook
       :description: 
-      :url: "//images.contentful.com/rvnl2qm3k12r/1zfDNeU0nWoOQIgSKkkmE4/edeb07cc674b6c6787a4bd378428abe7/seo-facebook.jpg"
-:products:
-  :id: 4FKUmMELKguaKmkuSaM0Wu
-  :title: Productos mas Buscados
-  :description: Encuentra las maderas y tableros que buscas por categoría.
-  :ads:
-  - :id: 3SlzBQm6JWmQgs0Caa0C6O
-    :title: Nogal Americano
-    :is_ad: true
-    :image:
-      :title: Nogal Americano
-      :description: Tabla de Nogal Americano
-      :url: "//images.contentful.com/rvnl2qm3k12r/1qXaQ2yrowmmQw8CWWumys/e6010abc510792287b5f5406e8a3aadd/nogal-americano-chico.jpg"
-    :path: "/maderas/nogal-americano"
-  - :id: 17LXENHrkQuMCq6gEQiYYa
-    :title: MDF
-    :is_ad: false
-    :image:
-      :title: MDF
-      :description: Tableros de MDF
-      :url: "//images.contentful.com/rvnl2qm3k12r/34rvTGxpnWiQgswO4oQmCG/54899913ff213c6a8dbae2742fd01402/mdf-grande.jpg"
-    :path: "/tableros/mdf"
-  - :id: 59iUjKLOxGKcGoE4GCCiO
-    :title: Pino Americano
-    :is_ad: false
-    :image:
-      :title: Pino Americano
-      :description: Tablas de Pino Americano
-      :url: "//images.contentful.com/rvnl2qm3k12r/2tSn8nW9Reeg4K40gaIOss/c6ffa2fd949e2bca73f7f7d07c79adce/pino-americano-grande.jpg"
-    :path: "/maderas/pino-americano"
-  - :id: 1sm3u265KkWGqM2e8cOwqG
-    :title: Melamina
-    :is_ad: true
-    :image:
-      :title: melamina-chica
-      :description: Tableros de Melamina
-      :url: "//images.contentful.com/rvnl2qm3k12r/1bv42RTWdUYoyKQ8Kuk2a8/9cab88230082d27920ac108f623ae80c/melamina-chica.jpg"
-    :path: "/tableros/melaminas"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/1zfDNeU0nWoOQIgSKkkmE4/edeb07cc674b6c6787a4bd378428abe7/seo-facebook.jpg"
 :services:
   :id: 1YPWyXkepuGkgQsmAs0OcQ
   :title: Nuestros Servicios
@@ -466,61 +433,12 @@
   :image:
     :title: servicios
     :description: Trabajadores en Tym Forest enchapando un tablero.
-    :url: "//images.contentful.com/rvnl2qm3k12r/5q6UbJ7X9YAI6egg80OOYk/691e438b76507229cfeebfe459ec11d0/servicios.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/5q6UbJ7X9YAI6egg80OOYk/bbc8f1187e34cf581cbadbd07bdd43c9/servicios.jpg"
 :stores:
   :id: Amm2xS9fHwegi4YyoCqSS
   :title: Nuestras Sucursales
   :description: Visita nuestras madererías en Monterrey y San Luis Potosí
   :stores:
-  - :id: 1CPHwa9JE0SQUKiCyOCwmA
-    :is_base: false
-    :is_sub: true
-    :name: Matriz
-    :address:
-      :id: 5EXWg95cKksQusmuEg64SE
-      :street: Avenida Nogalar 305
-      :neighborhood: Antiguo Nogalar
-      :zip_code: '66484'
-      :city: San Nicolás
-      :state_full: Nuevo León
-      :state: N.L.
-      :location:
-        :lat: 25.718366
-        :lon: -100.288213
-      :url: https://www.google.com.mx/maps/place/Madereria+Tym+Forest/@25.7007928,-100.3175975,13.02z/data=!4m12!1m6!3m5!1s0x8662949ce7d3e135:0xa38165bdea840319!2sMadereria+Tym+Forest!8m2!3d25.766648!4d-100.2920242!3m4!1s0x0:0x74eae4915a3080a1!8m2!3d25.718367!4d-100.2882135
-    :number: "(81) 8351 6041"
-    :schedule:
-      :id: 2MujXtdumsqCS8eaKmoOMU
-      :weekday_open: 8
-      :weekday_close: 18
-      :saturday_open: 8
-      :saturday_close: 13
-    :image:
-      :title: portada
-      :description: Descargando tablas de madera en Sucursal Matriz
-      :url: "//images.contentful.com/rvnl2qm3k12r/3DcUb4MTQQg8wMGgYUYUsG/bf38b48a17f977e13b0f5f6a8c6e7ce3/portada.jpg"
-    :services:
-    - :id: 6XZFBrMht6as4kU6Kqecmc
-    - :id: 3tsjNXmTIcyEskyaAwCIkW
-    - :id: 1GRDKIV83GSwSkgUQCOOCy
-    - :id: 6Y4xrCu8CIsIgeIGyGYc8a
-    - :id: 1MWEx854Gkgg0aGcE82aUM
-    - :id: 1SM1zUluzyk8Okk6KKuocE
-    :seo:
-      :id: 51Q15ukWys2m8SweIKeiSc
-      :title: Sucursal Matriz | Tym Forest
-      :description: Tym Forest es una empresa dedicada a proveer madera al mercado
-        de la construcción, fabricación de muebles, carpinteros y la industria en
-        general. Te esperamos en nuestra Sucursal Matriz en San Nicolás de los Garza,
-        Nuevo León.
-      :twitter:
-        :title: seo-twitter
-        :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/3GiXwe7mPYMg6YyMyEYCCY/0793635ad6b0140fd45a8a4bed2ad510/seo-twitter.jpg"
-      :og:
-        :title: seo-facebook
-        :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/1d5jXhhDjYQKwOW2WQ8EGg/0b5ad5b2e9be6dab7f4863fe62e2f460/seo-facebook.jpg"
   - :id: 3JhtUuM2DKcMmUuA280MqM
     :is_base: false
     :is_sub: false
@@ -531,30 +449,54 @@
       :neighborhood: Bernardo Reyes
       :zip_code: '64280'
       :city: Monterrey
+      :estado:
+        :id: 6CP3Z2fv1Y0O4iMo04KYIe
       :state_full: Nuevo León
       :state: N.L.
       :location:
         :lat: 25.721226
         :lon: -100.334132
       :url: https://www.google.com.mx/maps/place/Madereria+Tym+Forest/@25.7170071,-100.3319268,14.28z/data=!4m12!1m6!3m5!1s0x8662949ce7d3e135:0xa38165bdea840319!2sMadereria+Tym+Forest!8m2!3d25.766648!4d-100.2920242!3m4!1s0x0:0x24184d07ae8d2214!8m2!3d25.7212281!4d-100.3341329
-    :number: "(81) 311 2014"
+    :number: "(81) 8311 2014"
     :schedule:
       :id: 75C1yeTmTeYoQg288ei6GC
-      :weekday_open: 8
-      :weekday_lunch: 13
-      :weekday_afternoon: 14.5
+      :weekday_open: 8.5
       :weekday_close: 18
-      :saturday_open: 8
-      :saturday_close: 13
+      :saturday_open: 8.5
+      :saturday_close: 14
     :image:
       :title: portada
       :description: Bodega de Sucursal Fidel Velázquez.
-      :url: "//images.contentful.com/rvnl2qm3k12r/TmSKwtSd2MEYgu2yeEsM2/840592505c10a6a26a873549bef52ffc/portada.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/TmSKwtSd2MEYgu2yeEsM2/840592505c10a6a26a873549bef52ffc/portada.jpg"
     :services:
-    - :id: 6XZFBrMht6as4kU6Kqecmc
     - :id: 3tsjNXmTIcyEskyaAwCIkW
+    - :id: 6XZFBrMht6as4kU6Kqecmc
     - :id: 1GRDKIV83GSwSkgUQCOOCy
-    - :id: 6Y4xrCu8CIsIgeIGyGYc8a
+    - :id: 4M3EbIM7mUg6YEUSYomkYG
+    - :id: 2RQNpk0MfuY2Ag4mwYs4KW
+    - :id: 48Bp6FClGUMCgsEKiWk448
+    - :id: 1rzxmGz364oO0o4ak2qIki
+    - :id: bYH4OryRJ6aqomYIC4uGa
+    - :id: 21euNVgSGc0kgyk8SKgiKk
+      :title: Perforado para Bisagra
+      :nombre: Perforado para Bisagra
+      :subcategory:
+        :id: 1EWKWf7JheI06waYOg4uEE
+        :title: Servicios Adicionales para Tableros
+        :nombre: Adicionales
+        :category: Tableros
+        :description: Servicios especiales para tableros.
+        :image:
+          :title: adicionales
+          :description: Trabajadores de Tym Forest haciendo cortes para traslape en
+            la Sucursal de Matriz.
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/7INs1Dmd5ScSuga88eoysm/1ab5cee9f4e8edb6067db76d079f6f1f/adicionales.jpg"
+      :description: Taladro multiple automático para perforaciones precisas.
+      :card:
+        :title: perforado-para-bisagras
+        :description: Perforando un tablero de MDF en nuestra Sucursal Sendero en
+          Monterrey, Nuevo León.
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/7gA3DyKU24uiiuqAqsMaQO/9ad70bcf79b56f9a52f0eee85e79a78c/perforado-para-bisagras.jpg"
     :seo:
       :id: 61qQzROyacQImSIyeIAAeG
       :title: Sucursal Fidel Velázquez | Tym Forest
@@ -564,11 +506,11 @@
       :twitter:
         :title: seo-twitter
         :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/5qWDMssmOsii6ICg6oWYk6/0cac443af1b670127d49b68523ee52f8/seo-twitter.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/5qWDMssmOsii6ICg6oWYk6/0cac443af1b670127d49b68523ee52f8/seo-twitter.jpg"
       :og:
         :title: seo-facebook
         :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/5lgTKy9vpYQOqeEE0kGEQC/ce3427c13a3527159ccadfe6007e1faa/seo-facebook.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/5lgTKy9vpYQOqeEE0kGEQC/ce3427c13a3527159ccadfe6007e1faa/seo-facebook.jpg"
   - :id: 5SQXmjrvdSyim8qCEQcaaa
     :is_base: false
     :is_sub: false
@@ -579,6 +521,8 @@
       :neighborhood: Nuevo Repueblo
       :zip_code: '64700'
       :city: Monterrey
+      :estado:
+        :id: 6CP3Z2fv1Y0O4iMo04KYIe
       :state_full: Nuevo León
       :state: N.L.
       :location:
@@ -588,28 +532,20 @@
     :number: "(81) 8190 3214"
     :schedule:
       :id: 6VcuGuqW9GoomskY2IE6Eu
-      :weekday_open: 8
+      :weekday_open: 8.5
       :weekday_close: 18
-      :saturday_open: 8
-      :saturday_close: 13
+      :saturday_open: 8.5
+      :saturday_close: 14
     :image:
       :title: portada
       :description: Mostrador de Sucursal Nuevo Repueblo
-      :url: "//images.contentful.com/rvnl2qm3k12r/1RiDU6yszWGSEgQ0UWeoGo/4366111ee4d28b8ef55ecb5b77ad1d79/portada.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/1RiDU6yszWGSEgQ0UWeoGo/4366111ee4d28b8ef55ecb5b77ad1d79/portada.jpg"
     :services:
     - :id: 6XZFBrMht6as4kU6Kqecmc
-      :title: Corte Transversal para Maderas
-      :nombre: Corte Transversal
-      :subcategory:
-        :id: 6QolIE1eMgM4CUYQisKmSU
-      :description: Cortes rectos con sierra de péndulo.
-      :card:
-        :title: corte-transversal
-        :description: Máquina de péndulo para hacer cortes transversales en maderas.
-        :url: "//images.contentful.com/rvnl2qm3k12r/1BBRhjU65Ggm68c2KWsqcw/072ebc2615e2bc78e77a7b2339ace26f/corte-transversal.jpg"
     - :id: 3tsjNXmTIcyEskyaAwCIkW
     - :id: 1GRDKIV83GSwSkgUQCOOCy
-    - :id: 6Y4xrCu8CIsIgeIGyGYc8a
+    - :id: 4M3EbIM7mUg6YEUSYomkYG
+    - :id: bYH4OryRJ6aqomYIC4uGa
     :seo:
       :id: 6HRgI4cqly8uaUKAEqcMqi
       :title: Sucursal Nuevo Repueblo | Tym Forest
@@ -619,39 +555,44 @@
       :twitter:
         :title: seo-twitter
         :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/tgC7LYmZl6gG4o0s6sMcG/6a9e49d9e92023370e8a261f9c65c7ea/seo-twitter.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/tgC7LYmZl6gG4o0s6sMcG/6a9e49d9e92023370e8a261f9c65c7ea/seo-twitter.jpg"
       :og:
         :title: seo-facebook
         :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/58tXAHClDyiqQ4SO8kSeIi/84638c5088216fabf0a3af3b41cfc3d6/seo-facebook.jpg"
-  - :id: 5lWbKH45e8wa6EISkKeiOi
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/58tXAHClDyiqQ4SO8kSeIi/84638c5088216fabf0a3af3b41cfc3d6/seo-facebook.jpg"
+  - :id: 1CPHwa9JE0SQUKiCyOCwmA
     :is_base: false
-    :is_sub: false
-    :name: Sendero
+    :is_sub: true
+    :name: Matriz
     :address:
-      :id: 1jpRL8v7xcs4GywsQMckEA
-      :street: Ave Universidad 500
-      :neighborhood: Villarreal
-      :zip_code: '66427'
+      :id: 5EXWg95cKksQusmuEg64SE
+      :street: Avenida Nogalar 305
+      :neighborhood: Antiguo Nogalar
+      :zip_code: '66484'
       :city: San Nicolás
+      :estado:
+        :id: 6CP3Z2fv1Y0O4iMo04KYIe
       :state_full: Nuevo León
       :state: N.L.
       :location:
-        :lat: 25.766649
-        :lon: -100.292022
-      :url: https://www.google.com.mx/maps/place/Madereria+Tym+Forest/@25.7720622,-100.3322141,13z/data=!4m12!1m6!3m5!1s0x0:0xd67efe4ed668230b!2sMadereria+Tym+Forest!8m2!3d25.6574458!4d-100.3015494!3m4!1s0x8662949ce7d3e135:0xa38165bdea840319!8m2!3d25.766648!4d-100.2920242
-    :number: "(81) 8311 2014"
+        :lat: 25.718366
+        :lon: -100.288213
+      :url: https://www.google.com.mx/maps/place/Madereria+Tym+Forest/@25.7007928,-100.3175975,13.02z/data=!4m12!1m6!3m5!1s0x8662949ce7d3e135:0xa38165bdea840319!2sMadereria+Tym+Forest!8m2!3d25.766648!4d-100.2920242!3m4!1s0x0:0x74eae4915a3080a1!8m2!3d25.718367!4d-100.2882135
+    :number: "(81) 8351 6040"
     :schedule:
-      :id: 21gbEUCHikqku2WWW6kuCQ
+      :id: 2MujXtdumsqCS8eaKmoOMU
       :weekday_open: 8
       :weekday_close: 18
       :saturday_open: 8
       :saturday_close: 13
     :image:
       :title: portada
-      :description: Cepillando Madera de Pino Nacional en bodega de Sucursal Sendero
-      :url: "//images.contentful.com/rvnl2qm3k12r/52U8GD9uxiCYIeaaMm4C4C/bbadb5cc4a0480f7bb3fa66ca699ef0d/portada.jpg"
+      :description: Descargando tablas de madera en Sucursal Matriz
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/3DcUb4MTQQg8wMGgYUYUsG/bf38b48a17f977e13b0f5f6a8c6e7ce3/portada.jpg"
     :services:
+    - :id: 6XZFBrMht6as4kU6Kqecmc
+    - :id: 3tsjNXmTIcyEskyaAwCIkW
+    - :id: 1GRDKIV83GSwSkgUQCOOCy
     - :id: 6Y4xrCu8CIsIgeIGyGYc8a
     - :id: 1MWEx854Gkgg0aGcE82aUM
       :title: Tratado HT para Maderas
@@ -662,7 +603,7 @@
       :card:
         :title: tratado-ht
         :description: Madera de Pino Nacional con un sello 'HT'.
-        :url: "//images.contentful.com/rvnl2qm3k12r/4vepmPvrHyqioMcKySSE04/a32b557bcd3f3f783d3d0db0e92ef25d/tratado-ht.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/4vepmPvrHyqioMcKySSE04/a32b557bcd3f3f783d3d0db0e92ef25d/tratado-ht.jpg"
     - :id: 1SM1zUluzyk8Okk6KKuocE
       :title: Sales de Cobre para Maderas
       :nombre: Sales de Cobre
@@ -675,149 +616,14 @@
         :image:
           :title: tratamientos
           :description: Madera de Pino Nacional con sello visible de HT.
-          :url: "//images.contentful.com/rvnl2qm3k12r/36iQp0AgSAOamE0AKOqeay/9d5abfc6b6e39d90f253773a5ab0abb8/tratamientos.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/36iQp0AgSAOamE0AKOqeay/9d5abfc6b6e39d90f253773a5ab0abb8/tratamientos.jpg"
       :description: Tratamiento químico para uso de madera en exterior.
       :card:
         :title: sales-de-cobre
         :description: Maderas con un tono verdoso por ser tratadas con sales de cobre.
-        :url: "//images.contentful.com/rvnl2qm3k12r/3IqVbeHJP2SsmW0Gym4m4m/9d997d5acbc6b6411656dd13a5c0eea9/sales-de-cobre.jpg"
-    - :id: mjbi9nFZqSy2qs0ggwYam
-      :title: Machimbrado para Maderas
-      :nombre: Machimbrado
-      :subcategory:
-        :id: 55vEFJF0beU8OSg4I4uwoK
-      :description: Corte para unir madera solida con madera solida.
-      :card:
-        :title: machimbrado
-        :description: Trabajador de Tym Forest haciendo unas medidas antes de preparar
-          la madera para corte.
-        :url: "//images.contentful.com/rvnl2qm3k12r/17K08X8C4Giw8okG8CEy0S/57f803344286511fa270f022f1faa5e4/machimbrado.jpg"
-    :seo:
-      :id: 4BxmhXWEysGaAGg6Coqm0i
-      :title: Sucursal Sendero | Tym Forest
-      :description: Tym Forest es una empresa dedicada a proveer madera al mercado
-        de la construcción, fabricación de muebles, carpinteros y la industria en
-        general. Te esperamos en Sucursal Sendero en San Nicolás de los Garza, Nuevo
-        León.
-      :twitter:
-        :title: seo-twitter
-        :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/3KZWyMZNWoW6MQCoWGOMGc/32318a2aeced56a800360649b0b4c0cc/seo-twitter.jpg"
-      :og:
-        :title: seo-facebook
-        :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/5BoOIvwRriQqMUuYWgQYW8/998ce4fd6b221b9cd985575437248da3/seo-facebook.jpg"
-  - :id: 2ChTeuJdKk6ogQIeOGskYq
-    :is_base: false
-    :is_sub: false
-    :name: La Fe
-    :address:
-      :id: 7JVS3QN6JaQmwYsASciiau
-      :street: Ave Miguel Alemán 400
-      :neighborhood: La Fe
-      :zip_code: '66278'
-      :city: San Nicolás
-      :state_full: Nuevo León
-      :state: N.L.
-      :location:
-        :lat: 25.724196
-        :lon: -100.213937
-      :url: https://www.google.com.mx/maps/place/Madereria+Tym+Forest/@25.7184086,-100.2487867,13z/data=!4m12!1m6!3m5!1s0x0:0xd67efe4ed668230b!2sMadereria+Tym+Forest!8m2!3d25.6574458!4d-100.3015494!3m4!1s0x0:0xfdad788a53c07c5e!8m2!3d25.7241954!4d-100.2139378
-    :number: "(81) 2167 6700"
-    :schedule:
-      :id: 7L5E03LwkgUwau8km8oUSm
-      :weekday_open: 8
-      :weekday_lunch: 13
-      :weekday_afternoon: 14.5
-      :weekday_close: 18
-      :saturday_open: 8
-      :saturday_close: 13
-    :image:
-      :title: portada
-      :description: Racks de diferentes tipos de madera en Sucursal La Fe
-      :url: "//images.contentful.com/rvnl2qm3k12r/5Ec3Inh1iEGkAAwiKeA66M/e2d9a29a5db660a8b8b688557509ded7/portada.jpg"
-    :services:
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/3IqVbeHJP2SsmW0Gym4m4m/9d997d5acbc6b6411656dd13a5c0eea9/sales-de-cobre.jpg"
+    - :id: 1rzxmGz364oO0o4ak2qIki
     - :id: 2RQNpk0MfuY2Ag4mwYs4KW
-      :title: Corte Transversal para Tableros
-      :nombre: Corte Transversal
-      :subcategory:
-        :id: 3iKM0ow8NioceIaSU2E2uG
-      :description: Cortes rectos con dimensionadora.
-      :card:
-        :title: corte-transversal
-        :description: Haciendo unos cortes transversales en tableros de MDF en nuestra
-          Sucursal Fidel Velázquez en Monterrey, Nuevo León.
-        :url: "//images.contentful.com/rvnl2qm3k12r/24ojwAgCsYUGaUkkUUie2o/38d6df1133bd8e18387b1f69efccc9f4/corte-transversal.jpg"
-    - :id: 3tsjNXmTIcyEskyaAwCIkW
-    - :id: 6Y4xrCu8CIsIgeIGyGYc8a
-      :title: Cepillado de Canto para Maderas
-      :nombre: Cepillado de Canto
-      :subcategory:
-        :id: W90trFNWE0okgo2ikMss0
-      :description: Canteadora industrial con corte helicoidal.
-      :card:
-        :title: cepillado-de-canto
-        :description: Cepillando tableros de madera de pino nacional en la sucursal
-          sendero en Monterrey, Nuevo León.
-        :url: "//images.contentful.com/rvnl2qm3k12r/1Thjhnekuss0kgKQEQoS6S/f52b44aeb3e6bb5dc1cb0252d3de7098/cepillado-de-canto.jpg"
-    - :id: 1GRDKIV83GSwSkgUQCOOCy
-    :seo:
-      :id: 3MwbIhTUsw6E48ywq2kEGA
-      :title: Sucursal La Fe | Tym Forest
-      :description: Tym Forest es una empresa dedicada a proveer madera al mercado
-        de la construcción, fabricación de muebles, carpinteros y la industria en
-        general.
-      :twitter:
-        :title: seo-twitter
-        :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/78X5Ah0FSoMGyKKEiimQyE/9f9bb735b873695617d5dd7f2e6e1847/seo-twitter.jpg"
-      :og:
-        :title: seo-facebook
-        :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/68sGr2ZDGw4Y62cIeYiWyQ/7e8094b4c9d3b9dadb7cceda65a3df74/seo-facebook.jpg"
-  - :id: 4X4pCDMrjyEAUKE8q2UOmu
-    :is_base: false
-    :is_sub: false
-    :name: Soledad
-    :address:
-      :id: 1qrZZuouAg0Q0QgUo2O4Ei
-      :street: Carretera Matehuala Km3 1150
-      :neighborhood: La Raza
-      :zip_code: '78431'
-      :city: San Luis
-      :state_full: San Luis Potosí
-      :state: S.L.P.
-      :location:
-        :lat: 22.177977
-        :lon: -100.956094
-      :url: https://www.google.com.mx/maps/place/Madereria+Tym+Forest/@22.176359,-100.9669374,14.72z/data=!4m5!3m4!1s0x842aa1bfd7723999:0x191cdf49c0605035!8m2!3d22.1779775!4d-100.9560927
-    :number: "(44) 4823 4001"
-    :schedule:
-      :id: 6I21mBiepaEAc4UscWkA60
-      :weekday_open: 8
-      :weekday_lunch: 14
-      :weekday_afternoon: 15.5
-      :weekday_close: 18
-      :saturday_open: 8
-      :saturday_close: 13.5
-    :image:
-      :title: portada
-      :description: Ayudando a un cliente a bajar tableros de los racks en Sucursal
-        Soledad
-      :url: "//images.contentful.com/rvnl2qm3k12r/2F21qu3EikQaYy8QuAW2MA/337766ce18c6cdee3de86bb20085d6ed/portada.jpg"
-    :services:
-    - :id: 21euNVgSGc0kgyk8SKgiKk
-      :title: Perforado para Bisagra
-      :nombre: Perforado para Bisagra
-      :subcategory:
-        :id: 1EWKWf7JheI06waYOg4uEE
-      :description: Taladro multiple automático para perforaciones precisas.
-      :card:
-        :title: perforado-para-bisagras
-        :description: Perforando un tablero de MDF en nuestra Sucursal Sendero en
-          Monterrey, Nuevo León.
-        :url: "//images.contentful.com/rvnl2qm3k12r/7gA3DyKU24uiiuqAqsMaQO/9ad70bcf79b56f9a52f0eee85e79a78c/perforado-para-bisagras.jpg"
-    - :id: 5qcrMMFIaIcaYsYMa60CCK
     - :id: 4U0kiEILTywiIWQAmmcaQo
       :title: Traslape para Maderas
       :nombre: Traslape
@@ -831,13 +637,172 @@
           :title: adicionales
           :description: Trabajadores de Tym Forest preparando una tabla de madera
             para traslape.
-          :url: "//images.contentful.com/rvnl2qm3k12r/5ou6jdz9XGms4MEwyeUqWW/f11ce54bd4ebf7e64c9c81f9715dfe21/adicionales.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/5ou6jdz9XGms4MEwyeUqWW/f11ce54bd4ebf7e64c9c81f9715dfe21/adicionales.jpg"
       :description: Corte para sobreponer madera solida con madera solida.
       :card:
         :title: traslape
         :description: Haciendo traslape en unas tablas de Pino Nacional en nuestra
           sucursal Matriz en Monterrey, Nuevo León.
-        :url: "//images.contentful.com/rvnl2qm3k12r/2J76wRug6cUa2wu0wk0Ug2/5819b5aacb51151a1c25b5d7ba26ba4f/traslape.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/2J76wRug6cUa2wu0wk0Ug2/5819b5aacb51151a1c25b5d7ba26ba4f/traslape.jpg"
+    :seo:
+      :id: 51Q15ukWys2m8SweIKeiSc
+      :title: Sucursal Matriz | Tym Forest
+      :description: Tym Forest es una empresa dedicada a proveer madera al mercado
+        de la construcción, fabricación de muebles, carpinteros y la industria en
+        general. Te esperamos en nuestra Sucursal Matriz en San Nicolás de los Garza,
+        Nuevo León.
+      :twitter:
+        :title: seo-twitter
+        :description: 
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/3GiXwe7mPYMg6YyMyEYCCY/0793635ad6b0140fd45a8a4bed2ad510/seo-twitter.jpg"
+      :og:
+        :title: seo-facebook
+        :description: 
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/1d5jXhhDjYQKwOW2WQ8EGg/0b5ad5b2e9be6dab7f4863fe62e2f460/seo-facebook.jpg"
+  - :id: 5lWbKH45e8wa6EISkKeiOi
+    :is_base: false
+    :is_sub: false
+    :name: Sendero
+    :address:
+      :id: 1jpRL8v7xcs4GywsQMckEA
+      :street: Ave Universidad 500
+      :neighborhood: Villarreal
+      :zip_code: '66427'
+      :city: San Nicolás
+      :estado:
+        :id: 6CP3Z2fv1Y0O4iMo04KYIe
+      :state_full: Nuevo León
+      :state: N.L.
+      :location:
+        :lat: 25.766649
+        :lon: -100.292022
+      :url: https://www.google.com.mx/maps/place/Madereria+Tym+Forest/@25.7720622,-100.3322141,13z/data=!4m12!1m6!3m5!1s0x0:0xd67efe4ed668230b!2sMadereria+Tym+Forest!8m2!3d25.6574458!4d-100.3015494!3m4!1s0x8662949ce7d3e135:0xa38165bdea840319!8m2!3d25.766648!4d-100.2920242
+    :number: "(81) 8332 1120"
+    :schedule:
+      :id: 21gbEUCHikqku2WWW6kuCQ
+      :weekday_open: 8.5
+      :weekday_close: 18
+      :saturday_open: 8.5
+      :saturday_close: 14
+    :image:
+      :title: portada
+      :description: Cepillando Madera de Pino Nacional en bodega de Sucursal Sendero
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/52U8GD9uxiCYIeaaMm4C4C/bbadb5cc4a0480f7bb3fa66ca699ef0d/portada.jpg"
+    :services:
+    - :id: 6Y4xrCu8CIsIgeIGyGYc8a
+    - :id: 3tsjNXmTIcyEskyaAwCIkW
+    - :id: 4M3EbIM7mUg6YEUSYomkYG
+    - :id: 6XZFBrMht6as4kU6Kqecmc
+    - :id: 1rzxmGz364oO0o4ak2qIki
+    - :id: bYH4OryRJ6aqomYIC4uGa
+    :seo:
+      :id: 4BxmhXWEysGaAGg6Coqm0i
+      :title: Sucursal Sendero | Tym Forest
+      :description: Tym Forest es una empresa dedicada a proveer madera al mercado
+        de la construcción, fabricación de muebles, carpinteros y la industria en
+        general. Te esperamos en Sucursal Sendero en San Nicolás de los Garza, Nuevo
+        León.
+      :twitter:
+        :title: seo-twitter
+        :description: 
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/3KZWyMZNWoW6MQCoWGOMGc/32318a2aeced56a800360649b0b4c0cc/seo-twitter.jpg"
+      :og:
+        :title: seo-facebook
+        :description: 
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/5BoOIvwRriQqMUuYWgQYW8/998ce4fd6b221b9cd985575437248da3/seo-facebook.jpg"
+  - :id: 2ChTeuJdKk6ogQIeOGskYq
+    :is_base: false
+    :is_sub: false
+    :name: La Fe
+    :address:
+      :id: 7JVS3QN6JaQmwYsASciiau
+      :street: Ave Miguel Alemán 400
+      :neighborhood: La Fe
+      :zip_code: '66278'
+      :city: San Nicolás
+      :estado:
+        :id: 6CP3Z2fv1Y0O4iMo04KYIe
+        :nombre: Nuevo León
+        :abreviacion: N.L.
+      :state_full: Nuevo León
+      :state: N.L.
+      :location:
+        :lat: 25.724196
+        :lon: -100.213937
+      :url: https://www.google.com.mx/maps/place/Madereria+Tym+Forest/@25.7184086,-100.2487867,13z/data=!4m12!1m6!3m5!1s0x0:0xd67efe4ed668230b!2sMadereria+Tym+Forest!8m2!3d25.6574458!4d-100.3015494!3m4!1s0x0:0xfdad788a53c07c5e!8m2!3d25.7241954!4d-100.2139378
+    :number: "(81) 2167 6700"
+    :schedule:
+      :id: 7L5E03LwkgUwau8km8oUSm
+      :weekday_open: 8.5
+      :weekday_close: 18
+      :saturday_open: 8.5
+      :saturday_close: 14
+    :image:
+      :title: portada
+      :description: Racks de diferentes tipos de madera en Sucursal La Fe
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/5Ec3Inh1iEGkAAwiKeA66M/e2d9a29a5db660a8b8b688557509ded7/portada.jpg"
+    :services:
+    - :id: 2RQNpk0MfuY2Ag4mwYs4KW
+    - :id: 3tsjNXmTIcyEskyaAwCIkW
+    - :id: 6Y4xrCu8CIsIgeIGyGYc8a
+      :title: Cepillado de Canto para Maderas
+      :nombre: Cepillado de Canto
+      :subcategory:
+        :id: W90trFNWE0okgo2ikMss0
+      :description: Canteadora industrial con corte helicoidal.
+      :card:
+        :title: cepillado-de-canto
+        :description: Cepillando tableros de madera de pino nacional en la sucursal
+          sendero en Monterrey, Nuevo León.
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/1Thjhnekuss0kgKQEQoS6S/f52b44aeb3e6bb5dc1cb0252d3de7098/cepillado-de-canto.jpg"
+    - :id: 1GRDKIV83GSwSkgUQCOOCy
+    - :id: 1rzxmGz364oO0o4ak2qIki
+    - :id: bYH4OryRJ6aqomYIC4uGa
+    :seo:
+      :id: 3MwbIhTUsw6E48ywq2kEGA
+      :title: Sucursal La Fe | Tym Forest
+      :description: Tym Forest es una empresa dedicada a proveer madera al mercado
+        de la construcción, fabricación de muebles, carpinteros y la industria en
+        general.
+      :twitter:
+        :title: seo-twitter
+        :description: 
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/78X5Ah0FSoMGyKKEiimQyE/9f9bb735b873695617d5dd7f2e6e1847/seo-twitter.jpg"
+      :og:
+        :title: seo-facebook
+        :description: 
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/68sGr2ZDGw4Y62cIeYiWyQ/7e8094b4c9d3b9dadb7cceda65a3df74/seo-facebook.jpg"
+  - :id: 4X4pCDMrjyEAUKE8q2UOmu
+    :is_base: false
+    :is_sub: false
+    :name: Soledad
+    :address:
+      :id: 1qrZZuouAg0Q0QgUo2O4Ei
+      :street: Carretera Matehuala Km3 1150
+      :neighborhood: La Raza
+      :zip_code: '78431'
+      :city: San Luis
+      :estado:
+        :id: H6rA5jyQOky2OKyiOW6Wi
+      :state_full: San Luis Potosí
+      :state: S.L.P.
+      :location:
+        :lat: 22.177977
+        :lon: -100.956094
+      :url: https://www.google.com.mx/maps/place/Madereria+Tym+Forest/@22.176359,-100.9669374,14.72z/data=!4m5!3m4!1s0x842aa1bfd7723999:0x191cdf49c0605035!8m2!3d22.1779775!4d-100.9560927
+    :number: "(44) 4831 0202"
+    :schedule:
+      :id: 6I21mBiepaEAc4UscWkA60
+      :weekday_open: 8.5
+      :weekday_close: 18
+      :saturday_open: 8.5
+      :saturday_close: 14
+    :image:
+      :title: portada
+      :description: Ayudando a un cliente a bajar tableros de los racks en Sucursal
+        Soledad
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/2F21qu3EikQaYy8QuAW2MA/337766ce18c6cdee3de86bb20085d6ed/portada.jpg"
+    :services:
     - :id: bYH4OryRJ6aqomYIC4uGa
       :title: Optimizador de Cortes para Tableros
       :nombre: Optimizador de Cortes
@@ -850,12 +815,35 @@
         :image:
           :title: programas-de-diseno
           :description: Documentación detallando los cortes óptimos para un tablero.
-          :url: "//images.contentful.com/rvnl2qm3k12r/5XLl8bH82ccUKeKgoiOuwu/6e25d21f8d25e7230df0564b67b8d733/programas-de-diseno.jpg"
-      :description: Programa para reducir merma de tablero.
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/5XLl8bH82ccUKeKgoiOuwu/6e25d21f8d25e7230df0564b67b8d733/programas-de-diseno.jpg"
+      :description: 'Programa para reducir merma de tablero. :tree:'
       :card:
         :title: optimizador-de-cortes
         :description: Documentación de la optimización de un tablero.
-        :url: "//images.contentful.com/rvnl2qm3k12r/5T6nYttlMAOCIu0So6EoEY/018c560f7f015a50539550854bb22bdc/optimizador-de-cortes.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/5T6nYttlMAOCIu0So6EoEY/018c560f7f015a50539550854bb22bdc/optimizador-de-cortes.jpg"
+    - :id: 1GRDKIV83GSwSkgUQCOOCy
+    - :id: 6XZFBrMht6as4kU6Kqecmc
+    - :id: 2RQNpk0MfuY2Ag4mwYs4KW
+    - :id: 48Bp6FClGUMCgsEKiWk448
+      :title: Enchapado de Cantos para Tableros
+      :nombre: Enchapado de Cantos
+      :subcategory:
+        :id: 6IhYB8gRZCa4kgKsSGGmwa
+        :title: Enchapados para Tableros
+        :nombre: Enchapados
+        :category: Tableros
+        :description: Servicio de pegado de chapa o cintilla en el canto del tablero.
+        :image:
+          :title: enchapados
+          :description: Trabajador de Tym Forest enchapando un tablero de Okumé.
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/C7So59QLfisWkoWkMIwKi/17f7aa261a67be69d3e0520ff3b49685/enchapados.jpg"
+      :description: Enchapado de madera natural y melamina para canto de tablero.
+      :card:
+        :title: enchapado-de-cantos
+        :description: Trabajador de Tym Forest enchapando los cantos de un tablero
+          de Okumé.
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/oT221fGk92C2I4O4628Ai/4d6bb5cc3f390b288c913c710b33aa2a/enchapado-de-cantos.jpg"
+    - :id: 1rzxmGz364oO0o4ak2qIki
     :seo:
       :id: xcyR1vHHKS68wE0cYEQUu
       :title: Sucursal Soledad | Tym Forest
@@ -865,11 +853,11 @@
       :twitter:
         :title: seo-twitter
         :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/6a6yPLg5AQoEEwCM2IekcS/ef28e810554914a205f7c958e4a61f73/seo-twitter.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/6a6yPLg5AQoEEwCM2IekcS/ef28e810554914a205f7c958e4a61f73/seo-twitter.jpg"
       :og:
         :title: seo-facebook
         :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/6qcXJKUL1C6cc6qsOYMU6I/bd9c984c016b2b4259092b612fb63673/seo-facebook.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/6qcXJKUL1C6cc6qsOYMU6I/bd9c984c016b2b4259092b612fb63673/seo-facebook.jpg"
   - :id: IKct3ofUYM40eQqY0ICO6
     :is_base: false
     :is_sub: false
@@ -880,6 +868,10 @@
       :neighborhood: Santa Rosa
       :zip_code: '78115'
       :city: San Luis
+      :estado:
+        :id: H6rA5jyQOky2OKyiOW6Wi
+        :nombre: San Luis Potosí
+        :abreviacion: S.L.P.
       :state_full: San Luis Potosí
       :state: S.L.P.
       :location:
@@ -889,54 +881,25 @@
     :number: "(44) 4823 4001"
     :schedule:
       :id: 4CQajH1aAwccWIuOiuumgi
-      :weekday_open: 8
-      :weekday_lunch: 14
-      :weekday_afternoon: 15.5
+      :weekday_open: 8.5
       :weekday_close: 18
-      :saturday_open: 8
-      :saturday_close: 13.5
+      :saturday_open: 8.5
+      :saturday_close: 14
     :image:
       :title: portada
       :description: Vista superior de toda la bodega de Sucursal Saucito
-      :url: "//images.contentful.com/rvnl2qm3k12r/LNPXS4QFSEcQSMA6ISuQm/2906abbd9996ff6bc2085c777cc4b3ea/portada.jpg"
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/LNPXS4QFSEcQSMA6ISuQm/2906abbd9996ff6bc2085c777cc4b3ea/portada.jpg"
     :services:
     - :id: 3tsjNXmTIcyEskyaAwCIkW
       :title: Corte Longitudinal para Maderas
       :nombre: Corte Longitudinal
       :subcategory:
         :id: 6QolIE1eMgM4CUYQisKmSU
-        :title: Dimensionado para Maderas
-        :nombre: Dimensionado
-        :category: Maderas
-        :description: Cortes rectos transversales y longitudinales a la medida.
-        :image:
-          :title: dimensionado
-          :description: Dimensionando un tablero en nuestra Sucursal de Nuevo Repueblo.
-          :url: "//images.contentful.com/rvnl2qm3k12r/3qutJAFZ9eccSiC8Q024su/c7db74a632868a100bd306914a9662ba/dimensionado.jpg"
       :description: Corte recto con sierra de mesa o sierra cinta.
       :card:
         :title: corte-longitudinal
         :description: Haciendo un corte longitudinal con una sierra vertical.
-        :url: "//images.contentful.com/rvnl2qm3k12r/6ILATemznywQEGwAeuaCK2/eb98a21a44b3216ed80850d500d77d92/corte-longitudinal.jpg"
-    - :id: 5qcrMMFIaIcaYsYMa60CCK
-      :title: Perforado para Pernos y Minifix
-      :nombre: Perforado para Pernos y Minifix
-      :subcategory:
-        :id: 1EWKWf7JheI06waYOg4uEE
-        :title: Servicios Adicionales para Tableros
-        :nombre: Adicionales
-        :category: Tableros
-        :description: Servicios especiales para tableros.
-        :image:
-          :title: adicionales
-          :description: Trabajadores de Tym Forest haciendo cortes para traslape en
-            la Sucursal de Matriz.
-          :url: "//images.contentful.com/rvnl2qm3k12r/7INs1Dmd5ScSuga88eoysm/1ab5cee9f4e8edb6067db76d079f6f1f/adicionales.jpg"
-      :description: Taladro multiple automático para perforaciones precisas.
-      :card:
-        :title: perforado-para-pernos-y-minifix
-        :description: Favor de agregar descripción de la imágen.
-        :url: "//images.contentful.com/rvnl2qm3k12r/6AZugLypwW02E6w4g42wmw/279219a75247549829d6e07ed0320c1f/perforado-para-pernos-y-minifix.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/6ILATemznywQEGwAeuaCK2/eb98a21a44b3216ed80850d500d77d92/corte-longitudinal.jpg"
     - :id: 1GRDKIV83GSwSkgUQCOOCy
       :title: Cepillado de Caras para Maderas
       :nombre: Cepillado de Caras
@@ -950,15 +913,44 @@
           :title: cepillado
           :description: Cepillando tablas de Madera de Pino Nacional en Sucursal Fidel
             Velázquez.
-          :url: "//images.contentful.com/rvnl2qm3k12r/4UJYrflZ72wOm4EgyaUOm/0a357bd80bbfd8813e4bde5fdc2ad16c/cepillado.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/4UJYrflZ72wOm4EgyaUOm/0a357bd80bbfd8813e4bde5fdc2ad16c/cepillado.jpg"
       :description: Cepillo de alto rendimiento con corte helicoidal.
       :card:
         :title: cepillado-de-caras
         :description: Cepillando caras en tablas de Madera de Pino Nacional
-        :url: "//images.contentful.com/rvnl2qm3k12r/1U04lQdXyUMiWSWweEOEqy/cbe18338290830af56a8c6f431deef8f/cepillado-de-caras.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/1U04lQdXyUMiWSWweEOEqy/cbe18338290830af56a8c6f431deef8f/cepillado-de-caras.jpg"
     - :id: 4M3EbIM7mUg6YEUSYomkYG
       :title: Corte Longitudinal para Tableros
       :nombre: Corte Longitudinal
+      :subcategory:
+        :id: 3iKM0ow8NioceIaSU2E2uG
+      :description: Cortes rectos con dimensionadora.
+      :card:
+        :title: corte-longitudinal
+        :description: Trabajador de Tym Forest haciendo cortes longitudinales en un
+          tablero de MDF blanco.
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/2xyy1NNtX6qu2M6yCkwque/9371e035dfdfc7d44b86ca4e0cfeb306/corte-longitudinal.jpg"
+    - :id: 6XZFBrMht6as4kU6Kqecmc
+      :title: Corte Transversal para Maderas
+      :nombre: Corte Transversal
+      :subcategory:
+        :id: 6QolIE1eMgM4CUYQisKmSU
+        :title: Dimensionado para Maderas
+        :nombre: Dimensionado
+        :category: Maderas
+        :description: "Cortes rectos transversales y longitudinales a la medida. \U0001F332"
+        :image:
+          :title: dimensionado
+          :description: Dimensionando un tablero en nuestra Sucursal de Nuevo Repueblo.
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/3qutJAFZ9eccSiC8Q024su/c7db74a632868a100bd306914a9662ba/dimensionado.jpg"
+      :description: Cortes rectos con sierra de péndulo.
+      :card:
+        :title: corte-transversal
+        :description: Máquina de péndulo para hacer cortes transversales en maderas.
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/1BBRhjU65Ggm68c2KWsqcw/072ebc2615e2bc78e77a7b2339ace26f/corte-transversal.jpg"
+    - :id: 2RQNpk0MfuY2Ag4mwYs4KW
+      :title: Corte Transversal para Tableros
+      :nombre: Corte Transversal
       :subcategory:
         :id: 3iKM0ow8NioceIaSU2E2uG
         :title: Dimensionado para Tableros
@@ -968,13 +960,22 @@
         :image:
           :title: dimensionado
           :description: imensionando un tablero en nuestra Sucursal de Nuevo Repueblo.
-          :url: "//images.contentful.com/rvnl2qm3k12r/4RPLkHg9LqoSYMwaguYskk/c8b9d2a9d29f1a1615af531e483d554e/dimensionado.jpg"
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/4RPLkHg9LqoSYMwaguYskk/c8b9d2a9d29f1a1615af531e483d554e/dimensionado.jpg"
       :description: Cortes rectos con dimensionadora.
       :card:
-        :title: corte-longitudinal
-        :description: Trabajador de Tym Forest haciendo cortes longitudinales en un
-          tablero de MDF blanco.
-        :url: "//images.contentful.com/rvnl2qm3k12r/2xyy1NNtX6qu2M6yCkwque/9371e035dfdfc7d44b86ca4e0cfeb306/corte-longitudinal.jpg"
+        :title: corte-transversal
+        :description: Haciendo unos cortes transversales en tableros de MDF en nuestra
+          Sucursal Fidel Velázquez en Monterrey, Nuevo León.
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/24ojwAgCsYUGaUkkUUie2o/38d6df1133bd8e18387b1f69efccc9f4/corte-transversal.jpg"
+    - :id: 1rzxmGz364oO0o4ak2qIki
+      :title: Entregas
+      :nombre: Entregas
+      :description: Servicio de entrega gratuito en pedidos mayores a $2,000.
+      :card:
+        :title: entregas-tarjeta
+        :description: Camión de Tym Forest en camino a entregar un pedido en Monterrey,
+          Nuevo León.
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/1AfcpkMczCuyku6cUyI0s0/2af15e94202861cba0016b0862ecad16/entregas-tarjeta.jpg"
     :seo:
       :id: 4OqJfQYIr60IWKgoA0GMAY
       :title: Sucursal Saucito | Tym Forest
@@ -984,11 +985,11 @@
       :twitter:
         :title: seo-twitter
         :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/5ZmOr0V75SesKyC600Amqe/186d6fd99395567e8f062a022c1ecf46/seo-twitter.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/5ZmOr0V75SesKyC600Amqe/186d6fd99395567e8f062a022c1ecf46/seo-twitter.jpg"
       :og:
         :title: seo-facebook
         :description: 
-        :url: "//images.contentful.com/rvnl2qm3k12r/1eSDERHCfe0w6umgak0GS4/e57b18623b299589650a4922023e674e/seo-facebook.jpg"
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/1eSDERHCfe0w6umgak0GS4/e57b18623b299589650a4922023e674e/seo-facebook.jpg"
 :seo:
   :id: 3fHJJjZ1u0q4sGy0wsQCmm
   :title: Tym Forest | Madera para tus Ideas
@@ -997,8 +998,8 @@
   :twitter:
     :title: seo-twitter
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/5XO1ujuPsWk6qUeoaAmkMi/584e5abbb633442d729fcec7463f039f/seo-twitter.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/5XO1ujuPsWk6qUeoaAmkMi/584e5abbb633442d729fcec7463f039f/seo-twitter.jpg"
   :og:
     :title: seo-facebook
     :description: 
-    :url: "//images.contentful.com/rvnl2qm3k12r/5oSXzaTleMiEwIgYYyqA0C/d84e8cab5c816f2e345b70efa302b8c7/seo-facebook.jpg"
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/5oSXzaTleMiEwIgYYyqA0C/d84e8cab5c816f2e345b70efa302b8c7/seo-facebook.jpg"
