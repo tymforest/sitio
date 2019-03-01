@@ -1162,111 +1162,6 @@
           - :id: 3xjzQznLhCOKQmo2CUM4Yk
           - :id: 2ve8DiQgv26WymyAuA2q4e
           - :id: e2ynE31Fxmakia4Ke62Aq
-            :titulo: Triplay de Pino Chileno
-            :name: Pino Chileno
-            :category:
-              :id: 6vJaxzKEZqMEeUae2mMYmC
-            :subcategory:
-              :id: 4f3IRCYrVSsOqeSc6EK22Y
-            :is_sale: false
-            :is_unit: true
-            :description: El Triplay de Pino Chileno es un tablero hecho de maderas
-              contrachapadas unidas y prensadas con pegamento fenólico una con la
-              otra, enchapado de Pino Chileno por las dos caras del tablero. Tiene
-              múltiples usos como la cimbra en el mercado de la construcción, fabricación
-              de muebles etc.
-            :measurements:
-            - :id: fHCkBZvnmogG0WSwW2MC2
-              :name: Largos
-              :unidad: cm
-              :is_range: false
-              :measurements:
-              - '244'
-            - :id: 84Jel9aJaweeYqIQ6yYqm
-              :name: Anchos
-              :unidad: cm
-              :is_range: false
-              :measurements:
-              - '122'
-            - :id: 10Q5nkxYv4sWmYMQQMkO4U
-              :name: Grosores
-              :unidad: mm
-              :is_range: false
-              :measurements:
-              - '5'
-              - '9'
-              - '12'
-              - '15'
-              - '18'
-            :classes:
-            - CD
-            - CPD
-            - BC
-            :treatments:
-            - Pegamento Fenólico
-            :measurements_on_sale:
-            - :id: 1WeeQIFm9iwqSGWc2IkMSs
-            :details:
-            - :id: 2fDMZZmNdq8gYSIGmWCoeA
-              :title: Latín
-              :description: Araucaria araucana
-            - :id: 5PG0emIO4gwOsgmYgOuuKs
-              :title: Origen
-              :description: Chile
-            - :id: 5nYIXKaTa88kwSqIMqO0MK
-              :title: Usos
-              :description: Cimbra, mobilario y estructura
-            - :id: 7DxaA27o7Sq0OeMAGoike4
-              :title: Veta
-              :description: Recta con texturas finas y medianas
-            - :id: 4lZE6l1yOIIOsQCQW4Iq4M
-              :title: Durámen
-              :description: Café claro a café claro con tonos amarillos
-            - :id: 2jsx7f65NaUIOWIgiesma2
-              :title: Albura
-              :description: Café claro con tonos rojizos
-            :services:
-            - :id: 4M3EbIM7mUg6YEUSYomkYG
-            - :id: bYH4OryRJ6aqomYIC4uGa
-            - :id: 1rzxmGz364oO0o4ak2qIki
-            - :id: 6PZid7ugikoWKeK02eqi2w
-            :products:
-            - :id: 5eCytdkTcI0kKcIEKGWQqM
-            - :id: 3xjzQznLhCOKQmo2CUM4Yk
-            - :id: 1OYb1akSCcOeuYCKiY2e4K
-            - :id: 6FlMF9cpWgg2WMO2YW6oaU
-            :card:
-              :title: tarjeta-principal
-              :description: Triplay de Pino Chileno
-              :url: "//images.ctfassets.net/rvnl2qm3k12r/3R5hNOK8ZWCISWOMQCkcca/5d678372521b8233f54c21329fd4b46b/tarjeta-principal.jpg"
-            :detail_images:
-              :id: 2azklOw1HuoqMykkweiyYW
-              :mobile:
-                :title: detalle-movil
-                :description: Triplay de Pino Chileno
-                :url: "//images.ctfassets.net/rvnl2qm3k12r/24tcWmPYyAIKOG4QIwMAU2/41521c737ae4433f2923f9bd156e46e2/detalle-movil.jpg"
-              :tablet:
-                :title: detalle-tablet
-                :description: Triplay de Pino Chileno
-                :url: "//images.ctfassets.net/rvnl2qm3k12r/f4rNrqqQViIAwsiaMEuQU/1f6bdc5f654c74ddfb7e9f358e813586/detalle-tablet.jpg"
-              :desktop:
-                :title: detalle-desktop
-                :description: Triplay de Pino Chileno
-                :url: "//images.ctfassets.net/rvnl2qm3k12r/1z82Xnfuh2ySkwuCUS0aqQ/05d04a9f2ac07dd4ecf8435e6ac2a9bb/detalle-desktop.jpg"
-            :seo:
-              :id: 1Vk7Z6hc7G8c0KO0M02Siy
-              :title: Triplay de Pino Chileno | Tym Forest
-              :description: El triplay de Pino Chileno es un tablero hecho de maderas
-                contrachapadas unidas y prensadas. Sus principales usos son la cimbra
-                en el mercado de la construcción y la fabricación de muebles.
-              :twitter:
-                :title: seo-twitter
-                :description: 
-                :url: "//images.ctfassets.net/rvnl2qm3k12r/4mCQxxk2MggaO0wcSuMe6y/945d3fb357ac091f4ee31551bd4e574e/seo-twitter.jpg"
-              :og:
-                :title: seo-facebook
-                :description: 
-                :url: "//images.ctfassets.net/rvnl2qm3k12r/26PQrbHtPOK8aiKugyYwCQ/eea2582feaf4b2f418bb81d235ac891e/seo-facebook.jpg"
           - :id: 5eCytdkTcI0kKcIEKGWQqM
           :card:
             :title: tarjeta-principal
@@ -2186,105 +2081,199 @@
                         :title: seo-facebook
                         :description: 
                         :url: "//images.ctfassets.net/rvnl2qm3k12r/lLKm6Awq5wSW6k8seqAK/7194109bca8db210b28d96ceae7c4973/seo-facebook.jpg"
-                  - :id: 7i1H5MzPC8oeG2C2eYw68e
-                    :titulo: Triplay de Poplar
-                    :name: Poplar
+                  - :id: 1tMkaJtghuagQ2YieEu8Ki
+                    :titulo: Triplay de Tulsa
+                    :name: Tulsa
                     :category:
                       :id: 6vJaxzKEZqMEeUae2mMYmC
                     :subcategory:
                       :id: 4f3IRCYrVSsOqeSc6EK22Y
                     :is_sale: false
                     :is_unit: true
-                    :description: El Triplay de Poplar es un tablero hecho de maderas
-                      contrachapadas unidas y prensadas y enchapado de Poplar por
-                      las dos caras del tablero. Su principal uso es la fabricación
-                      de muebles.
+                    :description: El Triplay de film fenólico es un tablero hecho
+                      de maderas de pino contrachapado unidas y prensadas ,  y cubierta
+                      de un film fenólico por una o dos caras del tablero. Su principal
+                      uso es la cimbra para concreto aparente o acabado espejo.
                     :measurements:
-                    - :id: 6nsUmrGxnUqqy2CWWEw6qW
+                    - :id: 4nwRP1lncAqgGwyMyoI8cA
                       :name: Largos
                       :unidad: cm
                       :is_range: false
                       :measurements:
                       - '244'
-                    - :id: 5es5nsfSjuOoCisMW8Ayeu
+                    - :id: 9xAwN7oL9mEGcgg0IgMms
                       :name: Anchos
                       :unidad: cm
                       :is_range: false
                       :measurements:
                       - '122'
-                    - :id: 1AM2t8rbDWYMqI6qOU6iAC
+                    - :id: 21ZJiYMveA4MuMwae6sYaw
                       :name: Grosores
                       :unidad: mm
                       :is_range: false
                       :measurements:
-                      - '5'
-                      - '12'
                       - '15'
                       - '18'
                     :classes:
-                    - BC
+                    - Prime
+                    - Estándar
+                    :measurements_on_sale:
+                    - :id: 4Gwm6mgdPqkawyqeuiWY04
+                      :price: "$35.35"
+                      :measurement: '120'
+                      :unit: mm
                     :details:
-                    - :id: 4Egh15HXeMEw2yYi4awGku
-                      :title: Latín
-                      :description: Liriodendron tulipifera
-                    - :id: 417bave2QgyEeUguik8muM
-                      :title: Origen
-                      :description: Este de Estados Unidos
-                    - :id: 26cgL1uhlG4cggY8OuqWGO
-                      :title: Usos
-                      :description: Fabricacioón de muebles, moldura y acabado de
-                        interiores
-                    - :id: 3oGTFZV8CsMiW66eaOsQY8
-                      :title: Veta
-                      :description: Recta, uniforme con textura mediana
-                    - :id: PIrC577lwiqoU4AyekYao
-                      :title: Durámen
-                      :description: Crema claro a café amarillo
-                    - :id: 21lpuVJq9mAOsEwKcCiiaI
-                      :title: Albura
-                      :description: Amarillo palido a blanco
+                    - :id: 34h0i3yRLaUOkKm6KAy8QU
+                      :title: Latin
+                      :description: Lorem ipsum dolor sit
                     :services:
-                    - :id: 4M3EbIM7mUg6YEUSYomkYG
+                    - :id: 2RQNpk0MfuY2Ag4mwYs4KW
                     - :id: bYH4OryRJ6aqomYIC4uGa
                     - :id: 1rzxmGz364oO0o4ak2qIki
                     - :id: 6PZid7ugikoWKeK02eqi2w
                     :products:
-                    - :id: 5kNyBhHo5OegSwYsEwkq4s
-                    - :id: 5ScmFJvuyk0y2q6aW084WU
-                    - :id: 6lQ7PLt97y6G2EQEm2KyKS
-                    - :id: 1f9jSGDHT2esE6Igi4aMo
+                    - :id: e2ynE31Fxmakia4Ke62Aq
+                      :titulo: Triplay de Pino Chileno
+                      :name: Pino Chileno
+                      :category:
+                        :id: 6vJaxzKEZqMEeUae2mMYmC
+                      :subcategory:
+                        :id: 4f3IRCYrVSsOqeSc6EK22Y
+                      :is_sale: false
+                      :is_unit: true
+                      :description: El Triplay de Pino Chileno es un tablero hecho
+                        de maderas contrachapadas unidas y prensadas con pegamento
+                        fenólico una con la otra, enchapado de Pino Chileno por las
+                        dos caras del tablero. Tiene múltiples usos como la cimbra
+                        en el mercado de la construcción, fabricación de muebles etc.
+                      :measurements:
+                      - :id: fHCkBZvnmogG0WSwW2MC2
+                        :name: Largos
+                        :unidad: cm
+                        :is_range: false
+                        :measurements:
+                        - '244'
+                      - :id: 84Jel9aJaweeYqIQ6yYqm
+                        :name: Anchos
+                        :unidad: cm
+                        :is_range: false
+                        :measurements:
+                        - '122'
+                      - :id: 10Q5nkxYv4sWmYMQQMkO4U
+                        :name: Grosores
+                        :unidad: mm
+                        :is_range: false
+                        :measurements:
+                        - '5'
+                        - '9'
+                        - '12'
+                        - '15'
+                        - '18'
+                      :classes:
+                      - CD
+                      - CPD
+                      - BC
+                      :treatments:
+                      - Pegamento Fenólico
+                      :measurements_on_sale:
+                      - :id: 1WeeQIFm9iwqSGWc2IkMSs
+                      :details:
+                      - :id: 2fDMZZmNdq8gYSIGmWCoeA
+                        :title: Latín
+                        :description: Araucaria araucana
+                      - :id: 5PG0emIO4gwOsgmYgOuuKs
+                        :title: Origen
+                        :description: Chile
+                      - :id: 5nYIXKaTa88kwSqIMqO0MK
+                        :title: Usos
+                        :description: Cimbra, mobilario y estructura
+                      - :id: 7DxaA27o7Sq0OeMAGoike4
+                        :title: Veta
+                        :description: Recta con texturas finas y medianas
+                      - :id: 4lZE6l1yOIIOsQCQW4Iq4M
+                        :title: Durámen
+                        :description: Café claro a café claro con tonos amarillos
+                      - :id: 2jsx7f65NaUIOWIgiesma2
+                        :title: Albura
+                        :description: Café claro con tonos rojizos
+                      :services:
+                      - :id: 4M3EbIM7mUg6YEUSYomkYG
+                      - :id: bYH4OryRJ6aqomYIC4uGa
+                      - :id: 1rzxmGz364oO0o4ak2qIki
+                      - :id: 6PZid7ugikoWKeK02eqi2w
+                      :products:
+                      - :id: 5eCytdkTcI0kKcIEKGWQqM
+                      - :id: 3xjzQznLhCOKQmo2CUM4Yk
+                      - :id: 1OYb1akSCcOeuYCKiY2e4K
+                      - :id: 6FlMF9cpWgg2WMO2YW6oaU
+                      :card:
+                        :title: tarjeta-principal
+                        :description: Triplay de Pino Chileno
+                        :url: "//images.ctfassets.net/rvnl2qm3k12r/3R5hNOK8ZWCISWOMQCkcca/5d678372521b8233f54c21329fd4b46b/tarjeta-principal.jpg"
+                      :detail_images:
+                        :id: 2azklOw1HuoqMykkweiyYW
+                        :mobile:
+                          :title: detalle-movil
+                          :description: Triplay de Pino Chileno
+                          :url: "//images.ctfassets.net/rvnl2qm3k12r/24tcWmPYyAIKOG4QIwMAU2/41521c737ae4433f2923f9bd156e46e2/detalle-movil.jpg"
+                        :tablet:
+                          :title: detalle-tablet
+                          :description: Triplay de Pino Chileno
+                          :url: "//images.ctfassets.net/rvnl2qm3k12r/f4rNrqqQViIAwsiaMEuQU/1f6bdc5f654c74ddfb7e9f358e813586/detalle-tablet.jpg"
+                        :desktop:
+                          :title: detalle-desktop
+                          :description: Triplay de Pino Chileno
+                          :url: "//images.ctfassets.net/rvnl2qm3k12r/1z82Xnfuh2ySkwuCUS0aqQ/05d04a9f2ac07dd4ecf8435e6ac2a9bb/detalle-desktop.jpg"
+                      :seo:
+                        :id: 1Vk7Z6hc7G8c0KO0M02Siy
+                        :title: Triplay de Pino Chileno | Tym Forest
+                        :description: El triplay de Pino Chileno es un tablero hecho
+                          de maderas contrachapadas unidas y prensadas. Sus principales
+                          usos son la cimbra en el mercado de la construcción y la
+                          fabricación de muebles.
+                        :twitter:
+                          :title: seo-twitter
+                          :description: 
+                          :url: "//images.ctfassets.net/rvnl2qm3k12r/4mCQxxk2MggaO0wcSuMe6y/945d3fb357ac091f4ee31551bd4e574e/seo-twitter.jpg"
+                        :og:
+                          :title: seo-facebook
+                          :description: 
+                          :url: "//images.ctfassets.net/rvnl2qm3k12r/26PQrbHtPOK8aiKugyYwCQ/eea2582feaf4b2f418bb81d235ac891e/seo-facebook.jpg"
+                    - :id: 3xjzQznLhCOKQmo2CUM4Yk
+                    - :id: 6FlMF9cpWgg2WMO2YW6oaU
+                    - :id: 4cLsQTSVSosWEuemGykCAm
                     :card:
                       :title: tarjeta-principal
-                      :description: Triplay de Poplar
-                      :url: "//images.ctfassets.net/rvnl2qm3k12r/hn8HeQ9pduESeG4CaiYsi/0ba3f804b1511d6c1c8a848b6eefffd6/tarjeta-principal.jpg"
+                      :description: Triplay de Tulsa
+                      :url: "//images.ctfassets.net/rvnl2qm3k12r/OoF0ITNZoi80Y2mgIusqe/26929fdffef14ab2b9673b62c61fbdee/tarjeta-principal.jpg"
                     :detail_images:
-                      :id: 5JmNwjC9VKQG8SekkEs68Q
+                      :id: 5Db5GHDqUM2mwmwqok8Oqg
                       :mobile:
                         :title: detalle-movil
-                        :description: Triplay de Poplar
-                        :url: "//images.ctfassets.net/rvnl2qm3k12r/3m3eYQmbfiu6KkYsEoC42C/252a3530fb5969f64b3608dec24d9ca8/detalle-movil.jpg"
+                        :description: Triplay de Tulsa
+                        :url: "//images.ctfassets.net/rvnl2qm3k12r/3QD1DlqlnOS6KCi0aoaEO2/a8baf7d798b45a09492f2f036982123e/detalle-movil.jpg"
                       :tablet:
                         :title: detalle-tablet
-                        :description: Triplay de Poplar
-                        :url: "//images.ctfassets.net/rvnl2qm3k12r/2WheeGnIVWYGumOQewKEC/4e61caac483974b6c456daa515d42f80/detalle-tablet.jpg"
+                        :description: Triplay de Tulsa
+                        :url: "//images.ctfassets.net/rvnl2qm3k12r/2Kf3YDJBX2auagM0EaWQWk/4731b27c83b6aae9e6867ed4c7da1cee/detalle-tablet.jpg"
                       :desktop:
                         :title: detalle-desktop
-                        :description: Triplay de Poplar
-                        :url: "//images.ctfassets.net/rvnl2qm3k12r/62NjMcXMdyy6WA4cGuqYSi/f92733416c0362cf82d09117c76a5577/detalle-desktop.jpg"
+                        :description: Triplay de Tulsa
+                        :url: "//images.ctfassets.net/rvnl2qm3k12r/2PpQO3XEXCaAI8mq0ISEAA/5eaebba718333c5469ec864002530162/detalle-desktop.jpg"
                     :seo:
-                      :id: 1NCzUytTby2MkOeSMeAsA2
-                      :title: Triplay de Poplar | Tym Forest
-                      :description: El triplay de Poplar es un tablero hecho de maderas
+                      :id: 5ndnNHNHr2SIc6GkmsYYWA
+                      :title: Triplay de Tulsa | Tym Forest
+                      :description: El triplay de Tulsa es un tablero hecho de maderas
                         contrachapadas unidas y prensadas. Sus principales usos son
-                        fabricación de muebles, moldura y acabado de interiores.
+                        la cimbra para concreto aparente o acabado espejo.
                       :twitter:
                         :title: seo-twitter
                         :description: 
-                        :url: "//images.ctfassets.net/rvnl2qm3k12r/5PY9MuthhSISamKo2QW6mu/a89ed33a269fe1e36c562923b2458a35/seo-twitter.jpg"
+                        :url: "//images.ctfassets.net/rvnl2qm3k12r/3pSyB5LG2kuyaumCuCqWU2/6e850a11b8a840c24dd0b0db76554a29/seo-twitter.jpg"
                       :og:
                         :title: seo-facebook
                         :description: 
-                        :url: "//images.ctfassets.net/rvnl2qm3k12r/71DMWhSc8MuMuIqqIqcwmm/2f3207d2ddf3da28716759e37ba3abc0/seo-facebook.jpg"
+                        :url: "//images.ctfassets.net/rvnl2qm3k12r/9mcGftIWmkQg6quWOEYiK/6d2b9a768c092cf5e94e72254524f665/seo-facebook.jpg"
                   :card:
                     :title: tarjeta-principal
                     :description: Triplay de Encino
