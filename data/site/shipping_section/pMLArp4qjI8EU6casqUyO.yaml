@@ -11,17 +11,4 @@
 :details:
   :id: lSoDzBBfvUA6S4eCiKYoE
   :description: En compras menores de $2,000, las tarifas de las entregas son —
-  :fares:
-  - :id: 5BfCkobTEsAaMOCE0ooSCC
-    :distancia: 0 — 4
-    :unidad: km
-    :precio: "$92.80"
-  - :id: 2y346Zqg6YymUCoIkmSgk0
-    :distancia: 4 — 8
-    :unidad: km
-    :precio: "$162.40"
-  - :id: 4xm7hkXmeIueGyCO6iQQmg
-    :distancia: 8 — 16
-    :unidad: km
-    :precio: "$290"
   :note: "*Los precios incluyen IVA"

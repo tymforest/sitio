@@ -1,8 +1,8 @@
 ---
 :id: 3Y7wy390buuaESK4SW0mww
-:title: Visita Sucursal Sendero
-:description: y conoce la nueva oficina
+:title: Visita Sucursal Guadalupe
+:description: y conoce la nueva maderería
 :button:
   :id: 4RZipcE6IgyQ8keC8kQkoS
   :title: Ver Sucursal
-  :path: "/sucursales/sendero"
+  :path: "/sucursales/guadalupe"

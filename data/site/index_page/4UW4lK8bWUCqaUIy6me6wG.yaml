@@ -2,6 +2,19 @@
 :id: 4UW4lK8bWUCqaUIy6me6wG
 :title: Inicio
 :gallery:
+- :id: 76778mLuTKSZIOFsv8JJqr
+  :title: Apertura sucursal Guadalupe
+  :description: Visita nuestra nueva sucursal en Av. Israel Cavazos 1200
+  :button:
+    :id: KAD9nrlhqTOtDFwCMzVlc
+    :title: Sucursales
+    :path: "/sucursales"
+  :background:
+    :title: Apertura de sucursal Guadalupe
+    :description: Apertura de sucursal Guadalupe
+    :url: "//images.ctfassets.net/rvnl2qm3k12r/7DRq7RXfhtYl7dIPD47fcC/9eeae6890212b4416128b62c299939ec/sucursal-guadalupe.jpg"
+  :white: true
+  :align: true
 - :id: 42UGSb52M0uyOi4CSweKWK
   :subtitle: Tableros y Maderas
   :title: Madera para tus Ideas
@@ -437,8 +450,66 @@
 :stores:
   :id: Amm2xS9fHwegi4YyoCqSS
   :title: Nuestras Sucursales
-  :description: Visita nuestras madererías en Monterrey y San Luis Potosí
+  :description: Visita nuestras madererías en Monterrey y San Luis Potosí.
   :stores:
+  - :id: 1rrZVzhY6MQgaGGc2Oik6o
+    :is_base: false
+    :is_sub: false
+    :name: Guadalupe
+    :address:
+      :id: 7oFy6g6aRIh51rbqMpw7tb
+      :street: Av.  Maestro Israel Cavazos 1200
+      :neighborhood: Roble Santa María
+      :zip_code: '67190'
+      :city: Guadalupe
+      :estado:
+        :id: 6CP3Z2fv1Y0O4iMo04KYIe
+      :state_full: Nuevo León
+      :state: N.L.
+      :location:
+        :lat: 25.659104466722027
+        :lon: -100.18185114798678
+      :url: https://goo.gl/maps/1keUUsj9XEy
+    :number: '8130687372'
+    :schedule:
+      :id: 6BgNNTKOsQRBmEeESOL6Ao
+      :weekday_open: 8.5
+      :weekday_close: 18
+      :saturday_open: 8.5
+      :saturday_close: 14
+    :image:
+      :title: TYM Forest Guadalupe
+      :description: Madereria TYM Forest en zona Guadalupe, N.L.
+      :url: "//images.ctfassets.net/rvnl2qm3k12r/5gEbIXNnGh2m82ROhMIs6z/9426af6a8a6ca88460aa38ed508e923f/596de7bc-274d-40f2-813d-8fa117731169.JPG"
+    :services:
+    - :id: 6PZid7ugikoWKeK02eqi2w
+      :title: Asesoría de Materiales
+      :nombre: Asesoría de Materiales
+      :description: Te ayudamos a encontrar el producto ideal para tu idea.
+      :card:
+        :title: asesoria-de-materiales-tarjeta
+        :description: Trabajador de Tym Forest asesorando a algunos clientes en nuestra
+          Sucursal La Fe en Monterrey, Nuevo León.
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/3Rgkzwf8LCs4cQMmWwcaMg/1b5b2ba93f1b65557ff0e5ce8823f9cb/asesoria-de-materiales-tarjeta.jpg"
+    - :id: 1GRDKIV83GSwSkgUQCOOCy
+    - :id: 3tsjNXmTIcyEskyaAwCIkW
+    - :id: 4M3EbIM7mUg6YEUSYomkYG
+    - :id: 6XZFBrMht6as4kU6Kqecmc
+    - :id: 2RQNpk0MfuY2Ag4mwYs4KW
+    - :id: 1rzxmGz364oO0o4ak2qIki
+    - :id: bYH4OryRJ6aqomYIC4uGa
+    :seo:
+      :id: 3GGJ52poxPTdkGGEh8SCnV
+      :title: TYM Forest Guadalupe
+      :description: Maderería ubicada en la zona de Guadalupe, N.L.
+      :twitter:
+        :title: TYM Forest Guadalupe
+        :description: Madereria TYM Forest en zona Guadalupe, N.L.
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/5gEbIXNnGh2m82ROhMIs6z/9426af6a8a6ca88460aa38ed508e923f/596de7bc-274d-40f2-813d-8fa117731169.JPG"
+      :og:
+        :title: TYM Forest Guadalupe
+        :description: Madereria TYM Forest en zona Guadalupe, N.L.
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/5gEbIXNnGh2m82ROhMIs6z/9426af6a8a6ca88460aa38ed508e923f/596de7bc-274d-40f2-813d-8fa117731169.JPG"
   - :id: 3JhtUuM2DKcMmUuA280MqM
     :is_base: false
     :is_sub: false
@@ -477,26 +548,6 @@
     - :id: 48Bp6FClGUMCgsEKiWk448
     - :id: 1rzxmGz364oO0o4ak2qIki
     - :id: bYH4OryRJ6aqomYIC4uGa
-    - :id: 21euNVgSGc0kgyk8SKgiKk
-      :title: Perforado para Bisagra
-      :nombre: Perforado para Bisagra
-      :subcategory:
-        :id: 1EWKWf7JheI06waYOg4uEE
-        :title: Servicios Adicionales para Tableros
-        :nombre: Adicionales
-        :category: Tableros
-        :description: Servicios especiales para tableros.
-        :image:
-          :title: adicionales
-          :description: Trabajadores de Tym Forest haciendo cortes para traslape en
-            la Sucursal de Matriz.
-          :url: "//images.ctfassets.net/rvnl2qm3k12r/7INs1Dmd5ScSuga88eoysm/1ab5cee9f4e8edb6067db76d079f6f1f/adicionales.jpg"
-      :description: Taladro multiple automático para perforaciones precisas.
-      :card:
-        :title: perforado-para-bisagras
-        :description: Perforando un tablero de MDF en nuestra Sucursal Sendero en
-          Monterrey, Nuevo León.
-        :url: "//images.ctfassets.net/rvnl2qm3k12r/7gA3DyKU24uiiuqAqsMaQO/9ad70bcf79b56f9a52f0eee85e79a78c/perforado-para-bisagras.jpg"
     :seo:
       :id: 61qQzROyacQImSIyeIAAeG
       :title: Sucursal Fidel Velázquez | Tym Forest
@@ -808,8 +859,8 @@
       :nombre: Optimizador de Cortes
       :subcategory:
         :id: 5kVjLKGNMsmU4e6EMUisAs
-        :title: Programas de Diseño para Tableros
-        :nombre: Programas de Diseño
+        :title: Optimización de Diseño para Tableros
+        :nombre: Optimización de Diseño
         :category: Tableros
         :description: Sistemas para optimizar y diseñar el uso de tableros.
         :image:
@@ -844,6 +895,26 @@
           de Okumé.
         :url: "//images.ctfassets.net/rvnl2qm3k12r/oT221fGk92C2I4O4628Ai/4d6bb5cc3f390b288c913c710b33aa2a/enchapado-de-cantos.jpg"
     - :id: 1rzxmGz364oO0o4ak2qIki
+    - :id: 21euNVgSGc0kgyk8SKgiKk
+      :title: Perforado para Bisagra
+      :nombre: Perforado para Bisagra
+      :subcategory:
+        :id: 1EWKWf7JheI06waYOg4uEE
+        :title: Servicios Adicionales para Tableros
+        :nombre: Adicionales
+        :category: Tableros
+        :description: Servicios especiales para tableros.
+        :image:
+          :title: adicionales
+          :description: Trabajadores de Tym Forest haciendo cortes para traslape en
+            la Sucursal de Matriz.
+          :url: "//images.ctfassets.net/rvnl2qm3k12r/7INs1Dmd5ScSuga88eoysm/1ab5cee9f4e8edb6067db76d079f6f1f/adicionales.jpg"
+      :description: Taladro multiple automático para perforaciones precisas.
+      :card:
+        :title: perforado-para-bisagras
+        :description: Perforando un tablero de MDF en nuestra Sucursal Sendero en
+          Monterrey, Nuevo León.
+        :url: "//images.ctfassets.net/rvnl2qm3k12r/7gA3DyKU24uiiuqAqsMaQO/9ad70bcf79b56f9a52f0eee85e79a78c/perforado-para-bisagras.jpg"
     :seo:
       :id: xcyR1vHHKS68wE0cYEQUu
       :title: Sucursal Soledad | Tym Forest

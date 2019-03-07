@@ -119,19 +119,6 @@ layout: services
                 </div>
                 <div class="subcontenido">
                   <p class="obscuro"><%= shipping.details.description %></p>
-                  <div class="tarifas">
-                    <% shipping.details.fares.each do |fare| %>
-                      <div class="columna-movil-70 columna-tablet-70 columna-desktop-60">
-                        <p><%= fare.distancia %><span class="unidad"><%= fare.unidad %></span></p>
-                      </div>
-                      <div class="columna-movil-30 columna-movil-30 columna-desktop-40">
-                        <p class="naranja derecha"><%= fare.precio %>*</p>
-                      </div>
-                    <% end %>
-                  </div>
-                  <div class="nota-servicio">
-                    <p class="nota"><%= shipping.details.note %></p>
-                  </div>
                 </div>
               </div>
             </header>
