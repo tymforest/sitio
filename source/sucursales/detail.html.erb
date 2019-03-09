@@ -5,7 +5,6 @@ layout: store
 <% store = locals[:store] %>
 <% store_state = fetch_state store.name %>
 <%# Analytics %>
-<%= store.name %>
 <% if store.name === "Matriz" %>
   <% name = "Matriz" %>
 <% elsif store.name === "Fidel Velázquez" %>
@@ -16,10 +15,12 @@ layout: store
   <% name = "Lafe" %>
 <% elsif store.name === "Sendero" %>
   <% name = "Sendero" %>
-  <% elsif store.name === "Saucito" %>
-    <% name = "Saucito" %>
-  <% elsif store.name === "Soledad" %>
-    <% name = "Soledad" %>
+<% elsif store.name === "Saucito" %>
+  <% name = "Saucito" %>
+<% elsif store.name === "Soledad" %>
+  <% name = "Soledad" %>
+<% elsif store.name === "Guadalupe" %>
+  <% name = "Guadalupe" %>
 <% end %>
 <%# End %>
 <div class="google-sucursal">
