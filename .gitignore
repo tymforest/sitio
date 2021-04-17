@@ -23,3 +23,6 @@
 
 # Ignore data folder
 data/
+
+# Local Netlify folder
+.netlify
