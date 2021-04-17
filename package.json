@@ -17,12 +17,11 @@
   },
   "homepage": "https://github.com/tymforest/sitio#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-csso": "^2.0.0",
     "gulp-gzip": "^1.4.0",
     "gulp-htmlmin": "^3.0.0",
     "gulp-sitemap": "^4.2.0",
-    "gulp-uglify": "^2.0.1",
-    "run-sequence": "^1.2.2"
+    "gulp-uglify": "^2.0.1"
   }
 }
